@@ -1,0 +1,51 @@
+<apex:page id="MT_TEST_Frontend" standardController="MT_TvTarget__c"
+           extensions="MT_BusinessPlanningController" applyHtmlTag="false"
+           applyBodyTag="false" standardStylesheets="false"
+           sideBar="false" showHeader="false" docType="html-5.0">
+  <html>
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width"/>
+    <title>Media Transparency Business Planning Tests</title>
+
+    <link rel="shortcut icon" type="image/png" href="{!URLFOR($Resource.jasmine2_5_2, 'jasmine_favicon.png')}"/>
+    <link rel="stylesheet" href="{!URLFOR($Resource.jasmine2_5_2, 'jasmine.css')}"/>
+
+    <script src="{!URLFOR($Resource.jasmine2_5_2, 'jasmine.js')}"></script>
+    <script src="{!URLFOR($Resource.jasmine2_5_2, 'jasmine-html.js')}"></script>
+    <script src="{!URLFOR($Resource.jasmine2_5_2, 'boot.js')}"></script>
+
+    <!-- include source files here... -->
+    <script src="{!URLFOR($Resource.mediaTransparency, 'lib/angular/angular.js')}"></script>
+    <script src="{!URLFOR($Resource.mediaTransparency, 'lib/angular-mocks/angular-mocks.js')}"></script>
+    <script src="{!URLFOR($Resource.mediaTransparency, 'lib/angular-ui-router/release/angular-ui-router.js')}"></script>
+
+    <script>
+      angular.module('config', [])
+        .constant('forcengOptions', {accessToken: "{!$Api.Session_ID}", useProxy: false})
+        .constant('baseURL', "{!URLFOR($Resource.mediaTransparency, '/')}")
+        .constant('businessPlanningBaseURL', "{!URLFOR($Resource.mediaTransparencyBusinessPlanning, '/')}")
+        .constant('userId', "{!$User.ID}");
+    </script>
+
+    <script src="{!URLFOR($Resource.mediaTransparencyBusinessPlanning, 'js/MT_BusinessPlanning.js')}"></script>
+
+    <script src="{!URLFOR($Resource.mediaTransparency, 'modules/common/commonModule.js')}"></script>
+    <script src="{!URLFOR($Resource.mediaTransparencyApi, 'module.js')}"></script>
+    <script src="{!URLFOR($Resource.mediaTransparencyApi, 'services/remoteService.js')}"></script>
+    <script src="{!URLFOR($Resource.mediaTransparencyApi, 'apis/config.js')}"></script>
+    <script src="{!URLFOR($Resource.mediaTransparencyApi, 'models/planning.js')}"></script>
+    <script src="{!URLFOR($Resource.mediaTransparencyApi, 'apis/planning.js')}"></script>
+
+    <script src="{!URLFOR($Resource.mediaTransparencyBusinessPlanning, 'modules/planning/planningModule.js')}"></script>
+
+    <!-- include spec files here... -->
+    <script src="{!URLFOR($Resource.mediaTransparencyTests, 'common.js')}"></script>
+    <script src="{!URLFOR($Resource.mediaTransparencyTests, 'api.js')}"></script>
+    <script src="{!URLFOR($Resource.mediaTransparencyTests, 'businessPlanning.js')}"></script>
+  </head>
+
+  <body>
+  </body>
+  </html>
+</apex:page>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Media Flight Motive Allocation</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Media Flight Motive Allocations</value>
+    </caseValues>
+    <fields>
+        <label>Von</label>
+        <name>MT_From__c</name>
+    </fields>
+    <fields>
+        <label>Flight</label>
+        <name>MT_MediaFlight_ref__c</name>
+        <relationshipLabel>Flight-Motiv-Zuordnungen</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Motiv</label>
+        <name>MT_MediaMotive_ref__c</name>
+        <relationshipLabel>Flight-Motiv-Zuordnungen</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Beworbenes Produkt</label>
+        <name>MT_MediaProduct_ref__c</name>
+        <relationshipLabel>Flight-Motiv-Zuordnungen</relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Position --></label>
+        <name>MT_Position__c</name>
+    </fields>
+    <fields>
+        <label>Rollierende Verteilung</label>
+        <name>MT_RollingDistribution__c</name>
+    </fields>
+    <fields>
+        <label>Bis</label>
+        <name>MT_To__c</name>
+    </fields>
+    <fields>
+        <label>Typ</label>
+        <name>MT_Type__c</name>
+        <picklistValues>
+            <masterLabel>Main</masterLabel>
+            <translation><!-- Main --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reminder</masterLabel>
+            <translation><!-- Reminder --></translation>
+        </picklistValues>
+    </fields>
+    <gender>Neuter</gender>
+    <layouts>
+        <layout>Media Flight Motive Allocation Feed Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

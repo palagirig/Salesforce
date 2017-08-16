@@ -1,0 +1,2321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Planungsgrundlage für die Ausstrahlung eines Teils (oder des gesamten) BMV eines Restwerbeplatzvertrags. Enthält Informationen zur Ausstrahlung und Umsätzen, um die Planung und späteres Ranking zu ermöglichen.</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>false</enableBulkApi>
+    <enableChangeDataCapture>false</enableChangeDataCapture>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>false</enableSharing>
+    <enableStreamingApi>false</enableStreamingApi>
+    <fieldSets>
+        <fullName>MT_ContextFields</fullName>
+        <description>All Fields for Selector</description>
+        <displayedFields>
+            <field>Name</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_KRSID__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_BmvTv__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_ActualMonthlyBMV_sum__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_PlannedMonthlySponsoringBMV_sum__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_Opportunity_ref__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_PlannedMonthlySpotBmv__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_HasMediaDooH__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_HasMediaDigital__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_OppApp_HasMediaBarter__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_OppApp_HasMediaPartBarter__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_NetBarterVolume__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_FixRevenue_Type__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_FixRevenue_MonthlyPayment__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_FixRevenue_Yield__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_FillUp__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_ExitParticipation__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_EigenerBuchwertinEUR__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_CashZahlung__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_VariableRevenue_ConsiderationPeriod__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_MediaCampaignType_ref__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_OpportunityApproval_ref__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Id</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>RecordTypeId</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_RunTimeTVStart__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_RunTimeTVEnd__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>IsDeleted</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>CurrencyIsoCode</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>CreatedDate</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_Responsible_IM_Agent__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_Opportunity_AccountId__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_Status__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_ContractStartdate__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_ContractEnddate__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_IsOverbooking__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_VariableRevenue1_TotalRevenue__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_VariableRevenue1_RevenuePerUnit__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_VariableRevenue1_SoldUnit__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_VariableRevenue1_SoldAmount__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_VariableRevenue1_SoldProduct__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_VariableRevenue2_TotalRevenue__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_VariableRevenue2_RevenuePerUnit__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_VariableRevenue2_SoldUnit__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_VariableRevenue2_SoldAmount__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_VariableRevenue2_SoldProduct__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_VariableRevenue3_TotalRevenue__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_VariableRevenue3_RevenuePerUnit__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_VariableRevenue3_SoldUnit__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_VariableRevenue3_SoldAmount__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_VariableRevenue3_SoldProduct__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_VariableRevenue4_TotalRevenue__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_VariableRevenue4_RevenuePerUnit__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_VariableRevenue4_SoldUnit__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_VariableRevenue4_SoldAmount__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_VariableRevenue4_SoldProduct__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_VariableRevenue5_TotalRevenue__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_VariableRevenue5_RevenuePerUnit__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_VariableRevenue5_SoldUnit__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_VariableRevenue5_SoldAmount__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_VariableRevenue5_SoldProduct__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_VariableRevenue_TotalRevenue__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>MT_ContextFields</label>
+    </fieldSets>
+    <fields>
+        <fullName>MT_ActualMonthlyBMV_sum__c</fullName>
+        <description>Die Summe des über die Monat(splän)e ausgestrahlten Volumens.</description>
+        <externalId>false</externalId>
+        <label>Sum of BMV Monthly Plan</label>
+        <summarizedField>MT_MediaCampaignMonthlyPlan__c.MT_SumBMV__c</summarizedField>
+        <summaryForeignKey>MT_MediaCampaignMonthlyPlan__c.MT_MediaCampaign_ref__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>MT_BMVDooH__c</fullName>
+        <description>Das BMV DooH, das in dieser Kampagne ausgestrahlt werden soll.</description>
+        <externalId>false</externalId>
+        <label>BMV DooH</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>MT_BarterYield__c</fullName>
+        <description>Der ermittelte Barter-Yield für diese Kampagne (Netto-Barter-Volumen / BMV TV)</description>
+        <externalId>false</externalId>
+        <formula>IF(MT_BmvTv__c = 0, 0, MT_NetBarterVolume__c / MT_BmvTv__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Barter Yield</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>MT_BmvDigital__c</fullName>
+        <description>Das BMV Digital, das in dieser Kampagne ausgestrahlt werden soll.</description>
+        <externalId>false</externalId>
+        <label>BMV Digital</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>MT_BmvTotalFix__c</fullName>
+        <description>Das BMV Gesamt, das in dieser Kampagne ausgestrahlt werden soll, ermittelt als Summe aus den drei Bausteinen TV, Digital und DooH.</description>
+        <externalId>false</externalId>
+        <formula>MT_BmvTv__c + MT_BmvDigital__c + MT_BMVDooH__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>BMV gesamt</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>MT_BmvTvAsset__c</fullName>
+        <description>Der Anteil des internen Partners am BMV, ermittelt aus BMV TV abzüglich des Anteils des externen Partners.</description>
+        <externalId>false</externalId>
+        <formula>MT_BmvTv__c - MT_BmvTvCustomerIntegration__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>BMV TV Asset</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>MT_BmvTvCustomerIntegration__c</fullName>
+        <description>Die Höhe des BMV des externen Partners an dieser Kampagne.</description>
+        <externalId>false</externalId>
+        <label>BMV TV Kundenintegration</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>MT_BmvTv__c</fullName>
+        <defaultValue>0</defaultValue>
+        <description>Working value for the BMV (TV). Copied from the Opp Approval until approval is done, afterwards source of truth.</description>
+        <externalId>false</externalId>
+        <label>BMV gesamt (TV)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>MT_CashZahlung__c</fullName>
+        <description>Die Cash-Zahlung des externen Partners in Ergänzung zum Equity-Anteil.</description>
+        <externalId>false</externalId>
+        <label>Cash Zahlung</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>MT_ContractEnddate__c</fullName>
+        <description>Das Ende der vertraglichen Laufzeit für diese Kampagne. Die benötigten Monatspläne zu der Kampagne werden anhand dieses Datums ermittelt und per Trigger erstellt.</description>
+        <externalId>false</externalId>
+        <label>Vertragsende</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>MT_ContractStartdate__c</fullName>
+        <description>Der Anfang der vertraglichen Laufzeit für diese Kampagne. Die benötigten Monatspläne zu der Kampagne werden anhand dieses Datums ermittelt und per Trigger erstellt.</description>
+        <externalId>false</externalId>
+        <label>Vertragsbeginn</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>MT_EigenerBuchwertinEUR__c</fullName>
+        <description>Der Anteil am Unternehmen des externen Partners.</description>
+        <externalId>false</externalId>
+        <label>Eigenkapital Buchwert</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>MT_ExitParticipation__c</fullName>
+        <description>Der prozentuale Anteil am BMV, der beim Ausstieg erzielt wird.</description>
+        <externalId>false</externalId>
+        <label>Exit Participation</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>MT_FillUp__c</fullName>
+        <description>Fill Up-Yield, der für diese Kampagne vereinbart wurde.</description>
+        <externalId>false</externalId>
+        <label>Fill-Up</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>MT_FixRevenue_MonthlyPayment__c</fullName>
+        <description>Eingabemöglichkeit für die fixe monatliche Zahlung, falls bei fixer Umsatzart &quot;Zahlung&quot; ausgewählt wurde.</description>
+        <externalId>false</externalId>
+        <label>Fixe monatliche Einnahmen</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>MT_FixRevenue_Type__c</fullName>
+        <description>Die fixe Umsatzart, die in dieser Kampagne zum Tragen kommt: Keine, Yield oder Zahlung.</description>
+        <externalId>false</externalId>
+        <label>Fixe Umsatzart</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>MT_FixRevenueTypes</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>MT_FixRevenue_Yield__c</fullName>
+        <description>Liefert den Fix Yield, falls bei fixer Umsatzart &quot;Yield&quot; ausgewählt wurde, sonst 0.</description>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL(MT_FixRevenue_Type__c, &quot;Yield&quot;), MT_YieldGesamtFixTV__c, 0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Fixer Umsatz Yield (TV)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>MT_GrossBarterVolume__c</fullName>
+        <description>Das Brutto-Barter-Volumen zur Dokumentation. Weitere Berechnungen erfolgen mit dem Netto-Barter-Volumen.</description>
+        <externalId>false</externalId>
+        <label>Brutto-Barter-Volumen</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>MT_HasMediaDigital__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Aktiviert den Baustein Digital für diese Kampagne.</description>
+        <externalId>false</externalId>
+        <label>Digital (71M)</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>MT_HasMediaDooH__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Aktiviert den Baustein DooH für diese Kampagne.</description>
+        <externalId>false</externalId>
+        <label>DooH (7Screen)</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>MT_HasMediaTV__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Aktiviert den Baustein TV für diese Kampagne.</description>
+        <externalId>false</externalId>
+        <label>TV</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>MT_IMAMail__c</fullName>
+        <description>Wird per Prozess gefüllt, enthält die E-Mail- Adresse aus dem zugehörigen Asset (Kampagnentyp -&gt; Asset), um bei Anlage einer internen Kampagne eine Informationsmail zu schicken.</description>
+        <externalId>false</externalId>
+        <label>IMA Verteiler</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MT_IsContractSigned__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>VERALTET: Muss auf die Opportunity Freigabe verschoben werden, da diese den Gesamtvertrag abbildet.
+
+Alt:
+Zeigt an, dass der Vertrag unterschrieben wurde. Darf nur gesetzt werden, wenn die Kampagne vorher freigegeben wurde.</description>
+        <externalId>false</externalId>
+        <label>Contract signed?</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>MT_IsOverbooking__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Aktiviert die Felder zur Pflege von Overbooking in der Flightplanung. Kann nur bei internen Kampagnen gesetzt werden.</description>
+        <externalId>false</externalId>
+        <label>Overbooking?</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>MT_KRSID__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <description>Enthält die ID aus dem Altsystem (KRS), wird beim Import befüllt.</description>
+        <externalId>true</externalId>
+        <label>KRS ID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>MT_MediaCampaignType_ref__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <description>Der Typ dieser Kampagne. Steuert Konfigurationsparameter, z.B. Gewichtungsfaktoren, bei.</description>
+        <externalId>false</externalId>
+        <label>Media Campaign Type</label>
+        <lookupFilter>
+            <active>true</active>
+            <booleanFilter>((1 AND 2) OR (3 AND 4)) AND 5</booleanFilter>
+            <errorMessage>Der ausgewählte Kampagnentyp ist inaktiv oder passt nicht zur Kampagne.</errorMessage>
+            <filterItems>
+                <field>MT_MediaCampaignType__c.MT_Type__c</field>
+                <operation>equals</operation>
+                <value>Internal</value>
+            </filterItems>
+            <filterItems>
+                <field>$Source.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Internal Media Campaign</value>
+            </filterItems>
+            <filterItems>
+                <field>MT_MediaCampaignType__c.MT_Type__c</field>
+                <operation>equals</operation>
+                <value>External</value>
+            </filterItems>
+            <filterItems>
+                <field>$Source.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>External Media Campaign</value>
+            </filterItems>
+            <filterItems>
+                <field>MT_MediaCampaignType__c.MT_IsActive__c</field>
+                <operation>equals</operation>
+                <value>True</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>MT_MediaCampaignType__c</referenceTo>
+        <relationshipLabel>Media Campaigns</relationshipLabel>
+        <relationshipName>Media_Campaigns</relationshipName>
+        <required>true</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>MT_Mn3TvCustomerIntegration__c</fullName>
+        <description>Das MN3, das der externe Partner für den TV- Anteil zahlt.</description>
+        <externalId>false</externalId>
+        <label>MN3 TV Kundenintegration</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>MT_NetBarterVolume__c</fullName>
+        <description>Das Netto-Barter-Volumen, auf Basis dessen der Yield ermittelt wird.</description>
+        <externalId>false</externalId>
+        <label>Netto-Barter-Volumen</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>MT_OppApp_HasMediaBarter__c</fullName>
+        <description>Zeigt an, ob Barter auf der Opportunity Freigabe aktiviert ist. Wird in weiteren Formeln und im Businessplan verwendet, um Informationen zum Barter anzuzeigen.</description>
+        <externalId>false</externalId>
+        <formula>MT_OpportunityApproval_ref__r.P7S1_HasMediaBarter__c</formula>
+        <label>Barter</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>MT_OppApp_HasMediaPartBarter__c</fullName>
+        <description>Zeigt an, ob Teil-Barter auf der Opportunity Freigabe aktiviert ist. Wird in weiteren Formeln und im Businessplan verwendet, um Informationen zum Barter anzuzeigen.</description>
+        <externalId>false</externalId>
+        <formula>MT_OpportunityApproval_ref__r.P7S1_HasMediaPartBarter__c</formula>
+        <label>Teil-Barter</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>MT_OpportunityApprovalStatus__c</fullName>
+        <description>Liefert den aktuellen Freigabestatus der Opportunity Freigabe, zur einfacheren Verarbeitung in Apex- Klassen.</description>
+        <externalId>false</externalId>
+        <formula>TEXT(MT_OpportunityApproval_ref__r.P7S1_ApprovalState__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Opportunity Approval Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MT_OpportunityApproval_ref__c</fullName>
+        <description>Die Referenz zur Opportunity Freigabe, muss mit der referenzierten Opportunity übereinstimmen.</description>
+        <externalId>false</externalId>
+        <label>Opportunity Freigabe</label>
+        <referenceTo>P7S1_OpportunityApproval__c</referenceTo>
+        <relationshipLabel>Media Campaigns</relationshipLabel>
+        <relationshipName>Media_Campaigns</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>MT_Opportunity_AccountId__c</fullName>
+        <description>Die ID des Accounts, zu dem die Opportunity gehört, wird im Flightplan verwendet, um die neu angelegten Produkte richtig zuzuordnen.</description>
+        <externalId>false</externalId>
+        <formula>CASESAFEID(MT_Opportunity_ref__r.AccountId)</formula>
+        <label>Opportunity Account Id</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MT_Opportunity_ref__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <description>Die Opportunity, zu der die Kampagne gehört. Per Validierungsregel wird sichergestellt, dass die Opportunity und Opportunity Freigabe zueinander gehören. Aus der Opportunity werden weitere Informationen gezogen, der Zugriff wird mit der direkten Referenz vereinfacht.</description>
+        <externalId>false</externalId>
+        <label>Opportunity</label>
+        <referenceTo>Opportunity</referenceTo>
+        <relationshipLabel>Media Campaigns</relationshipLabel>
+        <relationshipName>Media_Campaigns</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>MT_PlannedMonthlyBMV_sum__c</fullName>
+        <description>Die Summe des geplanten BMV aus den Monatsplänen.</description>
+        <externalId>false</externalId>
+        <label>Planned Amount</label>
+        <summarizedField>MT_MediaCampaignMonthlyPlan__c.MT_TotalBMV__c</summarizedField>
+        <summaryForeignKey>MT_MediaCampaignMonthlyPlan__c.MT_MediaCampaign_ref__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>MT_PlannedMonthlySponsoringBMV_sum__c</fullName>
+        <description>Die Summe des geplanten Sponsoring- BMV aus den Monatsplänen.</description>
+        <externalId>false</externalId>
+        <label>Sponsoring Gesamt Geplantes BMV</label>
+        <summarizedField>MT_MediaCampaignMonthlyPlan__c.MT_BMVSponsoring__c</summarizedField>
+        <summaryForeignKey>MT_MediaCampaignMonthlyPlan__c.MT_MediaCampaign_ref__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>MT_PlannedMonthlySpotBmv__c</fullName>
+        <description>Summe des geplanten Spot- BMV aus den Monatsplänen.</description>
+        <externalId>false</externalId>
+        <label>Spot Gesamt Geplantes BMV</label>
+        <summarizedField>MT_MediaCampaignMonthlyPlan__c.MT_BMVSpot__c</summarizedField>
+        <summaryForeignKey>MT_MediaCampaignMonthlyPlan__c.MT_MediaCampaign_ref__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>MT_Responsible_IM_Agent__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Der für diese Kampagne verantwortliche Benutzer von der IMA. Wird für Approval Prozesse und Benachrichtigungen im Flightplan verwendet.</description>
+        <externalId>false</externalId>
+        <label>Internal Media Agency Contact</label>
+        <lookupFilter>
+            <active>true</active>
+            <errorMessage>Only users with the P7S1 Internal Agency role can be responsible internal media agents for a campaign.</errorMessage>
+            <filterItems>
+                <field>User.UserRole.DeveloperName</field>
+                <operation>equals</operation>
+                <value>P7S1_InternalAgency</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>User</referenceTo>
+        <relationshipName>MT_ResponsibleForMediaCampaigns</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>MT_RunTimeTVEnd__c</fullName>
+        <description>Ende des Ausstrahlungszeitraums für den TV- Baustein.</description>
+        <externalId>false</externalId>
+        <label>Ende Laufzeit (TV)</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>MT_RunTimeTVStart__c</fullName>
+        <description>Start des Ausstrahlungszeitraums für den TV- Baustein.</description>
+        <externalId>false</externalId>
+        <label>Start Laufzeit (TV)</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>MT_SYS_AccountOwnerUnit__c</fullName>
+        <description>VERALTET: Wird nicht mehr benötigt und kann gelöscht werden, zusammen mit dem Prozess zur Befüllung. Die Kampagne erbt durch das Master/Detail zur Opportunity Freigabe die Sichtbarkeitseinstellungen.
+
+Alt:
+Enthält die Unit des über die Opportunity zugeordneten Account- Inhabers. Wird per Prozess gefüllt und für die Aktivierung des Sharings genutzt.</description>
+        <externalId>false</externalId>
+        <label>Sys Account Owner Unit</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MT_SpotAssetanteil__c</fullName>
+        <description>Der prozentuale Anteil des internen Partners an der Motivlänge, ermittelt aus 100% abzüglich des Anteils des externen Partners.</description>
+        <externalId>false</externalId>
+        <formula>1 - MT_SpotKundenintegrationsanteil__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Spot Assetanteil</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>MT_SpotKundenintegrationsanteil__c</fullName>
+        <description>Der prozentuale Anteil des externen Partners an der Motivlänge.</description>
+        <externalId>false</externalId>
+        <formula>IF(MT_TvSpotLength__c = 0, 0, (MT_TvSpotLengthCustomer__c / MT_TvSpotLength__c))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Spot Kundenintegrationsanteil</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>MT_Status__c</fullName>
+        <description>Der aktuelle Status der Kampagne (Entwurf, Freigegeben, Abgeschlossen, Abgebrochen)</description>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Draft</fullName>
+                    <default>true</default>
+                    <label>Draft</label>
+                </value>
+                <value>
+                    <fullName>Planning final</fullName>
+                    <default>false</default>
+                    <label>Planning final</label>
+                </value>
+                <value>
+                    <fullName>Campaign approved</fullName>
+                    <default>false</default>
+                    <label>Campaign approved</label>
+                </value>
+                <value>
+                    <fullName>Campaign changed</fullName>
+                    <default>false</default>
+                    <label>Campaign changed</label>
+                </value>
+                <value>
+                    <fullName>Cancelled</fullName>
+                    <default>false</default>
+                    <label>Cancelled</label>
+                </value>
+                <value>
+                    <fullName>Completed</fullName>
+                    <default>false</default>
+                    <label>Completed</label>
+                </value>
+                <value>
+                    <fullName>In Approvals</fullName>
+                    <default>false</default>
+                    <label>In Approvals</label>
+                </value>
+                <value>
+                    <fullName>Contract signed</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Contract signed</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>MT_Sys_BuildingBlockMatrix__c</fullName>
+        <description>VERALTET: Kann gelöscht werden. Die Prüfung im Trigger steuert aktuell ausschließlich die Anlage des initialen TV- Zielvorgaben- Datensatzes, eine Löschung sollte aus vertraglichen Gründen nicht möglich sein. Daher wird auch dieses Felder nicht mehr benötigt.
+
+Alt:
+Stellt einen dreistelligen Zahlencode bereit, mit dem identifiziert wird, welche Bausteine auf der Kampagne aktiviert sind. Bei Änderungen an diesem Code wird Triggerlogik ausgeführt, die die Bausteine anlegt / löscht.</description>
+        <externalId>false</externalId>
+        <formula>IF( MT_HasMediaTV__c , &apos;1&apos;, &apos;0&apos;)+ IF(  MT_HasMediaDigital__c  , &apos;1&apos;, &apos;0&apos;) + IF(  MT_HasMediaDooH__c  , &apos;1&apos;, &apos;0&apos;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>MT_Sys_BuildingBlockMatrix</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MT_Sys_ContractOrTVRuntimeEnd__c</fullName>
+        <description>Liefert das Ende der Vertragslaufzeit oder, falls dieses leer ist, das Ende der TV Laufzeit. Wird genutzt, da die Vertragslaufzeit optional ist, um für die Erstellung der Monatspläne einen Endzeitpunkt zu haben.</description>
+        <externalId>false</externalId>
+        <formula>IF(ISBLANK(MT_ContractEnddate__c), MT_RunTimeTVEnd__c, MT_ContractEnddate__c)</formula>
+        <label>Sys Contract Or TV Runtime End</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>MT_Sys_ContractOrTVRuntimeStart__c</fullName>
+        <description>Liefert den Beginn der Vertragslaufzeit oder, falls diese leer ist, den Beginn der TV Laufzeit. Wird genutzt, da die Vertragslaufzeit optional ist, um für die Erstellung der Monatspläne einen Startzeitpunkt zu haben.</description>
+        <externalId>false</externalId>
+        <formula>IF(ISBLANK(MT_ContractStartdate__c), MT_RunTimeTVStart__c, MT_ContractStartdate__c)</formula>
+        <label>Sys Contract Or TV Runtime Start</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>MT_Sys_OppApp_ID__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <description>Contains the ID of the related opportunity approval. Unique to prevent an opportunity approval from having multiple media campaigns.</description>
+        <externalId>false</externalId>
+        <label>Sys Opportunity Approval ID</label>
+        <length>18</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>MT_Sys_OppApp_OpportunityRefId__c</fullName>
+        <description>Liefert die ID der von der Opportunity Freigabe referenzierten Opportunity. Wird genutzt, um diese Referenz per Triggerlogik ebenfalls in der Kampagne zu hinterlegen.</description>
+        <externalId>false</externalId>
+        <formula>MT_OpportunityApproval_ref__r.P7S1_Opportunity__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Sys OppApp OpportunityRefId</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MT_TvSpotLengthAsset__c</fullName>
+        <description>Anteil des internen Partners an der Motivlänge, ermittelt aus der Gesamtlänge abzüglich des Anteils des externen Partners.</description>
+        <externalId>false</externalId>
+        <formula>MT_TvSpotLength__c - MT_TvSpotLengthCustomer__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Assetanteil Spotlänge (in Sekunden)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MT_TvSpotLengthCustomer__c</fullName>
+        <description>Der Anteil des externen Partners an der Motivlänge.</description>
+        <externalId>false</externalId>
+        <label>Kundenanteil Spotlänge (in Sekunden)</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MT_TvSpotLength__c</fullName>
+        <description>Die Länge der Motive, die bei dieser Kampagne ausgestrahlt werden sollen.</description>
+        <externalId>false</externalId>
+        <label>Gesamtspotlänge (in Sekunden)</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MT_Type__c</fullName>
+        <description>Liefert den Namen des referenzierten Kampagnentypen, zur Vereinfachung der Einbindung (z.B. in Cockpit- Seiten, die nur die Kampagne laden).</description>
+        <externalId>false</externalId>
+        <formula>MT_MediaCampaignType_ref__r.Name</formula>
+        <label>Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MT_VariableRevenue1_RevenuePerUnit__c</fullName>
+        <description>Der vereinbarte Umsatz pro Einheit für die Umsatzbeteiligungskomponente 1.</description>
+        <externalId>false</externalId>
+        <label>Var. Umsatz 1 - Umsatz pro Einheit</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>MT_VariableRevenue1_SoldAmount__c</fullName>
+        <description>Die erwartete Anzahl verkaufter Einheiten für die Umsatzbeteiligungskomponente 1.</description>
+        <externalId>false</externalId>
+        <label>Var. Umsatz 1 - Verkaufte Anzahl</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MT_VariableRevenue1_SoldProduct__c</fullName>
+        <description>Die Bezeichnung des verkauften Produkts für die Umsatzbeteiligungskomponente 1.</description>
+        <externalId>false</externalId>
+        <label>Var. Umsatz 1 - Verkauftes Produkt</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MT_VariableRevenue1_SoldUnit__c</fullName>
+        <description>Die Verkaufseinheit für die Umsatzbeteiligungskomponente 1.</description>
+        <externalId>false</externalId>
+        <label>Var. Umsatz 1 - Verkaufseinheit</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>MT_ProductSalesUnit</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>MT_VariableRevenue1_TotalRevenue__c</fullName>
+        <description>Der berechnete Gesamtumsatz für die Umsatzbeteiligungskomponente 1.</description>
+        <externalId>false</externalId>
+        <formula>MT_VariableRevenue1_RevenuePerUnit__c * MT_VariableRevenue1_SoldAmount__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Var. Umsatz 1 - Gesamtumsatz</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>MT_VariableRevenue2_RevenuePerUnit__c</fullName>
+        <description>Der vereinbarte Umsatz pro Einheit für die Umsatzbeteiligungskomponente 2.</description>
+        <externalId>false</externalId>
+        <label>Var. Umsatz 2 - Umsatz pro Einheit</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>MT_VariableRevenue2_SoldAmount__c</fullName>
+        <description>Die erwartete Anzahl verkaufter Einheiten für die Umsatzbeteiligungskomponente 2.</description>
+        <externalId>false</externalId>
+        <label>Var. Umsatz 2 - Verkaufte Anzahl</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MT_VariableRevenue2_SoldProduct__c</fullName>
+        <description>Die Bezeichnung des verkauften Produkts für die Umsatzbeteiligungskomponente 2.</description>
+        <externalId>false</externalId>
+        <label>Var. Umsatz 2 - Verkauftes Produkt</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MT_VariableRevenue2_SoldUnit__c</fullName>
+        <description>Die Verkaufseinheit für die Umsatzbeteiligungskomponente 2.</description>
+        <externalId>false</externalId>
+        <label>Var. Umsatz 2 - Verkaufseinheit</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>MT_ProductSalesUnit</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>MT_VariableRevenue2_TotalRevenue__c</fullName>
+        <description>Der berechnete Gesamtumsatz für die Umsatzbeteiligungskomponente 2.</description>
+        <externalId>false</externalId>
+        <formula>MT_VariableRevenue2_RevenuePerUnit__c * MT_VariableRevenue2_SoldAmount__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Var. Umsatz 2 - Gesamtumsatz</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>MT_VariableRevenue3_RevenuePerUnit__c</fullName>
+        <description>Der vereinbarte Umsatz pro Einheit für die Umsatzbeteiligungskomponente 3.</description>
+        <externalId>false</externalId>
+        <label>Var. Umsatz 3 - Umsatz pro Einheit</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>MT_VariableRevenue3_SoldAmount__c</fullName>
+        <description>Die erwartete Anzahl verkaufter Einheiten für die Umsatzbeteiligungskomponente 3.</description>
+        <externalId>false</externalId>
+        <label>Var. Umsatz 3 - Verkaufte Anzahl</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MT_VariableRevenue3_SoldProduct__c</fullName>
+        <description>Die Bezeichnung des verkauften Produkts für die Umsatzbeteiligungskomponente 3.</description>
+        <externalId>false</externalId>
+        <label>Var. Umsatz 3 - Verkauftes Produkt</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MT_VariableRevenue3_SoldUnit__c</fullName>
+        <description>Die Verkaufseinheit für die Umsatzbeteiligungskomponente 3.</description>
+        <externalId>false</externalId>
+        <label>Var. Umsatz 3 - Verkaufseinheit</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>MT_ProductSalesUnit</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>MT_VariableRevenue3_TotalRevenue__c</fullName>
+        <description>Der berechnete Gesamtumsatz für die Umsatzbeteiligungskomponente 3.</description>
+        <externalId>false</externalId>
+        <formula>MT_VariableRevenue3_RevenuePerUnit__c * MT_VariableRevenue3_SoldAmount__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Var. Umsatz 3 - Gesamtumsatz</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>MT_VariableRevenue4_RevenuePerUnit__c</fullName>
+        <description>Der vereinbarte Umsatz pro Einheit für die Umsatzbeteiligungskomponente 4.</description>
+        <externalId>false</externalId>
+        <label>Var. Umsatz 4 - Umsatz pro Einheit</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>MT_VariableRevenue4_SoldAmount__c</fullName>
+        <description>Die erwartete Anzahl verkaufter Einheiten für die Umsatzbeteiligungskomponente 4.</description>
+        <externalId>false</externalId>
+        <label>Var. Umsatz 4 - Verkaufte Anzahl</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MT_VariableRevenue4_SoldProduct__c</fullName>
+        <description>Die Bezeichnung des verkauften Produkts für die Umsatzbeteiligungskomponente 4.</description>
+        <externalId>false</externalId>
+        <label>Var. Umsatz 4 - Verkauftes Produkt</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MT_VariableRevenue4_SoldUnit__c</fullName>
+        <description>Die Verkaufseinheit für die Umsatzbeteiligungskomponente 4.</description>
+        <externalId>false</externalId>
+        <label>Var. Umsatz 4 - Verkaufseinheit</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>MT_ProductSalesUnit</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>MT_VariableRevenue4_TotalRevenue__c</fullName>
+        <description>Der berechnete Gesamtumsatz für die Umsatzbeteiligungskomponente 4.</description>
+        <externalId>false</externalId>
+        <formula>MT_VariableRevenue4_RevenuePerUnit__c * MT_VariableRevenue4_SoldAmount__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Var. Umsatz 4 - Gesamtumsatz</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>MT_VariableRevenue5_RevenuePerUnit__c</fullName>
+        <description>Der vereinbarte Umsatz pro Einheit für die Umsatzbeteiligungskomponente 5.</description>
+        <externalId>false</externalId>
+        <label>Var. Umsatz 5 - Umsatz pro Einheit</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>MT_VariableRevenue5_SoldAmount__c</fullName>
+        <description>Die erwartete Anzahl verkaufter Einheiten für die Umsatzbeteiligungskomponente 5.</description>
+        <externalId>false</externalId>
+        <label>Var. Umsatz 5 - Verkaufte Anzahl</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MT_VariableRevenue5_SoldProduct__c</fullName>
+        <description>Die Bezeichnung des verkauften Produkts für die Umsatzbeteiligungskomponente 5.</description>
+        <externalId>false</externalId>
+        <label>Var. Umsatz 5 - Verkauftes Produkt</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MT_VariableRevenue5_SoldUnit__c</fullName>
+        <description>Die Verkaufseinheit für die Umsatzbeteiligungskomponente 5.</description>
+        <externalId>false</externalId>
+        <label>Var. Umsatz 5 - Verkaufseinheit</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>MT_ProductSalesUnit</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>MT_VariableRevenue5_TotalRevenue__c</fullName>
+        <description>Der berechnete Gesamtumsatz für die Umsatzbeteiligungskomponente 5.</description>
+        <externalId>false</externalId>
+        <formula>MT_VariableRevenue5_RevenuePerUnit__c * MT_VariableRevenue5_SoldAmount__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Var. Umsatz 5 - Gesamtumsatz</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>MT_VariableRevenue_ConsiderationPeriod__c</fullName>
+        <description>Der ausgewählte Betrachtungszeitraum für den variablen Yield. Steuert die Berechnung des Yields in Kampagnen, in denen die Umsatzbeteiligung nicht monatlich abgerechnet wird.</description>
+        <externalId>false</externalId>
+        <label>Betrachtungszeitraum Variabler Yield</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>MT_YieldConsiderationPeriods</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>MT_VariableRevenue_TotalRevenue__c</fullName>
+        <description>Der berechnete Gesamtumsatz für alle fünf Umsatzbeteiligungskomponenten.</description>
+        <externalId>false</externalId>
+        <formula>MT_VariableRevenue1_TotalRevenue__c + MT_VariableRevenue2_TotalRevenue__c + MT_VariableRevenue3_TotalRevenue__c + MT_VariableRevenue4_TotalRevenue__c + MT_VariableRevenue5_TotalRevenue__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Var. Umsatz - Gesamtumsatz</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>MT_YieldGesamtFixTV__c</fullName>
+        <description>Berechnet den Gesamt-Yield für TV (MN3 / BMV)</description>
+        <externalId>false</externalId>
+        <formula>IF(MT_BmvTv__c = 0, 0, (MT_Mn3TvCustomerIntegration__c / MT_BmvTv__c))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Yield gesamt fix (TV)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <label>Media Transparency Campaign</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>MT_ContractStartdate__c</columns>
+        <columns>MT_ContractEnddate__c</columns>
+        <columns>MT_RunTimeTVStart__c</columns>
+        <columns>MT_RunTimeTVEnd__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+        <language>en_US</language>
+    </listViews>
+    <nameField>
+        <label>Kampagnenname</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Media Transparency Campaigns</pluralLabel>
+    <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>MT_ExternalMediaCampaign</fullName>
+        <active>true</active>
+        <label>External Media Campaign</label>
+        <picklistValues>
+            <picklist>MT_FixRevenue_Type__c</picklist>
+            <values>
+                <fullName>None</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Payment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yield</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>MT_Status__c</picklist>
+            <values>
+                <fullName>Campaign approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Campaign changed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Draft</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>In Approvals</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Planning final</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>MT_VariableRevenue1_SoldUnit__c</picklist>
+            <values>
+                <fullName>Abonnenten</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Compilation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Single</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tickets</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>MT_VariableRevenue2_SoldUnit__c</picklist>
+            <values>
+                <fullName>Abonnenten</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Compilation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Single</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tickets</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>MT_VariableRevenue3_SoldUnit__c</picklist>
+            <values>
+                <fullName>Abonnenten</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Compilation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Single</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tickets</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>MT_VariableRevenue4_SoldUnit__c</picklist>
+            <values>
+                <fullName>Abonnenten</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Compilation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Single</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tickets</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>MT_VariableRevenue5_SoldUnit__c</picklist>
+            <values>
+                <fullName>Abonnenten</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Compilation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Single</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tickets</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>MT_VariableRevenue_ConsiderationPeriod__c</picklist>
+            <values>
+                <fullName>0 Monate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>12 Monate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3 Monate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>6 Monate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gesamtlaufzeit</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>MT_InternalMediaCampaign</fullName>
+        <active>true</active>
+        <label>Internal Media Campaign</label>
+        <picklistValues>
+            <picklist>MT_FixRevenue_Type__c</picklist>
+            <values>
+                <fullName>None</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Payment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yield</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>MT_Status__c</picklist>
+            <values>
+                <fullName>Campaign approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Campaign changed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Draft</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>In Approvals</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Planning final</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>MT_VariableRevenue1_SoldUnit__c</picklist>
+            <values>
+                <fullName>Abonnenten</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Compilation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Single</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tickets</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>MT_VariableRevenue2_SoldUnit__c</picklist>
+            <values>
+                <fullName>Abonnenten</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Compilation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Single</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tickets</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>MT_VariableRevenue3_SoldUnit__c</picklist>
+            <values>
+                <fullName>Abonnenten</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Compilation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Single</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tickets</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>MT_VariableRevenue4_SoldUnit__c</picklist>
+            <values>
+                <fullName>Abonnenten</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Compilation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Single</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tickets</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>MT_VariableRevenue5_SoldUnit__c</picklist>
+            <values>
+                <fullName>Abonnenten</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Compilation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Single</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tickets</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>MT_VariableRevenue_ConsiderationPeriod__c</picklist>
+            <values>
+                <fullName>0 Monate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>12 Monate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3 Monate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>6 Monate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Gesamtlaufzeit</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts>
+        <excludedStandardButtons>Forward</excludedStandardButtons>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>MT_AssetMatch_CampType_vs_OppApp</fullName>
+        <active>true</active>
+        <errorConditionFormula>IF(
+  ISBLANK(MT_OpportunityApproval_ref__r.MT_Asset_ref__c),
+  TEXT(MT_OpportunityApproval_ref__r.P7S1_internerPartner__c) &lt;&gt; MT_MediaCampaignType_ref__r.MT_Asset_ref__r.Name,
+  MT_OpportunityApproval_ref__r.MT_Asset_ref__c &lt;&gt; MT_MediaCampaignType_ref__r.MT_Asset_ref__c
+)</errorConditionFormula>
+        <errorDisplayField>MT_MediaCampaignType_ref__c</errorDisplayField>
+        <errorMessage>Der Kampagnentyp muss zum gleichen Asset gehören wie der interne Partner auf der Opportunity Freigabe.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_CampaignInContract</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND (
+NOT ( ISBLANK ( MT_ContractStartdate__c ) ),
+NOT ( ISBLANK ( MT_ContractEnddate__c ) ),
+OR(
+MT_OpportunityApproval_ref__r.P7S1_OppKampagnenstart__c &lt; MT_ContractStartdate__c ,
+MT_OpportunityApproval_ref__r.P7S1_OppKampagnenende__c &gt; MT_ContractEnddate__c
+)
+)</errorConditionFormula>
+        <errorMessage>Achtung Kampagnenlaufzeit muss innerhalb Vertragslaufzeit sein.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_CheckIfCampaignOppAppIsApproved</fullName>
+        <active>true</active>
+        <description>Only allow the checkbox to be checked if Campaign Status is &quot;Campaign approved&quot; AND OpportunityApproval ApprovalState is &quot;Genehmigt&quot;</description>
+        <errorConditionFormula>IF(AND(
+ISPICKVAL(MT_Status__c,&quot;Campaign approved&quot;),
+ISPICKVAL(MT_OpportunityApproval_ref__r.P7S1_ApprovalState__c ,&quot;Genehmigt&quot;)),
+FALSE,IF(MT_IsContractSigned__c,NOT(ISCHANGED(MT_Status__c)),FALSE)
+)</errorConditionFormula>
+        <errorDisplayField>MT_IsContractSigned__c</errorDisplayField>
+        <errorMessage>Sowohl die Kampagne als auch die Opportunity Freigabe muss genehmigt sein um dieses Feld zu ändern.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_LockCreateAndUpdateCampaign</fullName>
+        <active>true</active>
+        <errorConditionFormula>NOT($Permission.MT_CreateAndUpdateCampaigns)</errorConditionFormula>
+        <errorMessage>Only KRS import Users can create or update media campaigns.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_MCamp_KeinGrossBarterVolOhneBarter</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(NOT(ISBLANK(MT_GrossBarterVolume__c)), NOT(MT_OppApp_HasMediaBarter__c),NOT(MT_OppApp_HasMediaPartBarter__c))</errorConditionFormula>
+        <errorDisplayField>MT_GrossBarterVolume__c</errorDisplayField>
+        <errorMessage>Es darf kein Barter-Volumen eingetragen werden, wenn kein Barter aktiviert ist.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_MCamp_KeinNetBarterVolOhneBarter</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(NOT(ISBLANK(MT_NetBarterVolume__c)), NOT(MT_OppApp_HasMediaBarter__c),NOT(MT_OppApp_HasMediaPartBarter__c))</errorConditionFormula>
+        <errorDisplayField>MT_NetBarterVolume__c</errorDisplayField>
+        <errorMessage>Es darf kein Barter-Volumen eingetragen werden, wenn kein Barter aktiviert ist.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_MCamp_PflichtLaufzeitTVEnd</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+MT_HasMediaTV__c = TRUE ,
+ISBLANK( MT_RunTimeTVEnd__c )
+)</errorConditionFormula>
+        <errorDisplayField>MT_RunTimeTVEnd__c</errorDisplayField>
+        <errorMessage>Laufzeit Ende (TV) ist Pflichtangabe bei Medien-Baustein TV</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_MCamp_PflichtLaufzeitTVStart</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+MT_HasMediaTV__c = TRUE ,
+ISBLANK( MT_RunTimeTVStart__c )
+)</errorConditionFormula>
+        <errorDisplayField>MT_RunTimeTVStart__c</errorDisplayField>
+        <errorMessage>Laufzeit Start (TV) ist Pflichtangabe bei Medien-Baustein TV</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_MCamp_PflichtfeldBmvTv</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+MT_HasMediaTV__c = TRUE ,
+OR(
+ISBLANK( MT_BmvTv__c ),
+MT_BmvTv__c &lt;= 0)
+)</errorConditionFormula>
+        <errorDisplayField>MT_BmvTv__c</errorDisplayField>
+        <errorMessage>BMV TV ist Pflichtangabe bei Medien-Baustein TV</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_MCamp_PflichtfeldBmvTvCustInt</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+MT_HasMediaTV__c = TRUE ,
+OR(
+ISBLANK( MT_BmvTvCustomerIntegration__c ),
+MT_BmvTvCustomerIntegration__c &lt;= 0),
+RecordType.DeveloperName &lt;&gt; &apos;MT_InternalMediaCampaign&apos;
+)</errorConditionFormula>
+        <errorDisplayField>MT_BmvTvCustomerIntegration__c</errorDisplayField>
+        <errorMessage>BMV TV Kundenintegration ist Pflichtangabe bei Medien-Baustein TV</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_MCamp_PflichtfeldGrossBarterVol</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND( 
+OR( 
+MT_OppApp_HasMediaBarter__c = TRUE, 
+MT_OppApp_HasMediaPartBarter__c = TRUE 
+), 
+OR( 
+MT_GrossBarterVolume__c &lt;= 0 , 
+ISBLANK (MT_GrossBarterVolume__c )),
+RecordType.DeveloperName &lt;&gt; &apos;MT_InternalMediaCampaign&apos;
+)</errorConditionFormula>
+        <errorDisplayField>MT_GrossBarterVolume__c</errorDisplayField>
+        <errorMessage>Barter-Volumen ist Pflichtangabe, wenn aktiv.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_MCamp_PflichtfeldMn3TvCustInt</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+MT_HasMediaTV__c = TRUE ,
+OR(
+ISBLANK( MT_Mn3TvCustomerIntegration__c ),
+MT_Mn3TvCustomerIntegration__c &lt;= 0),
+RecordType.DeveloperName &lt;&gt; &apos;MT_InternalMediaCampaign&apos;
+)</errorConditionFormula>
+        <errorDisplayField>MT_Mn3TvCustomerIntegration__c</errorDisplayField>
+        <errorMessage>MN3 TV Kundenintegration ist Pflichtangabe bei Medien-Baustein TV</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_MCamp_PflichtfeldNetBarterVol</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND( 
+OR( 
+MT_OppApp_HasMediaBarter__c = TRUE, 
+MT_OppApp_HasMediaPartBarter__c = TRUE 
+), 
+OR( 
+MT_NetBarterVolume__c &lt;= 0 , 
+ISBLANK (MT_NetBarterVolume__c )),
+RecordType.DeveloperName &lt;&gt; &apos;MT_InternalMediaCampaign&apos; 
+)</errorConditionFormula>
+        <errorDisplayField>MT_NetBarterVolume__c</errorDisplayField>
+        <errorMessage>Barter-Volumen ist Pflichtangabe, wenn aktiv.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_MCamp_PflichtfeldTvSpotLenCust</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+MT_HasMediaTV__c = TRUE ,
+OR(
+ISBLANK( MT_TvSpotLengthCustomer__c ),
+MT_TvSpotLengthCustomer__c &lt;= 0),
+RecordType.DeveloperName &lt;&gt; &apos;MT_InternalMediaCampaign&apos;
+)</errorConditionFormula>
+        <errorDisplayField>MT_TvSpotLengthCustomer__c</errorDisplayField>
+        <errorMessage>Kundenanteil Spotlänge (in Sekunden) ist Pflichtangabe bei Medien-Baustein TV</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_MCamp_PflichtfeldTvSpotLength</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+MT_HasMediaTV__c = TRUE ,
+OR(
+ISBLANK( MT_TvSpotLength__c ),
+MT_TvSpotLength__c &lt;= 0),
+RecordType.DeveloperName &lt;&gt; &apos;MT_InternalMediaCampaign&apos;
+)</errorConditionFormula>
+        <errorDisplayField>MT_TvSpotLength__c</errorDisplayField>
+        <errorMessage>Gesamtspotlänge (in Sekunden) ist Pflichtangabe bei Medien-Baustein TV</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_MediaCampaign_SameOppAndOppAppLookup</fullName>
+        <active>true</active>
+        <description>Checks if the related opportunity approval belongs to the same opportunity as related here on this campaign.</description>
+        <errorConditionFormula>AND(NOT(ISBLANK(MT_Opportunity_ref__c)), NOT(ISBLANK(MT_OpportunityApproval_ref__c)), MT_Opportunity_ref__c !=  MT_OpportunityApproval_ref__r.P7S1_Opportunity__c)</errorConditionFormula>
+        <errorDisplayField>MT_OpportunityApproval_ref__c</errorDisplayField>
+        <errorMessage>Die ausgewählte Opportunity Freigabe bezieht sich nicht auf die ausgewählte Opportunity.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_PreventFixedMonthlyPaymentIfDisabled</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND (
+NOT ( ISBLANK ( MT_FixRevenue_MonthlyPayment__c ) ) ,
+NOT ( ISPICKVAL( MT_FixRevenue_Type__c , &apos;Payment&apos; ) )
+)</errorConditionFormula>
+        <errorDisplayField>MT_FixRevenue_MonthlyPayment__c</errorDisplayField>
+        <errorMessage>Eine Summe darf nur angegeben werden, wenn fixe Zahlung ausgewählt ist.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_RequiredValueForFixedMonthlyPayment</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND (
+ISBLANK ( MT_FixRevenue_MonthlyPayment__c ),
+ISPICKVAL( MT_FixRevenue_Type__c , &apos;Payment&apos; )
+)</errorConditionFormula>
+        <errorDisplayField>MT_FixRevenue_MonthlyPayment__c</errorDisplayField>
+        <errorMessage>Wenn fixe Zahlung ausgewählt ist muss eine Summe angegeben werden.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_VariableRevenue1_Complete</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+(
+IF( ISBLANK ( MT_VariableRevenue1_RevenuePerUnit__c ) , 0 , 1)
++
+IF( ISPICKVAL ( MT_VariableRevenue1_SoldUnit__c , &apos;&apos;) , 0 , 1)
++
+IF( ISBLANK ( MT_VariableRevenue1_SoldAmount__c ) , 0 , 1)
+)
+!= 0 ,
+(
+IF( ISBLANK ( MT_VariableRevenue1_RevenuePerUnit__c ) , 0 , 1)
++
+IF( ISPICKVAL ( MT_VariableRevenue1_SoldUnit__c , &apos;&apos;) , 0 , 1)
++
+IF( ISBLANK ( MT_VariableRevenue1_SoldAmount__c ) , 0 , 1)
+)
+!= 3
+)</errorConditionFormula>
+        <errorDisplayField>MT_VariableRevenue1_SoldAmount__c</errorDisplayField>
+        <errorMessage>Bitte für den Variablen Umsatz immer alle drei Werte für Anzahl, Umsatzart und den Umsatzanteil ausfüllen</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_VariableRevenue1_RevPerUnit_MinValue</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(NOT(ISBLANK(MT_VariableRevenue1_RevenuePerUnit__c)), MT_VariableRevenue1_RevenuePerUnit__c &lt;= 0)</errorConditionFormula>
+        <errorDisplayField>MT_VariableRevenue1_RevenuePerUnit__c</errorDisplayField>
+        <errorMessage>Bitte geben Sie einen Umsatz pro Einheit über 0 € ein.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_VariableRevenue1_SoldAmount_MinValue</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(NOT(ISBLANK(MT_VariableRevenue1_SoldAmount__c)), MT_VariableRevenue1_SoldAmount__c &lt;= 0)</errorConditionFormula>
+        <errorDisplayField>MT_VariableRevenue1_SoldAmount__c</errorDisplayField>
+        <errorMessage>Bitte geben Sie eine Anzahl &gt; 0 ein.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_VariableRevenue2_Complete</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+(
+IF( ISBLANK ( MT_VariableRevenue2_RevenuePerUnit__c ) , 0 , 1)
++
+IF( ISPICKVAL ( MT_VariableRevenue2_SoldUnit__c , &apos;&apos;) , 0 , 1)
++
+IF( ISBLANK ( MT_VariableRevenue2_SoldAmount__c ) , 0 , 1)
+)
+!= 0 ,
+(
+IF( ISBLANK ( MT_VariableRevenue2_RevenuePerUnit__c ) , 0 , 1)
++
+IF( ISPICKVAL ( MT_VariableRevenue2_SoldUnit__c , &apos;&apos;) , 0 , 1)
++
+IF( ISBLANK ( MT_VariableRevenue2_SoldAmount__c ) , 0 , 1)
+)
+!= 3
+)</errorConditionFormula>
+        <errorDisplayField>MT_VariableRevenue2_SoldAmount__c</errorDisplayField>
+        <errorMessage>Bitte für den Variablen Umsatz immer alle drei Werte für Anzahl, Umsatzart und den Umsatzanteil ausfüllen</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_VariableRevenue2_RevPerUnit_MinValue</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(NOT(ISBLANK(MT_VariableRevenue2_RevenuePerUnit__c)), MT_VariableRevenue2_RevenuePerUnit__c &lt;= 0)</errorConditionFormula>
+        <errorDisplayField>MT_VariableRevenue2_RevenuePerUnit__c</errorDisplayField>
+        <errorMessage>Bitte geben Sie einen Umsatz pro Einheit über 0 € ein.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_VariableRevenue2_SoldAmount_MinValue</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(NOT(ISBLANK(MT_VariableRevenue2_SoldAmount__c)), MT_VariableRevenue2_SoldAmount__c &lt;= 0)</errorConditionFormula>
+        <errorDisplayField>MT_VariableRevenue2_SoldAmount__c</errorDisplayField>
+        <errorMessage>Bitte geben Sie eine Anzahl &gt; 0 ein.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_VariableRevenue3_Complete</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+(
+IF( ISBLANK ( MT_VariableRevenue3_RevenuePerUnit__c ) , 0 , 1)
++
+IF( ISPICKVAL ( MT_VariableRevenue3_SoldUnit__c , &apos;&apos;) , 0 , 1)
++
+IF( ISBLANK ( MT_VariableRevenue3_SoldAmount__c ) , 0 , 1)
+)
+!= 0 ,
+(
+IF( ISBLANK ( MT_VariableRevenue3_RevenuePerUnit__c ) , 0 , 1)
++
+IF( ISPICKVAL ( MT_VariableRevenue3_SoldUnit__c , &apos;&apos;) , 0 , 1)
++
+IF( ISBLANK ( MT_VariableRevenue3_SoldAmount__c ) , 0 , 1)
+)
+!= 3
+)</errorConditionFormula>
+        <errorDisplayField>MT_VariableRevenue3_SoldAmount__c</errorDisplayField>
+        <errorMessage>Bitte für den Variablen Umsatz immer alle drei Werte für Anzahl, Umsatzart und den Umsatzanteil ausfüllen</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_VariableRevenue3_RevPerUnit_MinValue</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(NOT(ISBLANK(MT_VariableRevenue3_RevenuePerUnit__c)), MT_VariableRevenue3_RevenuePerUnit__c &lt;= 0)</errorConditionFormula>
+        <errorDisplayField>MT_VariableRevenue3_RevenuePerUnit__c</errorDisplayField>
+        <errorMessage>Bitte geben Sie einen Umsatz pro Einheit über 0 € ein.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_VariableRevenue3_SoldAmount_MinValue</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(NOT(ISBLANK(MT_VariableRevenue3_SoldAmount__c)), MT_VariableRevenue3_SoldAmount__c &lt;= 0)</errorConditionFormula>
+        <errorDisplayField>MT_VariableRevenue3_SoldAmount__c</errorDisplayField>
+        <errorMessage>Bitte geben Sie eine Anzahl &gt; 0 ein.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_VariableRevenue4_Complete</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+(
+IF( ISBLANK ( MT_VariableRevenue4_RevenuePerUnit__c ) , 0 , 1)
++
+IF( ISPICKVAL ( MT_VariableRevenue4_SoldUnit__c , &apos;&apos;) , 0 , 1)
++
+IF( ISBLANK ( MT_VariableRevenue4_SoldAmount__c ) , 0 , 1)
+)
+!= 0 ,
+(
+IF( ISBLANK ( MT_VariableRevenue4_RevenuePerUnit__c ) , 0 , 1)
++
+IF( ISPICKVAL ( MT_VariableRevenue4_SoldUnit__c , &apos;&apos;) , 0 , 1)
++
+IF( ISBLANK ( MT_VariableRevenue4_SoldAmount__c ) , 0 , 1)
+)
+!= 3
+)</errorConditionFormula>
+        <errorDisplayField>MT_VariableRevenue4_SoldAmount__c</errorDisplayField>
+        <errorMessage>Bitte für den Variablen Umsatz immer alle drei Werte für Anzahl, Umsatzart und den Umsatzanteil ausfüllen</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_VariableRevenue4_RevPerUnit_MinValue</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(NOT(ISBLANK(MT_VariableRevenue4_RevenuePerUnit__c)), MT_VariableRevenue4_RevenuePerUnit__c &lt;= 0)</errorConditionFormula>
+        <errorDisplayField>MT_VariableRevenue4_RevenuePerUnit__c</errorDisplayField>
+        <errorMessage>Bitte geben Sie einen Umsatz pro Einheit über 0 € ein.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_VariableRevenue4_SoldAmount_MinValue</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(NOT(ISBLANK(MT_VariableRevenue4_SoldAmount__c)), MT_VariableRevenue4_SoldAmount__c &lt;= 0)</errorConditionFormula>
+        <errorDisplayField>MT_VariableRevenue4_SoldAmount__c</errorDisplayField>
+        <errorMessage>Bitte geben Sie eine Anzahl &gt; 0 ein.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_VariableRevenue5_Complete</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+(
+IF( ISBLANK ( MT_VariableRevenue5_RevenuePerUnit__c ) , 0 , 1)
++
+IF( ISPICKVAL ( MT_VariableRevenue5_SoldUnit__c , &apos;&apos;) , 0 , 1)
++
+IF( ISBLANK ( MT_VariableRevenue5_SoldAmount__c ) , 0 , 1)
+)
+!= 0 ,
+(
+IF( ISBLANK ( MT_VariableRevenue5_RevenuePerUnit__c ) , 0 , 1)
++
+IF( ISPICKVAL ( MT_VariableRevenue5_SoldUnit__c , &apos;&apos;) , 0 , 1)
++
+IF( ISBLANK ( MT_VariableRevenue5_SoldAmount__c ) , 0 , 1)
+)
+!= 3
+)</errorConditionFormula>
+        <errorDisplayField>MT_VariableRevenue5_SoldAmount__c</errorDisplayField>
+        <errorMessage>Bitte für den Variablen Umsatz immer alle drei Werte für Anzahl, Umsatzart und den Umsatzanteil ausfüllen</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_VariableRevenue5_RevPerUnit_MinValue</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(NOT(ISBLANK(MT_VariableRevenue5_RevenuePerUnit__c)), MT_VariableRevenue5_RevenuePerUnit__c &lt;= 0)</errorConditionFormula>
+        <errorDisplayField>MT_VariableRevenue5_RevenuePerUnit__c</errorDisplayField>
+        <errorMessage>Bitte geben Sie einen Umsatz pro Einheit über 0 € ein.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_VariableRevenue5_SoldAmount_MinValue</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(NOT(ISBLANK(MT_VariableRevenue5_SoldAmount__c)), MT_VariableRevenue5_SoldAmount__c &lt;= 0)</errorConditionFormula>
+        <errorDisplayField>MT_VariableRevenue5_SoldAmount__c</errorDisplayField>
+        <errorMessage>Bitte geben Sie eine Anzahl &gt; 0 ein.</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

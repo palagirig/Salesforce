@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Media Forecast Version</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Media Forecast Versions</value>
+    </caseValues>
+    <fields>
+        <label><!-- Auto Number --></label>
+        <name>MT_AutoNumber__c</name>
+    </fields>
+    <fields>
+        <label>Letzter Zeitpunkt zur Änderung</label>
+        <name>MT_Deadline__c</name>
+    </fields>
+    <fields>
+        <label>Ist Gesperrt</label>
+        <name>MT_IsLocked__c</name>
+    </fields>
+    <fields>
+        <label>Verwende Austrahlungsdaten bis Monat</label>
+        <name>MT_UseActualsUntil__c</name>
+    </fields>
+    <fields>
+        <label>Verwende Planungsdaten bis Monat</label>
+        <name>MT_UsePlanningDataUntil__c</name>
+    </fields>
+    <fields>
+        <label>Datum der Version</label>
+        <name>MT_VersionDate__c</name>
+    </fields>
+    <fields>
+        <label>Name der Version</label>
+        <name>MT_VersionName__c</name>
+    </fields>
+    <gender>Neuter</gender>
+    <layouts>
+        <layout>Media Forecast Version Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- Das &quot;Actual Date&quot; muss sich im &quot;Version Date&quot; Jahr befinden. --></errorMessage>
+        <name>MT_ActualDateInVersionDateYear</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Das &quot;Actual Date&quot; muss sich vor dem &quot;Planned Date&quot; befinden. --></errorMessage>
+        <name>MT_ActualDateNotAfterPlannedDate</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Das &quot;Planned Date&quot; muss sich innerhalb des &quot;Version Date&quot; Jahres befinden. --></errorMessage>
+        <name>MT_PlannedDateInVersionDateYear</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Das eingetragene Datum liegt nicht in diesem oder im nächsten Jahr. --></errorMessage>
+        <name>MT_VersionDateDiesesFolgendesJahr</name>
+    </validationRules>
+    <webLinks>
+        <label>Forecasting öffnen</label>
+        <name>MT_OpenForecasting</name>
+    </webLinks>
+</CustomObjectTranslation>

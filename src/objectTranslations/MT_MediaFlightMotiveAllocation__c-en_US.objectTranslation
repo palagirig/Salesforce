@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Media Flight Motive Allocation --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Media Flight Motive Allocation --></value>
+    </caseValues>
+    <fields>
+        <label><!-- From --></label>
+        <name>MT_From__c</name>
+    </fields>
+    <fields>
+        <label>Flight</label>
+        <name>MT_MediaFlight_ref__c</name>
+        <relationshipLabel>Flight Motive Allocations</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Motive</label>
+        <name>MT_MediaMotive_ref__c</name>
+        <relationshipLabel>Flight Motive Allocations</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Advertised Product</label>
+        <name>MT_MediaProduct_ref__c</name>
+        <relationshipLabel>Flight Motive Allocations</relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Position --></label>
+        <name>MT_Position__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rolling Distribution --></label>
+        <name>MT_RollingDistribution__c</name>
+    </fields>
+    <fields>
+        <label><!-- To --></label>
+        <name>MT_To__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>MT_Type__c</name>
+        <picklistValues>
+            <masterLabel>Main</masterLabel>
+            <translation><!-- Main --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reminder</masterLabel>
+            <translation><!-- Reminder --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Media Flight Motive Allocation Feed Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Allocation Number --></nameFieldLabel>
+    <startsWith><!-- Consonant --></startsWith>
+</CustomObjectTranslation>

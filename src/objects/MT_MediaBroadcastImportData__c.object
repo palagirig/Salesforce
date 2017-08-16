@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Enthält die Ausstrahlungs- Rohdaten aus dem DWH, bevor sie in die finale Datenstruktur transformiert werden.</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableChangeDataCapture>false</enableChangeDataCapture>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>false</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>MT_CampaignID__c</fullName>
+        <description>Die KRS- ID, zu der die Ausstrahlung erfolgt ist.</description>
+        <externalId>false</externalId>
+        <label>Campaign ID</label>
+        <length>10</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MT_LastExport__c</fullName>
+        <description>Das Datum des letzten Exports aus dem DWH.</description>
+        <externalId>false</externalId>
+        <label>Last Export</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>MT_MB1__c</fullName>
+        <description>Das ausgestrahlte MB1, je nach Kampagnentyp kann stattdessen auch MB3 genutzt werden.</description>
+        <externalId>false</externalId>
+        <label>MB1</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>10</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>MT_MB3__c</fullName>
+        <description>Das ausgestrahlte MB3, je nach Kampagnentyp kann stattdessen auch MB1 genutzt werden.</description>
+        <externalId>false</externalId>
+        <label>MB3</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>10</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>MT_MN3__c</fullName>
+        <description>Das ausgestrahlte MN3.</description>
+        <externalId>false</externalId>
+        <label>MN3</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>10</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>MT_Month__c</fullName>
+        <description>Der Monat, in dem das Volumen ausgestrahlt wurde.</description>
+        <externalId>false</externalId>
+        <label>Month</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>MT_OrderType__c</fullName>
+        <description>Die Auftragsart, zu dem das Volumen gehört. Ergibt sich später direkt aus der ProSa- Order, wird nicht unbedingt benötigt.</description>
+        <externalId>false</externalId>
+        <label>Order Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Spot</fullName>
+                    <default>false</default>
+                    <label>Spot</label>
+                </value>
+                <value>
+                    <fullName>Sponsoring</fullName>
+                    <default>false</default>
+                    <label>Sponsoring</label>
+                </value>
+                <value>
+                    <fullName>Overbooking</fullName>
+                    <default>false</default>
+                    <label>Overbooking</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>MT_ProSaOrderID__c</fullName>
+        <description>Die ProSa- Auftragsnummer, zu der das Volumen ausgestrahlt wurde.</description>
+        <externalId>false</externalId>
+        <label>ProSa Order ID</label>
+        <length>10</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MT_SenderName__c</fullName>
+        <description>Der Name des Senders, auf dem das Volumen ausgestrahlt wurde.</description>
+        <externalId>false</externalId>
+        <label>TV Sender Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MT_SenderNumber__c</fullName>
+        <description>Die Nummer des Senders, auf dem das Volumen ausgestrahlt wurde.</description>
+        <externalId>false</externalId>
+        <label>Sender Number</label>
+        <length>5</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MT_Status__c</fullName>
+        <description>Wird nicht mehr benötigt, kann gelöscht werden.
+
+Alt:
+Der Transformationsstatus dieses Import- Datensatzes. Neu, Fehler.</description>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>New</fullName>
+                    <default>true</default>
+                    <label>New</label>
+                </value>
+                <value>
+                    <fullName>Error</fullName>
+                    <default>false</default>
+                    <label>Error</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>MT_Timeslot__c</fullName>
+        <description>Die Zeitschiene in der das Volumen ausgestrahlt wurde.</description>
+        <externalId>false</externalId>
+        <label>Timeslot</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>1.[06-09]</fullName>
+                    <default>false</default>
+                    <label>1.[06-09]</label>
+                </value>
+                <value>
+                    <fullName>2.[09-13]</fullName>
+                    <default>false</default>
+                    <label>2.[09-13]</label>
+                </value>
+                <value>
+                    <fullName>3.[13-17]</fullName>
+                    <default>false</default>
+                    <label>3.[13-17]</label>
+                </value>
+                <value>
+                    <fullName>4.[17-20]</fullName>
+                    <default>false</default>
+                    <label>4.[17-20]</label>
+                </value>
+                <value>
+                    <fullName>5.[20-23]</fullName>
+                    <default>false</default>
+                    <label>5.[20-23]</label>
+                </value>
+                <value>
+                    <fullName>6.[23-01]</fullName>
+                    <default>false</default>
+                    <label>6.[23-01]</label>
+                </value>
+                <value>
+                    <fullName>7.[01-06]</fullName>
+                    <default>false</default>
+                    <label>7.[01-06]</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <label>Media Broadcast Import Data</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>OBJECT_ID</columns>
+        <columns>MT_CampaignID__c</columns>
+        <columns>MT_ProSaOrderID__c</columns>
+        <columns>MT_Month__c</columns>
+        <columns>MT_Status__c</columns>
+        <columns>MT_SenderName__c</columns>
+        <columns>MT_Timeslot__c</columns>
+        <columns>MT_MB1__c</columns>
+        <columns>MT_MB3__c</columns>
+        <columns>MT_MN3__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+        <language>en_US</language>
+    </listViews>
+    <nameField>
+        <displayFormat>MBID-{00000000}</displayFormat>
+        <label>Media Broadcast Import Data Name</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Media Broadcast Import Data</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>OBJECT_ID</customTabListAdditionalFields>
+        <customTabListAdditionalFields>MT_LastExport__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>MT_Month__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>MT_CampaignID__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>MT_ProSaOrderID__c</customTabListAdditionalFields>
+        <excludedStandardButtons>Accept</excludedStandardButtons>
+        <excludedStandardButtons>ChangeOwner</excludedStandardButtons>
+        <excludedStandardButtons>Forward</excludedStandardButtons>
+        <listViewButtons>MT_StartTransformation</listViewButtons>
+        <searchResultsAdditionalFields>OBJECT_ID</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>MT_LastExport__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>MT_Month__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>MT_CampaignID__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>MT_ProSaOrderID__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
+    <validationRules>
+        <fullName>MT_BC_ImportData_EmptyBrutVolume</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(OR(ISBLANK(MT_MB1__c), ISNULL(MT_MB1__c)), OR(ISBLANK(MT_MB3__c), ISNULL(MT_MB3__c)))</errorConditionFormula>
+        <errorMessage>Bitte einen Wert &gt;=0 in MB1 oder MB3 eintragen</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_BC_ImportData_EmptyCampaignId</fullName>
+        <active>true</active>
+        <errorConditionFormula>OR(ISBLANK(MT_CampaignID__c), ISNULL(MT_CampaignID__c))</errorConditionFormula>
+        <errorDisplayField>MT_CampaignID__c</errorDisplayField>
+        <errorMessage>Bitte eine KampagnenID eintragen</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_BC_ImportData_EmptyChannelName</fullName>
+        <active>true</active>
+        <errorConditionFormula>ISBLANK(MT_SenderName__c)</errorConditionFormula>
+        <errorDisplayField>MT_SenderName__c</errorDisplayField>
+        <errorMessage>Bitte einen Sendernamen eintragen.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_BC_ImportData_EmptyChannelNumber</fullName>
+        <active>true</active>
+        <errorConditionFormula>ISBLANK(MT_SenderNumber__c)</errorConditionFormula>
+        <errorDisplayField>MT_SenderNumber__c</errorDisplayField>
+        <errorMessage>Bitte eine Sendernummer eintragen.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_BC_ImportData_EmptyMonth</fullName>
+        <active>true</active>
+        <errorConditionFormula>OR(ISBLANK(MT_Month__c), ISNULL(MT_Month__c))</errorConditionFormula>
+        <errorDisplayField>MT_Month__c</errorDisplayField>
+        <errorMessage>Bitte einen Monat eingeben.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_BC_ImportData_EmptyNetVolume</fullName>
+        <active>true</active>
+        <errorConditionFormula>OR(ISBLANK(MT_MN3__c),ISNULL(MT_MN3__c), MT_MN3__c &lt; 0)</errorConditionFormula>
+        <errorDisplayField>MT_MN3__c</errorDisplayField>
+        <errorMessage>Bitte einen Wert &gt;=0 eintragen</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_BC_ImportData_EmptyProSaOrderId</fullName>
+        <active>true</active>
+        <errorConditionFormula>OR(ISBLANK(MT_ProSaOrderID__c), ISNULL(MT_ProSaOrderID__c))</errorConditionFormula>
+        <errorDisplayField>MT_ProSaOrderID__c</errorDisplayField>
+        <errorMessage>Bitte eine ProSa Auftragsnummer hinzufügen.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_BC_ImportData_InvalidMB1Volume</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(NOT(ISBLANK(MT_MB1__c)), MT_MB1__c &lt; 0)</errorConditionFormula>
+        <errorDisplayField>MT_MB1__c</errorDisplayField>
+        <errorMessage>Bitte einen Wert &gt;=0 eintragen</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_BC_ImportData_InvalidMB3Volume</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(NOT(ISBLANK(MT_MB3__c)), MT_MB3__c &lt; 0)</errorConditionFormula>
+        <errorDisplayField>MT_MB3__c</errorDisplayField>
+        <errorMessage>Bitte einen Wert &gt;=0 eintragen</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_BC_ImportData_InvalidMonth</fullName>
+        <active>true</active>
+        <errorConditionFormula>YEAR(MT_Month__c) &lt; 2015 || YEAR(MT_Month__c) &gt; 2099</errorConditionFormula>
+        <errorDisplayField>MT_Month__c</errorDisplayField>
+        <errorMessage>Das Jahr liegt außerhalb des zulässigen Bereichs 2015 - 2099.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_BC_ImportData_InvalidTimeslot</fullName>
+        <active>true</active>
+        <errorConditionFormula>NOT(OR(ISPICKVAL(MT_Timeslot__c, &apos;1.[06-09]&apos;),ISPICKVAL(MT_Timeslot__c, &apos;2.[09-13]&apos;),ISPICKVAL(MT_Timeslot__c, &apos;3.[13-17]&apos;),ISPICKVAL(MT_Timeslot__c, &apos;4.[17-20]&apos;),ISPICKVAL(MT_Timeslot__c, &apos;5.[20-23]&apos;),ISPICKVAL(MT_Timeslot__c, &apos;6.[23-01]&apos;),ISPICKVAL(MT_Timeslot__c, &apos;7.[01-06]&apos;)))</errorConditionFormula>
+        <errorDisplayField>MT_Timeslot__c</errorDisplayField>
+        <errorMessage>Unbekannte Zeitschiene</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>MT_StartTransformation</fullName>
+        <availability>online</availability>
+        <description>Will trigger the transformation batch job.</description>
+        <displayType>massActionButton</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Start Transformation</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <requireRowSelection>false</requireRowSelection>
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/40.0/connection.js&quot;)}
+{!REQUIRESCRIPT(&quot;/soap/ajax/40.0/apex.js&quot;)}
+
+const result = sforce.apex.executeAnonymous(&quot;Database.executeBatch(new MT_BroadcastImportDataTransformator());&quot;);
+
+if (result &amp;&amp; result.success) {
+  alert(&apos;Transformation successfully started.&apos;);
+} else if (!result) {
+  alert(&apos;Failed to start data transformation.&apos;);
+  if (console &amp;&amp; console.error) {
+    console.error(&apos;sforce.apex.executeAnonymous yielded an empty response&apos;);
+  }
+} else {
+  if (console &amp;&amp; console.error) {
+    console.error(result);
+  }
+
+  const error = result.exceptionMessage || result.compileProblem;
+  alert(&apos;Failed to start data transformation (&apos; + error + &apos;)&apos;);
+}</url>
+    </webLinks>
+</CustomObject>

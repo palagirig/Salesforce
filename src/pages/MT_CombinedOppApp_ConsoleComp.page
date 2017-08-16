@@ -1,0 +1,8 @@
+<apex:page standardController="P7S1_OpportunityApproval__c" showHeader="false" standardStylesheets="false"
+           sidebar="false" applyHtmlTag="false" applyBodyTag="false"
+           docType="html-5.0">
+
+  <apex:include pageName="MT_KPI_OppApp_ConsoleComp" rendered="{!NOT(ISNULL(id))}"/>
+  <apex:include pageName="MT_GlobalOppApp_ConsoleComp" rendered="{!NOT(ISNULL(id))}"/>
+
+</apex:page>

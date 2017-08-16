@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Media Transparency Campaign</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Media Transparency Campaigns</value>
+    </caseValues>
+    <fields>
+        <label><!-- Sum of BMV Monthly Plan --></label>
+        <name>MT_ActualMonthlyBMV_sum__c</name>
+    </fields>
+    <fields>
+        <label><!-- BMV DooH --></label>
+        <name>MT_BMVDooH__c</name>
+    </fields>
+    <fields>
+        <label>Barter-Yield</label>
+        <name>MT_BarterYield__c</name>
+    </fields>
+    <fields>
+        <label><!-- BMV Digital --></label>
+        <name>MT_BmvDigital__c</name>
+    </fields>
+    <fields>
+        <label><!-- BMV gesamt --></label>
+        <name>MT_BmvTotalFix__c</name>
+    </fields>
+    <fields>
+        <label><!-- BMV TV Asset --></label>
+        <name>MT_BmvTvAsset__c</name>
+    </fields>
+    <fields>
+        <label><!-- BMV TV Kundenintegration --></label>
+        <name>MT_BmvTvCustomerIntegration__c</name>
+    </fields>
+    <fields>
+        <label><!-- BMV gesamt (TV) --></label>
+        <name>MT_BmvTv__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cash Zahlung --></label>
+        <name>MT_CashZahlung__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vertragsende --></label>
+        <name>MT_ContractEnddate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vertragsbeginn --></label>
+        <name>MT_ContractStartdate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Eigenkapital Buchwert --></label>
+        <name>MT_EigenerBuchwertinEUR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Exit Participation --></label>
+        <name>MT_ExitParticipation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fill-Up --></label>
+        <name>MT_FillUp__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fixe monatliche Einnahmen --></label>
+        <name>MT_FixRevenue_MonthlyPayment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fixe Umsatzart --></label>
+        <name>MT_FixRevenue_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fixer Umsatz Yield (TV) --></label>
+        <name>MT_FixRevenue_Yield__c</name>
+    </fields>
+    <fields>
+        <label><!-- Brutto-Barter-Volumen --></label>
+        <name>MT_GrossBarterVolume__c</name>
+    </fields>
+    <fields>
+        <label><!-- Digital (71M) --></label>
+        <name>MT_HasMediaDigital__c</name>
+    </fields>
+    <fields>
+        <label><!-- DooH (7Screen) --></label>
+        <name>MT_HasMediaDooH__c</name>
+    </fields>
+    <fields>
+        <label><!-- TV --></label>
+        <name>MT_HasMediaTV__c</name>
+    </fields>
+    <fields>
+        <label><!-- IMA Verteiler --></label>
+        <name>MT_IMAMail__c</name>
+    </fields>
+    <fields>
+        <label>Vertrag unterschrieben?</label>
+        <name>MT_IsContractSigned__c</name>
+    </fields>
+    <fields>
+        <label><!-- Overbooking? --></label>
+        <name>MT_IsOverbooking__c</name>
+    </fields>
+    <fields>
+        <label><!-- KRS ID --></label>
+        <name>MT_KRSID__c</name>
+    </fields>
+    <fields>
+        <label>Kampagnentyp</label>
+        <lookupFilter>
+            <errorMessage><!-- Der ausgewählte Kampagnentyp ist inaktiv oder passt nicht zur Kampagne. --></errorMessage>
+        </lookupFilter>
+        <name>MT_MediaCampaignType_ref__c</name>
+        <relationshipLabel>Kampagnen</relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- MN3 TV Kundenintegration --></label>
+        <name>MT_Mn3TvCustomerIntegration__c</name>
+    </fields>
+    <fields>
+        <label><!-- Netto-Barter-Volumen --></label>
+        <name>MT_NetBarterVolume__c</name>
+    </fields>
+    <fields>
+        <label><!-- Barter --></label>
+        <name>MT_OppApp_HasMediaBarter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Teil-Barter --></label>
+        <name>MT_OppApp_HasMediaPartBarter__c</name>
+    </fields>
+    <fields>
+        <label>Opportunity-Freigabe-Status</label>
+        <name>MT_OpportunityApprovalStatus__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Freigabe --></label>
+        <name>MT_OpportunityApproval_ref__c</name>
+        <relationshipLabel>Kampagnen</relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Account Id --></label>
+        <name>MT_Opportunity_AccountId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>MT_Opportunity_ref__c</name>
+        <relationshipLabel>Kampagnen</relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Planned Amount --></label>
+        <name>MT_PlannedMonthlyBMV_sum__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sponsoring Gesamt Geplantes BMV --></label>
+        <name>MT_PlannedMonthlySponsoringBMV_sum__c</name>
+    </fields>
+    <fields>
+        <label><!-- Spot Gesamt Geplantes BMV --></label>
+        <name>MT_PlannedMonthlySpotBmv__c</name>
+    </fields>
+    <fields>
+        <label>Ansprechpartner Internal Media Agency</label>
+        <lookupFilter>
+            <errorMessage><!-- Only users with the P7S1 Internal Agency role can be responsible internal media agents for a campaign. --></errorMessage>
+        </lookupFilter>
+        <name>MT_Responsible_IM_Agent__c</name>
+        <relationshipLabel>Verantwortlich für Kampagnen</relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Ende Laufzeit (TV) --></label>
+        <name>MT_RunTimeTVEnd__c</name>
+    </fields>
+    <fields>
+        <label><!-- Start Laufzeit (TV) --></label>
+        <name>MT_RunTimeTVStart__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sys Account Owner Unit --></label>
+        <name>MT_SYS_AccountOwnerUnit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Spot Assetanteil --></label>
+        <name>MT_SpotAssetanteil__c</name>
+    </fields>
+    <fields>
+        <label><!-- Spot Kundenintegrationsanteil --></label>
+        <name>MT_SpotKundenintegrationsanteil__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>MT_Status__c</name>
+        <picklistValues>
+            <masterLabel>Campaign approved</masterLabel>
+            <translation>Kampagne Freigegeben</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Campaign changed</masterLabel>
+            <translation>Kampagnen Änderung</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation>Abgebrochen</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation>Abgeschlossen</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation>Entwurf</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Approvals</masterLabel>
+            <translation>In Freigabe</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Planning final</masterLabel>
+            <translation>Planung Final</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- MT_Sys_BuildingBlockMatrix --></label>
+        <name>MT_Sys_BuildingBlockMatrix__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sys Contract Or TV Runtime End --></label>
+        <name>MT_Sys_ContractOrTVRuntimeEnd__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sys Contract Or TV Runtime Start --></label>
+        <name>MT_Sys_ContractOrTVRuntimeStart__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sys Opportunity Approval ID --></label>
+        <name>MT_Sys_OppApp_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sys OppApp OpportunityRefId --></label>
+        <name>MT_Sys_OppApp_OpportunityRefId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Assetanteil Spotlänge (in Sekunden) --></label>
+        <name>MT_TvSpotLengthAsset__c</name>
+    </fields>
+    <fields>
+        <label><!-- Kundenanteil Spotlänge (in Sekunden) --></label>
+        <name>MT_TvSpotLengthCustomer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gesamtspotlänge (in Sekunden) --></label>
+        <name>MT_TvSpotLength__c</name>
+    </fields>
+    <fields>
+        <label>Typ</label>
+        <name>MT_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Var. Umsatz 1 - Umsatz pro Einheit --></label>
+        <name>MT_VariableRevenue1_RevenuePerUnit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Var. Umsatz 1 - Verkaufte Anzahl --></label>
+        <name>MT_VariableRevenue1_SoldAmount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Var. Umsatz 1 - Verkauftes Produkt --></label>
+        <name>MT_VariableRevenue1_SoldProduct__c</name>
+    </fields>
+    <fields>
+        <label><!-- Var. Umsatz 1 - Verkaufseinheit --></label>
+        <name>MT_VariableRevenue1_SoldUnit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Var. Umsatz 1 - Gesamtumsatz --></label>
+        <name>MT_VariableRevenue1_TotalRevenue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Var. Umsatz 2 - Umsatz pro Einheit --></label>
+        <name>MT_VariableRevenue2_RevenuePerUnit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Var. Umsatz 2 - Verkaufte Anzahl --></label>
+        <name>MT_VariableRevenue2_SoldAmount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Var. Umsatz 2 - Verkauftes Produkt --></label>
+        <name>MT_VariableRevenue2_SoldProduct__c</name>
+    </fields>
+    <fields>
+        <label><!-- Var. Umsatz 2 - Verkaufseinheit --></label>
+        <name>MT_VariableRevenue2_SoldUnit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Var. Umsatz 2 - Gesamtumsatz --></label>
+        <name>MT_VariableRevenue2_TotalRevenue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Var. Umsatz 3 - Umsatz pro Einheit --></label>
+        <name>MT_VariableRevenue3_RevenuePerUnit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Var. Umsatz 3 - Verkaufte Anzahl --></label>
+        <name>MT_VariableRevenue3_SoldAmount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Var. Umsatz 3 - Verkauftes Produkt --></label>
+        <name>MT_VariableRevenue3_SoldProduct__c</name>
+    </fields>
+    <fields>
+        <label><!-- Var. Umsatz 3 - Verkaufseinheit --></label>
+        <name>MT_VariableRevenue3_SoldUnit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Var. Umsatz 3 - Gesamtumsatz --></label>
+        <name>MT_VariableRevenue3_TotalRevenue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Var. Umsatz 4 - Umsatz pro Einheit --></label>
+        <name>MT_VariableRevenue4_RevenuePerUnit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Var. Umsatz 4 - Verkaufte Anzahl --></label>
+        <name>MT_VariableRevenue4_SoldAmount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Var. Umsatz 4 - Verkauftes Produkt --></label>
+        <name>MT_VariableRevenue4_SoldProduct__c</name>
+    </fields>
+    <fields>
+        <label><!-- Var. Umsatz 4 - Verkaufseinheit --></label>
+        <name>MT_VariableRevenue4_SoldUnit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Var. Umsatz 4 - Gesamtumsatz --></label>
+        <name>MT_VariableRevenue4_TotalRevenue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Var. Umsatz 5 - Umsatz pro Einheit --></label>
+        <name>MT_VariableRevenue5_RevenuePerUnit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Var. Umsatz 5 - Verkaufte Anzahl --></label>
+        <name>MT_VariableRevenue5_SoldAmount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Var. Umsatz 5 - Verkauftes Produkt --></label>
+        <name>MT_VariableRevenue5_SoldProduct__c</name>
+    </fields>
+    <fields>
+        <label><!-- Var. Umsatz 5 - Verkaufseinheit --></label>
+        <name>MT_VariableRevenue5_SoldUnit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Var. Umsatz 5 - Gesamtumsatz --></label>
+        <name>MT_VariableRevenue5_TotalRevenue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Betrachtungszeitraum Variabler Yield --></label>
+        <name>MT_VariableRevenue_ConsiderationPeriod__c</name>
+    </fields>
+    <fields>
+        <label><!-- Var. Umsatz - Gesamtumsatz --></label>
+        <name>MT_VariableRevenue_TotalRevenue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Yield gesamt fix (TV) --></label>
+        <name>MT_YieldGesamtFixTV__c</name>
+    </fields>
+    <gender>Neuter</gender>
+    <layouts>
+        <layout>Media Campaign Feed Layout - External</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Digital (71M) --></label>
+            <section>Digital (71M)</section>
+        </sections>
+        <sections>
+            <label><!-- DooH (7Screen) --></label>
+            <section>DooH (7Screen)</section>
+        </sections>
+        <sections>
+            <label><!-- Internal Media Agency --></label>
+            <section>Internal Media Agency</section>
+        </sections>
+        <sections>
+            <label><!-- Media Building Blocks --></label>
+            <section>Media Building Blocks</section>
+        </sections>
+        <sections>
+            <label><!-- TV --></label>
+            <section>TV</section>
+        </sections>
+        <sections>
+            <label><!-- Umsätze --></label>
+            <section>Umsätze</section>
+        </sections>
+        <sections>
+            <label><!-- Variable Umsatzanteile --></label>
+            <section>Variable Umsatzanteile</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Media Campaign Feed Layout - Internal</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Internal Media Agency --></label>
+            <section>Internal Media Agency</section>
+        </sections>
+        <sections>
+            <label><!-- Media Building Blocks --></label>
+            <section>Media Building Blocks</section>
+        </sections>
+        <sections>
+            <label><!-- TV --></label>
+            <section>TV</section>
+        </sections>
+        <sections>
+            <label><!-- Umsätze --></label>
+            <section>Umsätze</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- External Media Campaign --></label>
+        <name>MT_ExternalMediaCampaign</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Internal Media Campaign --></label>
+        <name>MT_InternalMediaCampaign</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Der Kampagnentyp muss zum gleichen Asset gehören wie der interne Partner auf der Opportunity Freigabe. --></errorMessage>
+        <name>MT_AssetMatch_CampType_vs_OppApp</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Achtung Kampagnenlaufzeit muss innerhalb Vertragslaufzeit sein. --></errorMessage>
+        <name>MT_CampaignInContract</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Sowohl die Kampagne als auch die Opportunity Freigabe muss genehmigt sein um dieses Feld zu ändern. --></errorMessage>
+        <name>MT_CheckIfCampaignOppAppIsApproved</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Nur KRS Import User können Media Kampagnen erstellen und bearbeiten.</errorMessage>
+        <name>MT_LockCreateAndUpdateCampaign</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Es darf kein Barter-Volumen eingetragen werden, wenn kein Barter aktiviert ist. --></errorMessage>
+        <name>MT_MCamp_KeinGrossBarterVolOhneBarter</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Es darf kein Barter-Volumen eingetragen werden, wenn kein Barter aktiviert ist. --></errorMessage>
+        <name>MT_MCamp_KeinNetBarterVolOhneBarter</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Laufzeit Ende (TV) ist Pflichtangabe bei Medien-Baustein TV --></errorMessage>
+        <name>MT_MCamp_PflichtLaufzeitTVEnd</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Laufzeit Start (TV) ist Pflichtangabe bei Medien-Baustein TV --></errorMessage>
+        <name>MT_MCamp_PflichtLaufzeitTVStart</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- BMV TV ist Pflichtangabe bei Medien-Baustein TV --></errorMessage>
+        <name>MT_MCamp_PflichtfeldBmvTv</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- BMV TV Kundenintegration ist Pflichtangabe bei Medien-Baustein TV --></errorMessage>
+        <name>MT_MCamp_PflichtfeldBmvTvCustInt</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Barter-Volumen ist Pflichtangabe, wenn aktiv. --></errorMessage>
+        <name>MT_MCamp_PflichtfeldGrossBarterVol</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- MN3 TV Kundenintegration ist Pflichtangabe bei Medien-Baustein TV --></errorMessage>
+        <name>MT_MCamp_PflichtfeldMn3TvCustInt</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Barter-Volumen ist Pflichtangabe, wenn aktiv. --></errorMessage>
+        <name>MT_MCamp_PflichtfeldNetBarterVol</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Kundenanteil Spotlänge (in Sekunden) ist Pflichtangabe bei Medien-Baustein TV --></errorMessage>
+        <name>MT_MCamp_PflichtfeldTvSpotLenCust</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Gesamtspotlänge (in Sekunden) ist Pflichtangabe bei Medien-Baustein TV --></errorMessage>
+        <name>MT_MCamp_PflichtfeldTvSpotLength</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Die ausgewählte Opportunity Freigabe bezieht sich nicht auf die ausgewählte Opportunity. --></errorMessage>
+        <name>MT_MediaCampaign_SameOppAndOppAppLookup</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Eine Summe darf nur angegeben werden, wenn fixe Zahlung ausgewählt ist. --></errorMessage>
+        <name>MT_PreventFixedMonthlyPaymentIfDisabled</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Wenn fixe Zahlung ausgewählt ist muss eine Summe angegeben werden. --></errorMessage>
+        <name>MT_RequiredValueForFixedMonthlyPayment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Bitte für den Variablen Umsatz immer alle drei Werte für Anzahl, Umsatzart und den Umsatzanteil ausfüllen --></errorMessage>
+        <name>MT_VariableRevenue1_Complete</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Bitte geben Sie einen Umsatz pro Einheit über 0 € ein. --></errorMessage>
+        <name>MT_VariableRevenue1_RevPerUnit_MinValue</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Bitte geben Sie eine Anzahl &gt; 0 ein. --></errorMessage>
+        <name>MT_VariableRevenue1_SoldAmount_MinValue</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Bitte für den Variablen Umsatz immer alle drei Werte für Anzahl, Umsatzart und den Umsatzanteil ausfüllen --></errorMessage>
+        <name>MT_VariableRevenue2_Complete</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Bitte geben Sie einen Umsatz pro Einheit über 0 € ein. --></errorMessage>
+        <name>MT_VariableRevenue2_RevPerUnit_MinValue</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Bitte geben Sie eine Anzahl &gt; 0 ein. --></errorMessage>
+        <name>MT_VariableRevenue2_SoldAmount_MinValue</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Bitte für den Variablen Umsatz immer alle drei Werte für Anzahl, Umsatzart und den Umsatzanteil ausfüllen --></errorMessage>
+        <name>MT_VariableRevenue3_Complete</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Bitte geben Sie einen Umsatz pro Einheit über 0 € ein. --></errorMessage>
+        <name>MT_VariableRevenue3_RevPerUnit_MinValue</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Bitte geben Sie eine Anzahl &gt; 0 ein. --></errorMessage>
+        <name>MT_VariableRevenue3_SoldAmount_MinValue</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Bitte für den Variablen Umsatz immer alle drei Werte für Anzahl, Umsatzart und den Umsatzanteil ausfüllen --></errorMessage>
+        <name>MT_VariableRevenue4_Complete</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Bitte geben Sie einen Umsatz pro Einheit über 0 € ein. --></errorMessage>
+        <name>MT_VariableRevenue4_RevPerUnit_MinValue</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Bitte geben Sie eine Anzahl &gt; 0 ein. --></errorMessage>
+        <name>MT_VariableRevenue4_SoldAmount_MinValue</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Bitte für den Variablen Umsatz immer alle drei Werte für Anzahl, Umsatzart und den Umsatzanteil ausfüllen --></errorMessage>
+        <name>MT_VariableRevenue5_Complete</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Bitte geben Sie einen Umsatz pro Einheit über 0 € ein. --></errorMessage>
+        <name>MT_VariableRevenue5_RevPerUnit_MinValue</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Bitte geben Sie eine Anzahl &gt; 0 ein. --></errorMessage>
+        <name>MT_VariableRevenue5_SoldAmount_MinValue</name>
+    </validationRules>
+</CustomObjectTranslation>

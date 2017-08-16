@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Media Campaign Type --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Media Campaign Type --></value>
+    </caseValues>
+    <fields>
+        <label><!-- Asset --></label>
+        <name>MT_Asset_ref__c</name>
+        <relationshipLabel><!-- Media Campaign Types --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>BMV Broadcast Origin Default</label>
+        <name>MT_BMV_SourceField__c</name>
+        <picklistValues>
+            <masterLabel>MB1</masterLabel>
+            <translation><!-- MB1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MB3</masterLabel>
+            <translation><!-- MB3 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- ExternalID --></label>
+        <name>MT_ExternalID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Active --></label>
+        <name>MT_IsActive__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>MT_Type__c</name>
+        <picklistValues>
+            <masterLabel>External</masterLabel>
+            <translation><!-- External --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internal</masterLabel>
+            <translation><!-- Internal --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Media Campaign Type Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Media Campaign Type Name --></nameFieldLabel>
+    <startsWith><!-- Consonant --></startsWith>
+</CustomObjectTranslation>

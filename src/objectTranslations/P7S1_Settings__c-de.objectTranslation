@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>P7S1_Settings</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>P7S1_Settings</value>
+    </caseValues>
+    <fields>
+        <label><!-- Automated Test Execution Error --></label>
+        <name>Lcm_AutoTestExecError__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Campaign Opp App Record Type ID --></label>
+        <name>MT_ExternalCampaignOppAppRecordTypeID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Internal Campaign Opp App Record Type ID --></label>
+        <name>MT_InternalCampaignOppAppRecordTypeID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Automated Testing Queue AsynchId --></label>
+        <name>P7S1_AutoTestQueueAsyncId__c</name>
+    </fields>
+    <fields>
+        <label><!-- P7S1_Emp_Serviceweb_DefaultCompID --></label>
+        <name>P7S1_Emp_Serviceweb_DefaultCompID__c</name>
+    </fields>
+    <fields>
+        <help><!-- Durch diese Checkbox kann der Automatismus der Klasse P7S1_Account_LandSteuerkz aktiviert/deaktiviert werden. --></help>
+        <label><!-- Steuerkennzeichen Sync Active --></label>
+        <name>P7S1_SteuerkennzeichenSyncActive__c</name>
+    </fields>
+    <fields>
+        <label><!-- MediaCampaign Feldfixierung Active --></label>
+        <name>SomDig_MediaCampaign_FieldFixierung__c</name>
+    </fields>
+    <gender>Neuter</gender>
+</CustomObjectTranslation>

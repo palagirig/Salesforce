@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>0 Monate</fullName>
+        <default>false</default>
+        <label>0 Monate</label>
+    </customValue>
+    <customValue>
+        <fullName>3 Monate</fullName>
+        <default>false</default>
+        <label>3 Monate</label>
+    </customValue>
+    <customValue>
+        <fullName>6 Monate</fullName>
+        <default>true</default>
+        <label>6 Monate</label>
+    </customValue>
+    <customValue>
+        <fullName>12 Monate</fullName>
+        <default>false</default>
+        <label>12 Monate</label>
+    </customValue>
+    <customValue>
+        <fullName>Gesamtlaufzeit</fullName>
+        <default>false</default>
+        <label>Gesamtlaufzeit</label>
+    </customValue>
+    <description>The available consideration periods for yields in Media Transparency</description>
+    <masterLabel>Yield Consideration Periods</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

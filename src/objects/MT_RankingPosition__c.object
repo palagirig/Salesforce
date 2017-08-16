@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Stellt die Position einer Kampagne in einem Ranking dar.</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableChangeDataCapture>false</enableChangeDataCapture>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>false</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>MT_BookingCluster__c</fullName>
+        <description>Die Einordnung der Kampagne zu einem Buchungsvorlauf.</description>
+        <externalId>false</externalId>
+        <label>Booking Cluster</label>
+        <precision>2</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MT_MediaCampaign_ref__c</fullName>
+        <description>Die Kampagne, die im Ranking positioniert wird.</description>
+        <externalId>false</externalId>
+        <label>Media Campaign</label>
+        <referenceTo>MT_MediaCampaign__c</referenceTo>
+        <relationshipLabel>Ranking Positions</relationshipLabel>
+        <relationshipName>Ranking_Positions</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>true</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>MT_Position__c</fullName>
+        <description>Die Position innerhalb das Rankings (aufsteigende Nummer über alle Buchungsvorläufe hinweg).</description>
+        <externalId>false</externalId>
+        <label>Position</label>
+        <precision>6</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MT_RankingVersion_ref__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <description>Das Ranking, in dem diese Position gilt.</description>
+        <externalId>false</externalId>
+        <label>Ranking Version</label>
+        <referenceTo>MT_RankingVersion__c</referenceTo>
+        <relationshipLabel>Ranking Positions</relationshipLabel>
+        <relationshipName>Ranking_Positions</relationshipName>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <label>Ranking Position</label>
+    <nameField>
+        <displayFormat>MRP-{000000}</displayFormat>
+        <label>Ranking Position Number</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Ranking Positions</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

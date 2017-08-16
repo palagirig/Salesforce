@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Media Flight --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Media Flight --></value>
+    </caseValues>
+    <fields>
+        <label>BMV</label>
+        <name>MT_BMVAmount__c</name>
+    </fields>
+    <fields>
+        <label>Desired Context</label>
+        <name>MT_DesiredEnvironment__c</name>
+    </fields>
+    <fields>
+        <label><!-- To --></label>
+        <name>MT_EndDate__c</name>
+    </fields>
+    <fields>
+        <label>Exlusion Criteria</label>
+        <name>MT_ExclusionCriteria__c</name>
+    </fields>
+    <fields>
+        <label>Monthly Plan</label>
+        <name>MT_MediaBuildingBlockMonthlyPlan_ref__c</name>
+        <relationshipLabel>Flights</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Overbooking Comment</label>
+        <name>MT_OverbookingComment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Overbooking --></label>
+        <name>MT_OverbookingVolume__c</name>
+    </fields>
+    <fields>
+        <label><!-- Position --></label>
+        <name>MT_Position__c</name>
+    </fields>
+    <fields>
+        <label>Spot Distribution Hints</label>
+        <name>MT_SpotAllocationHint__c</name>
+    </fields>
+    <fields>
+        <label><!-- From --></label>
+        <name>MT_StartDate__c</name>
+    </fields>
+    <fields>
+        <label>Target Group</label>
+        <name>MT_TargetGroup__c</name>
+        <picklistValues>
+            <masterLabel>E 14+</masterLabel>
+            <translation><!-- E 14+ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E 14-29</masterLabel>
+            <translation><!-- E 14-29 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E 14-39</masterLabel>
+            <translation><!-- E 14-39 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E 14-39 online- oder gamesaffin</masterLabel>
+            <translation><!-- E 14-39 online- oder gamesaffin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E 14-49</masterLabel>
+            <translation><!-- E 14-49 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E 20-39</masterLabel>
+            <translation><!-- E 20-39 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E 20-49</masterLabel>
+            <translation><!-- E 20-49 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E 20-49 mit Kind unter 13 Jahren im HH</masterLabel>
+            <translation><!-- E 20-49 mit Kind unter 13 Jahren im HH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E 25-39</masterLabel>
+            <translation><!-- E 25-39 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E 25-49 HHNE 2.000+</masterLabel>
+            <translation><!-- E 25-49 HHNE 2.000+ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E 30-49</masterLabel>
+            <translation><!-- E 30-49 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E 30-59</masterLabel>
+            <translation><!-- E 30-59 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E 30-59 HHNE 1.500+</masterLabel>
+            <translation><!-- E 30-59 HHNE 1.500+ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F 14-29</masterLabel>
+            <translation><!-- F 14-29 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F 14-39</masterLabel>
+            <translation><!-- F 14-39 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F 14-39 online- oder gamesaffin</masterLabel>
+            <translation><!-- F 14-39 online- oder gamesaffin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F 14-49</masterLabel>
+            <translation><!-- F 14-49 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F 20-39</masterLabel>
+            <translation><!-- F 20-39 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F 20-49</masterLabel>
+            <translation><!-- F 20-49 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F 25-39</masterLabel>
+            <translation><!-- F 25-39 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F 25-49 HHNE 2.000+</masterLabel>
+            <translation><!-- F 25-49 HHNE 2.000+ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F 30-49</masterLabel>
+            <translation><!-- F 30-49 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>F 30-59</masterLabel>
+            <translation><!-- F 30-59 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HHF 14-39</masterLabel>
+            <translation><!-- HHF 14-39 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HHF 20-49</masterLabel>
+            <translation><!-- HHF 20-49 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HHF 20-49 m. Kind unter 14</masterLabel>
+            <translation><!-- HHF 20-49 m. Kind unter 14 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HHF 20-59</masterLabel>
+            <translation><!-- HHF 20-59 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HHF 30-59</masterLabel>
+            <translation><!-- HHF 30-59 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M 14-29</masterLabel>
+            <translation><!-- M 14-29 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M 14-39</masterLabel>
+            <translation><!-- M 14-39 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M 14-39 online- oder gamesaffin</masterLabel>
+            <translation><!-- M 14-39 online- oder gamesaffin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M 14-49</masterLabel>
+            <translation><!-- M 14-49 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M 20-39</masterLabel>
+            <translation><!-- M 20-39 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M 20-49</masterLabel>
+            <translation><!-- M 20-49 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M 25-39</masterLabel>
+            <translation><!-- M 25-39 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M 25-49 HHNE 2.000+</masterLabel>
+            <translation><!-- M 25-49 HHNE 2.000+ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M 25-59 HHNE 2.000+</masterLabel>
+            <translation><!-- M 25-59 HHNE 2.000+ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M 30-49</masterLabel>
+            <translation><!-- M 30-49 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M 30-59</masterLabel>
+            <translation><!-- M 30-59 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>Max. Time Share 01:00 - 06:00</label>
+        <name>MT_TimeShare01000600Max__c</name>
+    </fields>
+    <fields>
+        <label>Min. Time Share 01:00 - 06:00</label>
+        <name>MT_TimeShare01000600Min__c</name>
+    </fields>
+    <fields>
+        <label>Max. Time Share 06:00 - 09:00</label>
+        <name>MT_TimeShare06000900Max__c</name>
+    </fields>
+    <fields>
+        <label>Min. Time Share 06:00 - 09:00</label>
+        <name>MT_TimeShare06000900Min__c</name>
+    </fields>
+    <fields>
+        <label>Max. Time Share 09:00 - 13:00</label>
+        <name>MT_TimeShare09001300Max__c</name>
+    </fields>
+    <fields>
+        <label>Min. Time Share 09:00 - 13:00</label>
+        <name>MT_TimeShare09001300Min__c</name>
+    </fields>
+    <fields>
+        <label>Max. Time Share 13:00 - 17:00</label>
+        <name>MT_TimeShare13001700Max__c</name>
+    </fields>
+    <fields>
+        <label>Min. Time Share 13:00 - 17:00</label>
+        <name>MT_TimeShare13001700Min__c</name>
+    </fields>
+    <fields>
+        <label>Max. Time Share 17:00 - 20:00</label>
+        <name>MT_TimeShare17002000Max__c</name>
+    </fields>
+    <fields>
+        <label>Min. Time Share 17:00 - 20:00</label>
+        <name>MT_TimeShare17002000Min__c</name>
+    </fields>
+    <fields>
+        <label>Max. Time Share 20:00 - 23:00</label>
+        <name>MT_TimeShare20002300Max__c</name>
+    </fields>
+    <fields>
+        <label>Min. Time Share 20:00 - 23:00</label>
+        <name>MT_TimeShare20002300Min__c</name>
+    </fields>
+    <fields>
+        <label>Max. Time Share 23:00 - 01:00</label>
+        <name>MT_TimeShare23000100Max__c</name>
+    </fields>
+    <fields>
+        <label>Min. Time Share 23:00 - 01:00</label>
+        <name>MT_TimeShare23000100Min__c</name>
+    </fields>
+    <fields>
+        <label>Max. Channel Share kabel eins CLASSICS</label>
+        <name>MT_TvShareKabelEinsClassicsMax__c</name>
+    </fields>
+    <fields>
+        <label>Min. Channel Share kabel eins CLASSICS</label>
+        <name>MT_TvShareKabelEinsClassicsMin__c</name>
+    </fields>
+    <fields>
+        <label>Max. Channel Share kabel eins Doku</label>
+        <name>MT_TvShareKabelEinsDokuMax__c</name>
+    </fields>
+    <fields>
+        <label>Min. Channel Share kabel eins Doku</label>
+        <name>MT_TvShareKabelEinsDokuMin__c</name>
+    </fields>
+    <fields>
+        <label>Max. Channel Share kabel eins</label>
+        <name>MT_TvShareKabelEinsMax__c</name>
+    </fields>
+    <fields>
+        <label>Min. Channel Share kabel eins</label>
+        <name>MT_TvShareKabelEinsMin__c</name>
+    </fields>
+    <fields>
+        <label>Max. Channel Share ProSieben FUN</label>
+        <name>MT_TvShareProSiebenFunMax__c</name>
+    </fields>
+    <fields>
+        <label>Min. Channel Share ProSieben FUN</label>
+        <name>MT_TvShareProSiebenFunMin__c</name>
+    </fields>
+    <fields>
+        <label>Max. Channel Share ProSieben</label>
+        <name>MT_TvShareProSiebenMax__c</name>
+    </fields>
+    <fields>
+        <label>Max. Channel Share ProSieben MAXX</label>
+        <name>MT_TvShareProSiebenMaxxMax__c</name>
+    </fields>
+    <fields>
+        <label>Min. Channel Share ProSieben MAXX</label>
+        <name>MT_TvShareProSiebenMaxxMin__c</name>
+    </fields>
+    <fields>
+        <label>Min. Channel Share ProSieben</label>
+        <name>MT_TvShareProSiebenMin__c</name>
+    </fields>
+    <fields>
+        <label>Max. Channel Share SAT.1 emotions</label>
+        <name>MT_TvShareSat1EmotionsMax__c</name>
+    </fields>
+    <fields>
+        <label>Min. Channel Share SAT.1 emotions</label>
+        <name>MT_TvShareSat1EmotionsMin__c</name>
+    </fields>
+    <fields>
+        <label>Max. Channel Share SAT.1 Gold</label>
+        <name>MT_TvShareSat1GoldMax__c</name>
+    </fields>
+    <fields>
+        <label>Min. Channel Share SAT.1 Gold</label>
+        <name>MT_TvShareSat1GoldMin__c</name>
+    </fields>
+    <fields>
+        <label>Max. Channel Share SAT.1</label>
+        <name>MT_TvShareSat1Max__c</name>
+    </fields>
+    <fields>
+        <label>Min. Channel Share SAT.1</label>
+        <name>MT_TvShareSat1Min__c</name>
+    </fields>
+    <fields>
+        <label>Max. Channel Share sixx</label>
+        <name>MT_TvShareSixxMax__c</name>
+    </fields>
+    <fields>
+        <label>Min. Channel Share sixx</label>
+        <name>MT_TvShareSixxMin__c</name>
+    </fields>
+    <layouts>
+        <layout>Media Flight Feed Layout</layout>
+        <sections>
+            <label><!-- Booking Instructions --></label>
+            <section>Booking Instructions</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Overbooking --></label>
+            <section>Overbooking</section>
+        </sections>
+        <sections>
+            <label><!-- Sender Shares --></label>
+            <section>Sender Shares</section>
+        </sections>
+        <sections>
+            <label><!-- Time Shares --></label>
+            <section>Time Shares</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Media Flight Name --></nameFieldLabel>
+    <recordTypes>
+        <label><!-- Overbooking --></label>
+        <name>Overbooking</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Sponsoring --></label>
+        <name>Sponsoring</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Spot --></label>
+        <name>Spot</name>
+    </recordTypes>
+    <startsWith><!-- Consonant --></startsWith>
+    <validationRules>
+        <errorMessage><!-- BMV Amount cannot be less than 0 --></errorMessage>
+        <name>MT_BMV_Amount_MUST_BE_POSITIVE</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Value must be between 0% and 100% --></errorMessage>
+        <name>MT_Flight_Channel_Share_Max_Validation10</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Value must be between 0% and 100% --></errorMessage>
+        <name>MT_Flight_Channel_Share_Max_Validation_1</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Value must be between 0% and 100% --></errorMessage>
+        <name>MT_Flight_Channel_Share_Max_Validation_2</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Value must be between 0% and 100% --></errorMessage>
+        <name>MT_Flight_Channel_Share_Max_Validation_3</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Value must be between 0% and 100% --></errorMessage>
+        <name>MT_Flight_Channel_Share_Max_Validation_4</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Value must be between 0% and 100% --></errorMessage>
+        <name>MT_Flight_Channel_Share_Max_Validation_5</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Value must be between 0% and 100% --></errorMessage>
+        <name>MT_Flight_Channel_Share_Max_Validation_6</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Value must be between 0% and 100% --></errorMessage>
+        <name>MT_Flight_Channel_Share_Max_Validation_7</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Value must be between 0% and 100% --></errorMessage>
+        <name>MT_Flight_Channel_Share_Max_Validation_8</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Value must be between 0% and 100% --></errorMessage>
+        <name>MT_Flight_Channel_Share_Max_Validation_9</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Value must be between 0% and 100% --></errorMessage>
+        <name>MT_Flight_Channel_Share_Min_Validation10</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Value must be between 0% and 100% --></errorMessage>
+        <name>MT_Flight_Channel_Share_Min_Validation_1</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Value must be between 0% and 100% --></errorMessage>
+        <name>MT_Flight_Channel_Share_Min_Validation_2</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Value must be between 0% and 100% --></errorMessage>
+        <name>MT_Flight_Channel_Share_Min_Validation_3</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Value must be between 0% and 100% --></errorMessage>
+        <name>MT_Flight_Channel_Share_Min_Validation_4</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Value must be between 0% and 100% --></errorMessage>
+        <name>MT_Flight_Channel_Share_Min_Validation_5</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Value must be between 0% and 100% --></errorMessage>
+        <name>MT_Flight_Channel_Share_Min_Validation_6</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Value must be between 0% and 100% --></errorMessage>
+        <name>MT_Flight_Channel_Share_Min_Validation_7</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Value must be between 0% and 100% --></errorMessage>
+        <name>MT_Flight_Channel_Share_Min_Validation_8</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Value must be between 0% and 100% --></errorMessage>
+        <name>MT_Flight_Channel_Share_Min_Validation_9</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Value must be between 0% and 100% --></errorMessage>
+        <name>MT_Flight_Time_Share_Max_Validation_1</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Value must be between 0% and 100% --></errorMessage>
+        <name>MT_Flight_Time_Share_Max_Validation_2</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Value must be between 0% and 100% --></errorMessage>
+        <name>MT_Flight_Time_Share_Max_Validation_3</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Value must be between 0% and 100% --></errorMessage>
+        <name>MT_Flight_Time_Share_Max_Validation_4</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Value must be between 0% and 100% --></errorMessage>
+        <name>MT_Flight_Time_Share_Max_Validation_5</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Value must be between 0% and 100% --></errorMessage>
+        <name>MT_Flight_Time_Share_Max_Validation_6</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Value must be between 0% and 100% --></errorMessage>
+        <name>MT_Flight_Time_Share_Max_Validation_7</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Value must be between 0% and 100% --></errorMessage>
+        <name>MT_Flight_Time_Share_Min_Validation_1</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Value must be between 0% and 100% --></errorMessage>
+        <name>MT_Flight_Time_Share_Min_Validation_2</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Value must be between 0% and 100% --></errorMessage>
+        <name>MT_Flight_Time_Share_Min_Validation_3</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Value must be between 0% and 100% --></errorMessage>
+        <name>MT_Flight_Time_Share_Min_Validation_4</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Value must be between 0% and 100% --></errorMessage>
+        <name>MT_Flight_Time_Share_Min_Validation_5</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Value must be between 0% and 100% --></errorMessage>
+        <name>MT_Flight_Time_Share_Min_Validation_6</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Value must be between 0% and 100% --></errorMessage>
+        <name>MT_Flight_Time_Share_Min_Validation_7</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Overbooking volume cannot be less than 0 --></errorMessage>
+        <name>MT_Overbooking_Volume_MUST_BE_POSITIVE</name>
+    </validationRules>
+</CustomObjectTranslation>

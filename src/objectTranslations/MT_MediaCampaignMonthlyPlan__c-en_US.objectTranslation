@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Media Campaign Monthly Plan --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Media Campaign Monthly Plan --></value>
+    </caseValues>
+    <fields>
+        <label><!-- BMV Overbooking --></label>
+        <name>MT_BMVOverbooking__c</name>
+    </fields>
+    <fields>
+        <label><!-- BMV Sponsoring --></label>
+        <name>MT_BMVSponsoring__c</name>
+    </fields>
+    <fields>
+        <label><!-- BMV Spot --></label>
+        <name>MT_BMVSpot__c</name>
+    </fields>
+    <fields>
+        <label><!-- BMV Weighted Spot --></label>
+        <name>MT_BMVWeightedSpot__c</name>
+    </fields>
+    <fields>
+        <label><!-- Barter Revenue --></label>
+        <name>MT_BarterRevenue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Effective Air Time Rate --></label>
+        <name>MT_Effective_AirTimeRate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Effective Barter Yield Quantifier --></label>
+        <name>MT_Effective_BarterYieldQuantifier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Effective DeckungsbeitragII --></label>
+        <name>MT_Effective_CoverageMarginII__c</name>
+    </fields>
+    <fields>
+        <label><!-- Effective Equity Yield Quantifier --></label>
+        <name>MT_Effective_EquityYieldQuantifier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Effective Exit Participation Yield Quant --></label>
+        <name>MT_Effective_ExitParticipationYieldQuant__c</name>
+    </fields>
+    <fields>
+        <label><!-- Effective Fill up Yield Quantifier --></label>
+        <name>MT_Effective_FillUpYieldQuantifier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Effective Fix Yield Quantifier --></label>
+        <name>MT_Effective_FixYieldQuantifier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Effective Variable Yield Quantifier --></label>
+        <name>MT_Effective_VariableYieldQuantifier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Effective WKZ Faktor --></label>
+        <name>MT_Effective_WKZFactor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Yield Fix Revenue --></label>
+        <name>MT_FixRevenue_Yield__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fix Revenue --></label>
+        <name>MT_FixRevenue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Campaign Barter Yield --></label>
+        <name>MT_MCamp_BarterYield__c</name>
+    </fields>
+    <fields>
+        <label><!-- Media Campaign Type Parameter Version --></label>
+        <name>MT_MediaCampaignTypeParameterVersion_ref__c</name>
+        <relationshipLabel>Monthly Plans</relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Media Transparency Campaign --></label>
+        <name>MT_MediaCampaign_ref__c</name>
+        <relationshipLabel><!-- Media Campaign Monthly Plans --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Month --></label>
+        <name>MT_Month__c</name>
+    </fields>
+    <fields>
+        <label><!-- No of Overbooking Flights --></label>
+        <name>MT_NoOverbookingFlights__c</name>
+    </fields>
+    <fields>
+        <label><!-- No of Sponsoring Flights --></label>
+        <name>MT_NoSponsoringFlights__c</name>
+    </fields>
+    <fields>
+        <label><!-- No of Spot Flights --></label>
+        <name>MT_NoSpotFlights__c</name>
+    </fields>
+    <fields>
+        <label><!-- Planning Date --></label>
+        <name>MT_PlanningDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Probability --></label>
+        <name>MT_Probability__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROI_Revenue --></label>
+        <name>MT_ROI_Revenue__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROI Yield % --></label>
+        <name>MT_ROI_Yield__c</name>
+    </fields>
+    <fields>
+        <label>Broadcasted BMV (Total)</label>
+        <name>MT_SumBMV__c</name>
+    </fields>
+    <fields>
+        <label>Broadcasted BMV (Overbooking)</label>
+        <name>MT_SumOverbookingBMV__c</name>
+    </fields>
+    <fields>
+        <label>Broadcasted BMV (Sponsoring)</label>
+        <name>MT_SumSponsoringBMV__c</name>
+    </fields>
+    <fields>
+        <label>Broadcasted BMV (Spot)</label>
+        <name>MT_SumSpotBMV__c</name>
+    </fields>
+    <fields>
+        <label>Planned BMV</label>
+        <name>MT_TotalBMV__c</name>
+    </fields>
+    <fields>
+        <label>Planned Revenue</label>
+        <name>MT_TotalRevenue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Yield Total --></label>
+        <name>MT_TotalYield__c</name>
+    </fields>
+    <fields>
+        <label>Var. Revenue 1 - Sold Amount</label>
+        <name>MT_VariableRevenue1_SoldAmount__c</name>
+    </fields>
+    <fields>
+        <label>Var. Revenue 1 - Total Revenue</label>
+        <name>MT_VariableRevenue1_TotalRevenue__c</name>
+    </fields>
+    <fields>
+        <label>Var. Revenue 1 - Yield</label>
+        <name>MT_VariableRevenue1_Yield__c</name>
+    </fields>
+    <fields>
+        <label>Var. Revenue 2 - Sold Amount</label>
+        <name>MT_VariableRevenue2_SoldAmount__c</name>
+    </fields>
+    <fields>
+        <label>Var. Revenue 2 - Total Revenue</label>
+        <name>MT_VariableRevenue2_TotalRevenue__c</name>
+    </fields>
+    <fields>
+        <label>Var. Revenue 2 - Yield</label>
+        <name>MT_VariableRevenue2_Yield__c</name>
+    </fields>
+    <fields>
+        <label>Var. Revenue 3 - Sold Amount</label>
+        <name>MT_VariableRevenue3_SoldAmount__c</name>
+    </fields>
+    <fields>
+        <label>Var. Revenue 3 - Total Revenue</label>
+        <name>MT_VariableRevenue3_TotalRevenue__c</name>
+    </fields>
+    <fields>
+        <label>Var. Revenue 3 - Yield</label>
+        <name>MT_VariableRevenue3_Yield__c</name>
+    </fields>
+    <fields>
+        <label>Var. Revenue 4 - Sold Amount</label>
+        <name>MT_VariableRevenue4_SoldAmount__c</name>
+    </fields>
+    <fields>
+        <label>Var. Revenue 4 - Total Revenue</label>
+        <name>MT_VariableRevenue4_TotalRevenue__c</name>
+    </fields>
+    <fields>
+        <label>Var. Revenue 4 - Yield</label>
+        <name>MT_VariableRevenue4_Yield__c</name>
+    </fields>
+    <fields>
+        <label>Var. Revenue 5 - Sold Amount</label>
+        <name>MT_VariableRevenue5_SoldAmount__c</name>
+    </fields>
+    <fields>
+        <label>Var. Revenue 5 - Total Revenue</label>
+        <name>MT_VariableRevenue5_TotalRevenue__c</name>
+    </fields>
+    <fields>
+        <label>Var. Revenue 5 - Yield</label>
+        <name>MT_VariableRevenue5_Yield__c</name>
+    </fields>
+    <fields>
+        <label><!-- Year --></label>
+        <name>MT_Year__c</name>
+    </fields>
+    <layouts>
+        <layout>Media Building Block Monthly Plan Feed Layout</layout>
+        <sections>
+            <label><!-- Ausstrahlung --></label>
+            <section>Ausstrahlung</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Distribution --></label>
+            <section>Distribution</section>
+        </sections>
+        <sections>
+            <label><!-- Gesamt --></label>
+            <section>Gesamt</section>
+        </sections>
+        <sections>
+            <label><!-- ROI --></label>
+            <section>ROI</section>
+        </sections>
+        <sections>
+            <label><!-- Umsatz fix --></label>
+            <section>Umsatz fix</section>
+        </sections>
+        <sections>
+            <label><!-- Umsatz variabel --></label>
+            <section>Umsatz variabel</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Media Building Block Monthly Plan Name --></nameFieldLabel>
+    <startsWith><!-- Consonant --></startsWith>
+    <validationRules>
+        <errorMessage><!-- BMV Sponsoring cannot be less then 0 --></errorMessage>
+        <name>MT_BMV_Sponsoring_MUST_BE_POSITIVE</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- BMV Spot cannot be less than 0 --></errorMessage>
+        <name>MT_BMW_Spot_MUST_BE_POSSITIVE</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Fix Revenue cannot be less than 0 --></errorMessage>
+        <name>MT_FIX_Revenue_MUST_BE_POSITIVE</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Der Monat befindet sich außerhalb des Vertragszeitraumes. --></errorMessage>
+        <name>MT_IsMonthInContractRuntime</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Only 5 Overbooking Flights can be created per month --></errorMessage>
+        <name>MT_Monthly_OverbookingFlights_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Value must be between 0% and 100% --></errorMessage>
+        <name>MT_Monthly_Probability_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Value cannot be lower than 0% --></errorMessage>
+        <name>MT_Monthly_ROIYield_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Only 20 Sponsoring Flights can be created per month --></errorMessage>
+        <name>MT_Monthly_SponsoringFlights_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Only 5 Spot Flights can be created per month --></errorMessage>
+        <name>MT_Monthly_SpotFlights_Validation</name>
+    </validationRules>
+</CustomObjectTranslation>

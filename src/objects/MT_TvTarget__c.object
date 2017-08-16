@@ -1,0 +1,1306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Enthält die prozentualen Verteilungen der TV- Ausstrahlungen auf Sender und Zeitschienen, die vertraglich vereinbart wurden. Initial gilt ein Mix für die gesamte Vertragslaufzeit, es kann aber zwischenzeitlich der Mix ab einem Stichmonat geändert werden. Im Reporting werden dann beide Mixe innerhalb ihrer jeweiligen Laufzeit mit den tatsächlichen Ausstrahlungen verglichen.</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>false</enableBulkApi>
+    <enableChangeDataCapture>false</enableChangeDataCapture>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>false</enableSharing>
+    <enableStreamingApi>false</enableStreamingApi>
+    <fieldSets>
+        <fullName>MT_ContextFields</fullName>
+        <description>Used for initializing the fields needed for app</description>
+        <displayedFields>
+            <field>MT_MediaCampaign_BMV__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Name</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Id</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LastModifiedDate</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_MediaCampaign_ref__r.Id</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_Type__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_MediaCampaign_ref__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_MediaCampaign_ref__r.Name</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_MediaCampaign_ref__r.MT_Opportunity_AccountId__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_MediaCampaign_ref__r.MT_Status__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_MediaCampaign_ref__r.MT_RunTimeTVStart__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_MediaCampaign_ref__r.MT_RunTimeTVEnd__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_MediaCampaign_ref__r.MT_BmvTv__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_MediaCampaign_ref__r.MT_ContractStartdate__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_MediaCampaign_ref__r.MT_ContractEnddate__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_MediaCampaign_ref__r.MT_Responsible_IM_Agent__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_MediaCampaign_ref__r.MT_IsOverbooking__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>CurrencyIsoCode</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>ContextFields</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>MT_VariableRevenueFields</fullName>
+        <description>Business Planning API</description>
+        <displayedFields>
+            <field>MT_MediaCampaign_ref__r.MT_VariableRevenue1_SoldProduct__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_MediaCampaign_ref__r.MT_VariableRevenue1_SoldUnit__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_MediaCampaign_ref__r.MT_VariableRevenue1_RevenuePerUnit__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_MediaCampaign_ref__r.MT_VariableRevenue1_SoldAmount__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_MediaCampaign_ref__r.MT_VariableRevenue1_TotalRevenue__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_MediaCampaign_ref__r.MT_VariableRevenue2_SoldProduct__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_MediaCampaign_ref__r.MT_VariableRevenue2_SoldUnit__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_MediaCampaign_ref__r.MT_VariableRevenue2_RevenuePerUnit__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_MediaCampaign_ref__r.MT_VariableRevenue2_SoldAmount__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_MediaCampaign_ref__r.MT_VariableRevenue2_TotalRevenue__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_MediaCampaign_ref__r.MT_VariableRevenue3_SoldProduct__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_MediaCampaign_ref__r.MT_VariableRevenue3_SoldUnit__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_MediaCampaign_ref__r.MT_VariableRevenue3_RevenuePerUnit__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_MediaCampaign_ref__r.MT_VariableRevenue3_SoldAmount__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_MediaCampaign_ref__r.MT_VariableRevenue3_TotalRevenue__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_MediaCampaign_ref__r.MT_VariableRevenue4_SoldProduct__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_MediaCampaign_ref__r.MT_VariableRevenue4_SoldUnit__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_MediaCampaign_ref__r.MT_VariableRevenue4_RevenuePerUnit__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_MediaCampaign_ref__r.MT_VariableRevenue4_SoldAmount__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_MediaCampaign_ref__r.MT_VariableRevenue4_TotalRevenue__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_MediaCampaign_ref__r.MT_VariableRevenue5_SoldProduct__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_MediaCampaign_ref__r.MT_VariableRevenue5_SoldUnit__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_MediaCampaign_ref__r.MT_VariableRevenue5_RevenuePerUnit__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_MediaCampaign_ref__r.MT_VariableRevenue5_SoldAmount__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_MediaCampaign_ref__r.MT_VariableRevenue5_TotalRevenue__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Variable Revenue Fields</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>MT_YieldFields</fullName>
+        <description>Business Planning API</description>
+        <displayedFields>
+            <field>MT_MediaCampaign_ref__r.MT_OppApp_HasMediaBarter__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_MediaCampaign_ref__r.MT_OppApp_HasMediaPartBarter__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_MediaCampaign_ref__r.MT_NetBarterVolume__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_MediaCampaign_ref__r.MT_FixRevenue_Type__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_MediaCampaign_ref__r.MT_Mn3TvCustomerIntegration__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_MediaCampaign_ref__r.MT_FixRevenue_MonthlyPayment__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_MediaCampaign_ref__r.MT_FixRevenue_Yield__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_MediaCampaign_ref__r.MT_FillUp__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_MediaCampaign_ref__r.MT_ExitParticipation__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_MediaCampaign_ref__r.MT_EigenerBuchwertinEUR__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_MediaCampaign_ref__r.MT_CashZahlung__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_MediaCampaign_ref__r.MT_VariableRevenue_TotalRevenue__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_MediaCampaign_ref__r.MT_VariableRevenue_ConsiderationPeriod__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Yield Fields</label>
+    </fieldSets>
+    <fields>
+        <fullName>MT_MediaCampaign_BMV__c</fullName>
+        <description>VERALTET: Kann gelöscht werden. Im Businessplan wird dieses Feld noch verwendet, sobald das auf das entsprechende Feld der Kampagne umgestellt wurde, wird dieses Feld nicht mehr benötigt.
+
+Alt:
+Zieht das BMV TV von der Kampagne zur Vereinfachung der abhängigen Formeln und Berechnungen.</description>
+        <externalId>false</externalId>
+        <formula>CASE( MT_Type__c , &quot;TV&quot;,  MT_MediaCampaign_ref__r.MT_BmvTv__c , 0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Media Campaign BMV</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>MT_MediaCampaign_ref__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <description>Die Kampagne, zu der diese Zielvorgaben gehören.</description>
+        <externalId>false</externalId>
+        <label>Media Campaign</label>
+        <referenceTo>MT_MediaCampaign__c</referenceTo>
+        <relationshipLabel>TV Zielvorgaben</relationshipLabel>
+        <relationshipName>TvTargets</relationshipName>
+        <required>true</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>MT_SendershareContractCommitted__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Wenn aktiviert, müssen alle Sendershare- Felder ausgefüllt werden.</description>
+        <externalId>false</externalId>
+        <label>Sendershare vertraglich committed</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>MT_TimeShare01000600Max__c</fullName>
+        <description>Maximum share of the media delivery on this timeslot</description>
+        <externalId>false</externalId>
+        <label>Share Time 01:00 - 06:00 Max</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>MT_TimeShare01000600Min__c</fullName>
+        <description>Minimum share of the media delivery on this timeslot</description>
+        <externalId>false</externalId>
+        <label>Share Time 01:00 - 06:00 Min</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>MT_TimeShare06000900Max__c</fullName>
+        <description>Maximum share of the media delivery on this timeslot</description>
+        <externalId>false</externalId>
+        <label>Share Time 06:00 - 09:00 Max</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>MT_TimeShare06000900Min__c</fullName>
+        <description>Minimum share of the media delivery on this timeslot</description>
+        <externalId>false</externalId>
+        <label>Share Time 06:00 - 09:00 Min</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>MT_TimeShare09001300Max__c</fullName>
+        <description>Maximum share of the media delivery on this timeslot</description>
+        <externalId>false</externalId>
+        <label>Share Time 09:00 - 13:00 Max</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>MT_TimeShare09001300Min__c</fullName>
+        <description>Minimum share of the media delivery on this timeslot</description>
+        <externalId>false</externalId>
+        <label>Share Time 09:00 - 13:00 Min</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>MT_TimeShare13001700Max__c</fullName>
+        <description>Maximum share of the media delivery on this timeslot</description>
+        <externalId>false</externalId>
+        <label>Share Time 13:00 - 17:00 Max</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>MT_TimeShare13001700Min__c</fullName>
+        <description>Minimum share of the media delivery on this timeslot</description>
+        <externalId>false</externalId>
+        <label>Share Time 13:00 - 17:00 Min</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>MT_TimeShare17002000Max__c</fullName>
+        <description>Maximum share of the media delivery on this timeslot</description>
+        <externalId>false</externalId>
+        <label>Share Time 17:00 - 20:00 Max</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>MT_TimeShare17002000Min__c</fullName>
+        <description>Minimum share of the media delivery on this timeslot</description>
+        <externalId>false</externalId>
+        <label>Share Time 17:00 - 20:00 Min</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>MT_TimeShare20002300Max__c</fullName>
+        <description>Maximum share of the media delivery on this timeslot</description>
+        <externalId>false</externalId>
+        <label>Share Time 20:00 - 23:00 Max</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>MT_TimeShare20002300Min__c</fullName>
+        <description>Minimum share of the media delivery on this timeslot</description>
+        <externalId>false</externalId>
+        <label>Share Time 20:00 - 23:00 Min</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>MT_TimeShare23000100Max__c</fullName>
+        <description>Maximum share of the media delivery on this timeslot</description>
+        <externalId>false</externalId>
+        <label>Share Time 23:00 - 01:00 Max</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>MT_TimeShare23000100Min__c</fullName>
+        <description>Minimum share of the media delivery on this timeslot</description>
+        <externalId>false</externalId>
+        <label>Share Time 23:00 - 01:00 Min</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>MT_TimelinesharesContractCommitted__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Wenn aktiviert, müssen alle Zeitschienenshares ausgefüllt werden.</description>
+        <externalId>false</externalId>
+        <label>Zeitschienenshares vertraglich committed</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>MT_TvShareKabelEinsClassicsMax__c</fullName>
+        <description>Maximum share of the media delivery on this TV channel</description>
+        <externalId>false</externalId>
+        <label>Share Channel kabel eins CLASSICS Max</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>MT_TvShareKabelEinsClassicsMin__c</fullName>
+        <description>Minimum share of the media delivery on this TV channel</description>
+        <externalId>false</externalId>
+        <label>Share Channel kabel eins CLASSICS Min</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>MT_TvShareKabelEinsDokuMax__c</fullName>
+        <description>Maximum share of the media delivery on this TV channel</description>
+        <externalId>false</externalId>
+        <label>Share Channel kabel eins Doku Max</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>MT_TvShareKabelEinsDokuMin__c</fullName>
+        <description>Minimum share of the media delivery on this TV channel</description>
+        <externalId>false</externalId>
+        <label>Share Channel kabel eins Doku Min</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>MT_TvShareKabelEinsMax__c</fullName>
+        <description>Maximum share of the media delivery on this TV channel</description>
+        <externalId>false</externalId>
+        <label>Share Channel kabel eins Max</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>MT_TvShareKabelEinsMin__c</fullName>
+        <description>Minimum share of the media delivery on this TV channel</description>
+        <externalId>false</externalId>
+        <label>Share Channel kabel eins Min</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>MT_TvShareProSiebenFunMax__c</fullName>
+        <description>Maximum share of the media delivery on this TV channel</description>
+        <externalId>false</externalId>
+        <label>Share Channel ProSieben FUN Max</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>MT_TvShareProSiebenFunMin__c</fullName>
+        <description>Minimum share of the media delivery on this TV channel</description>
+        <externalId>false</externalId>
+        <label>Share Channel ProSieben FUN Min</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>MT_TvShareProSiebenMax__c</fullName>
+        <description>Maximum share of the media delivery on this TV channel</description>
+        <externalId>false</externalId>
+        <label>Share Channel ProSieben Max</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>MT_TvShareProSiebenMaxxMax__c</fullName>
+        <description>Maximum share of the media delivery on this TV channel</description>
+        <externalId>false</externalId>
+        <label>Share Channel ProSieben MAXX Max</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>MT_TvShareProSiebenMaxxMin__c</fullName>
+        <description>Minimum share of the media delivery on this TV channel</description>
+        <externalId>false</externalId>
+        <label>Share Channel ProSieben MAXX Min</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>MT_TvShareProSiebenMin__c</fullName>
+        <description>Minimum share of the media delivery on this TV channel</description>
+        <externalId>false</externalId>
+        <label>Share Channel ProSieben Min</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>MT_TvShareSat1EmotionsMax__c</fullName>
+        <description>Maximum share of the media delivery on this TV channel</description>
+        <externalId>false</externalId>
+        <label>Share Channel SAT.1 emotions Max</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>MT_TvShareSat1EmotionsMin__c</fullName>
+        <description>Minimum share of the media delivery on this TV channel</description>
+        <externalId>false</externalId>
+        <label>Share Channel SAT.1 emotions Min</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>MT_TvShareSat1GoldMax__c</fullName>
+        <description>Maximum share of the media delivery on this TV channel</description>
+        <externalId>false</externalId>
+        <label>Share Channel SAT.1 Gold Max</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>MT_TvShareSat1GoldMin__c</fullName>
+        <description>Minimum share of the media delivery on this TV channel</description>
+        <externalId>false</externalId>
+        <label>Share Channel SAT.1 Gold Min</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>MT_TvShareSat1Max__c</fullName>
+        <description>Maximum share of the media delivery on this TV channel</description>
+        <externalId>false</externalId>
+        <label>Share Channel SAT.1 Max</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>MT_TvShareSat1Min__c</fullName>
+        <description>Minimum share of the media delivery on this TV channel</description>
+        <externalId>false</externalId>
+        <label>Share Channel SAT.1 Min</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>MT_TvShareSixxMax__c</fullName>
+        <description>Maximum share of the media delivery on this TV channel</description>
+        <externalId>false</externalId>
+        <label>Share Channel sixx Max</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>MT_TvShareSixxMin__c</fullName>
+        <description>Minimum share of the media delivery on this TV channel</description>
+        <externalId>false</externalId>
+        <label>Share Channel sixx Min</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>MT_Type__c</fullName>
+        <description>VERALTET: Wird nicht benötigt und kann gelöscht werden. Alle Abhängigkeiten zu diesem Feld brauchen die Unterscheidung nicht mehr, da das gesamte Objekt nur noch für TV gilt.
+
+Alt:
+Unterscheidet den Typ des Bausteins nach TV, Digital oder DooH.</description>
+        <externalId>false</externalId>
+        <label>Type</label>
+        <required>true</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>TV</fullName>
+                    <default>false</default>
+                    <label>TV</label>
+                </value>
+                <value>
+                    <fullName>Digital</fullName>
+                    <default>false</default>
+                    <label>Digital</label>
+                </value>
+                <value>
+                    <fullName>DooH</fullName>
+                    <default>false</default>
+                    <label>DooH</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <label>TV Target</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>MT_MediaCampaign_ref__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+        <language>en_US</language>
+    </listViews>
+    <nameField>
+        <displayFormat>TVT-{000000}</displayFormat>
+        <label>TV Target Name</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>TV Targets</pluralLabel>
+    <searchLayouts>
+        <excludedStandardButtons>New</excludedStandardButtons>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>MT_Block_Channel_Share_Max_Validation10</fullName>
+        <active>true</active>
+        <errorConditionFormula>OR(AND( MT_SendershareContractCommitted__c,ISBLANK(MT_TvShareSixxMax__c )),MT_TvShareSixxMax__c &gt; 1, MT_TvShareSixxMax__c &lt; 0)</errorConditionFormula>
+        <errorDisplayField>MT_TvShareSixxMax__c</errorDisplayField>
+        <errorMessage>Value must be between 0% and 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_Block_Channel_Share_Max_Validation_1</fullName>
+        <active>false</active>
+        <errorConditionFormula>OR(AND(MT_SendershareContractCommitted__c,ISBLANK(MT_TvShareKabelEinsClassicsMax__c)), MT_TvShareKabelEinsClassicsMax__c &lt; 0, MT_TvShareKabelEinsClassicsMax__c &gt; 1)</errorConditionFormula>
+        <errorDisplayField>MT_TvShareKabelEinsClassicsMax__c</errorDisplayField>
+        <errorMessage>Value must be between 0% and 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_Block_Channel_Share_Max_Validation_2</fullName>
+        <active>true</active>
+        <errorConditionFormula>OR(AND(MT_SendershareContractCommitted__c,ISBLANK(MT_TvShareKabelEinsDokuMax__c)), MT_TvShareKabelEinsDokuMax__c &lt; 0, MT_TvShareKabelEinsDokuMax__c &gt; 1)</errorConditionFormula>
+        <errorDisplayField>MT_TvShareKabelEinsDokuMax__c</errorDisplayField>
+        <errorMessage>Value must be between 0% and 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_Block_Channel_Share_Max_Validation_3</fullName>
+        <active>true</active>
+        <errorConditionFormula>OR( AND(MT_SendershareContractCommitted__c,ISBLANK(MT_TvShareKabelEinsMax__c)),MT_TvShareKabelEinsMax__c &gt; 1, MT_TvShareKabelEinsMax__c &lt; 0)</errorConditionFormula>
+        <errorDisplayField>MT_TvShareKabelEinsMax__c</errorDisplayField>
+        <errorMessage>Value must be between 0% and 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_Block_Channel_Share_Max_Validation_4</fullName>
+        <active>false</active>
+        <errorConditionFormula>OR( AND(MT_SendershareContractCommitted__c,ISBLANK(MT_TvShareProSiebenFunMax__c)),MT_TvShareProSiebenFunMax__c &gt; 1,MT_TvShareProSiebenFunMax__c &lt; 0)</errorConditionFormula>
+        <errorDisplayField>MT_TvShareProSiebenFunMax__c</errorDisplayField>
+        <errorMessage>Value must be between 0% and 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_Block_Channel_Share_Max_Validation_5</fullName>
+        <active>true</active>
+        <errorConditionFormula>OR( AND(MT_SendershareContractCommitted__c,ISBLANK(MT_TvShareProSiebenMax__c)),MT_TvShareProSiebenMax__c &gt; 1, MT_TvShareProSiebenMax__c &lt; 0)</errorConditionFormula>
+        <errorDisplayField>MT_TvShareProSiebenMax__c</errorDisplayField>
+        <errorMessage>Value must be between 0% and 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_Block_Channel_Share_Max_Validation_6</fullName>
+        <active>true</active>
+        <errorConditionFormula>OR( AND(MT_SendershareContractCommitted__c,ISBLANK(MT_TvShareProSiebenMaxxMax__c)),MT_TvShareProSiebenMaxxMax__c &gt; 1,MT_TvShareProSiebenMaxxMax__c &lt; 0)</errorConditionFormula>
+        <errorDisplayField>MT_TvShareProSiebenMaxxMax__c</errorDisplayField>
+        <errorMessage>Value must be between 0% and 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_Block_Channel_Share_Max_Validation_7</fullName>
+        <active>false</active>
+        <errorConditionFormula>OR( AND(MT_SendershareContractCommitted__c,ISBLANK(MT_TvShareSat1EmotionsMax__c)),MT_TvShareSat1EmotionsMax__c &gt; 1,MT_TvShareSat1EmotionsMax__c &lt; 0)</errorConditionFormula>
+        <errorDisplayField>MT_TvShareSat1EmotionsMax__c</errorDisplayField>
+        <errorMessage>Value must be between 0% and 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_Block_Channel_Share_Max_Validation_8</fullName>
+        <active>true</active>
+        <errorConditionFormula>OR(AND(MT_SendershareContractCommitted__c,ISBLANK(MT_TvShareSat1GoldMax__c)), MT_TvShareSat1GoldMax__c &gt; 1,MT_TvShareSat1GoldMax__c &lt; 0)</errorConditionFormula>
+        <errorDisplayField>MT_TvShareSat1GoldMax__c</errorDisplayField>
+        <errorMessage>Value must be between 0% and 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_Block_Channel_Share_Max_Validation_9</fullName>
+        <active>true</active>
+        <errorConditionFormula>OR(AND( MT_SendershareContractCommitted__c,ISBLANK(MT_TvShareSat1Max__c )),MT_TvShareSat1Max__c &gt; 1 , MT_TvShareSat1Max__c &lt; 0)</errorConditionFormula>
+        <errorDisplayField>MT_TvShareSat1Max__c</errorDisplayField>
+        <errorMessage>Value must be between 0% and 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_Block_Channel_Share_Min_Validation10</fullName>
+        <active>true</active>
+        <errorConditionFormula>OR(AND( MT_SendershareContractCommitted__c,ISBLANK(MT_TvShareSixxMin__c )),MT_TvShareSixxMin__c &lt; 0,MT_TvShareSixxMin__c &gt; 1)</errorConditionFormula>
+        <errorDisplayField>MT_TvShareSixxMin__c</errorDisplayField>
+        <errorMessage>Value must be between 0% and 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_Block_Channel_Share_Min_Validation_1</fullName>
+        <active>false</active>
+        <errorConditionFormula>OR( AND(MT_SendershareContractCommitted__c,ISBLANK(MT_TvShareKabelEinsClassicsMin__c)),MT_TvShareKabelEinsClassicsMin__c &lt; 0 , MT_TvShareKabelEinsClassicsMin__c &gt; 1)</errorConditionFormula>
+        <errorDisplayField>MT_TvShareKabelEinsClassicsMin__c</errorDisplayField>
+        <errorMessage>Value must be between 0% and 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_Block_Channel_Share_Min_Validation_2</fullName>
+        <active>true</active>
+        <errorConditionFormula>OR( AND(MT_SendershareContractCommitted__c,ISBLANK(MT_TvShareKabelEinsDokuMin__c)),MT_TvShareKabelEinsDokuMin__c &lt; 0, MT_TvShareKabelEinsDokuMin__c &gt; 1)</errorConditionFormula>
+        <errorDisplayField>MT_TvShareKabelEinsDokuMin__c</errorDisplayField>
+        <errorMessage>Value must be between 0% and 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_Block_Channel_Share_Min_Validation_3</fullName>
+        <active>true</active>
+        <errorConditionFormula>OR( AND(MT_SendershareContractCommitted__c,ISBLANK(MT_TvShareKabelEinsMin__c)),MT_TvShareKabelEinsMin__c &lt; 0, MT_TvShareKabelEinsMin__c &gt; 1)</errorConditionFormula>
+        <errorDisplayField>MT_TvShareKabelEinsMin__c</errorDisplayField>
+        <errorMessage>Value must be between 0% and 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_Block_Channel_Share_Min_Validation_4</fullName>
+        <active>false</active>
+        <errorConditionFormula>OR( AND(MT_SendershareContractCommitted__c,ISBLANK(MT_TvShareProSiebenFunMin__c)),MT_TvShareProSiebenFunMin__c &lt; 0,MT_TvShareProSiebenFunMin__c &gt; 1)</errorConditionFormula>
+        <errorDisplayField>MT_TvShareProSiebenFunMin__c</errorDisplayField>
+        <errorMessage>Value must be between 0% and 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_Block_Channel_Share_Min_Validation_5</fullName>
+        <active>true</active>
+        <errorConditionFormula>OR( AND(MT_SendershareContractCommitted__c,ISBLANK(MT_TvShareProSiebenMin__c)),MT_TvShareProSiebenMin__c &lt; 0,MT_TvShareProSiebenMin__c &gt; 1)</errorConditionFormula>
+        <errorDisplayField>MT_TvShareProSiebenMin__c</errorDisplayField>
+        <errorMessage>Value must be between 0% and 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_Block_Channel_Share_Min_Validation_6</fullName>
+        <active>true</active>
+        <errorConditionFormula>OR( AND(MT_SendershareContractCommitted__c,ISBLANK(MT_TvShareProSiebenMaxxMin__c)),MT_TvShareProSiebenMaxxMin__c &lt; 0,MT_TvShareProSiebenMaxxMin__c &gt; 1)</errorConditionFormula>
+        <errorDisplayField>MT_TvShareProSiebenMaxxMin__c</errorDisplayField>
+        <errorMessage>Value must be between 0% and 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_Block_Channel_Share_Min_Validation_7</fullName>
+        <active>false</active>
+        <errorConditionFormula>OR( AND(MT_SendershareContractCommitted__c,ISBLANK(MT_TvShareSat1EmotionsMin__c)),MT_TvShareSat1EmotionsMin__c &lt; 0,MT_TvShareSat1EmotionsMin__c &gt; 1)</errorConditionFormula>
+        <errorDisplayField>MT_TvShareSat1EmotionsMin__c</errorDisplayField>
+        <errorMessage>Value must be between 0% and 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_Block_Channel_Share_Min_Validation_8</fullName>
+        <active>true</active>
+        <errorConditionFormula>OR( AND(MT_SendershareContractCommitted__c,ISBLANK(MT_TvShareSat1GoldMin__c)),MT_TvShareSat1GoldMin__c &lt; 0,MT_TvShareSat1GoldMin__c &gt; 1)</errorConditionFormula>
+        <errorDisplayField>MT_TvShareSat1GoldMin__c</errorDisplayField>
+        <errorMessage>Value must be between 0% and 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_Block_Channel_Share_Min_Validation_9</fullName>
+        <active>true</active>
+        <errorConditionFormula>OR( AND(MT_SendershareContractCommitted__c, ISBLANK(MT_TvShareSat1Min__c)),MT_TvShareSat1Min__c &lt; 0,MT_TvShareSat1Min__c &gt; 1)</errorConditionFormula>
+        <errorDisplayField>MT_TvShareSat1Min__c</errorDisplayField>
+        <errorMessage>Value must be between 0% and 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_Block_Time_Share_Max_Validation_1</fullName>
+        <active>true</active>
+        <errorConditionFormula>OR( AND(MT_TimelinesharesContractCommitted__c,ISBLANK(MT_TimeShare01000600Max__c)),MT_TimeShare01000600Max__c &gt; 1,MT_TimeShare01000600Max__c &lt; 0)</errorConditionFormula>
+        <errorDisplayField>MT_TimeShare01000600Max__c</errorDisplayField>
+        <errorMessage>Value must be between 0% and 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_Block_Time_Share_Max_Validation_2</fullName>
+        <active>true</active>
+        <errorConditionFormula>OR( AND(MT_TimelinesharesContractCommitted__c,ISBLANK(MT_TimeShare06000900Max__c)),MT_TimeShare06000900Max__c &gt; 1 ,MT_TimeShare06000900Max__c &lt; 0)</errorConditionFormula>
+        <errorDisplayField>MT_TimeShare06000900Max__c</errorDisplayField>
+        <errorMessage>Value must be between 0% and 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_Block_Time_Share_Max_Validation_3</fullName>
+        <active>true</active>
+        <errorConditionFormula>OR( AND(MT_TimelinesharesContractCommitted__c,ISBLANK(MT_TimeShare09001300Max__c)),MT_TimeShare09001300Max__c &gt; 1,MT_TimeShare09001300Max__c &lt; 0)</errorConditionFormula>
+        <errorDisplayField>MT_TimeShare09001300Max__c</errorDisplayField>
+        <errorMessage>Value must be between 0% and 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_Block_Time_Share_Max_Validation_4</fullName>
+        <active>true</active>
+        <errorConditionFormula>OR( AND(MT_TimelinesharesContractCommitted__c,ISBLANK(MT_TimeShare13001700Max__c)),MT_TimeShare13001700Max__c &gt; 1,MT_TimeShare13001700Max__c &lt; 0)</errorConditionFormula>
+        <errorDisplayField>MT_TimeShare13001700Max__c</errorDisplayField>
+        <errorMessage>Value must be between 0% and 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_Block_Time_Share_Max_Validation_5</fullName>
+        <active>true</active>
+        <errorConditionFormula>OR( AND(MT_TimelinesharesContractCommitted__c,ISBLANK(MT_TimeShare17002000Max__c)),MT_TimeShare17002000Max__c &gt; 1,MT_TimeShare17002000Max__c &lt; 0)</errorConditionFormula>
+        <errorDisplayField>MT_TimeShare17002000Max__c</errorDisplayField>
+        <errorMessage>Value must be between 0% and 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_Block_Time_Share_Max_Validation_6</fullName>
+        <active>true</active>
+        <errorConditionFormula>OR( AND(MT_TimelinesharesContractCommitted__c,ISBLANK(MT_TimeShare20002300Max__c)),MT_TimeShare20002300Max__c &gt; 1,MT_TimeShare20002300Max__c &lt; 0)</errorConditionFormula>
+        <errorDisplayField>MT_TimeShare20002300Max__c</errorDisplayField>
+        <errorMessage>Value must be between 0% and 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_Block_Time_Share_Max_Validation_7</fullName>
+        <active>true</active>
+        <errorConditionFormula>OR( AND(MT_TimelinesharesContractCommitted__c,ISBLANK(MT_TimeShare23000100Max__c)),MT_TimeShare23000100Max__c &gt; 1,MT_TimeShare23000100Max__c &lt; 0)</errorConditionFormula>
+        <errorDisplayField>MT_TimeShare23000100Max__c</errorDisplayField>
+        <errorMessage>Value must be between 0% and 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_Block_Time_Share_Min_Validation_1</fullName>
+        <active>true</active>
+        <errorConditionFormula>OR( AND(MT_TimelinesharesContractCommitted__c,ISBLANK(MT_TimeShare01000600Min__c)),MT_TimeShare01000600Min__c &lt; 0,MT_TimeShare01000600Min__c &gt; 1)</errorConditionFormula>
+        <errorDisplayField>MT_TimeShare01000600Min__c</errorDisplayField>
+        <errorMessage>Value must be between 0% and 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_Block_Time_Share_Min_Validation_2</fullName>
+        <active>true</active>
+        <errorConditionFormula>OR( AND(MT_TimelinesharesContractCommitted__c,ISBLANK(MT_TimeShare06000900Min__c)),MT_TimeShare06000900Min__c &lt; 0,MT_TimeShare06000900Min__c &gt; 1)</errorConditionFormula>
+        <errorDisplayField>MT_TimeShare06000900Min__c</errorDisplayField>
+        <errorMessage>Value must be between 0% and 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_Block_Time_Share_Min_Validation_3</fullName>
+        <active>true</active>
+        <errorConditionFormula>OR( AND(MT_TimelinesharesContractCommitted__c,ISBLANK(MT_TimeShare09001300Min__c)),MT_TimeShare09001300Min__c &lt; 0,MT_TimeShare09001300Min__c &gt; 1)</errorConditionFormula>
+        <errorDisplayField>MT_TimeShare09001300Min__c</errorDisplayField>
+        <errorMessage>Value must be between 0% and 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_Block_Time_Share_Min_Validation_4</fullName>
+        <active>true</active>
+        <errorConditionFormula>OR( AND(MT_TimelinesharesContractCommitted__c,ISBLANK(MT_TimeShare13001700Min__c)),MT_TimeShare13001700Min__c &lt; 0,MT_TimeShare13001700Min__c &gt; 1)</errorConditionFormula>
+        <errorDisplayField>MT_TimeShare13001700Min__c</errorDisplayField>
+        <errorMessage>Value must be between 0% and 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_Block_Time_Share_Min_Validation_5</fullName>
+        <active>true</active>
+        <errorConditionFormula>OR( AND(MT_TimelinesharesContractCommitted__c,ISBLANK(MT_TimeShare17002000Min__c)),MT_TimeShare17002000Min__c &lt; 0,MT_TimeShare17002000Min__c &gt; 1)</errorConditionFormula>
+        <errorDisplayField>MT_TimeShare17002000Min__c</errorDisplayField>
+        <errorMessage>Value must be between 0% and 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_Block_Time_Share_Min_Validation_6</fullName>
+        <active>true</active>
+        <errorConditionFormula>OR( AND(MT_TimelinesharesContractCommitted__c,ISBLANK(MT_TimeShare20002300Min__c)),MT_TimeShare20002300Min__c &lt; 0,MT_TimeShare20002300Min__c &gt; 1)</errorConditionFormula>
+        <errorDisplayField>MT_TimeShare20002300Min__c</errorDisplayField>
+        <errorMessage>Value must be between 0% and 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_Block_Time_Share_Min_Validation_7</fullName>
+        <active>true</active>
+        <errorConditionFormula>OR( AND(MT_TimelinesharesContractCommitted__c,ISBLANK(MT_TimeShare23000100Min__c)),MT_TimeShare23000100Min__c &lt; 0,MT_TimeShare23000100Min__c &gt; 1)</errorConditionFormula>
+        <errorDisplayField>MT_TimeShare23000100Min__c</errorDisplayField>
+        <errorMessage>Value must be between 0% and 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_MBB_0106_MaxLtMin</fullName>
+        <active>true</active>
+        <description>Validates that the max. share for this timeslot is greater than its min. share.</description>
+        <errorConditionFormula>AND(NOT(ISBLANK(MT_TimeShare01000600Max__c)), NOT(ISBLANK(MT_TimeShare01000600Min__c)), MT_TimeShare01000600Min__c &gt; MT_TimeShare01000600Max__c)</errorConditionFormula>
+        <errorDisplayField>MT_TimeShare01000600Max__c</errorDisplayField>
+        <errorMessage>Der maximale Anteil darf nicht kleiner als der minimale Anteil sein.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_MBB_0609_MaxLtMin</fullName>
+        <active>true</active>
+        <description>Validates that the max. share for this timeslot is greater than its min. share.</description>
+        <errorConditionFormula>AND(NOT(ISBLANK(MT_TimeShare06000900Max__c)), NOT(ISBLANK(MT_TimeShare06000900Min__c)), MT_TimeShare06000900Min__c &gt; MT_TimeShare06000900Max__c)</errorConditionFormula>
+        <errorDisplayField>MT_TimeShare06000900Max__c</errorDisplayField>
+        <errorMessage>Der maximale Anteil darf nicht kleiner als der minimale Anteil sein.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_MBB_0913_MaxLtMin</fullName>
+        <active>true</active>
+        <description>Validates that the max. share for this timeslot is greater than its min. share.</description>
+        <errorConditionFormula>AND(NOT(ISBLANK(MT_TimeShare09001300Max__c)), NOT(ISBLANK(MT_TimeShare09001300Min__c)), MT_TimeShare09001300Min__c &gt; MT_TimeShare09001300Max__c)</errorConditionFormula>
+        <errorDisplayField>MT_TimeShare09001300Max__c</errorDisplayField>
+        <errorMessage>Der maximale Anteil darf nicht kleiner als der minimale Anteil sein.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_MBB_1317_MaxLtMin</fullName>
+        <active>true</active>
+        <description>Validates that the max. share for this timeslot is greater than its min. share.</description>
+        <errorConditionFormula>AND(NOT(ISBLANK(MT_TimeShare13001700Max__c)), NOT(ISBLANK(MT_TimeShare13001700Min__c)), MT_TimeShare13001700Min__c &gt; MT_TimeShare13001700Max__c)</errorConditionFormula>
+        <errorDisplayField>MT_TimeShare13001700Max__c</errorDisplayField>
+        <errorMessage>Der maximale Anteil darf nicht kleiner als der minimale Anteil sein.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_MBB_1720_MaxLtMin</fullName>
+        <active>true</active>
+        <description>Validates that the max. share for this timeslot is greater than its min. share.</description>
+        <errorConditionFormula>AND(NOT(ISBLANK(MT_TimeShare17002000Max__c)), NOT(ISBLANK(MT_TimeShare17002000Min__c)), MT_TimeShare17002000Min__c &gt; MT_TimeShare17002000Max__c)</errorConditionFormula>
+        <errorDisplayField>MT_TimeShare17002000Max__c</errorDisplayField>
+        <errorMessage>Der maximale Anteil darf nicht kleiner als der minimale Anteil sein.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_MBB_2023_MaxLtMin</fullName>
+        <active>true</active>
+        <description>Validates that the max. share for this timeslot is greater than its min. share.</description>
+        <errorConditionFormula>AND(NOT(ISBLANK(MT_TimeShare20002300Max__c)), NOT(ISBLANK(MT_TimeShare20002300Min__c)), MT_TimeShare20002300Min__c &gt; MT_TimeShare20002300Max__c)</errorConditionFormula>
+        <errorDisplayField>MT_TimeShare20002300Max__c</errorDisplayField>
+        <errorMessage>Der maximale Anteil darf nicht kleiner als der minimale Anteil sein.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_MBB_2301_MaxLtMin</fullName>
+        <active>true</active>
+        <description>Validates that the max. share for this timeslot is greater than its min. share.</description>
+        <errorConditionFormula>AND(NOT(ISBLANK(MT_TimeShare23000100Max__c)), NOT(ISBLANK(MT_TimeShare23000100Min__c)), MT_TimeShare23000100Min__c &gt; MT_TimeShare23000100Max__c)</errorConditionFormula>
+        <errorDisplayField>MT_TimeShare23000100Max__c</errorDisplayField>
+        <errorMessage>Der maximale Anteil darf nicht kleiner als der minimale Anteil sein.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_MBB_ChannelShares_SumMax_LT_100</fullName>
+        <active>true</active>
+        <description>Checks that the sum of all maximum sender shares is at least 100%</description>
+        <errorConditionFormula>AND(OR(NOT(ISNULL(MT_TvShareKabelEinsClassicsMax__c)), NOT(ISNULL(MT_TvShareKabelEinsDokuMax__c)), NOT(ISNULL(MT_TvShareKabelEinsMax__c)), NOT(ISNULL(MT_TvShareProSiebenFunMax__c)), NOT(ISNULL(MT_TvShareProSiebenMaxxMax__c)), NOT(ISNULL(MT_TvShareProSiebenMax__c)), NOT(ISNULL(MT_TvShareSat1EmotionsMax__c)), NOT(ISNULL(MT_TvShareSat1GoldMax__c)), NOT(ISNULL(MT_TvShareSat1Max__c)), NOT(ISNULL(MT_TvShareSixxMax__c))), NULLVALUE(MT_TvShareKabelEinsClassicsMax__c, 0) + NULLVALUE(MT_TvShareKabelEinsDokuMax__c, 0) + NULLVALUE(MT_TvShareKabelEinsMax__c, 0) + NULLVALUE(MT_TvShareProSiebenFunMax__c, 0) + NULLVALUE(MT_TvShareProSiebenMaxxMax__c, 0) + NULLVALUE(MT_TvShareProSiebenMax__c, 0) + NULLVALUE(MT_TvShareSat1EmotionsMax__c, 0) + NULLVALUE(MT_TvShareSat1GoldMax__c, 0) + NULLVALUE(MT_TvShareSat1Max__c, 0) + NULLVALUE(MT_TvShareSixxMax__c, 0) &lt; 1)</errorConditionFormula>
+        <errorMessage>Die Summe des Maximums der Senderanteile muss mindestens 100% erreichen.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_MBB_ChannelShares_SumMin_GT_100</fullName>
+        <active>true</active>
+        <description>Checks that the sum of all minimum sender shares does not exceed 100%</description>
+        <errorConditionFormula>NULLVALUE(MT_TvShareKabelEinsClassicsMin__c, 0) + NULLVALUE(MT_TvShareKabelEinsDokuMin__c, 0) + NULLVALUE(MT_TvShareKabelEinsMin__c, 0) + NULLVALUE(MT_TvShareProSiebenFunMin__c, 0) + NULLVALUE(MT_TvShareProSiebenMaxxMin__c, 0) + NULLVALUE(MT_TvShareProSiebenMin__c, 0) + NULLVALUE(MT_TvShareSat1EmotionsMin__c, 0) + NULLVALUE(MT_TvShareSat1GoldMin__c, 0) + NULLVALUE(MT_TvShareSat1Min__c, 0) + NULLVALUE(MT_TvShareSixxMin__c, 0) &gt; 1</errorConditionFormula>
+        <errorMessage>Die Summe des Minimums der Senderanteile darf 100% nicht übersteigen.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_MBB_KabelEinsClassics_MaxLtMin</fullName>
+        <active>true</active>
+        <description>Validates that the max. share for this channel is greater than its min. share.</description>
+        <errorConditionFormula>AND(NOT(ISBLANK(MT_TvShareKabelEinsClassicsMax__c)), NOT(ISBLANK(MT_TvShareKabelEinsClassicsMin__c)), MT_TvShareKabelEinsClassicsMin__c &gt; MT_TvShareKabelEinsClassicsMax__c)</errorConditionFormula>
+        <errorDisplayField>MT_TvShareKabelEinsClassicsMax__c</errorDisplayField>
+        <errorMessage>Der maximale Anteil darf nicht kleiner als der minimale Anteil sein.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_MBB_KabelEinsDoku_MaxLtMin</fullName>
+        <active>true</active>
+        <description>Validates that the max. share for this channel is greater than its min. share.</description>
+        <errorConditionFormula>AND(NOT(ISBLANK(MT_TvShareKabelEinsDokuMax__c)), NOT(ISBLANK(MT_TvShareKabelEinsDokuMin__c)), MT_TvShareKabelEinsDokuMin__c &gt; MT_TvShareKabelEinsDokuMax__c)</errorConditionFormula>
+        <errorDisplayField>MT_TvShareKabelEinsDokuMax__c</errorDisplayField>
+        <errorMessage>Der maximale Anteil darf nicht kleiner als der minimale Anteil sein.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_MBB_KabelEins_MaxLtMin</fullName>
+        <active>true</active>
+        <description>Validates that the max. share for this channel is greater than its min. share.</description>
+        <errorConditionFormula>AND(NOT(ISBLANK(MT_TvShareKabelEinsMax__c)), NOT(ISBLANK(MT_TvShareKabelEinsMin__c)), MT_TvShareKabelEinsMin__c &gt; MT_TvShareKabelEinsMax__c)</errorConditionFormula>
+        <errorDisplayField>MT_TvShareKabelEinsMax__c</errorDisplayField>
+        <errorMessage>Der maximale Anteil darf nicht kleiner als der minimale Anteil sein.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_MBB_ProSiebenFun_MaxLtMin</fullName>
+        <active>true</active>
+        <description>Validates that the max. share for this channel is greater than its min. share.</description>
+        <errorConditionFormula>AND(NOT(ISBLANK(MT_TvShareProSiebenFunMax__c)), NOT(ISBLANK(MT_TvShareProSiebenFunMin__c)), MT_TvShareProSiebenFunMin__c &gt; MT_TvShareProSiebenFunMax__c)</errorConditionFormula>
+        <errorDisplayField>MT_TvShareProSiebenFunMax__c</errorDisplayField>
+        <errorMessage>Der maximale Anteil darf nicht kleiner als der minimale Anteil sein.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_MBB_ProSiebenMaxx_MaxLtMin</fullName>
+        <active>true</active>
+        <description>Validates that the max. share for this channel is greater than its min. share.</description>
+        <errorConditionFormula>AND(NOT(ISBLANK(MT_TvShareProSiebenMaxxMax__c)), NOT(ISBLANK(MT_TvShareProSiebenMaxxMin__c)), MT_TvShareProSiebenMaxxMin__c &gt; MT_TvShareProSiebenMaxxMax__c)</errorConditionFormula>
+        <errorDisplayField>MT_TvShareProSiebenMaxxMax__c</errorDisplayField>
+        <errorMessage>Der maximale Anteil darf nicht kleiner als der minimale Anteil sein.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_MBB_ProSieben_MaxLtMin</fullName>
+        <active>true</active>
+        <description>Validates that the max. share for this channel is greater than its min. share.</description>
+        <errorConditionFormula>AND(NOT(ISBLANK(MT_TvShareProSiebenMax__c)), NOT(ISBLANK(MT_TvShareProSiebenMin__c)), MT_TvShareProSiebenMin__c &gt; MT_TvShareProSiebenMax__c)</errorConditionFormula>
+        <errorDisplayField>MT_TvShareProSiebenMax__c</errorDisplayField>
+        <errorMessage>Der maximale Anteil darf nicht kleiner als der minimale Anteil sein.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_MBB_Sat1Emotions_MaxLtMin</fullName>
+        <active>true</active>
+        <description>Validates that the max. share for this channel is greater than its min. share.</description>
+        <errorConditionFormula>AND(NOT(ISBLANK(MT_TvShareSat1EmotionsMax__c)), NOT(ISBLANK(MT_TvShareSat1EmotionsMin__c)), MT_TvShareSat1EmotionsMin__c &gt; MT_TvShareSat1EmotionsMax__c)</errorConditionFormula>
+        <errorDisplayField>MT_TvShareSat1EmotionsMax__c</errorDisplayField>
+        <errorMessage>Der maximale Anteil darf nicht kleiner als der minimale Anteil sein.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_MBB_Sat1Gold_MaxLtMin</fullName>
+        <active>true</active>
+        <description>Validates that the max. share for this channel is greater than its min. share.</description>
+        <errorConditionFormula>AND(NOT(ISBLANK(MT_TvShareSat1GoldMax__c)), NOT(ISBLANK(MT_TvShareSat1GoldMin__c)), MT_TvShareSat1GoldMin__c &gt; MT_TvShareSat1GoldMax__c)</errorConditionFormula>
+        <errorDisplayField>MT_TvShareSat1GoldMax__c</errorDisplayField>
+        <errorMessage>Der maximale Anteil darf nicht kleiner als der minimale Anteil sein.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_MBB_Sat1_MaxLtMin</fullName>
+        <active>true</active>
+        <description>Validates that the max. share for this channel is greater than its min. share.</description>
+        <errorConditionFormula>AND(NOT(ISBLANK(MT_TvShareSat1Max__c)), NOT(ISBLANK(MT_TvShareSat1Min__c)), MT_TvShareSat1Min__c &gt; MT_TvShareSat1Max__c)</errorConditionFormula>
+        <errorDisplayField>MT_TvShareSat1Max__c</errorDisplayField>
+        <errorMessage>Der maximale Anteil darf nicht kleiner als der minimale Anteil sein.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_MBB_Sixx_MaxLtMin</fullName>
+        <active>true</active>
+        <description>Validates that the max. share for this channel is greater than its min. share.</description>
+        <errorConditionFormula>AND(NOT(ISBLANK(MT_TvShareSixxMax__c)), NOT(ISBLANK(MT_TvShareSixxMin__c)), MT_TvShareSixxMin__c &gt; MT_TvShareSixxMax__c)</errorConditionFormula>
+        <errorDisplayField>MT_TvShareSixxMax__c</errorDisplayField>
+        <errorMessage>Der maximale Anteil darf nicht kleiner als der minimale Anteil sein.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_MBB_TimeShares_SumMax_LT_100</fullName>
+        <active>true</active>
+        <description>Checks that the sum of all maximum timeslot shares is at least 100%</description>
+        <errorConditionFormula>AND(OR(NOT(ISNULL(MT_TimeShare06000900Max__c)), NOT(ISNULL(MT_TimeShare09001300Max__c)), NOT(ISNULL(MT_TimeShare13001700Max__c)), NOT(ISNULL(MT_TimeShare17002000Max__c)), NOT(ISNULL(MT_TimeShare20002300Max__c)), NOT(ISNULL(MT_TimeShare23000100Max__c)), NOT(ISNULL(MT_TimeShare01000600Max__c))), NULLVALUE(MT_TimeShare06000900Max__c, 0) + NULLVALUE(MT_TimeShare09001300Max__c, 0) + NULLVALUE(MT_TimeShare13001700Max__c, 0) + NULLVALUE(MT_TimeShare17002000Max__c, 0) + NULLVALUE(MT_TimeShare20002300Max__c, 0) + NULLVALUE(MT_TimeShare23000100Max__c, 0) + NULLVALUE(MT_TimeShare01000600Max__c, 0) &lt; 1)</errorConditionFormula>
+        <errorMessage>Die Summe des Maximums der Zeitschienenanteile muss mindestens 100% erreichen.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_MBB_TimeShares_SumMin_GT_100</fullName>
+        <active>true</active>
+        <description>Checks that the sum of all minimum timeslot shares does not exceed 100%</description>
+        <errorConditionFormula>NULLVALUE(MT_TimeShare06000900Min__c, 0) + NULLVALUE(MT_TimeShare09001300Min__c, 0) + NULLVALUE(MT_TimeShare13001700Min__c, 0) + NULLVALUE(MT_TimeShare17002000Min__c, 0) + NULLVALUE(MT_TimeShare20002300Min__c, 0) + NULLVALUE(MT_TimeShare23000100Min__c, 0) + NULLVALUE(MT_TimeShare01000600Min__c, 0) &gt; 1</errorConditionFormula>
+        <errorMessage>Die Summe des Minimums der Zeitschienenanteile darf 100% nicht übersteigen.</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Media Update History --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Media Update History --></value>
+    </caseValues>
+    <fields>
+        <label><!-- Approval Status --></label>
+        <name>MT_ApprovalStatus__c</name>
+        <picklistValues>
+            <masterLabel>Abgelehnt</masterLabel>
+            <translation><!-- Abgelehnt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Eingereicht</masterLabel>
+            <translation><!-- Eingereicht --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Genehmigt</masterLabel>
+            <translation><!-- Genehmigt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Discussion</masterLabel>
+            <translation><!-- In Discussion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Diskussion</masterLabel>
+            <translation><!-- In Diskussion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Submitted</masterLabel>
+            <translation><!-- Submitted --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>BMV (Digital - Total)</label>
+        <name>MT_MCamp_BmvDigital__c</name>
+    </fields>
+    <fields>
+        <label>BMV (DooH - Total)</label>
+        <name>MT_MCamp_BmvDooH__c</name>
+    </fields>
+    <fields>
+        <label>BMV (TV - Total)</label>
+        <name>MT_MCamp_BmvTV__c</name>
+    </fields>
+    <fields>
+        <label>BMV (TV - Customer)</label>
+        <name>MT_MCamp_BmvTvCustomerIntegration__c</name>
+    </fields>
+    <fields>
+        <label>Cash Payment</label>
+        <name>MT_MCamp_CashZahlung__c</name>
+    </fields>
+    <fields>
+        <label>Runtime Contract End</label>
+        <name>MT_MCamp_ContractEnddate__c</name>
+    </fields>
+    <fields>
+        <label>Runtime Contract Start</label>
+        <name>MT_MCamp_ContractStartdate__c</name>
+    </fields>
+    <fields>
+        <label>Equity Book Value</label>
+        <name>MT_MCamp_EigenerBuchwertinEUR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Exit Participation --></label>
+        <name>MT_MCamp_ExitParticipation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fill-Up --></label>
+        <name>MT_MCamp_FillUp__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fix Revenue Monthly Payment --></label>
+        <name>MT_MCamp_FixRevenue_MonthlyPayment__c</name>
+    </fields>
+    <fields>
+        <label>Fix Revenue Type</label>
+        <name>MT_MCamp_FixRevenue_Type__c</name>
+    </fields>
+    <fields>
+        <label>Brut Barter Volume</label>
+        <name>MT_MCamp_GrossBarterVolume__c</name>
+    </fields>
+    <fields>
+        <label>MN3 (Customer)</label>
+        <name>MT_MCamp_Mn3TvCustomerIntegration__c</name>
+    </fields>
+    <fields>
+        <label>Net Barter Volume</label>
+        <name>MT_MCamp_NetBarterVolume__c</name>
+    </fields>
+    <fields>
+        <label>Runtime TV End</label>
+        <name>MT_MCamp_RunTimeTVEnd__c</name>
+    </fields>
+    <fields>
+        <label>Runtime TV Start</label>
+        <name>MT_MCamp_RunTimeTVStart__c</name>
+    </fields>
+    <fields>
+        <label>Spot Length (Customer)</label>
+        <name>MT_MCamp_TvSpotLengthCustomer__c</name>
+    </fields>
+    <fields>
+        <label>Spot Length (Total)</label>
+        <name>MT_MCamp_TvSpotLength__c</name>
+    </fields>
+    <fields>
+        <label>Var. Revenue 1 - Revenue per Unit</label>
+        <name>MT_MCamp_VariableRevenue1_RevenuePerUnit__c</name>
+    </fields>
+    <fields>
+        <label>Var. Revenue 1 - Sold Amount</label>
+        <name>MT_MCamp_VariableRevenue1_SoldAmount__c</name>
+    </fields>
+    <fields>
+        <label>Var. Revenue 1 - Sold Product</label>
+        <name>MT_MCamp_VariableRevenue1_SoldProduct__c</name>
+    </fields>
+    <fields>
+        <label>Var. Revenue 1 - Sold Unit</label>
+        <name>MT_MCamp_VariableRevenue1_SoldUnit__c</name>
+    </fields>
+    <fields>
+        <label>Var. Revenue 2 - Revenue per Unit</label>
+        <name>MT_MCamp_VariableRevenue2_RevenuePerUnit__c</name>
+    </fields>
+    <fields>
+        <label>Var. Revenue 2 - Sold Amount</label>
+        <name>MT_MCamp_VariableRevenue2_SoldAmount__c</name>
+    </fields>
+    <fields>
+        <label>Var. Revenue 2 - Sold Product</label>
+        <name>MT_MCamp_VariableRevenue2_SoldProduct__c</name>
+    </fields>
+    <fields>
+        <label>Var. Revenue 2 - Sold Unit</label>
+        <name>MT_MCamp_VariableRevenue2_SoldUnit__c</name>
+    </fields>
+    <fields>
+        <label>Var. Revenue 3 - Revenue per Unit</label>
+        <name>MT_MCamp_VariableRevenue3_RevenuePerUnit__c</name>
+    </fields>
+    <fields>
+        <label>Var. Revenue 3 - Sold Amount</label>
+        <name>MT_MCamp_VariableRevenue3_SoldAmount__c</name>
+    </fields>
+    <fields>
+        <label>Var. Revenue 3 - Sold Product</label>
+        <name>MT_MCamp_VariableRevenue3_SoldProduct__c</name>
+    </fields>
+    <fields>
+        <label>Var. Revenue 3 - Sold Unit</label>
+        <name>MT_MCamp_VariableRevenue3_SoldUnit__c</name>
+    </fields>
+    <fields>
+        <label>Var. Revenue 4 - Revenue per Unit</label>
+        <name>MT_MCamp_VariableRevenue4_RevenuePerUnit__c</name>
+    </fields>
+    <fields>
+        <label>Var. Revenue 4 - Sold Amount</label>
+        <name>MT_MCamp_VariableRevenue4_SoldAmount__c</name>
+    </fields>
+    <fields>
+        <label>Var. Revenue 4 - Sold Product</label>
+        <name>MT_MCamp_VariableRevenue4_SoldProduct__c</name>
+    </fields>
+    <fields>
+        <label>Var. Revenue 4 - Sold Unit</label>
+        <name>MT_MCamp_VariableRevenue4_SoldUnit__c</name>
+    </fields>
+    <fields>
+        <label>Var. Revenue 5 - Revenue per Unit</label>
+        <name>MT_MCamp_VariableRevenue5_RevenuePerUnit__c</name>
+    </fields>
+    <fields>
+        <label>Var. Revenue 5 - Sold Amount</label>
+        <name>MT_MCamp_VariableRevenue5_SoldAmount__c</name>
+    </fields>
+    <fields>
+        <label>Var. Revenue 5 - Sold Product</label>
+        <name>MT_MCamp_VariableRevenue5_SoldProduct__c</name>
+    </fields>
+    <fields>
+        <label>Var. Revenue 5 - Sold Unit</label>
+        <name>MT_MCamp_VariableRevenue5_SoldUnit__c</name>
+    </fields>
+    <fields>
+        <label>Campaign</label>
+        <name>MT_MediaCampaign_ref__c</name>
+        <relationshipLabel>Update Histories</relationshipLabel>
+    </fields>
+    <fields>
+        <label>BMV (Digital - Total)</label>
+        <name>MT_OppApp_BmvDigital__c</name>
+    </fields>
+    <fields>
+        <label>BMV (DooH - Total)</label>
+        <name>MT_OppApp_BmvDooH__c</name>
+    </fields>
+    <fields>
+        <label>BMV (TV - Customer)</label>
+        <name>MT_OppApp_BmvTvCustomerIntegration__c</name>
+    </fields>
+    <fields>
+        <label>Cash Payment</label>
+        <name>MT_OppApp_CashZahlung__c</name>
+    </fields>
+    <fields>
+        <label>Runtime Contract End</label>
+        <name>MT_OppApp_ContractEnddate__c</name>
+    </fields>
+    <fields>
+        <label>Runtime Contract Start</label>
+        <name>MT_OppApp_ContractStartdate__c</name>
+    </fields>
+    <fields>
+        <label>Equity Book Value</label>
+        <name>MT_OppApp_EigenerBuchwertinEUR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Exit Participation --></label>
+        <name>MT_OppApp_ExitParticipation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fill-Up --></label>
+        <name>MT_OppApp_FillUp__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fix Revenue Monthly Payment --></label>
+        <name>MT_OppApp_FixRevenue_MonthlyPayment__c</name>
+    </fields>
+    <fields>
+        <label>Fix Revenue Type</label>
+        <name>MT_OppApp_FixRevenue_Type__c</name>
+    </fields>
+    <fields>
+        <label>Brut Barter Volume</label>
+        <name>MT_OppApp_GrossBarterVolume__c</name>
+    </fields>
+    <fields>
+        <label>MN3 (Customer)</label>
+        <name>MT_OppApp_Mn3TvCustomerIntegration__c</name>
+    </fields>
+    <fields>
+        <label>Net Barter Volume</label>
+        <name>MT_OppApp_NetBarterVolume__c</name>
+    </fields>
+    <fields>
+        <label>BMV (TV - Total)</label>
+        <name>MT_OppApp_P7S1_BmvTv__c</name>
+    </fields>
+    <fields>
+        <label>Runtime TV End</label>
+        <name>MT_OppApp_RunTimeTVEnd__c</name>
+    </fields>
+    <fields>
+        <label>Runtime TV Start</label>
+        <name>MT_OppApp_RunTimeTVStart__c</name>
+    </fields>
+    <fields>
+        <label>Spot Length (Customer)</label>
+        <name>MT_OppApp_TvSpotLengthCustomer__c</name>
+    </fields>
+    <fields>
+        <label>Spot Length (Total)</label>
+        <name>MT_OppApp_TvSpotLength__c</name>
+    </fields>
+    <fields>
+        <label>Var. Revenue 1 - Revenue per Unit</label>
+        <name>MT_OppApp_VariableRevenue1_RevPerUnit__c</name>
+    </fields>
+    <fields>
+        <label>Var. Revenue 1 - Sold Amount</label>
+        <name>MT_OppApp_VariableRevenue1_SoldAmount__c</name>
+    </fields>
+    <fields>
+        <label>Var. Revenue 1 - Sold Product</label>
+        <name>MT_OppApp_VariableRevenue1_SoldProduct__c</name>
+    </fields>
+    <fields>
+        <label>Var. Revenue 1 - Sold Unit</label>
+        <name>MT_OppApp_VariableRevenue1_SoldUnit__c</name>
+    </fields>
+    <fields>
+        <label>Var. Revenue 2 - Revenue per Unit</label>
+        <name>MT_OppApp_VariableRevenue2_RevPerUnit__c</name>
+    </fields>
+    <fields>
+        <label>Var. Revenue 2 - Sold Amount</label>
+        <name>MT_OppApp_VariableRevenue2_SoldAmount__c</name>
+    </fields>
+    <fields>
+        <label>Var. Revenue 2 - Sold Product</label>
+        <name>MT_OppApp_VariableRevenue2_SoldProduct__c</name>
+    </fields>
+    <fields>
+        <label>Var. Revenue 2 - Sold Unit</label>
+        <name>MT_OppApp_VariableRevenue2_SoldUnit__c</name>
+    </fields>
+    <fields>
+        <label>Var. Revenue 3 - Revenue per Unit</label>
+        <name>MT_OppApp_VariableRevenue3_RevPerUnit__c</name>
+    </fields>
+    <fields>
+        <label>Var. Revenue 3 - Sold Amount</label>
+        <name>MT_OppApp_VariableRevenue3_SoldAmount__c</name>
+    </fields>
+    <fields>
+        <label>Var. Revenue 3 - Sold Product</label>
+        <name>MT_OppApp_VariableRevenue3_SoldProduct__c</name>
+    </fields>
+    <fields>
+        <label>Var. Revenue 3 - Sold Unit</label>
+        <name>MT_OppApp_VariableRevenue3_SoldUnit__c</name>
+    </fields>
+    <fields>
+        <label>Var. Revenue 4 - Revenue per Unit</label>
+        <name>MT_OppApp_VariableRevenue4_RevPerUnit__c</name>
+    </fields>
+    <fields>
+        <label>Var. Revenue 4 - Sold Amount</label>
+        <name>MT_OppApp_VariableRevenue4_SoldAmount__c</name>
+    </fields>
+    <fields>
+        <label>Var. Revenue 4 - Sold Product</label>
+        <name>MT_OppApp_VariableRevenue4_SoldProduct__c</name>
+    </fields>
+    <fields>
+        <label>Var. Revenue 4 - Sold Unit</label>
+        <name>MT_OppApp_VariableRevenue4_SoldUnit__c</name>
+    </fields>
+    <fields>
+        <label>Var. Revenue 5 - Revenue per Unit</label>
+        <name>MT_OppApp_VariableRevenue5_RevPerUnit__c</name>
+    </fields>
+    <fields>
+        <label>Var. Revenue 5 - Sold Amount</label>
+        <name>MT_OppApp_VariableRevenue5_SoldAmount__c</name>
+    </fields>
+    <fields>
+        <label>Var. Revenue 5 - Sold Product</label>
+        <name>MT_OppApp_VariableRevenue5_SoldProduct__c</name>
+    </fields>
+    <fields>
+        <label>Var. Revenue 5 - Sold Unit</label>
+        <name>MT_OppApp_VariableRevenue5_SoldUnit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Digital (71M) --></label>
+        <name>MT_Opp_P7S1_HasMediaDigital__c</name>
+    </fields>
+    <fields>
+        <label><!-- TV --></label>
+        <name>MT_Opp_P7S1_HasMediaTV__c</name>
+    </fields>
+    <fields>
+        <label><!-- DooH (7Screen) --></label>
+        <name>MT_Opp_Som_DooH7Screen__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Approval --></label>
+        <name>MT_OpportunityApproval_ref__c</name>
+        <relationshipLabel>Update Histories</relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>MT_Opportunity_ref__c</name>
+        <relationshipLabel>Update Histories</relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Account Owner Unit --></label>
+        <name>MT_SYS_AccountOwnerUnit__c</name>
+    </fields>
+    <fields>
+        <label><!-- MT_Sys_ApprovalSubmittedFromCampaign --></label>
+        <name>MT_Sys_ApprovalSubmittedFromCampaign__c</name>
+    </fields>
+    <layouts>
+        <layout>MT UpdateRequest Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Media Campaign --></label>
+            <section>Media Campaign</section>
+        </sections>
+        <sections>
+            <label><!-- Opportunity --></label>
+            <section>Opportunity</section>
+        </sections>
+        <sections>
+            <label><!-- Opportunity Approval --></label>
+            <section>Opportunity Approval</section>
+        </sections>
+        <sections>
+            <label><!-- Other --></label>
+            <section>Other</section>
+        </sections>
+        <sections>
+            <label><!-- References --></label>
+            <section>References</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Update Request Name --></nameFieldLabel>
+    <recordTypes>
+        <label><!-- Media Building Block --></label>
+        <name>MediaBuildingBlock</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Media Campaign --></label>
+        <name>MediaCampaign</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Opportunity Approval --></label>
+        <name>OpportunityApproval</name>
+    </recordTypes>
+    <startsWith><!-- Consonant --></startsWith>
+    <validationRules>
+        <errorMessage><!-- Update Request cannot be modified --></errorMessage>
+        <name>Media_Update_Request_Mod_Prevent</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,0 +1,1811 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translations xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customLabels>
+        <label><!-- Abrechnungsart --></label>
+        <name>Abrechnungsart</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Abrechnungsart_GM --></label>
+        <name>Abrechnungsart_GM</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Abrechnungsart_PR --></label>
+        <name>Abrechnungsart_PR</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Adserver Base URL_KR --></label>
+        <name>Adserver_Base_URL_KR</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Adv_CampaignItem_AdIdValidation1 --></label>
+        <name>Adv_CampaignItem_AdIdValidation1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Adv_CampaignItem_AdIdValidation2 --></label>
+        <name>Adv_CampaignItem_AdIdValidation2</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Adv_CampaignItem_DeleteBlocker_Message --></label>
+        <name>Adv_CampaignItem_DeleteBlocker_Message</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Adv_CamapignItem_Validationerror --></label>
+        <name>Adv_CampaignItem_Validationerror</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Adv_MediaCampaign_AdPriceInactive --></label>
+        <name>Adv_MediaCampaign_AdPriceInactive</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Adv_MediaCampaign_AdPriceOutdated --></label>
+        <name>Adv_MediaCampaign_AdPriceOutdated</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Adv_MediaCampaign_BillMeValidationError --></label>
+        <name>Adv_MediaCampaign_BillMeValidationError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Adv_MediaCampaign_CouldNotCopy --></label>
+        <name>Adv_MediaCampaign_CouldNotCopy</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Adv_MediaCampaign_FieldValidationError --></label>
+        <name>Adv_MediaCampaign_FieldValidationError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Adv_OptimizingChange_Storno_ErrorMessage --></label>
+        <name>Adv_OptimizingChange_Storno_ErrorMessage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Agentur --></label>
+        <name>Agentur</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Agentur_GM --></label>
+        <name>Agentur_GM</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Go Back --></label>
+        <name>Back</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- BtnBack --></label>
+        <name>BtnBack</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- BtnSplit --></label>
+        <name>BtnSplit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Buchungskontrolle Salesforce Passwort --></label>
+        <name>BuchungskontrolleSalesforcePasswort</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Buchungskontrolle Salesforce Token --></label>
+        <name>BuchungskontrolleSalesforceToken</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Buchungskontrolle SF URL --></label>
+        <name>BuchungskontrolleSalesforceUrl</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Buchungskontrolle Salesforce Username --></label>
+        <name>BuchungskontrolleSalesforceUsername</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Buchungskontrolle URL --></label>
+        <name>BuchungskontrolleUrl</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Campaign Report --></label>
+        <name>Campaign_Report</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Campaign status --></label>
+        <name>Campaign_status</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Campaign view --></label>
+        <name>Campaign_view</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Cancel --></label>
+        <name>Cancel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- CountryGermany --></label>
+        <name>CountryGermany</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DFP Kampagnen Nr_KAM --></label>
+        <name>DFP_Kampagnen_Nr_KAM</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DFP Pos. Nr. --></label>
+        <name>DFP_Pos_Nr</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DFP Pos. Nr._PR --></label>
+        <name>DFP_Pos_Nr_PR</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DFP Prognose %_GM --></label>
+        <name>DFP_Prognose_GM</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DFP Prognose %_PR --></label>
+        <name>DFP_Prognose_PR</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- DFP Prognose % Vortag_GM --></label>
+        <name>DFP_Prognose_Vortag_GM</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ende --></label>
+        <name>Ende</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ende_GM --></label>
+        <name>Ende_GM</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ende_PR --></label>
+        <name>Ende_PR</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error Prorated Package Too Much Delivery --></label>
+        <name>ErrorProratedPackageTooMuchDelivery</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Export --></label>
+        <name>Export</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Flag --></label>
+        <name>Flag</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Flag_GM --></label>
+        <name>Flag_GM</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Flag Pos. --></label>
+        <name>Flag_Pos</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Good Morning Report --></label>
+        <name>Good_Morning_Report</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Hochrechnung --></label>
+        <name>Hochrechnung</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- IST aktuell_GM --></label>
+        <name>IST_aktuell_GM</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- IST aktuell_PR --></label>
+        <name>IST_aktuell_PR</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Inhaber --></label>
+        <name>Inhaber</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Inhaber_GM --></label>
+        <name>Inhaber_GM</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Kampagne --></label>
+        <name>Kampagne</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Kampagne_GM --></label>
+        <name>Kampagne_GM</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- KampagnenLinkTargetController_Default_Landingpage --></label>
+        <name>KampagnenLinkTargetController_Default_Landingpage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Kampagnen Nr_GM --></label>
+        <name>Kampagnen_Nr_GM</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Kampagnennummer --></label>
+        <name>Kampagnennummer</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Kommentar --></label>
+        <name>Kommentar</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Kommentar_PR --></label>
+        <name>Kommentar_PR</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Letzter Positions-Ende --></label>
+        <name>Letzter_Positions_Ende</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MA_A_Headline --></label>
+        <name>MA_A_Headline</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MB3_PR --></label>
+        <name>MB3_PR</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MN2_GM --></label>
+        <name>MN2_GM</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MN2_PR --></label>
+        <name>MN2_PR</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MN2 @risk_GM --></label>
+        <name>MN2_risk_GM</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MT_Add --></label>
+        <name>MT_Add</name>
+    </customLabels>
+    <customLabels>
+        <label>Control of Media Broadcast Import Data failed with an Exception. 
+
+{0} 
+{1}</label>
+        <name>MT_BC_ImportDataControl_ERROR_ValidationExceptionBody</name>
+    </customLabels>
+    <customLabels>
+        <label>Control of Media Broadcast Import Data failed. Please check the following results:
+
+CHECK			EXPECTED / ACTUAL
+-----------------------------------------------------------------------
+Number of Records	{0} / {1}
+Sum of MB1		{2} / {3}
+Sum of MB3		{4} / {5}
+Sum of MN3		{6} / {7}
+-----------------------------------------------------------------------</label>
+        <name>MT_BC_ImportDataControl_ERROR_ValidationFailedBody</name>
+    </customLabels>
+    <customLabels>
+        <label>Control of Media Broadcast Import Data - ERROR</label>
+        <name>MT_BC_ImportDataControl_ERROR_ValidationFailedSubject</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MT_BC_ImportDataTransformator_EMAIL_ResultBody --></label>
+        <name>MT_BC_ImportDataTransformator_EMAIL_ResultBody</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MT_BC_ImportDataTransformator_EMAIL_ResultReportLink --></label>
+        <name>MT_BC_ImportDataTransformator_EMAIL_ResultReportLink</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MT_BC_ImportDataTransformator_EMAIL_ResultReportLinkNA --></label>
+        <name>MT_BC_ImportDataTransformator_EMAIL_ResultReportLinkNA</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MT_BC_ImportDataTransformator_EMAIL_ResultSubject --></label>
+        <name>MT_BC_ImportDataTransformator_EMAIL_ResultSubject</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MT_BC_ImportDataTransformator_ERROR_MonthOutsideContractRuntime --></label>
+        <name>MT_BC_ImportDataTransformator_ERROR_MonthOutsideContractRuntime</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MT_BC_ImportDataTransformator_ERROR_NewerRecordFound --></label>
+        <name>MT_BC_ImportDataTransformator_ERROR_NewerRecordFound</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MT_BC_ImportDataTransformator_ERROR_NoProSaOrderFound --></label>
+        <name>MT_BC_ImportDataTransformator_ERROR_NoProSaOrderFound</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MT_BC_ImportDataTransformator_ERROR_ProSaOrderCampaignMismatch --></label>
+        <name>MT_BC_ImportDataTransformator_ERROR_ProSaOrderCampaignMismatch</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MT_BC_ImportDataTransformator_ErrorReportName --></label>
+        <name>MT_BC_ImportDataTransformator_ErrorReportName</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MT_CampaignProbability --></label>
+        <name>MT_CampaignProbability</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MT_CreateMediaCampaign_BmvTvCustomer --></label>
+        <name>MT_CreateMediaCampaign_BmvTvCustomer</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MT_CreateMediaCampaign_BuildingBlocks --></label>
+        <name>MT_CreateMediaCampaign_BuildingBlocks</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MT_CreateMediaCampaign_BuildingBlocks_Digital --></label>
+        <name>MT_CreateMediaCampaign_BuildingBlocks_Digital</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MT_CreateMediaCampaign_BuildingBlocks_DooH --></label>
+        <name>MT_CreateMediaCampaign_BuildingBlocks_DooH</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MT_CreateMediaCampaign_BuildingBlocks_TV --></label>
+        <name>MT_CreateMediaCampaign_BuildingBlocks_TV</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MT_CreateMediaCampaign_CampaignType_NoMatches --></label>
+        <name>MT_CreateMediaCampaign_CampaignType_NoMatches</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MT_CreateMediaCampaign_Cancel --></label>
+        <name>MT_CreateMediaCampaign_Cancel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MT_CreateMediaCampaign_ContractualRuntime --></label>
+        <name>MT_CreateMediaCampaign_ContractualRuntime</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MT_CreateMediaCampaign_ContractualRuntime_None --></label>
+        <name>MT_CreateMediaCampaign_ContractualRuntime_None</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MT_CreateMediaCampaign_Create --></label>
+        <name>MT_CreateMediaCampaign_Create</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MT_CreateMediaCampaign_ErrorTitle --></label>
+        <name>MT_CreateMediaCampaign_ErrorTitle</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MT_CreateMediaCampaign_InformationFromOpportunityApproval --></label>
+        <name>MT_CreateMediaCampaign_InformationFromOpportunityApproval</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MT_CreateMediaCampaign_Ok --></label>
+        <name>MT_CreateMediaCampaign_Ok</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MT_CreateMediaCampaign_Revenues --></label>
+        <name>MT_CreateMediaCampaign_Revenues</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MT_CreateMediaCampaign_Seconds --></label>
+        <name>MT_CreateMediaCampaign_Seconds</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MT_CreateMediaCampaign_SpotLength --></label>
+        <name>MT_CreateMediaCampaign_SpotLength</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MT_CreateMediaCampaign_SpotLengthCustomer --></label>
+        <name>MT_CreateMediaCampaign_SpotLengthCustomer</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MT_CreateMediaCampaign_Thereof --></label>
+        <name>MT_CreateMediaCampaign_Thereof</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MT_CreateMediaCampaign_Title --></label>
+        <name>MT_CreateMediaCampaign_Title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MT_CreateMediaCampaign_VariableRevenue1_Title --></label>
+        <name>MT_CreateMediaCampaign_VariableRevenue1_Title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MT_CreateMediaCampaign_VariableRevenue2_Title --></label>
+        <name>MT_CreateMediaCampaign_VariableRevenue2_Title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MT_CreateMediaCampaign_VariableRevenue3_Title --></label>
+        <name>MT_CreateMediaCampaign_VariableRevenue3_Title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MT_CreateMediaCampaign_VariableRevenue4_Title --></label>
+        <name>MT_CreateMediaCampaign_VariableRevenue4_Title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MT_CreateMediaCampaign_VariableRevenue5_Title --></label>
+        <name>MT_CreateMediaCampaign_VariableRevenue5_Title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MT_CreateMediaCampaign_VariableRevenue_RevenuePerUnit --></label>
+        <name>MT_CreateMediaCampaign_VariableRevenue_RevenuePerUnit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MT_CreateMediaCampaign_VariableRevenue_SoldAmount --></label>
+        <name>MT_CreateMediaCampaign_VariableRevenue_SoldAmount</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MT_CreateMediaCampaign_VariableRevenue_SoldProduct --></label>
+        <name>MT_CreateMediaCampaign_VariableRevenue_SoldProduct</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MT_CreateMediaCampaign_VariableRevenue_SoldUnit --></label>
+        <name>MT_CreateMediaCampaign_VariableRevenue_SoldUnit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MT_CreateMediaCampaign_VariableRevenue_TotalRevenue --></label>
+        <name>MT_CreateMediaCampaign_VariableRevenue_TotalRevenue</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MT_Distribution --></label>
+        <name>MT_Distribution</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MT_Flight --></label>
+        <name>MT_Flight</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MT_GlobalOppApp_AccountName --></label>
+        <name>MT_GlobalOppApp_AccountName</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MT_GlobalOppApp_AssetName --></label>
+        <name>MT_GlobalOppApp_AssetName</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MT_GlobalOppApp_CampaignStatus --></label>
+        <name>MT_GlobalOppApp_CampaignStatus</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MT_GlobalOppApp_CampaignType --></label>
+        <name>MT_GlobalOppApp_CampaignType</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MT_GlobalOppApp_RuntimeTVEnd --></label>
+        <name>MT_GlobalOppApp_RuntimeTVEnd</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MT_GlobalOppApp_RuntimeTVStart --></label>
+        <name>MT_GlobalOppApp_RuntimeTVStart</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MT_GlobalOppApp_Title --></label>
+        <name>MT_GlobalOppApp_Title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MT_KPI_Global_AccountName --></label>
+        <name>MT_KPI_Global_AccountName</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MT_KPI_Global_AssetName --></label>
+        <name>MT_KPI_Global_AssetName</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MT_KPI_Global_BmvTVActuals --></label>
+        <name>MT_KPI_Global_BmvTVActuals</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MT_KPI_Global_BmvTVContractual --></label>
+        <name>MT_KPI_Global_BmvTVContractual</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MT_KPI_Global_CampaignStatus --></label>
+        <name>MT_KPI_Global_CampaignStatus</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MT_KPI_Global_CampaignType --></label>
+        <name>MT_KPI_Global_CampaignType</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MT_KPI_Global_ContractualPerformance --></label>
+        <name>MT_KPI_Global_ContractualPerformance</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MT_KPI_Global_RuntimeTVEnd --></label>
+        <name>MT_KPI_Global_RuntimeTVEnd</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MT_KPI_Global_RuntimeTVStart --></label>
+        <name>MT_KPI_Global_RuntimeTVStart</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MT_KPI_Global_Title --></label>
+        <name>MT_KPI_Global_Title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MT_KPI_MediaCampaign_BmvTVAsset --></label>
+        <name>MT_KPI_MediaCampaign_BmvTVAsset</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MT_KPI_MediaCampaign_BmvTVCustomer --></label>
+        <name>MT_KPI_MediaCampaign_BmvTVCustomer</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MT_KPI_MediaCampaign_SpotLengthCustomer --></label>
+        <name>MT_KPI_MediaCampaign_SpotLengthCustomer</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MT_KPI_MediaCampaign_SpotLengthTotal --></label>
+        <name>MT_KPI_MediaCampaign_SpotLengthTotal</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MT_KPI_MediaCampaign_SpotRatioAsset --></label>
+        <name>MT_KPI_MediaCampaign_SpotRatioAsset</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MT_KPI_MediaCampaign_SpotRatioCustomer --></label>
+        <name>MT_KPI_MediaCampaign_SpotRatioCustomer</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MT_KPI_MediaCampaign_Title --></label>
+        <name>MT_KPI_MediaCampaign_Title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MT_KPI_OppApp_BmvTVCustomer --></label>
+        <name>MT_KPI_OppApp_BmvTVCustomer</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MT_KPI_OppApp_SpotLengthCustomer --></label>
+        <name>MT_KPI_OppApp_SpotLengthCustomer</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MT_KPI_OppApp_SpotLengthTotal --></label>
+        <name>MT_KPI_OppApp_SpotLengthTotal</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MT_KPI_OppApp_SpotRatioAsset --></label>
+        <name>MT_KPI_OppApp_SpotRatioAsset</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MT_KPI_OppApp_SpotRatioCustomer --></label>
+        <name>MT_KPI_OppApp_SpotRatioCustomer</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MT_KPI_OppApp_Title --></label>
+        <name>MT_KPI_OppApp_Title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MT_Max --></label>
+        <name>MT_Max</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MT_OppApp_ApprovalHistory_Fields --></label>
+        <name>MT_OppApp_ApprovalHistory_Fields</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MT_OppApp_ApprovalHistory_LastApprovedValue --></label>
+        <name>MT_OppApp_ApprovalHistory_LastApprovedValue</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MT_OppApp_ApprovalHistory_NoActiveApprovalProcess --></label>
+        <name>MT_OppApp_ApprovalHistory_NoActiveApprovalProcess</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MT_OppApp_ApprovalHistory_NoApprovalYet --></label>
+        <name>MT_OppApp_ApprovalHistory_NoApprovalYet</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MT_OppApp_ApprovalHistory_NoChanges --></label>
+        <name>MT_OppApp_ApprovalHistory_NoChanges</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MT_OppApp_ApprovalHistory_NoValues --></label>
+        <name>MT_OppApp_ApprovalHistory_NoValues</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MT_OppApp_ApprovalHistory_SubmittedValue --></label>
+        <name>MT_OppApp_ApprovalHistory_SubmittedValue</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MT_OppApp_ApprovalHistory_Title --></label>
+        <name>MT_OppApp_ApprovalHistory_Title</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MT_Sponsoring --></label>
+        <name>MT_Sponsoring</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MT_Spots --></label>
+        <name>MT_Spots</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MT_Total --></label>
+        <name>MT_Total</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MT_Volume --></label>
+        <name>MT_Volume</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MT_Weighted --></label>
+        <name>MT_Weighted</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MT_lbl_VariableRevenue1_RevenuePerUnit --></label>
+        <name>MT_lbl_VariableRevenue1_RevenuePerUnit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MT_lbl_VariableRevenue1_SoldAmount --></label>
+        <name>MT_lbl_VariableRevenue1_SoldAmount</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MT_lbl_VariableRevenue1_TotalRevenue --></label>
+        <name>MT_lbl_VariableRevenue1_TotalRevenue</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Menge_PR --></label>
+        <name>Menge_PR</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Monatsabschluss --></label>
+        <name>Monatsabschluss</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- MsgFunctionSplit --></label>
+        <name>MsgFunctionSplit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error Message if Public Group does not exist. --></label>
+        <name>Msg_Error_PublicGroupNotExist</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Nächster Positions-Ende --></label>
+        <name>N_chster_Positions_Ende</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Nächster Positions-Start --></label>
+        <name>N_chster_Positions_Start</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Next --></label>
+        <name>NextNext</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- P7S1_AccDash_AccAccess_AccFieldId --></label>
+        <name>P7S1_AccDash_AccAccess_AccFieldId</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- P7S1_AccDash_Amount --></label>
+        <name>P7S1_AccDash_Amount</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- P7S1_AccDash_DefaultLogo --></label>
+        <name>P7S1_AccDash_DefaultLogo</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- P7S1_AccDash_LogoFolder --></label>
+        <name>P7S1_AccDash_LogoFolder</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- P7S1_AccDash_MediaBoard --></label>
+        <name>P7S1_AccDash_MediaBoard</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- P7S1_AccDash_lbl_AccTeamAufnahme --></label>
+        <name>P7S1_AccDash_lbl_AccTeamAufnahme</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- P7S1_AccDash_lbl_AccTeamUnitLogos --></label>
+        <name>P7S1_AccDash_lbl_AccTeamUnitLogos</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- P7S1_AccDash_lbl_AccUebernahme --></label>
+        <name>P7S1_AccDash_lbl_AccUebernahme</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- P7S1_AccDash_lbl_Approval --></label>
+        <name>P7S1_AccDash_lbl_Approval</name>
+    </customLabels>
+    <customLabels>
+        <label>Closed</label>
+        <name>P7S1_AccDash_lbl_Closed</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- P7S1_AccDash_lbl_Eckdaten --></label>
+        <name>P7S1_AccDash_lbl_Eckdaten</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- P7S1_AccDash_lbl_Error --></label>
+        <name>P7S1_AccDash_lbl_Error</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- P7S1_AccDash_lbl_Go2Acc --></label>
+        <name>P7S1_AccDash_lbl_Go2Acc</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- P7S1_AccDash_lbl_LY --></label>
+        <name>P7S1_AccDash_lbl_LY</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- P7S1_AccDash_lbl_LYTM --></label>
+        <name>P7S1_AccDash_lbl_LYTM</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- P7S1_AccDash_lbl_LogoIntegration --></label>
+        <name>P7S1_AccDash_lbl_LogoIntegration</name>
+    </customLabels>
+    <customLabels>
+        <label>Mediamix (Quotex data, period #period#)</label>
+        <name>P7S1_AccDash_lbl_Medienmix</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- P7S1_AccDash_lbl_NoData --></label>
+        <name>P7S1_AccDash_lbl_NoData</name>
+    </customLabels>
+    <customLabels>
+        <label>Not yet reached</label>
+        <name>P7S1_AccDash_lbl_NotReached</name>
+    </customLabels>
+    <customLabels>
+        <label>Open</label>
+        <name>P7S1_AccDash_lbl_Open</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- P7S1_AccDash_lbl_Opportunities --></label>
+        <name>P7S1_AccDash_lbl_Opportunities</name>
+    </customLabels>
+    <customLabels>
+        <label>Reached - Congrats! </label>
+        <name>P7S1_AccDash_lbl_Reached</name>
+    </customLabels>
+    <customLabels>
+        <label>Sum</label>
+        <name>P7S1_AccDash_lbl_Sum</name>
+    </customLabels>
+    <customLabels>
+        <label>Target</label>
+        <name>P7S1_AccDash_lbl_Target</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- P7S1_AccDash_lbl_Unit --></label>
+        <name>P7S1_AccDash_lbl_Unit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- P7S1_AccDash_lbl_YTM --></label>
+        <name>P7S1_AccDash_lbl_YTM</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- P7S1_AccDash_lbl_Yield --></label>
+        <name>P7S1_AccDash_lbl_Yield</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- P7S1_AccDashboard_Opp_Billion --></label>
+        <name>P7S1_AccDashboard_Opp_Billion</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- P7S1_AccDashboard_Opp_Million --></label>
+        <name>P7S1_AccDashboard_Opp_Million</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- P7S1_AccDashboard_Opp_Thousand --></label>
+        <name>P7S1_AccDashboard_Opp_Thousan</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- P7S1_AccSalesTeamAInfo --></label>
+        <name>P7S1_AccSalesTeamAInfo</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- P7S1_AccSalesTeamCreate --></label>
+        <name>P7S1_AccSalesTeamCreate</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- P7S1_AccSalesTeamEInfo --></label>
+        <name>P7S1_AccSalesTeamEInfo</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- P7S1_AccSalesTeamEditEAV --></label>
+        <name>P7S1_AccSalesTeamEditEAV</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- P7S1_AccSalesTeamEdit_Cancel --></label>
+        <name>P7S1_AccSalesTeamEdit_Cancel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- P7S1_AccSalesTeamEdit_EditKAM --></label>
+        <name>P7S1_AccSalesTeamEdit_EditKAM</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- P7S1_AccSalesTeamEdit_Save --></label>
+        <name>P7S1_AccSalesTeamEdit_Save</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- P7S1_AccSalesTeamEdit_TVK --></label>
+        <name>P7S1_AccSalesTeamEdit_TVK</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- P7S1_AccSalesTeamKeyAcc --></label>
+        <name>P7S1_AccSalesTeamKeyAcc</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- P7S1_AccSalesTeamKeyRelation --></label>
+        <name>P7S1_AccSalesTeamKeyRelation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- P7S1_AccSalesTeamKeySaveKeep --></label>
+        <name>P7S1_AccSalesTeamKeySaveKeep</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- P7S1_AccSalesTeamKeySaveOver --></label>
+        <name>P7S1_AccSalesTeamKeySaveOver</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- P7S1_AccSalesTeamSell --></label>
+        <name>P7S1_AccSalesTeamSell</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Invalid Billing Country --></label>
+        <name>P7S1_Account_InvalidBillingCountry</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- P7S1_BASE_URL --></label>
+        <name>P7S1_BASE_URL</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- P7S1_CampaignMemberForwarder_LandingPage_SieHabenBereitsAbgesagt --></label>
+        <name>P7S1_CampaignMemberForwarder_LandingPage_SieHabenBereitsAbgesagt</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- P7S1_CampaignMemberForwarder_LandingPage_SieHabenBereitsZugesagt --></label>
+        <name>P7S1_CampaignMemberForwarder_LandingPage_SieHabenBereitsZugesagt</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- P7S1_CampaignMember_ReadOnlyBlock_Error --></label>
+        <name>P7S1_CampaignMember_ReadOnlyBlock_Error</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- P7S1_Emp_Serviceweb_ColleagueNotFound --></label>
+        <name>P7S1_Emp_Serviceweb_ColleagueNotFound</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- P7S1_Emp_Serviceweb_CompNotFound --></label>
+        <name>P7S1_Emp_Serviceweb_CompNotFound</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- P7S1_Emp_Serviceweb_ContactEmailDuplicate --></label>
+        <name>P7S1_Emp_Serviceweb_ContactEmailDuplicate</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- P7S1_Emp_Serviceweb_ManagerNotFound --></label>
+        <name>P7S1_Emp_Serviceweb_ManagerNotFound</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- P7S1_Emp_Serviceweb_UsernameDuplicate --></label>
+        <name>P7S1_Emp_Serviceweb_UsernameDuplicate</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Adfactory E-Mail Adresse --></label>
+        <name>P7S1_PORTAL_ADFACTORY_EMAIL</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- P7S1_PORTAL_LIFERAY_EMAIL --></label>
+        <name>P7S1_PORTAL_LIFERAY_EMAIL</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- P7S1_RollupOptimize --></label>
+        <name>P7S1_RollupOptimize</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- P7S1_SITE_NEWSLETTER_UNSUBSCRIBE_FAILED --></label>
+        <name>P7S1_SITE_NEWSLETTER_UNSUBSCRIBE_FAILED</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- P7S1_SalesTeam_Error_Access --></label>
+        <name>P7S1_SalesTeam_Error_Access</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- P7S1_SalesTeam_Error_KVK --></label>
+        <name>P7S1_SalesTeam_Error_KVK</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- P7S1_SalesTeam_Error_Missing --></label>
+        <name>P7S1_SalesTeam_Error_Missing</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- P7S1_SalesTeam_Error_Save --></label>
+        <name>P7S1_SalesTeam_Error_Save</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- P7S1_SalesTeam_Role_Digital --></label>
+        <name>P7S1_SalesTeam_Role_Digital</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- P7S1_SalesTeam_Role_Tv --></label>
+        <name>P7S1_SalesTeam_Role_Tv</name>
+    </customLabels>
+    <customLabels>
+        <label>Please indicate your desired billing address in the following format:</label>
+        <name>P7S1_VIRTUALTHEMOUNTAIN_ADRESSEREABW_1</name>
+    </customLabels>
+    <customLabels>
+        <label>John Sample&lt;br /&gt;
+Any Company&lt;br /&gt;
+Any Street 123&lt;br /&gt;
+12345 Any Town&lt;br /&gt;</label>
+        <name>P7S1_VIRTUALTHEMOUNTAIN_ADRESSEREABW_2</name>
+    </customLabels>
+    <customLabels>
+        <label>Billing address</label>
+        <name>P7S1_VIRTUALTHEMOUNTAIN_ADRESSEREABW_Rechnungsadresse</name>
+    </customLabels>
+    <customLabels>
+        <label>Please check your contact details:</label>
+        <name>P7S1_VIRTUALTHEMOUNTAIN_ADRESSERE_1</name>
+    </customLabels>
+    <customLabels>
+        <label>I have understood that a fee is payable for the event.</label>
+        <name>P7S1_VIRTUALTHEMOUNTAIN_ADRESSERE_2</name>
+    </customLabels>
+    <customLabels>
+        <label>Is this billing address correct?</label>
+        <name>P7S1_VIRTUALTHEMOUNTAIN_ADRESSERE_3</name>
+    </customLabels>
+    <customLabels>
+        <label>I would like to use a different billing address</label>
+        <name>P7S1_VIRTUALTHEMOUNTAIN_ADRESSERE_4</name>
+    </customLabels>
+    <customLabels>
+        <label>Please check your contact details:</label>
+        <name>P7S1_VIRTUALTHEMOUNTAIN_ADRESSE_1</name>
+    </customLabels>
+    <customLabels>
+        <label>I accept the</label>
+        <name>P7S1_VIRTUALTHEMOUNTAIN_ADRESSE_2</name>
+    </customLabels>
+    <customLabels>
+        <label>data protection terms</label>
+        <name>P7S1_VIRTUALTHEMOUNTAIN_ADRESSE_3</name>
+    </customLabels>
+    <customLabels>
+        <label>Title</label>
+        <name>P7S1_VIRTUALTHEMOUNTAIN_ADRESSE_Anrede</name>
+    </customLabels>
+    <customLabels>
+        <label>E-mail</label>
+        <name>P7S1_VIRTUALTHEMOUNTAIN_ADRESSE_EMail</name>
+    </customLabels>
+    <customLabels>
+        <label>Company</label>
+        <name>P7S1_VIRTUALTHEMOUNTAIN_ADRESSE_Firma</name>
+    </customLabels>
+    <customLabels>
+        <label>House Number</label>
+        <name>P7S1_VIRTUALTHEMOUNTAIN_ADRESSE_Hausnummer</name>
+    </customLabels>
+    <customLabels>
+        <label>Mobile number</label>
+        <name>P7S1_VIRTUALTHEMOUNTAIN_ADRESSE_MobilNummer</name>
+    </customLabels>
+    <customLabels>
+        <label>Surname</label>
+        <name>P7S1_VIRTUALTHEMOUNTAIN_ADRESSE_Name</name>
+    </customLabels>
+    <customLabels>
+        <label>Postal town</label>
+        <name>P7S1_VIRTUALTHEMOUNTAIN_ADRESSE_Ort</name>
+    </customLabels>
+    <customLabels>
+        <label>Postcode</label>
+        <name>P7S1_VIRTUALTHEMOUNTAIN_ADRESSE_PLZ</name>
+    </customLabels>
+    <customLabels>
+        <label>Street</label>
+        <name>P7S1_VIRTUALTHEMOUNTAIN_ADRESSE_Strasse</name>
+    </customLabels>
+    <customLabels>
+        <label>First name</label>
+        <name>P7S1_VIRTUALTHEMOUNTAIN_ADRESSE_Vorname</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- P7S1_VIRTUALTHEMOUNTAIN_Absage --></label>
+        <name>P7S1_VIRTUALTHEMOUNTAIN_Absage</name>
+    </customLabels>
+    <customLabels>
+        <label>Send</label>
+        <name>P7S1_VIRTUALTHEMOUNTAIN_Abschicken</name>
+    </customLabels>
+    <customLabels>
+        <label>Thank you for your application!&lt;br/&gt; &lt;br/&gt; 
+
+Please note that this is not confirmation of your participation. Due to the strictly limited number of participants, overbooking may occur. The official confirmation of your participation will be sent to you after the deadline for registration in February, in a separate e-mail. &lt;br/&gt; &lt;br/&gt; 
+
+Kind regards,</label>
+        <name>P7S1_VIRTUALTHEMOUNTAIN_DANKE_1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- P7S1_VIRTUALTHEMOUNTAIN_DANKE_2 --></label>
+        <name>P7S1_VIRTUALTHEMOUNTAIN_DANKE_2</name>
+    </customLabels>
+    <customLabels>
+        <label>Managing Director&lt;br/&gt;
+SevenOne Media GmbH</label>
+        <name>P7S1_VIRTUALTHEMOUNTAIN_DANKE_3</name>
+    </customLabels>
+    <customLabels>
+        <label>&lt;br/&gt;
+Please add your details so that we can make your journey to and from us as comfortable as possible. 
+&lt;br/&gt;&lt;br/&gt;
+If you need assistance as a result of your existing compliance policies, we would be happy to help.
+&lt;br/&gt;&lt;br/&gt;
+Yvonne Gupfinger (Tel.: +49 (0)89 / 95 07 4602)&lt;br/&gt; 
+Lysann Geburek (Tel.: +49 (0)89 / 95 07 2452)
+&lt;br/&gt;&lt;br/&gt;</label>
+        <name>P7S1_VIRTUALTHEMOUNTAIN_DETAIL_1</name>
+    </customLabels>
+    <customLabels>
+        <label>We recommend bringing your own ski boots / snowboard boots, if possible.</label>
+        <name>P7S1_VIRTUALTHEMOUNTAIN_DETAIL_2</name>
+    </customLabels>
+    <customLabels>
+        <label>This year we will again be including some sporting highlights in our winter event.&lt;br /&gt;
+In order to allow us to cater for your particular interests, we ask you to please provide a few details here.</label>
+        <name>P7S1_VIRTUALTHEMOUNTAIN_DETAIL_Auch_in_diesem</name>
+    </customLabels>
+    <customLabels>
+        <label>Please inform us which skiing or snowboard equipment you will bring with you.</label>
+        <name>P7S1_VIRTUALTHEMOUNTAIN_DETAIL_Bitte_teilen_Sie_uns</name>
+    </customLabels>
+    <customLabels>
+        <label>Bonus card no.</label>
+        <name>P7S1_VIRTUALTHEMOUNTAIN_DETAIL_BonuskartenNr</name>
+    </customLabels>
+    <customLabels>
+        <label>I would like to play ice hockey</label>
+        <name>P7S1_VIRTUALTHEMOUNTAIN_DETAIL_Eishockey_spielen</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- P7S1_VIRTUALTHEMOUNTAIN_DETAIL_Ernährungsgewohnheit --></label>
+        <name>P7S1_VIRTUALTHEMOUNTAIN_DETAIL_Ern_hrungsgewohnheit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- P7S1_VIRTUALTHEMOUNTAIN_DETAIL_Essen --></label>
+        <name>P7S1_VIRTUALTHEMOUNTAIN_DETAIL_Essen</name>
+    </customLabels>
+    <customLabels>
+        <label>Airline</label>
+        <name>P7S1_VIRTUALTHEMOUNTAIN_DETAIL_Fluggesellschaft</name>
+    </customLabels>
+    <customLabels>
+        <label>Desired point of departure</label>
+        <name>P7S1_VIRTUALTHEMOUNTAIN_DETAIL_Gew</name>
+    </customLabels>
+    <customLabels>
+        <label>Weight</label>
+        <name>P7S1_VIRTUALTHEMOUNTAIN_DETAIL_Gewicht</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- P7S1_VIRTUALTHEMOUNTAIN_DETAIL_Headline1 --></label>
+        <name>P7S1_VIRTUALTHEMOUNTAIN_DETAIL_Headline1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- P7S1_VIRTUALTHEMOUNTAIN_DETAIL_Headline2 --></label>
+        <name>P7S1_VIRTUALTHEMOUNTAIN_DETAIL_Headline2</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- P7S1_VIRTUALTHEMOUNTAIN_DETAIL_Headline3 --></label>
+        <name>P7S1_VIRTUALTHEMOUNTAIN_DETAIL_Headline3</name>
+    </customLabels>
+    <customLabels>
+        <label>I will bring</label>
+        <name>P7S1_VIRTUALTHEMOUNTAIN_DETAIL_Ich_bringe_mit</name>
+    </customLabels>
+    <customLabels>
+        <label>I will travel independently all the way to the event location</label>
+        <name>P7S1_VIRTUALTHEMOUNTAIN_DETAIL_Ich_reise_selbs</name>
+    </customLabels>
+    <customLabels>
+        <label>Height</label>
+        <name>P7S1_VIRTUALTHEMOUNTAIN_DETAIL_Korpergrope</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- P7S1_VIRTUALTHEMOUNTAIN_DETAIL_Parkplatz --></label>
+        <name>P7S1_VIRTUALTHEMOUNTAIN_DETAIL_Parkplatz</name>
+    </customLabels>
+    <customLabels>
+        <label>Shoe size</label>
+        <name>P7S1_VIRTUALTHEMOUNTAIN_DETAIL_Schuhgr_e</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- P7S1_VIRTUALTHEMOUNTAIN_DETAIL_SelbstorganisationAnreiseAbreise --></label>
+        <name>P7S1_VIRTUALTHEMOUNTAIN_DETAIL_SelbstorganisationAnreiseAbreise</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- P7S1_VIRTUALTHEMOUNTAIN_DETAIL_ShuttleBus --></label>
+        <name>P7S1_VIRTUALTHEMOUNTAIN_DETAIL_ShuttleBus</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- P7S1_VIRTUALTHEMOUNTAIN_DETAIL_ShuttleBusfürFluggäste --></label>
+        <name>P7S1_VIRTUALTHEMOUNTAIN_DETAIL_ShuttleBusf_rFlugg_ste</name>
+    </customLabels>
+    <customLabels>
+        <label>Ski</label>
+        <name>P7S1_VIRTUALTHEMOUNTAIN_DETAIL_SkiSnowboard</name>
+    </customLabels>
+    <customLabels>
+        <label>I&apos;m a skier</label>
+        <name>P7S1_VIRTUALTHEMOUNTAIN_DETAIL_Skifahrer</name>
+    </customLabels>
+    <customLabels>
+        <label>Ski poles</label>
+        <name>P7S1_VIRTUALTHEMOUNTAIN_DETAIL_Skist</name>
+    </customLabels>
+    <customLabels>
+        <label>Snowboard</label>
+        <name>P7S1_VIRTUALTHEMOUNTAIN_DETAIL_Snowboard</name>
+    </customLabels>
+    <customLabels>
+        <label>I&apos;m a snowboarder</label>
+        <name>P7S1_VIRTUALTHEMOUNTAIN_DETAIL_Snowboarder</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- P7S1_VIRTUALTHEMOUNTAIN_DETAIL_Vegan --></label>
+        <name>P7S1_VIRTUALTHEMOUNTAIN_DETAIL_Vegan</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- P7S1_VIRTUALTHEMOUNTAIN_DETAIL_Vegetarisch --></label>
+        <name>P7S1_VIRTUALTHEMOUNTAIN_DETAIL_Vegetarisch</name>
+    </customLabels>
+    <customLabels>
+        <label>I would like to try curling</label>
+        <name>P7S1_VIRTUALTHEMOUNTAIN_DETAIL_im_Eisstock</name>
+    </customLabels>
+    <customLabels>
+        <label>Ski boots</label>
+        <name>P7S1_VIRTUALTHEMOUNTAIN_DETAI_Skischuhe_Snowboardschuhe</name>
+    </customLabels>
+    <customLabels>
+        <label>Snowboard boots</label>
+        <name>P7S1_VIRTUALTHEMOUNTAIN_DETAI_Snowboardschuhe</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- P7S1_VIRTUALTHEMOUNTAIN_ERROR_CODE --></label>
+        <name>P7S1_VIRTUALTHEMOUNTAIN_ERROR_CODE</name>
+    </customLabels>
+    <customLabels>
+        <label>Please fill the required information.</label>
+        <name>P7S1_VIRTUALTHEMOUNTAIN_ERROR_REQUIRED</name>
+    </customLabels>
+    <customLabels>
+        <label>We would be happy to provide you with skiing or snowboard equipment.&lt;br/&gt;&lt;br/&gt;
+For this we need a few further details:</label>
+        <name>P7S1_VIRTUALTHEMOUNTAIN_Gerne_stellen_wir_Ihnen</name>
+    </customLabels>
+    <customLabels>
+        <label>https://www.sevenonemedia.com/terms-of-business</label>
+        <name>P7S1_VIRTUALTHEMOUNTAIN_LINK_HINWEISE</name>
+    </customLabels>
+    <customLabels>
+        <label>This is a personal invitation for</label>
+        <name>P7S1_VIRTUALTHEMOUNTAIN_LOGIN_1</name>
+    </customLabels>
+    <customLabels>
+        <label>To accept or decline, please log in using your personal password.</label>
+        <name>P7S1_VIRTUALTHEMOUNTAIN_LOGIN_2</name>
+    </customLabels>
+    <customLabels>
+        <label>Your are not</label>
+        <name>P7S1_VIRTUALTHEMOUNTAIN_LOGIN_3</name>
+    </customLabels>
+    <customLabels>
+        <label>E-mail</label>
+        <name>P7S1_VIRTUALTHEMOUNTAIN_LOGIN_EMAIL</name>
+    </customLabels>
+    <customLabels>
+        <label>Registration code</label>
+        <name>P7S1_VIRTUALTHEMOUNTAIN_LOGIN_Registrierungscode</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- P7S1_VIRTUALTHEMOUNTAIN_MobileNumber_Teilnehmerkreis --></label>
+        <name>P7S1_VIRTUALTHEMOUNTAIN_MobileNumber_Teilnehmerkreis</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- P7S1_VIRTUALTHEMOUNTAIN_NOINTEREST --></label>
+        <name>P7S1_VIRTUALTHEMOUNTAIN_NOINTEREST</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- P7S1_VIRTUALTHEMOUNTAIN_Nein --></label>
+        <name>P7S1_VIRTUALTHEMOUNTAIN_Nein</name>
+    </customLabels>
+    <customLabels>
+        <label>back</label>
+        <name>P7S1_VIRTUALTHEMOUNTAIN_Prev</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- P7S1_VIRTUALTHEMOUNTAIN_STARTTEXT --></label>
+        <name>P7S1_VIRTUALTHEMOUNTAIN_STARTTEXT</name>
+    </customLabels>
+    <customLabels>
+        <label>Salutation</label>
+        <name>P7S1_VIRTUALTHEMOUNTAIN_Salutation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- P7S1_lbl_ExitParticipation --></label>
+        <name>P7S1_lbl_ExitParticipation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- P7S1_lbl_FillUp --></label>
+        <name>P7S1_lbl_FillUp</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PDF Page Break --></label>
+        <name>PDF_Page_Break</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- PDF Page Break Position --></label>
+        <name>PDF_Page_Break_Position</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Please wait... --></label>
+        <name>Please_wait</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pos. Nr_GM --></label>
+        <name>Pos_Nr_GM</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Pos. Nr._PR --></label>
+        <name>Pos_Nr_PR</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Positionsicht --></label>
+        <name>Position_View</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Positionsstatus_PR --></label>
+        <name>Positionsstatus_PR</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Previous --></label>
+        <name>PreviouPreviouss</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ProfileIdAdmin --></label>
+        <name>ProfileIdAdmin</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Records per Page --></label>
+        <name>RecordsPerPage</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SAP Upload URL --></label>
+        <name>SAP_Upload_URL</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SOLL aktuell_GM --></label>
+        <name>SOLL_aktuell_GM</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SOLL aktuell_PR --></label>
+        <name>SOLL_aktuell_PR</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Save --></label>
+        <name>Save</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SaveToolTip --></label>
+        <name>SaveToolTip</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Screenshot_PR --></label>
+        <name>Screenshot_PR</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Screenshot versendet --></label>
+        <name>Screenshot_versendet</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Search --></label>
+        <name>Search</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Select Filters for Campaign Report --></label>
+        <name>Select_Filters_for_Campaign_Report</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Select_Filters_for_GoodMorning_Report --></label>
+        <name>Select_Filters_for_GoodMorning_Report</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Select_Filters_for_Position_Report --></label>
+        <name>Select_Filters_for_Position_Report</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Select Users : --></label>
+        <name>Select_Users</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SomDig_Buchungssatz_Faktura_Recipients --></label>
+        <name>SomDig_Buchungssatz_Faktura_Recipients</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SomDig_CampaignItem_SubmitErrorProbability --></label>
+        <name>SomDig_CampaignItem_SubmitErrorProbability</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SomDig_InvoiceMonth_CloseMonth_NoNextMonth --></label>
+        <name>SomDig_InvoiceMonth_CloseMonth_NoNextMonth</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SomDig_InvoiceMonth_CloseMonth_NotBillingUser --></label>
+        <name>SomDig_InvoiceMonth_CloseMonth_NotBillingUser</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SomDig_InvoiceMonth_CloseMonth_NotCurrentInvoiceMonth --></label>
+        <name>SomDig_InvoiceMonth_CloseMonth_NotCurrentInvoiceMonth</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SomDig_KeineVerfuegbarkeit --></label>
+        <name>SomDig_KeineVerfuegbarkeit</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SomDig_MediaCampaign_FieldFixierungError --></label>
+        <name>SomDig_MediaCampaign_FieldFixierungError</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ProfileIdPAM --></label>
+        <name>SomDig_ProfileIdPAM</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- ProfileIdSales --></label>
+        <name>SomDig_ProfileIdSales</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SomDig_SapDatei_ErrorMessage_ErrorJobStillRunning --></label>
+        <name>SomDig_SapDatei_ErrorMessage_ErrorJobStillRunning</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SomDig_VerfuegbarkeitAbfrageVeraltet --></label>
+        <name>SomDig_VerfuegbarkeitAbfrageVeraltet</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Go Back --></label>
+        <name>SomTv_Back</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Error Msg Number of Times to Clone --></label>
+        <name>SomTv_ErrMsgNumberOfTimesToClone</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Number of Times to clone --></label>
+        <name>SomTv_NumberOfTimesToClone</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- SomTv_PortfoliocheckFolderId --></label>
+        <name>SomTv_PortfoliocheckFolderId</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Clone OpportunityLineItem --></label>
+        <name>SomTv_StartClone</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Start --></label>
+        <name>Start</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Start_GM --></label>
+        <name>Start_GM</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Start_PR --></label>
+        <name>Start_PR</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Status --></label>
+        <name>Status</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Status Pos. --></label>
+        <name>Status_Pos</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Status Pos_GM --></label>
+        <name>Status_Pos_GM</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ven_lbl_7VenturesPipeline --></label>
+        <name>Ven_lbl_7VenturesPipeline</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ven_lbl_Account --></label>
+        <name>Ven_lbl_Account</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ven_lbl_Analyst --></label>
+        <name>Ven_lbl_Analyst</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ven_lbl_AnnualShiftingRightsCustomer --></label>
+        <name>Ven_lbl_AnnualShiftingRightsCustomer</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ven_lbl_AnnualShiftingRightsP7S1 --></label>
+        <name>Ven_lbl_AnnualShiftingRightsP7S1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ven_lbl_AprilShort --></label>
+        <name>Ven_lbl_AprilShort</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ven_lbl_AugustShort --></label>
+        <name>Ven_lbl_AugustShort</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ven_lbl_AutoFill --></label>
+        <name>Ven_lbl_AutoFill</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ven_lbl_BusinessModel --></label>
+        <name>Ven_lbl_BusinessModel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ven_lbl_BusinessType --></label>
+        <name>Ven_lbl_BusinessType</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ven_lbl_Cancel --></label>
+        <name>Ven_lbl_Cancel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ven_lbl_Cash --></label>
+        <name>Ven_lbl_Cash</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ven_lbl_ClientLikelihood --></label>
+        <name>Ven_lbl_ClientLikelihood</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ven_lbl_CommentLostCancelled --></label>
+        <name>Ven_lbl_CommentLostCancelled</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ven_lbl_CompleteFields --></label>
+        <name>Ven_lbl_CompleteFields</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ven_lbl_ContactAdmin --></label>
+        <name>Ven_lbl_ContactAdmin</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ven_lbl_Country --></label>
+        <name>Ven_lbl_Country</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ven_lbl_Currency --></label>
+        <name>Ven_lbl_Currency</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ven_lbl_CustomerAssesment --></label>
+        <name>Ven_lbl_CustomerAssesment</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ven_lbl_DealIndustry --></label>
+        <name>Ven_lbl_DealIndustry</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ven_lbl_DealStart --></label>
+        <name>Ven_lbl_DealStart</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ven_lbl_DealType --></label>
+        <name>Ven_lbl_DealType</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ven_lbl_DecemberShort --></label>
+        <name>Ven_lbl_DecemberShort</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ven_lbl_Delete --></label>
+        <name>Ven_lbl_Delete</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ven_lbl_DeleteOpp --></label>
+        <name>Ven_lbl_DeleteOpp</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ven_lbl_DescriptionWKZPotential --></label>
+        <name>Ven_lbl_DescriptionWKZPotential</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ven_lbl_Effective --></label>
+        <name>Ven_lbl_Effective</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ven_lbl_EnvisagedTypeOfTransaction --></label>
+        <name>Ven_lbl_EnvisagedTypeOfTransaction</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ven_lbl_Equity_Share --></label>
+        <name>Ven_lbl_Equity_Share</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ven_lbl_Export --></label>
+        <name>Ven_lbl_Export</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ven_lbl_FebruaryShort --></label>
+        <name>Ven_lbl_FebruaryShort</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ven_lbl_FeedbackAdMarketDevInitiative --></label>
+        <name>Ven_lbl_FeedbackAdMarketDevInitiative</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ven_lbl_Gmv --></label>
+        <name>Ven_lbl_Gmv</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ven_lbl_Home --></label>
+        <name>Ven_lbl_Home</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ven_lbl_Im --></label>
+        <name>Ven_lbl_Im</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ven_lbl_IndustryChampion --></label>
+        <name>Ven_lbl_IndustryChampion</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ven_lbl_InterestOfData --></label>
+        <name>Ven_lbl_InterestOfData</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ven_lbl_International --></label>
+        <name>Ven_lbl_International</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ven_lbl_Invest --></label>
+        <name>Ven_lbl_Invest</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ven_lbl_JanuaryShort --></label>
+        <name>Ven_lbl_JanuaryShort</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ven_lbl_JulyShort --></label>
+        <name>Ven_lbl_JulyShort</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ven_lbl_JuneShort --></label>
+        <name>Ven_lbl_JuneShort</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ven_lbl_LastModified --></label>
+        <name>Ven_lbl_LastModified</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ven_lbl_ListOfWebsitesApps --></label>
+        <name>Ven_lbl_ListOfWebsitesApps</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ven_lbl_MN3Customer --></label>
+        <name>Ven_lbl_MN3Customer</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ven_lbl_MarchShort --></label>
+        <name>Ven_lbl_MarchShort</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ven_lbl_MayShort --></label>
+        <name>Ven_lbl_MayShort</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ven_lbl_MediaPlanner --></label>
+        <name>Ven_lbl_MediaPlanner</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ven_lbl_MonthlyRegistration --></label>
+        <name>Ven_lbl_MonthlyRegistration</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ven_lbl_MonthlyShiftingRightsCustomer --></label>
+        <name>Ven_lbl_MonthlyShiftingRightsCustomer</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ven_lbl_MonthlyShiftingRightsP7S1 --></label>
+        <name>Ven_lbl_MonthlyShiftingRightsP7S1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ven_lbl_NetPotential --></label>
+        <name>Ven_lbl_NetPotential</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ven_lbl_NetPotentialShort --></label>
+        <name>Ven_lbl_NetPotentialShort</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ven_lbl_New --></label>
+        <name>Ven_lbl_New</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ven_lbl_NovemberShort --></label>
+        <name>Ven_lbl_NovemberShort</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ven_lbl_OctoberShort --></label>
+        <name>Ven_lbl_OctoberShort</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ven_lbl_Opp --></label>
+        <name>Ven_lbl_Opp</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ven_lbl_PartnerDatadeals --></label>
+        <name>Ven_lbl_PartnerDatadeals</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ven_lbl_PipeChecked --></label>
+        <name>Ven_lbl_PipeChecked</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ven_lbl_Pipeline --></label>
+        <name>Ven_lbl_Pipeline</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ven_lbl_Prap --></label>
+        <name>Ven_lbl_Prap</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ven_lbl_PresDatadealsWithThird --></label>
+        <name>Ven_lbl_PresDatadealsWithThird</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ven_lbl_ProductionDescription --></label>
+        <name>Ven_lbl_ProductionDescription</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ven_lbl_ReasonLostCancelled --></label>
+        <name>Ven_lbl_ReasonLostCancelled</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ven_lbl_Refresh --></label>
+        <name>Ven_lbl_Refresh</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ven_lbl_RiskProfile --></label>
+        <name>Ven_lbl_RiskProfile</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ven_lbl_SLM --></label>
+        <name>Ven_lbl_SLM</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ven_lbl_SLMDeviation --></label>
+        <name>Ven_lbl_SLMDeviation</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ven_lbl_Save --></label>
+        <name>Ven_lbl_Save</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ven_lbl_Saved --></label>
+        <name>Ven_lbl_Saved</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ven_lbl_Scout --></label>
+        <name>Ven_lbl_Scout</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ven_lbl_SegmentDefinition --></label>
+        <name>Ven_lbl_SegmentDefinition</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ven_lbl_SeptemberShort --></label>
+        <name>Ven_lbl_SeptemberShort</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ven_lbl_Status --></label>
+        <name>Ven_lbl_Status</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ven_lbl_SubCat --></label>
+        <name>Ven_lbl_SubCat</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ven_lbl_SummarySocialDataOnRegistration --></label>
+        <name>Ven_lbl_SummarySocialDataOnRegistration</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ven_lbl_TargetPl --></label>
+        <name>Ven_lbl_TargetPl</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ven_lbl_TestDeal --></label>
+        <name>Ven_lbl_TestDeal</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ven_lbl_Total --></label>
+        <name>Ven_lbl_Total</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ven_lbl_VariableComponent --></label>
+        <name>Ven_lbl_VariableComponent</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ven_lbl_Vertical --></label>
+        <name>Ven_lbl_Vertical</name>
+    </customLabels>
+    <customLabels>
+        <label>Potential Approved</label>
+        <name>Ven_lbl_WKZPotential</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Ven_lbl_Yield --></label>
+        <name>Ven_lbl_Yield</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Warning --></label>
+        <name>Warning</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Werbemittel --></label>
+        <name>Werbemittel</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Werbemittel_GM --></label>
+        <name>Werbemittel_GM</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Werbemittel_PR --></label>
+        <name>Werbemittel_PR</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Werbetreibender --></label>
+        <name>Werbetreibender</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- Werbetreibender --></label>
+        <name>Werbetreibender_PR</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- abgeschlossen --></label>
+        <name>abgeschlossen</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- eTKP_GM --></label>
+        <name>eTKP_GM</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- eTKP_PR --></label>
+        <name>eTKP_PR</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- @risk --></label>
+        <name>risk</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- z_DumpBtn --></label>
+        <name>z_DumpBtn</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- z_FAILURE --></label>
+        <name>z_FAILURE</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- z_Message1 --></label>
+        <name>z_Message1</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- z_Message2 --></label>
+        <name>z_Message2</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- z_Message3 --></label>
+        <name>z_Message3</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- z_MetadataDump --></label>
+        <name>z_MetadataDump</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- z_Progress --></label>
+        <name>z_Progress</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- z_SUCCESS --></label>
+        <name>z_SUCCESS</name>
+    </customLabels>
+    <customLabels>
+        <label><!-- z_Warning --></label>
+        <name>z_Warning</name>
+    </customLabels>
+    <customTabs>
+        <label><!-- Media Ranking --></label>
+        <name>MT_Ranking</name>
+    </customTabs>
+</Translations>

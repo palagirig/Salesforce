@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Media Forecast Value</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Media Forecast Values</value>
+    </caseValues>
+    <fields>
+        <label><!-- April --></label>
+        <name>MT_April__c</name>
+    </fields>
+    <fields>
+        <label><!-- August --></label>
+        <name>MT_August__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dezember --></label>
+        <name>MT_December__c</name>
+    </fields>
+    <fields>
+        <label><!-- Februar --></label>
+        <name>MT_February__c</name>
+    </fields>
+    <fields>
+        <label><!-- Januar --></label>
+        <name>MT_January__c</name>
+    </fields>
+    <fields>
+        <label><!-- Juli --></label>
+        <name>MT_July__c</name>
+    </fields>
+    <fields>
+        <label><!-- Juni --></label>
+        <name>MT_June__c</name>
+    </fields>
+    <fields>
+        <label><!-- März --></label>
+        <name>MT_March__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mai --></label>
+        <name>MT_May__c</name>
+    </fields>
+    <fields>
+        <label>Kampagnentype</label>
+        <name>MT_MediaCampaignType__c</name>
+        <relationshipLabel>Forecast-Werte</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Forecast-Version</label>
+        <name>MT_MediaForecastVersion_ref__c</name>
+        <relationshipLabel>Forecast-Werte</relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- November --></label>
+        <name>MT_November__c</name>
+    </fields>
+    <fields>
+        <label><!-- Oktober --></label>
+        <name>MT_October__c</name>
+    </fields>
+    <fields>
+        <label><!-- September --></label>
+        <name>MT_September__c</name>
+    </fields>
+    <fields>
+        <label>Name der Unit</label>
+        <name>MT_Sys_CampaignTypeUnitName__c</name>
+    </fields>
+    <gender>Neuter</gender>
+</CustomObjectTranslation>

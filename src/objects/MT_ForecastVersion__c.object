@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>true</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Definiert einen Stand des Forecasting (z.B. für einen Monat).</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableChangeDataCapture>false</enableChangeDataCapture>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fieldSets>
+        <fullName>MT_ContextFields</fullName>
+        <description>Services</description>
+        <displayedFields>
+            <field>MT_Deadline__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Name</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_UseActualsUntil__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_UsePlanningDataUntil__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_VersionDate__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_VersionName__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Context Fields</label>
+    </fieldSets>
+    <fields>
+        <fullName>MT_AutoNumber__c</fullName>
+        <description>Das ist eine automatische Zahl um eine einwandfreie Benennung zu gewährleisten.  Dieser Wert wird mit Beginn eines neuen Jahres zurückgesetzt.</description>
+        <displayFormat>{000000}</displayFormat>
+        <externalId>false</externalId>
+        <label>Auto Number</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>AutoNumber</type>
+    </fields>
+    <fields>
+        <fullName>MT_Deadline__c</fullName>
+        <defaultValue>IF(MONTH(TODAY()) &gt; 10, DATE(YEAR(TODAY()) + 1, MONTH(TODAY()) - 10, 5), DATE(YEAR(TODAY()), MONTH(TODAY()) + 2, 5))</defaultValue>
+        <description>Definiert, bis wann die Business Units ihre Werte eintragen müssen. Danach darf nur noch das MSC die Werte bearbeiten.</description>
+        <externalId>false</externalId>
+        <label>Deadline</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>MT_IsLocked__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Ist diese Checkbox aktiv, darf niemand mehr Werte zu diesem Forecasting eintragen.</description>
+        <externalId>false</externalId>
+        <label>Is Locked</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>MT_UseActualsUntil__c</fullName>
+        <defaultValue>DATE(YEAR(TODAY()), MONTH(TODAY()), 1)</defaultValue>
+        <description>The month up to which to use actual data in the forecast.</description>
+        <externalId>false</externalId>
+        <label>Use actual data until month</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>MT_UsePlanningDataUntil__c</fullName>
+        <defaultValue>IF(MONTH(TODAY()) &gt; 10, DATE(YEAR(TODAY()) + 1, MONTH(TODAY()) - 10, 1), DATE(YEAR(TODAY()), MONTH(TODAY()) + 2, 1))</defaultValue>
+        <description>Der Monat, bis zu dem Plandaten (aus den Businessplänen) im Forecasting angezeigt werden.</description>
+        <externalId>false</externalId>
+        <label>Use planning data until month</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>MT_VersionDate__c</fullName>
+        <defaultValue>IF(MONTH(TODAY()) = 12, DATE(YEAR(TODAY()) + 1, 1, 1), DATE(YEAR(TODAY()), MONTH(TODAY()) + 1, 1))</defaultValue>
+        <description>The month this forecast version applies to (e.g. creation month).</description>
+        <externalId>false</externalId>
+        <label>Version Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>MT_VersionName__c</fullName>
+        <defaultValue>TEXT(YEAR(TODAY())) &amp;&quot;_&quot;&amp; CASE(MONTH(TODAY())+1, 1, &quot;Januar&quot;, 2, &quot;Februar&quot;, 3, &quot;März&quot;,  4, &quot;April&quot;,  5, &quot;Mai&quot;,  6, &quot;Juni&quot;, 7, &quot;Juli&quot;, 8, &quot;August&quot;, 9, &quot;September&quot;, 10, &quot;Oktober&quot;, 11, &quot;November&quot;, 12, &quot;Dezember&quot;, 13, &quot;Januar&quot;, &quot;None&quot;) &amp; &quot;_01&quot;</defaultValue>
+        <description>Ein eindeutiger Name für diese Forecastingversion.</description>
+        <externalId>false</externalId>
+        <label>Version Name</label>
+        <length>32</length>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Media Forecast Version</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <displayFormat>MFV-{000000}</displayFormat>
+        <label>Forecast Version Number</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Media Forecast Versions</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>Read</sharingModel>
+    <validationRules>
+        <fullName>MT_ActualDateInVersionDateYear</fullName>
+        <active>true</active>
+        <description>Checks that the actual date year is within the version date year</description>
+        <errorConditionFormula>YEAR( MT_UseActualsUntil__c ) &lt;&gt; YEAR( MT_VersionDate__c )</errorConditionFormula>
+        <errorDisplayField>MT_UseActualsUntil__c</errorDisplayField>
+        <errorMessage>Das &quot;Actual Date&quot; muss sich im &quot;Version Date&quot; Jahr befinden.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_ActualDateNotAfterPlannedDate</fullName>
+        <active>true</active>
+        <description>Checks if the Actual date is before the Planned date</description>
+        <errorConditionFormula>MT_UsePlanningDataUntil__c &lt;  MT_UseActualsUntil__c</errorConditionFormula>
+        <errorDisplayField>MT_UseActualsUntil__c</errorDisplayField>
+        <errorMessage>Das &quot;Actual Date&quot; muss sich vor dem &quot;Planned Date&quot; befinden.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_PlannedDateInVersionDateYear</fullName>
+        <active>true</active>
+        <description>Checks if the planned date is within the version date year</description>
+        <errorConditionFormula>YEAR( MT_UsePlanningDataUntil__c ) &lt;&gt; YEAR( MT_VersionDate__c )</errorConditionFormula>
+        <errorDisplayField>MT_UsePlanningDataUntil__c</errorDisplayField>
+        <errorMessage>Das &quot;Planned Date&quot; muss sich innerhalb des &quot;Version Date&quot; Jahres befinden.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_VersionDateDiesesFolgendesJahr</fullName>
+        <active>true</active>
+        <description>Validates that the entered value is for the current or next year.</description>
+        <errorConditionFormula>OR(YEAR(MT_VersionDate__c) &gt; YEAR(TODAY())+1, YEAR(MT_VersionDate__c) &lt; YEAR(TODAY()))</errorConditionFormula>
+        <errorDisplayField>MT_VersionDate__c</errorDisplayField>
+        <errorMessage>Das eingetragene Datum liegt nicht in diesem oder im nächsten Jahr.</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>MT_OpenForecasting</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Open Forecasting</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <url>{!REQUIRESCRIPT(&quot;/support/console/28.0/integration.js&quot;)}
+{!REQUIRESCRIPT(&quot;/soap/ajax/38.0/connection.js&quot;)}
+
+var url = &quot;/apex/MT_Forecasting&quot;;
+var pageName = &quot;Forecasting&quot;;
+
+var fcOpenSubtab = function fcOpenSubtab(result) {
+sforce.console.openSubtab(result.id, url, true, pageName, null);
+};
+
+if (sforce.console.isInConsole()) {
+sforce.console.getEnclosingPrimaryTabId(fcOpenSubtab);
+} else {
+window.open(url, pageName);
+}</url>
+    </webLinks>
+</CustomObject>

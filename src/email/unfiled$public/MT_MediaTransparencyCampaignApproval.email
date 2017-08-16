@@ -1,0 +1,13 @@
+{!Today}
+
+Sehr geehrte(r) {!Receiving_User.Name},
+
+es wurde ein neuer Freigabeprozess für die Opportunity Freigabe "{!P7S1_OpportunityApproval__c.Name}" gestartet.
+
+{!P7S1_OpportunityApproval__c.Link}
+
+Mit freundlichen Grüßen,
+
+{!User.Name}
+{!Organization.Name}
+{!User.Email}

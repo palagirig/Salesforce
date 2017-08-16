@@ -1,0 +1,42 @@
+<apex:page standardController="MT_TvTarget__c" extensions="MT_ForecastingController,MT_ConfigController" showHeader="false" standardStylesheets="false" sidebar="false" applyHtmlTag="false" applyBodyTag="false" docType="html-5.0">
+<html ng-app="MT_Forecasting">
+  <head>
+    <meta charset="utf-8"/>
+    <base href="/apex/MT_Forecasting/"></base>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width"/>
+    <title>PRO7 Media Transparency: Forecasting</title>
+    <link href="{!URLFOR($Resource.mediaTransparency, 'styles/pro7mt.slds.css')}" rel="stylesheet"/>
+  </head>
+
+  <body>
+    <ui-view name="main"></ui-view>
+    <script src="{!URLFOR($Resource.mediaTransparency, 'lib/angular/angular.js')}"></script>
+    <script src="{!URLFOR($Resource.mediaTransparency, 'lib/angular-ui-router/release/angular-ui-router.js')}"></script>
+
+    <script src="{!URLFOR($Resource.mediaTransparencyForecasting, 'js/MT_Forecasting.js')}"></script>
+    <script>
+    angular.module('config', [])
+    .constant('forcengOptions', {accessToken: "{!$Api.Session_ID}", useProxy:false})
+    .constant('baseURL', "{!URLFOR($Resource.mediaTransparency, '/')}")
+    .constant('forecastingBaseURL', "{!URLFOR($Resource.mediaTransparencyForecasting, '/')}");
+    </script>
+
+    <!-- modules -->
+    <script src="{!URLFOR($Resource.mediaTransparency, 'modules/common/commonModule.js')}"></script>
+    <script src="{!URLFOR($Resource.mediaTransparency, 'modules/common/directives/calendar.js')}"></script>
+    <script src="{!URLFOR($Resource.mediaTransparency, 'modules/common/directives/currencyInput.js')}"></script>
+    <script src="{!URLFOR($Resource.mediaTransparency, 'modules/common/directives/currencyOutput.js')}"></script>
+
+    <script src="{!URLFOR($Resource.mediaTransparencyApi, 'module.js')}"></script>
+    <script src="{!URLFOR($Resource.mediaTransparencyApi, 'services/remoteService.js')}"></script>
+    <script src="{!URLFOR($Resource.mediaTransparencyApi, 'apis/config.js')}"></script>
+    <script src="{!URLFOR($Resource.mediaTransparencyApi, 'apis/forecasting.js')}"></script>
+    <script src="{!URLFOR($Resource.mediaTransparencyApi, 'models/forecasting.js')}"></script>
+
+    <!-- planning -->
+    <script src="{!URLFOR($Resource.mediaTransparencyForecasting, 'modules/forecasting/forecastingModule.js')}"></script>
+    <script src="{!URLFOR($Resource.mediaTransparencyForecasting, 'modules/forecasting/controllers/forecastingController.js')}"></script>
+    <script src="{!URLFOR($Resource.mediaTransparencyForecasting, 'modules/forecasting/directives/calendarForecasting.js')}"></script>
+  </body>
+</html>
+</apex:page>

@@ -1,0 +1,61 @@
+<apex:page standardController="MT_TvTarget__c" extensions="MT_FlightPlanningController,MT_ConfigController,MT_AccountMotivesController"
+           showHeader="false" standardStylesheets="false" sidebar="false" applyHtmlTag="false" applyBodyTag="false"
+           docType="html-5.0">
+  <html ng-app="MT_FlightPlanning">
+  <head>
+    <meta charset="utf-8"/>
+    <base href="/apex/MT_FlightPlanning/"></base>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width"/>
+    <title>PRO7 Media Transparency: Flight Planning</title>
+    <link href="{!URLFOR($Resource.mediaTransparency, 'styles/pro7mt.slds.css')}" rel="stylesheet"/>
+  </head>
+
+  <body>
+    <ui-view name="main"></ui-view>
+
+    <script src="{!URLFOR($Resource.mediaTransparency, 'lib/angular/angular.js')}"></script>
+    <script src="{!URLFOR($Resource.mediaTransparency, 'lib/angular-ui-router/release/angular-ui-router.js')}"></script>
+
+    <script src="{!URLFOR($Resource.mediaTransparencyFlightPlanning, 'js/MT_FlightPlanning.js')}"></script>
+    <script>
+      angular.module('config', [])
+        .constant('forcengOptions', {accessToken: "{!$Api.Session_ID}", useProxy: false})
+        .constant('baseURL', "{!URLFOR($Resource.mediaTransparency, '/')}")
+        .constant('flightPlanningBaseURL', "{!URLFOR($Resource.mediaTransparencyFlightPlanning, '/')}")
+        .constant('userId', "{!$User.ID}")
+        .constant('buildingBlockId', "{!MT_TvTarget__c.Id}");
+    </script>
+
+    <!-- modules -->
+    <script src="{!URLFOR($Resource.mediaTransparency, 'modules/common/commonModule.js')}"></script>
+
+    <script src="{!URLFOR($Resource.mediaTransparency, 'modules/common/directives/currencyInput.js')}"></script>
+    <script src="{!URLFOR($Resource.mediaTransparency, 'modules/common/directives/percentageInput.js')}"></script>
+    <script src="{!URLFOR($Resource.mediaTransparency, 'modules/common/directives/currencyOutput.js')}"></script>
+    <script src="{!URLFOR($Resource.mediaTransparency, 'modules/common/directives/calendar.js')}"></script>
+    <script src="{!URLFOR($Resource.mediaTransparency, 'modules/common/directives/modal.js')}"></script>
+    <script src="{!URLFOR($Resource.mediaTransparency, 'modules/common/directives/dateRangePicker.js')}"></script>
+
+
+    <script src="{!URLFOR($Resource.mediaTransparencyApi, 'module.js')}"></script>
+    <script src="{!URLFOR($Resource.mediaTransparencyApi, 'services/remoteService.js')}"></script>
+    <script src="{!URLFOR($Resource.mediaTransparencyApi, 'apis/config.js')}"></script>
+    <script src="{!URLFOR($Resource.mediaTransparencyApi, 'models/flight.js')}"></script>
+    <script src="{!URLFOR($Resource.mediaTransparencyApi, 'apis/flight.js')}"></script>
+    <script src="{!URLFOR($Resource.mediaTransparencyApi, 'models/motive.js')}"></script>
+    <script src="{!URLFOR($Resource.mediaTransparencyApi, 'apis/motive.js')}"></script>
+
+
+    <!-- planning -->
+    <script src="{!URLFOR($Resource.mediaTransparencyFlightPlanning, 'modules/flight/directives/copyDropDown.js')}"></script>
+    <script src="{!URLFOR($Resource.mediaTransparencyFlightPlanning, 'modules/flight/directives/flightSegment.js')}"></script>
+    <script src="{!URLFOR($Resource.mediaTransparencyFlightPlanning, 'modules/flight/directives/saveModalContent.js')}"></script>
+    <script src="{!URLFOR($Resource.mediaTransparencyFlightPlanning, 'modules/flight/directives/allocateMotivesModalContent.js')}"></script>
+    <script src="{!URLFOR($Resource.mediaTransparencyFlightPlanning, 'modules/flight/directives/addProductModalContent.js')}"></script>
+    <script src="{!URLFOR($Resource.mediaTransparencyFlightPlanning, 'modules/flight/directives/addMotiveModalContent.js')}"></script>
+    <script src="{!URLFOR($Resource.mediaTransparencyFlightPlanning, 'modules/flight/flightModule.js')}"></script>
+    <script src="{!URLFOR($Resource.mediaTransparencyFlightPlanning, 'modules/flight/controllers/flightController.js')}"></script>
+  </body>
+  </html>
+
+</apex:page>

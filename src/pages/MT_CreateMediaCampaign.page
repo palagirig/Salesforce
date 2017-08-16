@@ -1,0 +1,632 @@
+<apex:page standardController="P7S1_OpportunityApproval__c" extensions="MT_CreateMediaCampaignController"
+           showHeader="false" sidebar="false" standardStylesheets="true" applyHtmlTag="false" applyBodyTag="false"
+           docType="html-5.0" action="{!prepareCampaign}">
+  <html xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width"/>
+    <title>{!$Label.MT_CreateMediaCampaign_Title}</title>
+    <link href="{!URLFOR($Resource.mediaTransparency, 'styles/pro7mt.slds.css')}" rel="stylesheet"/>
+    <script src="{!URLFOR($Resource.mediaTransparency, 'lib/jquery/jquery.min.js')}"></script>
+    <apex:includeScript value="/support/console/39.0/integration.js"/>
+    <style type="text/css">
+      .mt-form-element__control input.mt-input {
+        background-color: white;
+      }
+
+      .lookupInput input.mt-input {
+        padding-right: 25px;
+      }
+
+      .lookupInput a.mt-input {
+        display: none;
+      }
+
+      .mt-lookup .mt-input__icon {
+        right: 0.25rem;
+        top: 0.65rem;
+        margin-top: 0;
+      }
+
+      .mt-lookup .mt-lookup__list li {
+        margin-left: 0;
+      }
+
+      .mt-lookup .mt-lookup__menu {
+        width: calc(100% - 1.5rem);
+      }
+
+      .requiredInput .requiredBlock {
+        position: absolute;
+        width: 3px;
+        z-index: 100;
+        background: #cc0000;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 4px;
+        height: calc(1.875rem + (1px * 2));
+      }
+
+      .mt-item {
+        background: white;
+        margin-left: 10px;
+      }
+
+      .mt-card + .mt-card {
+        margin-top: 0.75rem;
+      }
+    </style>
+  </head>
+
+  <body>
+  <apex:outputPanel rendered="{!hasError}" layout="block">
+    <div role="alertdialog" tabindex="-1" aria-labelledby="prompt-heading-id"
+         aria-describedby="prompt-message-wrapper" class="mt-modal mt-fade-in-open mt-modal--prompt">
+      <div class="mt-modal__container">
+        <div class="mt-modal__header mt-theme--error mt-theme--alert-texture">
+          <h2 class="mt-text-heading--medium" id="prompt-heading-id">{!$Label.MT_CreateMediaCampaign_ErrorTitle}</h2>
+        </div>
+        <div class="mt-modal__content mt-p-around--medium">
+          <p>
+            <apex:outputText value="{!errorMessage}"/>
+          </p>
+        </div>
+        <div class="mt-modal__footer mt-theme--default">
+          <a class="mt-button mt-button--neutral" href="{!proceedTarget}">{!$Label.MT_CreateMediaCampaign_Ok}</a>
+        </div>
+      </div>
+    </div>
+    <div class="mt-backdrop mt-backdrop--open"></div>
+  </apex:outputPanel>
+  <apex:form rendered="{!!hasError && proceedTarget == null}" styleClass="mt-grid">
+    <article class="mt-card mt-card--narrow mt-size--3-of-12 mt-m-around--small">
+      <div class="mt-card__header">
+        <header class="mt-media mt-media--center mt-has-flexi-truncate">
+          <div class="mt-media__body">
+            <h2>
+              <span class="mt-text-heading--small">{!$Label.MT_CreateMediaCampaign_Title}</span>
+            </h2>
+          </div>
+        </header>
+      </div>
+      <div class="mt-card__body">
+        <div class="mt-card__body--inner">
+          <div class="mt-tile mt-card__tile">
+            <div class="mt-tile__detail mt-text-body--small">
+              <div class="mt-p-horizontal--small mt-p-bottom--small">
+                <apex:outputLabel value="{!$ObjectType.MT_MediaCampaign__c.fields.Name.label}" for="campaignName" styleClass="mt-form-element__label"/>
+
+                <div class="mt-form-element__control">
+                  <apex:inputField value="{!campaign.Name}" styleClass="mt-input" required="true" id="campaignName"/>
+                </div>
+              </div>
+
+              <div class="mt-p-horizontal--small mt-p-bottom--small mt-form-element mt-lookup" data-select="single">
+                <apex:outputLabel value="{!$ObjectType.MT_MediaCampaign__c.fields.MT_MediaCampaignType_ref__c.label}" for="campaignTypeRef"
+                                  styleClass="mt-form-element__label mt-lookup"/>
+
+                <div class="mt-form-element__control">
+                  <div class="mt-input-has-icon mt-input-has-icon--right">
+                    <i class="mt-fa mt-fw mt-fa-search mt-input__icon" aria-hidden="true"></i>
+                    <apex:inputField value="{!campaign.MT_MediaCampaignType_ref__c}"
+                                     styleClass="mt-input mt-lookup__search-input"
+                                     required="true" type="search" html-role="combobox" html-aria-activedescendant=""
+                                     html-aria-expanded="false" html-aria-autocomplete="list" html-autocomplete="off"
+                                     id="campaignTypeRef"/>
+                  </div>
+                </div>
+                <div class="mt-lookup__menu" id="campaignTypeRef">
+                  <ul class="mt-lookup__list" role="listbox">
+                    <apex:repeat value="{!campaignTypes}" var="ct">
+                      <li role="presentation">
+                        <span class="mt-lookup__item-action mt-media" role="option">
+                          <div class="mt-media__body">
+                            <div class="mt-lookup__result-text">{!ct.Name}</div>
+                          </div>
+                        </span>
+                      </li>
+                    </apex:repeat>
+                      <li role="presentation" style="display: none;" class="no-results-hint">
+                        <span class="mt-lookup__item-action mt-media" role="option">
+                          <div class="mt-media__body">
+                            <div class="mt-lookup__result-text">{!$Label.MT_CreateMediaCampaign_CampaignType_NoMatches}</div>
+                          </div>
+                        </span>
+                      </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mt-card__footer">
+        <apex:commandLink styleClass="mt-button mt-button--neutral" value="{!$Label.MT_CreateMediaCampaign_Create}" action="{!createCampaign}"/>
+        <a href="#close">{!$Label.MT_CreateMediaCampaign_Cancel}</a>
+      </div>
+    </article>
+
+    <article class="mt-card mt-card--narrow mt-size--9-of-12 mt-m-around--small mt-p-bottom--medium mt-m-left--none">
+      <div class="mt-card__header mt-grid">
+        <header class="mt-media mt-media--center mt-has-flexi-truncate">
+          <div class="mt-media__body">
+            <h2>
+              <span class="mt-text-heading--small">{!$Label.MT_CreateMediaCampaign_InformationFromOpportunityApproval}</span>
+            </h2>
+          </div>
+        </header>
+      </div>
+      <div class="mt-card__body">
+        <div class="mt-card__body--inner mt-grid">
+          <ul class="mt-has-dividers--around-space mt-size--3-of-12">
+            <li class="mt-item">
+              <div class="mt-tile mt-tile--board">
+                <h3 class="mt-truncate" title="Status">{!$ObjectType.MT_MediaCampaign__c.fields.MT_Status__c.label}</h3>
+                <div class="mt-tile__detail mt-text-body--small">
+                  <p class="mt-text-heading--small">
+                    <apex:outputField value="{!campaign.MT_Status__c}"/>
+                  </p>
+                </div>
+              </div>
+            </li>
+            <apex:outputPanel layout="none"
+                              rendered="{!AND(isExternalCampaign, OR(NOT(ISNULL(campaign.MT_ContractStartdate__c)), NOT(ISNULL(campaign.MT_ContractEnddate__c))))}">
+              <li class="mt-item">
+                <div class="mt-tile mt-tile--board">
+                  <h3 class="mt-truncate" title="{!$Label.MT_CreateMediaCampaign_ContractualRuntime}">{!$Label.MT_CreateMediaCampaign_ContractualRuntime}</h3>
+                  <div class="mt-tile__detail mt-text-body--small">
+                    <p class="mt-truncate">
+                      <apex:outputField value="{!campaign.MT_ContractStartdate__c}"/>&nbsp;&ndash;&nbsp;<apex:outputField value="{!campaign.MT_ContractEnddate__c}"/>
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </apex:outputPanel>
+            <apex:outputPanel layout="none"
+                              rendered="{!AND(isExternalCampaign, ISNULL(campaign.MT_ContractStartdate__c), ISNULL(campaign.MT_ContractEnddate__c))}">
+              <li class="mt-item">
+                <div class="mt-tile mt-tile--board">
+                  <h3 class="mt-truncate" title="{!$Label.MT_CreateMediaCampaign_ContractualRuntime}">{!$Label.MT_CreateMediaCampaign_ContractualRuntime}</h3>
+                  <div class="mt-tile__detail mt-text-body--small">
+                    <p class="mt-text-heading--small">{!$Label.MT_CreateMediaCampaign_ContractualRuntime_None}</p>
+                  </div>
+                </div>
+              </li>
+            </apex:outputPanel>
+            <li class="mt-item">
+              <div class="mt-tile mt-tile--board">
+                <h3 class="mt-truncate" title="{!$Label.MT_CreateMediaCampaign_BuildingBlocks}">{!$Label.MT_CreateMediaCampaign_BuildingBlocks}</h3>
+                <div class="mt-tile__detail mt-text-body--small">
+                  <p class="mt-truncate mt-grid">
+                    <span class="mt-size--2-of-12">{!$Label.MT_CreateMediaCampaign_BuildingBlocks_TV}:</span>
+                    <span class="mt-size-10-of-12">
+                          <apex:outputField value="{!campaign.MT_HasMediaTV__c}"/>
+                        </span>
+                  </p>
+                  <p class="mt-truncate mt-grid">
+                    <span class="mt-size--2-of-12">{!$Label.MT_CreateMediaCampaign_BuildingBlocks_Digital}:</span>
+                    <span class="mt-size-10-of-12">
+                          <apex:outputField value="{!campaign.MT_HasMediaDigital__c}"/>
+                        </span>
+                  </p>
+                  <p class="mt-truncate mt-grid">
+                    <span class="mt-size--2-of-12">{!$Label.MT_CreateMediaCampaign_BuildingBlocks_DooH}:</span>
+                    <span class="mt-size-10-of-12">
+                          <apex:outputField value="{!campaign.MT_HasMediaDooH__c}"/>
+                        </span>
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
+
+          <ul class="mt-has-dividers--around-space mt-size--3-of-12">
+            <apex:outputPanel layout="none" rendered="{!campaign.MT_HasMediaTV__c}">
+              <li class="mt-item">
+                <div class="mt-tile mt-tile--board">
+                  <h3 class="mt-truncate" title="{!$Label.MT_CreateMediaCampaign_BuildingBlocks_TV}">{!$Label.MT_CreateMediaCampaign_BuildingBlocks_TV}</h3>
+                  <div class="mt-tile__detail mt-text-body--small">
+                    <p class="mt-text-heading--small">
+                      <apex:outputField value="{!campaign.MT_BmvTv__c}"/>
+                    </p>
+                    <apex:outputPanel rendered="{!isExternalCampaign}" layout="none">
+                      <p class="truncate">
+                        {!$Label.MT_CreateMediaCampaign_Thereof}&nbsp;
+                        <apex:outputField value="{!campaign.MT_BmvTvCustomerIntegration__c}"/>
+                        {!$Label.MT_CreateMediaCampaign_BmvTvCustomer}
+                      </p>
+                      <p>&nbsp;</p>
+                    </apex:outputPanel>
+                    <p class="truncate">
+                      <apex:outputField value="{!campaign.MT_RunTimeTVStart__c}"/>&nbsp;&ndash;&nbsp;<apex:outputField value="{!campaign.MT_RunTimeTVEnd__c}"/>
+                    </p>
+                    <apex:outputPanel rendered="{!isExternalCampaign}" layout="none">
+                      <p>&nbsp;</p>
+                      <p class="mt-text-heading--small">
+                        {!$Label.MT_CreateMediaCampaign_SpotLength}:
+                      </p>
+                      <p class="truncate">
+                        <apex:outputField value="{!campaign.MT_TvSpotLength__c}"/>
+                        {!$Label.MT_CreateMediaCampaign_Seconds}
+                      </p>
+                      <p class="truncate">
+                        {!$Label.MT_CreateMediaCampaign_Thereof}&nbsp;
+                        <apex:outputField value="{!campaign.MT_TvSpotLengthCustomer__c}"/>
+                        {!$Label.MT_CreateMediaCampaign_SpotLengthCustomer}
+                      </p>
+                    </apex:outputPanel>
+                  </div>
+                </div>
+              </li>
+            </apex:outputPanel>
+            <apex:outputPanel layout="none" rendered="{!campaign.MT_HasMediaDigital__c}">
+              <li class="mt-item">
+                <div class="mt-tile mt-tile--board">
+                  <h3 class="mt-truncate" title="{!$Label.MT_CreateMediaCampaign_BuildingBlocks_Digital}">{!$Label.MT_CreateMediaCampaign_BuildingBlocks_Digital}</h3>
+                  <div class="mt-tile__detail mt-text-body--small">
+                    <p class="mt-text-heading--small">
+                      <apex:outputField value="{!campaign.MT_BmvDigital__c}"/>
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </apex:outputPanel>
+            <apex:outputPanel layout="none" rendered="{!campaign.MT_HasMediaDooH__c}">
+              <li class="mt-item">
+                <div class="mt-tile mt-tile--board">
+                  <h3 class="mt-truncate" title="{!$Label.MT_CreateMediaCampaign_BuildingBlocks_DooH}">{!$Label.MT_CreateMediaCampaign_BuildingBlocks_DooH}</h3>
+                  <div class="mt-tile__detail mt-text-body--small">
+                    <p class="mt-text-heading--small">
+                      <apex:outputField value="{!campaign.MT_BMVDooH__c}"/>
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </apex:outputPanel>
+          </ul>
+
+          <ul class="mt-has-dividers--around-space mt-size--3-of-12">
+            <li class="mt-item">
+              <div class="mt-tile mt-tile--board">
+                <h3 class="mt-truncate" title="{!$Label.MT_CreateMediaCampaign_Revenues}">{!$Label.MT_CreateMediaCampaign_Revenues}</h3>
+                <div class="mt-tile__detail mt-text-body--small">
+                  <p class="truncate mt-grid">
+                    <span class="mt-size--4-of-12">{!$ObjectType.MT_MediaCampaign__c.fields.MT_FixRevenue_Type__c.label}:</span>
+                    <span class="mt-size--8-of-12">
+                          <apex:outputField value="{!campaign.MT_FixRevenue_Type__c}"/>
+                        </span>
+                  </p>
+                  <apex:outputPanel layout="none" rendered="{!NOT(ISNULL(campaign.MT_FixRevenue_MonthlyPayment__c))}">
+                    <p class="truncate mt-grid">
+                      <span class="mt-size--4-of-12">{!$ObjectType.MT_MediaCampaign__c.fields.MT_FixRevenue_MonthlyPayment__c.label}:</span>
+                      <span class="mt-size--8-of-12">
+                            <apex:outputField value="{!campaign.MT_FixRevenue_MonthlyPayment__c}"/>
+                          </span>
+                    </p>
+                  </apex:outputPanel>
+                  <apex:outputPanel layout="none" rendered="{!NOT(ISNULL(campaign.MT_Mn3TvCustomerIntegration__c))}">
+                    <p class="truncate mt-grid">
+                      <span class="mt-size--4-of-12">{!$ObjectType.MT_MediaCampaign__c.fields.MT_Mn3TvCustomerIntegration__c.label}:</span>
+                      <span class="mt-size--8-of-12">
+                            <apex:outputField value="{!campaign.MT_Mn3TvCustomerIntegration__c}"/>
+                          </span>
+                    </p>
+                  </apex:outputPanel>
+                  <apex:outputPanel layout="none" rendered="{!NOT(ISNULL(campaign.MT_ExitParticipation__c))}">
+                    <p class="truncate mt-grid">
+                      <span class="mt-size--4-of-12">{!$ObjectType.MT_MediaCampaign__c.fields.MT_ExitParticipation__c.label}:</span>
+                      <span class="mt-size--8-of-12">
+                            <apex:outputField value="{!campaign.MT_ExitParticipation__c}"/>
+                          </span>
+                    </p>
+                  </apex:outputPanel>
+                  <apex:outputPanel layout="none" rendered="{!NOT(ISNULL(campaign.MT_EigenerBuchwertinEUR__c))}">
+                    <p class="truncate mt-grid">
+                      <span class="mt-size--4-of-12">{!$ObjectType.MT_MediaCampaign__c.fields.MT_EigenerBuchwertinEUR__c.label}:</span>
+                      <span class="mt-size--8-of-12">
+                            <apex:outputField value="{!campaign.MT_EigenerBuchwertinEUR__c}"/>
+                          </span>
+                    </p>
+                  </apex:outputPanel>
+                  <apex:outputPanel layout="none" rendered="{!NOT(ISNULL(campaign.MT_CashZahlung__c))}">
+                    <p class="truncate mt-grid">
+                      <span class="mt-size--4-of-12">{!$ObjectType.MT_MediaCampaign__c.fields.MT_CashZahlung__c.label}:</span>
+                      <span class="mt-size--8-of-12">
+                            <apex:outputField value="{!campaign.MT_CashZahlung__c}"/>
+                          </span>
+                    </p>
+                  </apex:outputPanel>
+                  <apex:outputPanel layout="none" rendered="{!NOT(ISNULL(campaign.MT_FillUp__c))}">
+                    <p class="truncate mt-grid">
+                      <span class="mt-size--4-of-12">{!$ObjectType.MT_MediaCampaign__c.fields.MT_FillUp__c.label}:</span>
+                      <span class="mt-size--8-of-12">
+                            <apex:outputField value="{!campaign.MT_FillUp__c}"/>
+                          </span>
+                    </p>
+                  </apex:outputPanel>
+                  <apex:outputPanel layout="none" rendered="{!NOT(ISNULL(campaign.MT_GrossBarterVolume__c))}">
+                    <p class="truncate mt-grid">
+                      <span class="mt-size--4-of-12">{!$ObjectType.MT_MediaCampaign__c.fields.MT_GrossBarterVolume__c.label}:</span>
+                      <span class="mt-size--8-of-12">
+                            <apex:outputField value="{!campaign.MT_GrossBarterVolume__c}"/>
+                          </span>
+                    </p>
+                  </apex:outputPanel>
+                  <apex:outputPanel layout="none" rendered="{!NOT(ISNULL(campaign.MT_NetBarterVolume__c))}">
+                    <p class="truncate mt-grid">
+                      <span class="mt-size--4-of-12">{!$ObjectType.MT_MediaCampaign__c.fields.MT_NetBarterVolume__c.label}:</span>
+                      <span class="mt-size--8-of-12">
+                            <apex:outputField value="{!campaign.MT_NetBarterVolume__c}"/>
+                          </span>
+                    </p>
+                  </apex:outputPanel>
+                  <apex:outputPanel layout="none" rendered="{!NOT(ISNULL(campaign.MT_VariableRevenue1_SoldAmount__c))}">
+                    <p class="truncate">&nbsp;</p>
+
+                    <p class="mt-text-heading--small">{!$Label.MT_CreateMediaCampaign_VariableRevenue1_Title}</p>
+                    <p class="truncate mt-grid">
+                      <span class="mt-size--4-of-12">{!$Label.MT_CreateMediaCampaign_VariableRevenue_SoldAmount}:</span>
+                      <span class="mt-size--8-of-12">
+                        <apex:outputField value="{!campaign.MT_VariableRevenue1_SoldAmount__c}"/>
+                      </span>
+                    </p>
+                    <p class="truncate mt-grid">
+                      <span class="mt-size--4-of-12">{!$Label.MT_CreateMediaCampaign_VariableRevenue_SoldUnit}:</span>
+                      <span class="mt-size--8-of-12">
+                        <apex:outputField value="{!campaign.MT_VariableRevenue1_SoldUnit__c}"/>
+                      </span>
+                    </p>
+                    <p class="truncate mt-grid">
+                      <span class="mt-size--4-of-12">{!$Label.MT_CreateMediaCampaign_VariableRevenue_RevenuePerUnit}:</span>
+                      <span class="mt-size--8-of-12">
+                        <apex:outputField value="{!campaign.MT_VariableRevenue1_RevenuePerUnit__c}"/>
+                      </span>
+                    </p>
+                    <p class="truncate mt-grid">
+                      <span class="mt-size--4-of-12">{!$Label.MT_CreateMediaCampaign_VariableRevenue_SoldProduct}:</span>
+                      <span class="mt-size--8-of-12">
+                        <apex:outputField value="{!campaign.MT_VariableRevenue1_SoldProduct__c}"/>
+                      </span>
+                    </p>
+                    <p class="truncate mt-grid">
+                      <span class="mt-size--4-of-12">{!$Label.MT_CreateMediaCampaign_VariableRevenue_TotalRevenue}:</span>
+                      <span class="mt-size--8-of-12">
+                        <apex:outputField value="{!campaign.MT_VariableRevenue1_TotalRevenue__c}"/>
+                      </span>
+                    </p>
+                  </apex:outputPanel>
+                  <apex:outputPanel layout="none" rendered="{!NOT(ISNULL(campaign.MT_VariableRevenue2_SoldAmount__c))}">
+                    <p class="truncate">&nbsp;</p>
+
+                    <p class="mt-text-heading--small">{!$Label.MT_CreateMediaCampaign_VariableRevenue2_Title}</p>
+                    <p class="truncate mt-grid">
+                      <span class="mt-size--4-of-12">{!$Label.MT_CreateMediaCampaign_VariableRevenue_SoldAmount}:</span>
+                      <span class="mt-size--8-of-12">
+                        <apex:outputField value="{!campaign.MT_VariableRevenue2_SoldAmount__c}"/>
+                      </span>
+                    </p>
+                    <p class="truncate mt-grid">
+                      <span class="mt-size--4-of-12">{!$Label.MT_CreateMediaCampaign_VariableRevenue_SoldUnit}:</span>
+                      <span class="mt-size--8-of-12">
+                        <apex:outputField value="{!campaign.MT_VariableRevenue2_SoldUnit__c}"/>
+                      </span>
+                    </p>
+                    <p class="truncate mt-grid">
+                      <span class="mt-size--4-of-12">{!$Label.MT_CreateMediaCampaign_VariableRevenue_RevenuePerUnit}:</span>
+                      <span class="mt-size--8-of-12">
+                        <apex:outputField value="{!campaign.MT_VariableRevenue2_RevenuePerUnit__c}"/>
+                      </span>
+                    </p>
+                    <p class="truncate mt-grid">
+                      <span class="mt-size--4-of-12">{!$Label.MT_CreateMediaCampaign_VariableRevenue_SoldProduct}:</span>
+                      <span class="mt-size--8-of-12">
+                        <apex:outputField value="{!campaign.MT_VariableRevenue2_SoldProduct__c}"/>
+                      </span>
+                    </p>
+                    <p class="truncate mt-grid">
+                      <span class="mt-size--4-of-12">{!$Label.MT_CreateMediaCampaign_VariableRevenue_TotalRevenue}:</span>
+                      <span class="mt-size--8-of-12">
+                        <apex:outputField value="{!campaign.MT_VariableRevenue2_TotalRevenue__c}"/>
+                      </span>
+                    </p>
+                  </apex:outputPanel>
+                  <apex:outputPanel layout="none" rendered="{!NOT(ISNULL(campaign.MT_VariableRevenue3_SoldAmount__c))}">
+                    <p class="truncate">&nbsp;</p>
+
+                    <p class="mt-text-heading--small">{!$Label.MT_CreateMediaCampaign_VariableRevenue3_Title}</p>
+                    <p class="truncate mt-grid">
+                      <span class="mt-size--4-of-12">{!$Label.MT_CreateMediaCampaign_VariableRevenue_SoldAmount}:</span>
+                      <span class="mt-size--8-of-12">
+                        <apex:outputField value="{!campaign.MT_VariableRevenue3_SoldAmount__c}"/>
+                      </span>
+                    </p>
+                    <p class="truncate mt-grid">
+                      <span class="mt-size--4-of-12">{!$Label.MT_CreateMediaCampaign_VariableRevenue_SoldUnit}:</span>
+                      <span class="mt-size--8-of-12">
+                        <apex:outputField value="{!campaign.MT_VariableRevenue3_SoldUnit__c}"/>
+                      </span>
+                    </p>
+                    <p class="truncate mt-grid">
+                      <span class="mt-size--4-of-12">{!$Label.MT_CreateMediaCampaign_VariableRevenue_RevenuePerUnit}:</span>
+                      <span class="mt-size--8-of-12">
+                        <apex:outputField value="{!campaign.MT_VariableRevenue3_RevenuePerUnit__c}"/>
+                      </span>
+                    </p>
+                    <p class="truncate mt-grid">
+                      <span class="mt-size--4-of-12">{!$Label.MT_CreateMediaCampaign_VariableRevenue_SoldProduct}:</span>
+                      <span class="mt-size--8-of-12">
+                        <apex:outputField value="{!campaign.MT_VariableRevenue3_SoldProduct__c}"/>
+                      </span>
+                    </p>
+                    <p class="truncate mt-grid">
+                      <span class="mt-size--4-of-12">{!$Label.MT_CreateMediaCampaign_VariableRevenue_TotalRevenue}:</span>
+                      <span class="mt-size--8-of-12">
+                        <apex:outputField value="{!campaign.MT_VariableRevenue3_TotalRevenue__c}"/>
+                      </span>
+                    </p>
+                  </apex:outputPanel>
+                  <apex:outputPanel layout="none" rendered="{!NOT(ISNULL(campaign.MT_VariableRevenue4_SoldAmount__c))}">
+                    <p class="truncate">&nbsp;</p>
+
+                    <p class="mt-text-heading--small">{!$Label.MT_CreateMediaCampaign_VariableRevenue4_Title}</p>
+                    <p class="truncate mt-grid">
+                      <span class="mt-size--4-of-12">{!$Label.MT_CreateMediaCampaign_VariableRevenue_SoldAmount}:</span>
+                      <span class="mt-size--8-of-12">
+                        <apex:outputField value="{!campaign.MT_VariableRevenue4_SoldAmount__c}"/>
+                      </span>
+                    </p>
+                    <p class="truncate mt-grid">
+                      <span class="mt-size--4-of-12">{!$Label.MT_CreateMediaCampaign_VariableRevenue_SoldUnit}:</span>
+                      <span class="mt-size--8-of-12">
+                        <apex:outputField value="{!campaign.MT_VariableRevenue4_SoldUnit__c}"/>
+                      </span>
+                    </p>
+                    <p class="truncate mt-grid">
+                      <span class="mt-size--4-of-12">{!$Label.MT_CreateMediaCampaign_VariableRevenue_RevenuePerUnit}:</span>
+                      <span class="mt-size--8-of-12">
+                        <apex:outputField value="{!campaign.MT_VariableRevenue4_RevenuePerUnit__c}"/>
+                      </span>
+                    </p>
+                    <p class="truncate mt-grid">
+                      <span class="mt-size--4-of-12">{!$Label.MT_CreateMediaCampaign_VariableRevenue_SoldProduct}:</span>
+                      <span class="mt-size--8-of-12">
+                        <apex:outputField value="{!campaign.MT_VariableRevenue4_SoldProduct__c}"/>
+                      </span>
+                    </p>
+                    <p class="truncate mt-grid">
+                      <span class="mt-size--4-of-12">{!$Label.MT_CreateMediaCampaign_VariableRevenue_TotalRevenue}:</span>
+                      <span class="mt-size--8-of-12">
+                        <apex:outputField value="{!campaign.MT_VariableRevenue4_TotalRevenue__c}"/>
+                      </span>
+                    </p>
+                  </apex:outputPanel>
+                  <apex:outputPanel layout="none" rendered="{!NOT(ISNULL(campaign.MT_VariableRevenue5_SoldAmount__c))}">
+                    <p class="truncate">&nbsp;</p>
+
+                    <p class="mt-text-heading--small">{!$Label.MT_CreateMediaCampaign_VariableRevenue5_Title}</p>
+                    <p class="truncate mt-grid">
+                      <span class="mt-size--4-of-12">{!$Label.MT_CreateMediaCampaign_VariableRevenue_SoldAmount}:</span>
+                      <span class="mt-size--8-of-12">
+                        <apex:outputField value="{!campaign.MT_VariableRevenue5_SoldAmount__c}"/>
+                      </span>
+                    </p>
+                    <p class="truncate mt-grid">
+                      <span class="mt-size--4-of-12">{!$Label.MT_CreateMediaCampaign_VariableRevenue_SoldUnit}:</span>
+                      <span class="mt-size--8-of-12">
+                        <apex:outputField value="{!campaign.MT_VariableRevenue5_SoldUnit__c}"/>
+                      </span>
+                    </p>
+                    <p class="truncate mt-grid">
+                      <span class="mt-size--4-of-12">{!$Label.MT_CreateMediaCampaign_VariableRevenue_RevenuePerUnit}:</span>
+                      <span class="mt-size--8-of-12">
+                        <apex:outputField value="{!campaign.MT_VariableRevenue5_RevenuePerUnit__c}"/>
+                      </span>
+                    </p>
+                    <p class="truncate mt-grid">
+                      <span class="mt-size--4-of-12">{!$Label.MT_CreateMediaCampaign_VariableRevenue_SoldProduct}:</span>
+                      <span class="mt-size--8-of-12">
+                        <apex:outputField value="{!campaign.MT_VariableRevenue5_SoldProduct__c}"/>
+                      </span>
+                    </p>
+                    <p class="truncate mt-grid">
+                      <span class="mt-size--4-of-12">{!$Label.MT_CreateMediaCampaign_VariableRevenue_TotalRevenue}:</span>
+                      <span class="mt-size--8-of-12">
+                        <apex:outputField value="{!campaign.MT_VariableRevenue5_TotalRevenue__c}"/>
+                      </span>
+                    </p>
+                  </apex:outputPanel>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </article>
+  </apex:form>
+  <script type="text/javascript">
+    $(document).ready(function () {
+      if (sforce.console.isInConsole()) {
+        sforce.console.setTabTitle('{!IF(hasError, $Label.MT_CreateMediaCampaign_ErrorTitle, $Label.MT_CreateMediaCampaign_Title)}');
+        sforce.console.setTabStyle('MT_MediaCampaign__c');
+
+        $('a[href="#close"]').on('click.close-links', function (e) {
+          e.preventDefault();
+
+          sforce.console.getEnclosingTabId(function (result) {
+            sforce.console.closeTab(result.id);
+          });
+        });
+      } else {
+        $('a[href = "#close"]').hide();
+      }
+
+      if ({!IF(!hasError && proceedTarget != null, 'true', 'false')}) {
+          if (sforce.console.isInConsole()) {
+            sforce.console.getEnclosingTabId(function (result) {
+              const subTabId = result.id;
+
+              sforce.console.getEnclosingPrimaryTabId(function (result) {
+                /* we open the detail page in a fresh subtab to make the object icon appear */
+                sforce.console.openSubtab(result.id, '{!proceedTarget}', true, '', null, function () {
+                  sforce.console.closeTab(subTabId);
+                });
+              });
+            });
+          } else {
+            window.location.href = '{!proceedTarget}';
+          }
+      }
+
+      let blurTimer = null;
+      $('.mt-lookup .mt-input__icon').on('click', function (e) {
+        $('input.mt-lookup__search-input', $(e.target).closest('.mt-lookup')).focus();
+      });
+
+      $('.mt-lookup input.mt-lookup__search-input').on({
+        'focus.lookup-combolists': function (e) {
+          $(e.target).closest('.mt-lookup').addClass('mt-is-open');
+
+          if (blurTimer) {
+            clearTimeout(blurTimer);
+            blurTimer = null;
+          }
+        },
+        'blur.lookup-combolists': function (e) {
+          blurTimer = setTimeout(function () {
+            $(e.target).closest('.mt-lookup').removeClass('mt-is-open');
+          }, 150);
+        },
+        'keyup.lookup-combolists': function (e) {
+          const input = $(e.target);
+          const container = input.closest('.mt-lookup');
+
+          const options = $('.mt-lookup__list li:not(.no-results-hint)', container);
+
+          $('.no-results-hint', container).hide();
+
+          const val = input.val();
+          if (val) {
+            options.hide();
+
+            const results = options.filter(':contains("' + val + '")').show();
+
+            if (!results.length) {
+              $('.no-results-hint', container).show();
+            }
+          } else {
+            options.show();
+          }
+        }
+      });
+
+      $('.mt-lookup .mt-lookup__list li:not(.no-results-hint)').on('click.lookup-combolists', function (e) {
+        $('input.mt-lookup__search-input', $(e.target).closest('.mt-lookup')).val($(e.target).text().trim());
+      });
+
+      $('input.error').on('blur.remove-error-message', function (e) {
+        $('.errorMsg', $(e.target).removeClass('error').closest('.mt-form-element__control')).remove();
+      });
+    });
+  </script>
+  </body>
+  </html>
+</apex:page>

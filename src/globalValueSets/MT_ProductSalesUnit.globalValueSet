@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Tickets</fullName>
+        <default>false</default>
+        <label>Tickets</label>
+    </customValue>
+    <customValue>
+        <fullName>Single</fullName>
+        <default>false</default>
+        <label>Single</label>
+    </customValue>
+    <customValue>
+        <fullName>Abonnenten</fullName>
+        <default>false</default>
+        <label>Abonnenten</label>
+    </customValue>
+    <customValue>
+        <fullName>Compilation</fullName>
+        <default>false</default>
+        <label>Compilation</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <description>Contains the possible sales units for products in media / advertisement context.</description>
+    <masterLabel>Product Sales Unit</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

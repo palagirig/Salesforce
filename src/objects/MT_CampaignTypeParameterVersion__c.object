@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Hält wichtige Daten für den Media Monatsplan in Abhängigkeit zu den Kampagnentypen</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableChangeDataCapture>false</enableChangeDataCapture>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fieldSets>
+        <fullName>MT_ContextFields</fullName>
+        <description>Used in Trigger to get important fields</description>
+        <displayedFields>
+            <field>MT_WKZFactor__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_CoverageMarginII__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_AirTimeRate__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_ValidFrom__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Id</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Name</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_MediaCampaignType_ref__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_EquityYieldQuantifier__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_ExitParticipationYieldQuantifier__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_FillUpYieldQuantifier__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_FixYieldQuantifier__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_VariableYieldQuantifier__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Context Fields</label>
+    </fieldSets>
+    <fields>
+        <fullName>MT_AirTimeRate__c</fullName>
+        <description>Die Air-Time-Rate, mit der bei Kampagnen diesen Typs zwischen Brutto- und Nettovolumen umgerechnet werden kann.</description>
+        <externalId>false</externalId>
+        <label>Air time rate</label>
+        <precision>5</precision>
+        <required>true</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>MT_BarterYieldQuantifier__c</fullName>
+        <description>Der Gewichtungsfaktor für den Barter-Yield, der in das Kampagnenranking einfließt.</description>
+        <externalId>false</externalId>
+        <label>Barter Yield Quantifier</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MT_CoverageMarginII__c</fullName>
+        <description>Der CM II, der im Kampagnenranking genutzt wird.</description>
+        <externalId>false</externalId>
+        <label>Deckungsbeitrag II</label>
+        <precision>5</precision>
+        <required>true</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>MT_EquityYieldQuantifier__c</fullName>
+        <description>Der Gewichtungsfaktor für den Equity-Yield, der in das Kampagnenranking einfließt.</description>
+        <externalId>false</externalId>
+        <label>Equity Yield Quantifier</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MT_ExitParticipationYieldQuantifier__c</fullName>
+        <description>Der Gewichtungsfaktor für den Exit Participation-Yield, der in das Kampagnenranking einfließt.</description>
+        <externalId>false</externalId>
+        <label>Exit Participation Yield  Quantifier</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MT_FillUpYieldQuantifier__c</fullName>
+        <description>Der Gewichtungsfaktor für den Fill Up-Yield, der in das Kampagnenranking einfließt.</description>
+        <externalId>false</externalId>
+        <label>Fill up Yield Quantifier</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MT_FixYieldQuantifier__c</fullName>
+        <description>Der Gewichtungsfaktor für den Fix-Yield, der in das Kampagnenranking einfließt.</description>
+        <externalId>false</externalId>
+        <label>Fix Yield Quantifier</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MT_MediaCampaignType_ref__c</fullName>
+        <description>Der Kamapgnentyp, zu dem diese Parameter gehören.</description>
+        <externalId>false</externalId>
+        <label>Media Campaign Type</label>
+        <referenceTo>MT_MediaCampaignType__c</referenceTo>
+        <relationshipLabel>Media Campaign Type Parameter Version</relationshipLabel>
+        <relationshipName>MediaCampaignType_ParameterVersion</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>MT_ValidFrom__c</fullName>
+        <description>Der Monat, ab dem die Werte aus diesem Datensatz für die entsprechenden Kampagnen gelten.</description>
+        <externalId>false</externalId>
+        <label>Geltungsdatum</label>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>MT_VariableYieldQuantifier__c</fullName>
+        <description>Der Gewichtungsfaktor für den Umsatzbeteiligungs-Yield, der in das Kampagnenranking einfließt.</description>
+        <externalId>false</externalId>
+        <label>Variable Yield Quantifier</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MT_WKZFactor__c</fullName>
+        <description>Der WKZ- Faktor, der Einfluss auf den ROI- Umsatz hat.</description>
+        <externalId>false</externalId>
+        <label>WKZ-Faktor</label>
+        <precision>5</precision>
+        <required>true</required>
+        <scale>2</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <label>Media Campaign Type Parameter Version</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+        <language>de</language>
+    </listViews>
+    <nameField>
+        <label>Version Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Media Campaign Type Parameter Version</pluralLabel>
+    <searchLayouts>
+        <excludedStandardButtons>New</excludedStandardButtons>
+        <excludedStandardButtons>Accept</excludedStandardButtons>
+        <excludedStandardButtons>ChangeOwner</excludedStandardButtons>
+        <excludedStandardButtons>Forward</excludedStandardButtons>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>MT_AirTimeRateMinMax</fullName>
+        <active>true</active>
+        <description>Überprüft das die Air time rate zwischen 0 und 100 ist</description>
+        <errorConditionFormula>OR(MT_AirTimeRate__c &gt; 1, MT_AirTimeRate__c &lt; 0)</errorConditionFormula>
+        <errorDisplayField>MT_AirTimeRate__c</errorDisplayField>
+        <errorMessage>Die Air time rate kann nur zwischen 0 und 100 liegen.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_BarterYieldQuantifierNotNegative</fullName>
+        <active>true</active>
+        <description>Überprüft ob der Barter Yield Quantifier negativ ist, ist er es, dann wird ein Fehler angezeigt.</description>
+        <errorConditionFormula>MT_BarterYieldQuantifier__c &lt; 0</errorConditionFormula>
+        <errorDisplayField>MT_BarterYieldQuantifier__c</errorDisplayField>
+        <errorMessage>Bitte stellen Sie sicher, dass der Wert nicht negativ ist.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_EquityYieldQuantifierNotNegative</fullName>
+        <active>true</active>
+        <description>Überprüft ob der Equity Yield negativ ist, ist er es, dann wird ein Fehler angezeigt.</description>
+        <errorConditionFormula>IF( MT_EquityYieldQuantifier__c &lt; 0, true, false)</errorConditionFormula>
+        <errorDisplayField>MT_EquityYieldQuantifier__c</errorDisplayField>
+        <errorMessage>Bitte stellen Sie sicher, dass der Wert nicht negativ ist.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_ExitParticipationYieldQuanNotNegative</fullName>
+        <active>true</active>
+        <description>Überprüft ob der Exit Participation Yield negativ ist, ist er es, dann wird ein Fehler angezeigt.</description>
+        <errorConditionFormula>IF( MT_ExitParticipationYieldQuantifier__c &lt; 0, true, false)</errorConditionFormula>
+        <errorDisplayField>MT_ExitParticipationYieldQuantifier__c</errorDisplayField>
+        <errorMessage>Bitte stellen Sie sicher, dass der Wert nicht negativ ist.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_FillIupYieldQuanNotNegative</fullName>
+        <active>true</active>
+        <description>Überprüft ob der Fill-up Yield negativ ist, ist er es, dann wird ein Fehler angezeigt.</description>
+        <errorConditionFormula>IF( MT_FillUpYieldQuantifier__c &lt; 0, true, false)</errorConditionFormula>
+        <errorDisplayField>MT_FillUpYieldQuantifier__c</errorDisplayField>
+        <errorMessage>Bitte stellen Sie sicher, dass der Wert nicht negativ ist.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_FixYieldQuantifierNotNegative</fullName>
+        <active>true</active>
+        <description>Überprüft ob der Fix Yield negativ ist, ist er es, dann wird ein Fehler angezeigt.</description>
+        <errorConditionFormula>IF( MT_FixYieldQuantifier__c &lt; 0, true, false)</errorConditionFormula>
+        <errorDisplayField>MT_FixYieldQuantifier__c</errorDisplayField>
+        <errorMessage>Bitte stellen Sie sicher, dass der Wert nicht negativ ist.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_VariableYieldQuantifierNotNegative</fullName>
+        <active>true</active>
+        <description>Überprüft ob der Variable Yield negativ ist, ist er es, dann wird ein Fehler angezeigt.</description>
+        <errorConditionFormula>IF( MT_VariableYieldQuantifier__c &lt; 0, true, false)</errorConditionFormula>
+        <errorDisplayField>MT_VariableYieldQuantifier__c</errorDisplayField>
+        <errorMessage>Bitte stellen Sie sicher, dass der Wert nicht negativ ist.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_WKZFactorNotNegative</fullName>
+        <active>true</active>
+        <description>Überprüft ob der WKZ-Faktor negativ ist, ist er es, dann wird ein Fehler angezeigt.</description>
+        <errorConditionFormula>IF(MT_WKZFactor__c &lt; 0, true, false)</errorConditionFormula>
+        <errorDisplayField>MT_WKZFactor__c</errorDisplayField>
+        <errorMessage>Bitte stellen Sie sicher, dass der Wert nicht negativ ist.</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

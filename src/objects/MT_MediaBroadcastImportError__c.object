@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Enthält die bei der Transformation der Broadcastdaten als fehlerhaft erkannten Datensätzen, zusammen mit einer Fehlermeldung.</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableChangeDataCapture>false</enableChangeDataCapture>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>MT_CampaignID__c</fullName>
+        <description>Die KRS-ID zu dem das Volumen ausgestrahlt wurde.</description>
+        <externalId>false</externalId>
+        <label>Campaign ID</label>
+        <length>10</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MT_Error__c</fullName>
+        <description>Der Fehler, der bei der Transformation dieses Datensatzes aufgetreten ist.</description>
+        <externalId>false</externalId>
+        <label>Error</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MT_LastExport__c</fullName>
+        <description>Das letzte Exportdatum des Ausstrahlungsdatensatzes.</description>
+        <externalId>false</externalId>
+        <label>Last Export</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>MT_MB1__c</fullName>
+        <description>Das MB1, das ausgestrahlt wurde.</description>
+        <externalId>false</externalId>
+        <label>MB1</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>10</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>MT_MB3__c</fullName>
+        <description>Das MB3, das ausgestrahlt wurde.</description>
+        <externalId>false</externalId>
+        <label>MB3</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>10</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>MT_MN3__c</fullName>
+        <description>Das MN3, das ausgestrahlt wurde.</description>
+        <externalId>false</externalId>
+        <label>MN3</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>10</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>MT_MediaCampaign_ref__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Falls die Kampagne identifiziert werden konnte, ist hier die Referenz enthalten.</description>
+        <externalId>false</externalId>
+        <label>Media Campaign</label>
+        <referenceTo>MT_MediaCampaign__c</referenceTo>
+        <relationshipLabel>Media Broadcast Import Errors</relationshipLabel>
+        <relationshipName>Media_Broadcast_Import_Errors</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>MT_Month__c</fullName>
+        <description>Der Monat, in dem das Volumen ausgestrahlt wurde.</description>
+        <externalId>false</externalId>
+        <label>Month</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>MT_OrderType__c</fullName>
+        <description>Die Art des Auftrags, über den das Volumen gebucht wurde.</description>
+        <externalId>false</externalId>
+        <label>Order Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Spot</fullName>
+                    <default>false</default>
+                    <label>Spot</label>
+                </value>
+                <value>
+                    <fullName>Sponsoring</fullName>
+                    <default>false</default>
+                    <label>Sponsoring</label>
+                </value>
+                <value>
+                    <fullName>Overbooking</fullName>
+                    <default>false</default>
+                    <label>Overbooking</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>MT_ProSaOrderID__c</fullName>
+        <description>Die ID des ProSa- Auftrags, über den das Volumen gebucht wurde.</description>
+        <externalId>false</externalId>
+        <label>ProSa Order ID</label>
+        <length>10</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MT_ProSaOrder_ref__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Falls der ProSa- Auftrag identifiziert wurde, ist hier die Referenz enthalten.</description>
+        <externalId>false</externalId>
+        <label>ProSa Order</label>
+        <referenceTo>MT_ProSaOrder__c</referenceTo>
+        <relationshipLabel>Media Broadcast Import Errors</relationshipLabel>
+        <relationshipName>Media_Broadcast_Import_Errors</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>MT_SenderName__c</fullName>
+        <description>Der Name des Senders, auf dem das Volumen ausgestrahlt wurde.</description>
+        <externalId>false</externalId>
+        <label>TV Sender Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MT_SenderNumber__c</fullName>
+        <description>Die Nummer des Senders, in dem das Volumen ausgestrahlt wurde.</description>
+        <externalId>false</externalId>
+        <label>Sender Number</label>
+        <length>5</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MT_Timeslot__c</fullName>
+        <description>Die Zeitschiene in dem das Volumen ausgestrahlt wurde.</description>
+        <externalId>false</externalId>
+        <label>Timeslot</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>1.[06-09]</fullName>
+                    <default>false</default>
+                    <label>1.[06-09]</label>
+                </value>
+                <value>
+                    <fullName>2.[09-13]</fullName>
+                    <default>false</default>
+                    <label>2.[09-13]</label>
+                </value>
+                <value>
+                    <fullName>3.[13-17]</fullName>
+                    <default>false</default>
+                    <label>3.[13-17]</label>
+                </value>
+                <value>
+                    <fullName>4.[17-20]</fullName>
+                    <default>false</default>
+                    <label>4.[17-20]</label>
+                </value>
+                <value>
+                    <fullName>5.[20-23]</fullName>
+                    <default>false</default>
+                    <label>5.[20-23]</label>
+                </value>
+                <value>
+                    <fullName>6.[23-01]</fullName>
+                    <default>false</default>
+                    <label>6.[23-01]</label>
+                </value>
+                <value>
+                    <fullName>7.[01-06]</fullName>
+                    <default>false</default>
+                    <label>7.[01-06]</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <label>Media Broadcast Import Error</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>CREATED_DATE</columns>
+        <columns>MT_Month__c</columns>
+        <columns>MT_Error__c</columns>
+        <columns>MT_CampaignID__c</columns>
+        <columns>MT_LastExport__c</columns>
+        <columns>MT_ProSaOrderID__c</columns>
+        <columns>MT_SenderName__c</columns>
+        <columns>MT_Timeslot__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+        <language>en_US</language>
+    </listViews>
+    <nameField>
+        <displayFormat>MBIDE-{00000000}</displayFormat>
+        <label>Media Broadcast Import Error Name</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Media Broadcast Import Errors</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

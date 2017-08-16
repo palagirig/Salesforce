@@ -1,0 +1,1161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Track monthly distribution of the volume for a campaign</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>false</enableBulkApi>
+    <enableChangeDataCapture>false</enableChangeDataCapture>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>false</enableSharing>
+    <enableStreamingApi>false</enableStreamingApi>
+    <fieldSets>
+        <fullName>MT_ContextFields</fullName>
+        <description>Context field for Selector class</description>
+        <displayedFields>
+            <field>MT_BMVWeightedSpot__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>CurrencyIsoCode</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_BMVSponsoring__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_MCamp_BarterYield__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_TotalRevenue__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_BMVOverbooking__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_VariableRevenue2_TotalRevenue__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_MediaCampaign_ref__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_TotalYield__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_VariableRevenue3_TotalRevenue__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_VariableRevenue5_TotalRevenue__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_VariableRevenue4_TotalRevenue__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>LastModifiedDate</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Id</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_VariableRevenue1_TotalRevenue__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_ROI_Yield__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_ROI_Revenue__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_Probability__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_Year__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_BMVSpot__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_Month__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Name</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_PlanningDate__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_TotalBMV__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_SumBMV__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_FixRevenue__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_FixRevenue_Yield__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_VariableRevenue1_SoldAmount__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_VariableRevenue2_SoldAmount__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_VariableRevenue3_SoldAmount__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_VariableRevenue4_SoldAmount__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_VariableRevenue5_SoldAmount__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_MediaCampaignTypeParameterVersion_ref__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_Effective_AirTimeRate__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_Effective_CoverageMarginII__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_Effective_WKZFactor__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_Effective_BarterYieldQuantifier__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_Effective_EquityYieldQuantifier__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_Effective_ExitParticipationYieldQuant__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_Effective_FillUpYieldQuantifier__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_Effective_FixYieldQuantifier__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_Effective_VariableYieldQuantifier__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_SumOverbookingBMV__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_SumSponsoringBMV__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_SumSpotBMV__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>ContextFields</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>MT_TransformationBatchFields</fullName>
+        <description>Batch Import Process</description>
+        <displayedFields>
+            <field>Id</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_PlanningDate__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_MediaCampaign_ref__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_MediaCampaign_ref__r.MT_KRSID__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_VariableRevenue1_SoldAmount__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_VariableRevenue2_SoldAmount__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_VariableRevenue3_SoldAmount__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_VariableRevenue4_SoldAmount__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_FixRevenue__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_BMVSpot__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_BMVSponsoring__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_Probability__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>MT_TransformationBatchFields</label>
+    </fieldSets>
+    <fields>
+        <fullName>MT_BMVOverbooking__c</fullName>
+        <defaultValue>0</defaultValue>
+        <description>Hier kann im Businessplan das Overbooking- BMV eingetragen werden, zur Zeit wird diese Funktion nicht genutzt.</description>
+        <externalId>false</externalId>
+        <label>BMV Overbooking</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>MT_BMVSponsoring__c</fullName>
+        <description>Hier kann im Businessplan das Sponsoring- BMV eingetragen werden.</description>
+        <externalId>false</externalId>
+        <label>BMV Sponsoring</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>MT_BMVSpot__c</fullName>
+        <description>Hier kann im Businessplan das Spot- BMV eingetragen werden.</description>
+        <externalId>false</externalId>
+        <label>BMV Spot</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>MT_BMVWeightedSpot__c</fullName>
+        <description>Errechnet das wahrscheinliche BMV, das in diesem Monatsplan für Spots verwendet wird (Multiplikation Spot- BMV mit Wahrscheinlichkeit)</description>
+        <externalId>false</externalId>
+        <formula>MT_Probability__c*MT_BMVSpot__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>BMV Weighted Spot</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>MT_BarterRevenue__c</fullName>
+        <description>Errechnet den Umsatz mit Barter für diesen Monatsplan aus dem eingetragenen BMV und dem Barter-Yield, der auf der Kampagne ermittelt wurde.</description>
+        <externalId>false</externalId>
+        <formula>MT_TotalBMV__c * MT_MCamp_BarterYield__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Barter Revenue</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>MT_Effective_AirTimeRate__c</fullName>
+        <description>Zieht die Air-Time-Rate von der zugeordneten Kampagnentypparameterversion in dieses Objekt, um die abhängigen Formeln zu vereinfachen und in Reports auf einen Blick ersichtlich zu machen, welche Parameterwerte zum Tragen kommen.</description>
+        <externalId>false</externalId>
+        <formula>MT_MediaCampaignTypeParameterVersion_ref__r.MT_AirTimeRate__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Effective Air Time Rate</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>MT_Effective_BarterYieldQuantifier__c</fullName>
+        <description>Zieht den Gewichtungsfaktor für den Barter-Yield von der zugeordneten Kampagnentypparameterversion in dieses Objekt, um die abhängigen Formeln zu vereinfachen und in Reports auf einen Blick ersichtlich zu machen, welche Parameterwerte zum Tragen kommen.</description>
+        <externalId>false</externalId>
+        <formula>MT_MediaCampaignTypeParameterVersion_ref__r.MT_BarterYieldQuantifier__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Effective Barter Yield Quantifier</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MT_Effective_CoverageMarginII__c</fullName>
+        <description>Zieht den Deckungsbeitrag II von der zugeordneten Kampagnentypparameterversion in dieses Objekt, um die abhängigen Formeln zu vereinfachen und in Reports auf einen Blick ersichtlich zu machen, welche Parameterwerte zum Tragen kommen.</description>
+        <externalId>false</externalId>
+        <formula>MT_MediaCampaignTypeParameterVersion_ref__r.MT_CoverageMarginII__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Effective DeckungsbeitragII</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>MT_Effective_EquityYieldQuantifier__c</fullName>
+        <description>Zieht den Gewichtungsfaktor für den Equity-Yield von der zugeordneten Kampagnentypparameterversion in dieses Objekt, um die abhängigen Formeln zu vereinfachen und in Reports auf einen Blick ersichtlich zu machen, welche Parameterwerte zum Tragen kommen.</description>
+        <externalId>false</externalId>
+        <formula>MT_MediaCampaignTypeParameterVersion_ref__r.MT_EquityYieldQuantifier__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Effective Equity Yield Quantifier</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MT_Effective_ExitParticipationYieldQuant__c</fullName>
+        <description>Zieht den Gewichtungsfaktor für den Exit Participation-Yield von der zugeordneten Kampagnentypparameterversion in dieses Objekt, um die abhängigen Formeln zu vereinfachen und in Reports auf einen Blick ersichtlich zu machen, welche Parameterwerte zum Tragen kommen.</description>
+        <externalId>false</externalId>
+        <formula>MT_MediaCampaignTypeParameterVersion_ref__r.MT_ExitParticipationYieldQuantifier__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Effective Exit Participation Yield Quant</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MT_Effective_FillUpYieldQuantifier__c</fullName>
+        <description>Zieht den Gewichtungsfaktor für den Fill Up-Yield von der zugeordneten Kampagnentypparameterversion in dieses Objekt, um die abhängigen Formeln zu vereinfachen und in Reports auf einen Blick ersichtlich zu machen, welche Parameterwerte zum Tragen kommen.</description>
+        <externalId>false</externalId>
+        <formula>MT_MediaCampaignTypeParameterVersion_ref__r.MT_FillUpYieldQuantifier__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Effective Fill up Yield Quantifier</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MT_Effective_FixYieldQuantifier__c</fullName>
+        <description>Zieht den Gewichtungsfaktor für den Fix-Yield von der zugeordneten Kampagnentypparameterversion in dieses Objekt, um die abhängigen Formeln zu vereinfachen und in Reports auf einen Blick ersichtlich zu machen, welche Parameterwerte zum Tragen kommen.</description>
+        <externalId>false</externalId>
+        <formula>MT_MediaCampaignTypeParameterVersion_ref__r.MT_FixYieldQuantifier__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Effective Fix Yield Quantifier</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MT_Effective_VariableYieldQuantifier__c</fullName>
+        <description>Zieht den Gewichtungsfaktor für den Umsatzbeteiligungs-Yield von der zugeordneten Kampagnentypparameterversion in dieses Objekt, um die abhängigen Formeln zu vereinfachen und in Reports auf einen Blick ersichtlich zu machen, welche Parameterwerte zum Tragen kommen.</description>
+        <externalId>false</externalId>
+        <formula>MT_MediaCampaignTypeParameterVersion_ref__r.MT_VariableYieldQuantifier__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Effective Variable Yield Quantifier</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MT_Effective_WKZFactor__c</fullName>
+        <description>Zieht den WKZ-Faktor von der zugeordneten Kampagnentypparameterversion in dieses Objekt, um die abhängigen Formeln zu vereinfachen und in Reports auf einen Blick ersichtlich zu machen, welche Parameterwerte zum Tragen kommen.</description>
+        <externalId>false</externalId>
+        <formula>MT_MediaCampaignTypeParameterVersion_ref__r.MT_WKZFactor__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Effective WKZ Faktor</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MT_FixRevenue_Yield__c</fullName>
+        <defaultValue>0</defaultValue>
+        <description>Speichert den ermittelten Fix-Yield. Je nach fixer Umsatzart auf der Kampagne ist das der auf der Kampagne berechnete Yield oder die Formel monatliches BMV / feste monatliche Zahlung.</description>
+        <externalId>false</externalId>
+        <label>Yield Fix Revenue</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>MT_FixRevenue__c</fullName>
+        <description>Speichert den ermittelten fixen Umsatz für diesen Monat(splan). Kann entweder die eingetragene monatliche Zahlung von der Kampagne sein oder das Ergebnis von monatliches BMV * Fix Yield von der Kampagne.</description>
+        <externalId>false</externalId>
+        <label>Fix Revenue</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>MT_MCamp_BarterYield__c</fullName>
+        <description>Zieht den berechneten Barter-Yield von der Kampagne in dieses Objekt, um die abhängigen Formeln zu vereinfachen.</description>
+        <externalId>false</externalId>
+        <formula>MT_MediaCampaign_ref__r.MT_BarterYield__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Campaign Barter Yield</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>MT_MediaCampaignTypeParameterVersion_ref__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Die Referenz wird per Trigger (Erstellen des Monatsplans), bzw. Batchjob (Erstellen einer neuen Version) befüllt. An Hand des Datumsvergleichs suchen sich beide Stellen die für den Monat(splan) gültige Version und ordnen diese zu.</description>
+        <externalId>false</externalId>
+        <label>Media Campaign Type Parameter Version</label>
+        <referenceTo>MT_CampaignTypeParameterVersion__c</referenceTo>
+        <relationshipLabel>Media Campaign Monthly Plans</relationshipLabel>
+        <relationshipName>MT_MediaCampaignMonthlyPlans</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>MT_MediaCampaign_ref__c</fullName>
+        <description>Die Kampagne, zu der der Monat(splan) gehört.</description>
+        <externalId>false</externalId>
+        <label>Media Transparency Campaign</label>
+        <referenceTo>MT_MediaCampaign__c</referenceTo>
+        <relationshipLabel>Media Campaign Monthly Plans</relationshipLabel>
+        <relationshipName>Media_Campaign_Plans</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>MT_Month__c</fullName>
+        <description>Zahldarstellung des Monats (ohne Jahr). Wird in Custom Seiten (Businessplan, Flightplan) in JS verwendet.</description>
+        <externalId>false</externalId>
+        <formula>MONTH(MT_PlanningDate__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Month</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MT_NoOverbookingFlights__c</fullName>
+        <description>Liefert die Anzahl an Overbooking-Flights, die diesem Monatsplan zugeordnet sind. Eine Validierungsregel verhindert, dass mehr als 5 zugeordnet werden.</description>
+        <externalId>false</externalId>
+        <label>No of Overbooking Flights</label>
+        <summaryFilterItems>
+            <field>MT_MediaFlight__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Overbooking</value>
+        </summaryFilterItems>
+        <summaryForeignKey>MT_MediaFlight__c.MT_MediaBuildingBlockMonthlyPlan_ref__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>MT_NoSponsoringFlights__c</fullName>
+        <description>Liefert die Anzahl an Sponsoring-Flights, die diesem Monatsplan zugeordnet sind. Eine Validierungsregel verhindert, dass mehr als 20 zugeordnet werden.</description>
+        <externalId>false</externalId>
+        <label>No of Sponsoring Flights</label>
+        <summaryFilterItems>
+            <field>MT_MediaFlight__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Sponsoring</value>
+        </summaryFilterItems>
+        <summaryForeignKey>MT_MediaFlight__c.MT_MediaBuildingBlockMonthlyPlan_ref__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>MT_NoSpotFlights__c</fullName>
+        <description>Liefert die Anzahl an Spot-Flights, die diesem Monatsplan zugeordnet sind. Eine Validierungsregel verhindert, dass mehr als 5 zugeordnet werden.</description>
+        <externalId>false</externalId>
+        <label>No of Spot Flights</label>
+        <summaryFilterItems>
+            <field>MT_MediaFlight__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Spot</value>
+        </summaryFilterItems>
+        <summaryForeignKey>MT_MediaFlight__c.MT_MediaBuildingBlockMonthlyPlan_ref__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>MT_PlanningDate__c</fullName>
+        <description>Der Monat, für den dieser Monatsplan gilt.</description>
+        <externalId>false</externalId>
+        <label>Planning Date</label>
+        <required>true</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>MT_Probability__c</fullName>
+        <defaultValue>1</defaultValue>
+        <description>Die Wahrscheinlichkeit, dass das Spot- BMV des Monats abgerufen wird.</description>
+        <externalId>false</externalId>
+        <label>Probability</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>MT_ROI_Revenue__c</fullName>
+        <description>Der berechnete ROI Umsatz (monatliches BMV * WKZ- Faktor * ROI-Yield des Monats)</description>
+        <externalId>false</externalId>
+        <formula>MT_TotalBMV__c *  MT_Effective_WKZFactor__c *  MT_ROI_Yield__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>ROI_Revenue</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>MT_ROI_Yield__c</fullName>
+        <description>Der ROI-Yield für diesen Monat(splan). Wird manuell im Businessplan eingegeben.</description>
+        <externalId>false</externalId>
+        <label>ROI Yield %</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>MT_SumBMV__c</fullName>
+        <description>Cumulative sum of the BMV of broadcast data</description>
+        <externalId>false</externalId>
+        <label>Sum of BMV</label>
+        <summarizedField>MT_MediaBroadcastData__c.MT_BMV__c</summarizedField>
+        <summaryForeignKey>MT_MediaBroadcastData__c.MT_MonthlyPlan_ref__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>MT_SumOverbookingBMV__c</fullName>
+        <description>Das ausgestrahlte Overbooking- Volumen in diesem Monat.</description>
+        <externalId>false</externalId>
+        <label>Sum Overbooking BMV</label>
+        <summarizedField>MT_MediaBroadcastData__c.MT_BMV__c</summarizedField>
+        <summaryFilterItems>
+            <field>MT_MediaBroadcastData__c.MT_BroadcastType__c</field>
+            <operation>equals</operation>
+            <value>Overbooking Order</value>
+        </summaryFilterItems>
+        <summaryForeignKey>MT_MediaBroadcastData__c.MT_MonthlyPlan_ref__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>MT_SumSponsoringBMV__c</fullName>
+        <description>Das ausgestrahlte Sponsoring- Volumen in diesem Monat.</description>
+        <externalId>false</externalId>
+        <label>Sum Sponsoring BMV</label>
+        <summarizedField>MT_MediaBroadcastData__c.MT_BMV__c</summarizedField>
+        <summaryFilterItems>
+            <field>MT_MediaBroadcastData__c.MT_BroadcastType__c</field>
+            <operation>equals</operation>
+            <value>Sponsoring Order</value>
+        </summaryFilterItems>
+        <summaryForeignKey>MT_MediaBroadcastData__c.MT_MonthlyPlan_ref__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>MT_SumSpotBMV__c</fullName>
+        <description>Das ausgestrahlte Spot- Volumen in diesem Monat.</description>
+        <externalId>false</externalId>
+        <label>Sum Spot BMV</label>
+        <summarizedField>MT_MediaBroadcastData__c.MT_BMV__c</summarizedField>
+        <summaryFilterItems>
+            <field>MT_MediaBroadcastData__c.MT_BroadcastType__c</field>
+            <operation>equals</operation>
+            <value>Spot Order</value>
+        </summaryFilterItems>
+        <summaryForeignKey>MT_MediaBroadcastData__c.MT_MonthlyPlan_ref__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>MT_TotalBMV__c</fullName>
+        <description>Die Summe der geplanten BMVs (ohne Overbooking).</description>
+        <externalId>false</externalId>
+        <formula>MT_BMVSponsoring__c + MT_BMVSpot__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Total BMV</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>MT_TotalRevenue__c</fullName>
+        <description>Die Summe aller Umsätze in diesem Monat(splan).</description>
+        <externalId>false</externalId>
+        <formula>MT_FixRevenue__c + MT_VariableRevenue1_TotalRevenue__c + MT_VariableRevenue2_TotalRevenue__c + MT_VariableRevenue3_TotalRevenue__c + MT_VariableRevenue4_TotalRevenue__c + MT_VariableRevenue5_TotalRevenue__c + MT_BarterRevenue__c
+/* @TODO Add missing revenue fields */</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Total Revenue</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>MT_TotalYield__c</fullName>
+        <description>Der berechnete Gesamtyield (Umsatz / BMV), ungewichtet.</description>
+        <externalId>false</externalId>
+        <formula>MT_TotalRevenue__c /  MT_TotalBMV__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Yield Total</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>MT_VariableRevenue1_SoldAmount__c</fullName>
+        <defaultValue>0</defaultValue>
+        <description>Die Anzahl verkaufter Einheiten der Umsatzbeteiligungskomponente 1 in diesem Monat. Wird im Businessplan eingetragen.</description>
+        <externalId>false</externalId>
+        <label>Var. Umsatz 1 - Verkaufte Einheiten</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MT_VariableRevenue1_TotalRevenue__c</fullName>
+        <description>Der berechnete Gesamtumsatz der Umsatzbeteiligungskomponente 1 in diesem Monat.</description>
+        <externalId>false</externalId>
+        <formula>MT_VariableRevenue1_SoldAmount__c * MT_MediaCampaign_ref__r.MT_VariableRevenue1_RevenuePerUnit__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Var. Umsatz 1 - Gesamtumsatz</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>MT_VariableRevenue1_Yield__c</fullName>
+        <description>Der berechnete Yield der Umsatzbeteiligungskomponente 1.</description>
+        <externalId>false</externalId>
+        <formula>MT_VariableRevenue1_TotalRevenue__c / MT_TotalBMV__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Yield Variabler Umsatz 1</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>MT_VariableRevenue2_SoldAmount__c</fullName>
+        <defaultValue>0</defaultValue>
+        <description>Die Anzahl verkaufter Einheiten der Umsatzbeteiligungskomponente 2 in diesem Monat. Wird im Businessplan eingetragen.</description>
+        <externalId>false</externalId>
+        <label>Var. Umsatz 2 - Verkaufte Einheiten</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MT_VariableRevenue2_TotalRevenue__c</fullName>
+        <description>Der berechnete Gesamtumsatz der Umsatzbeteiligungskomponente 2 in diesem Monat.</description>
+        <externalId>false</externalId>
+        <formula>MT_VariableRevenue2_SoldAmount__c * MT_MediaCampaign_ref__r.MT_VariableRevenue2_RevenuePerUnit__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Var. Umsatz 2 - Gesamtumsatz</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>MT_VariableRevenue2_Yield__c</fullName>
+        <description>Der berechnete Yield der Umsatzbeteiligungskomponente 2.</description>
+        <externalId>false</externalId>
+        <formula>MT_VariableRevenue2_TotalRevenue__c / MT_TotalBMV__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Yield Variabler Umsatz 2</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>MT_VariableRevenue3_SoldAmount__c</fullName>
+        <defaultValue>0</defaultValue>
+        <description>Die Anzahl verkaufter Einheiten der Umsatzbeteiligungskomponente 3 in diesem Monat. Wird im Businessplan eingetragen.</description>
+        <externalId>false</externalId>
+        <label>Var. Umsatz 3 - Verkaufte Einheiten</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MT_VariableRevenue3_TotalRevenue__c</fullName>
+        <description>Der berechnete Gesamtumsatz der Umsatzbeteiligungskomponente 3 in diesem Monat.</description>
+        <externalId>false</externalId>
+        <formula>MT_VariableRevenue3_SoldAmount__c * MT_MediaCampaign_ref__r.MT_VariableRevenue3_RevenuePerUnit__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Var. Umsatz 3 - Gesamtumsatz</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>MT_VariableRevenue3_Yield__c</fullName>
+        <description>Der berechnete Yield der Umsatzbeteiligungskomponente 3.</description>
+        <externalId>false</externalId>
+        <formula>MT_VariableRevenue3_TotalRevenue__c / MT_TotalBMV__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Yield Variabler Umsatz 3</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>MT_VariableRevenue4_SoldAmount__c</fullName>
+        <defaultValue>0</defaultValue>
+        <description>Die Anzahl verkaufter Einheiten der Umsatzbeteiligungskomponente 4 in diesem Monat. Wird im Businessplan eingetragen.</description>
+        <externalId>false</externalId>
+        <label>Var. Umsatz 4 - Verkaufte Einheiten</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MT_VariableRevenue4_TotalRevenue__c</fullName>
+        <description>Der berechnete Gesamtumsatz der Umsatzbeteiligungskomponente 4 in diesem Monat.</description>
+        <externalId>false</externalId>
+        <formula>MT_VariableRevenue4_SoldAmount__c * MT_MediaCampaign_ref__r.MT_VariableRevenue4_RevenuePerUnit__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Var. Umsatz 4 - Gesamtumsatz</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>MT_VariableRevenue4_Yield__c</fullName>
+        <description>Der berechnete Yield der Umsatzbeteiligungskomponente 4.</description>
+        <externalId>false</externalId>
+        <formula>MT_VariableRevenue4_TotalRevenue__c / MT_TotalBMV__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Yield Variabler Umsatz 4</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>MT_VariableRevenue5_SoldAmount__c</fullName>
+        <defaultValue>0</defaultValue>
+        <description>Die Anzahl verkaufter Einheiten der Umsatzbeteiligungskomponente 5 in diesem Monat. Wird im Businessplan eingetragen.</description>
+        <externalId>false</externalId>
+        <label>Var. Umsatz 5 - Verkaufte Einheiten</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MT_VariableRevenue5_TotalRevenue__c</fullName>
+        <description>Der berechnete Gesamtumsatz der Umsatzbeteiligungskomponente 5 in diesem Monat.</description>
+        <externalId>false</externalId>
+        <formula>MT_VariableRevenue5_SoldAmount__c * MT_MediaCampaign_ref__r.MT_VariableRevenue5_RevenuePerUnit__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Var. Umsatz 5 - Gesamtumsatz</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>MT_VariableRevenue5_Yield__c</fullName>
+        <description>Der berechnete Yield der Umsatzbeteiligungskomponente 5.</description>
+        <externalId>false</externalId>
+        <formula>MT_VariableRevenue5_TotalRevenue__c / MT_TotalBMV__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Yield Variabler Umsatz 5</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>MT_Year__c</fullName>
+        <description>Zahldarstellung des Jahres (ohne Monat). Wird in Custom Seiten (Businessplan, Flightplan) in JS verwendet.</description>
+        <externalId>false</externalId>
+        <formula>YEAR(MT_PlanningDate__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Year</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <label>Media Campaign Monthly Plan</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <displayFormat>MBBMPL{00000}</displayFormat>
+        <label>Media Building Block Monthly Plan Name</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Media Campaign Monthly Plans</pluralLabel>
+    <searchLayouts>
+        <excludedStandardButtons>New</excludedStandardButtons>
+        <excludedStandardButtons>Accept</excludedStandardButtons>
+        <excludedStandardButtons>ChangeOwner</excludedStandardButtons>
+        <excludedStandardButtons>Forward</excludedStandardButtons>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>MT_BMV_Sponsoring_MUST_BE_POSITIVE</fullName>
+        <active>true</active>
+        <errorConditionFormula>MT_BMVSponsoring__c &lt; 0</errorConditionFormula>
+        <errorDisplayField>MT_BMVSponsoring__c</errorDisplayField>
+        <errorMessage>BMV Sponsoring cannot be less then 0</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_BMW_Spot_MUST_BE_POSSITIVE</fullName>
+        <active>true</active>
+        <errorConditionFormula>MT_BMVSpot__c &lt; 0</errorConditionFormula>
+        <errorDisplayField>MT_BMVSpot__c</errorDisplayField>
+        <errorMessage>BMV Spot cannot be less than 0</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_FIX_Revenue_MUST_BE_POSITIVE</fullName>
+        <active>true</active>
+        <errorConditionFormula>MT_FixRevenue__c &lt; 0</errorConditionFormula>
+        <errorDisplayField>MT_FixRevenue__c</errorDisplayField>
+        <errorMessage>Fix Revenue cannot be less than 0</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_IsMonthInContractRuntime</fullName>
+        <active>true</active>
+        <description>Determines if the Month is in between the Start and End Date of this Contract (defined on the opportunity approval)</description>
+        <errorConditionFormula>OR(
+DATE(YEAR(MT_MediaCampaign_ref__r.MT_Sys_ContractOrTVRuntimeStart__c),MONTH(MT_MediaCampaign_ref__r.MT_Sys_ContractOrTVRuntimeStart__c),1) &gt; DATE(YEAR(MT_PlanningDate__c),MONTH(MT_PlanningDate__c),1),
+DATE(YEAR(MT_MediaCampaign_ref__r.MT_Sys_ContractOrTVRuntimeEnd__c),MONTH(MT_MediaCampaign_ref__r.MT_Sys_ContractOrTVRuntimeEnd__c),1) &lt; DATE(YEAR(MT_PlanningDate__c),MONTH(MT_PlanningDate__c),1)
+)</errorConditionFormula>
+        <errorDisplayField>MT_PlanningDate__c</errorDisplayField>
+        <errorMessage>Der Monat befindet sich außerhalb des Vertragszeitraumes.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_Monthly_OverbookingFlights_Validation</fullName>
+        <active>true</active>
+        <errorConditionFormula>MT_NoOverbookingFlights__c &gt; 5</errorConditionFormula>
+        <errorMessage>Only 5 Overbooking Flights can be created per month</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_Monthly_Probability_Validation</fullName>
+        <active>true</active>
+        <errorConditionFormula>MT_Probability__c &lt; 0 || MT_Probability__c &gt; 1</errorConditionFormula>
+        <errorDisplayField>MT_Probability__c</errorDisplayField>
+        <errorMessage>Value must be between 0% and 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_Monthly_ROIYield_Validation</fullName>
+        <active>true</active>
+        <errorConditionFormula>MT_ROI_Yield__c &lt; 0</errorConditionFormula>
+        <errorDisplayField>MT_ROI_Yield__c</errorDisplayField>
+        <errorMessage>Value cannot be lower than 0%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_Monthly_SponsoringFlights_Validation</fullName>
+        <active>true</active>
+        <errorConditionFormula>MT_NoSponsoringFlights__c &gt; 20</errorConditionFormula>
+        <errorMessage>Only 20 Sponsoring Flights can be created per month</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_Monthly_SpotFlights_Validation</fullName>
+        <active>true</active>
+        <errorConditionFormula>MT_NoSpotFlights__c &gt; 5</errorConditionFormula>
+        <errorMessage>Only 5 Spot Flights can be created per month</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

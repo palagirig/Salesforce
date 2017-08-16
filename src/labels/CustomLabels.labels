@@ -1,0 +1,3407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Abrechnungsart</fullName>
+        <categories>PAMcockpit</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>Abrechnungsart</shortDescription>
+        <value>Abrechnungsart</value>
+    </labels>
+    <labels>
+        <fullName>Abrechnungsart_GM</fullName>
+        <categories>PAMcockpit</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>Abrechnungsart_GM</shortDescription>
+        <value>Abrechnungsart</value>
+    </labels>
+    <labels>
+        <fullName>Abrechnungsart_PR</fullName>
+        <categories>PAMcockpit</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>Abrechnungsart_PR</shortDescription>
+        <value>Abrechnungsart</value>
+    </labels>
+    <labels>
+        <fullName>Adserver_Base_URL_KR</fullName>
+        <categories>PAMcockpit</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>Adserver Base URL_KR</shortDescription>
+        <value>https://www.google.com/dfp/5731#delivery/OrderDetail/orderId=</value>
+    </labels>
+    <labels>
+        <fullName>Adv_CampaignItem_AdIdValidation1</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Adv_CampaignItem_AdIdValidation1</shortDescription>
+        <value>LineItemID ist mit der Kampagnenposition %1 (%2) im System verknüpft.</value>
+    </labels>
+    <labels>
+        <fullName>Adv_CampaignItem_AdIdValidation2</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Adv_CampaignItem_AdIdValidation2</shortDescription>
+        <value>Ad Id ist bereits in dieser Kampagne vorhanden, bitte prüfen Sie die Felder Ad Id und Additional Ad Ids auf Duplikate!</value>
+    </labels>
+    <labels>
+        <fullName>Adv_CampaignItem_DeleteBlocker_Message</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Adv_CampaignItem_DeleteBlocker_Message</shortDescription>
+        <value>Löschen nicht möglich: Diese Kampagnenposition besitzt Rechnungs-Positionen. (Adv_CampaignItem_DeleteBlocker)</value>
+    </labels>
+    <labels>
+        <fullName>Adv_CampaignItem_Validationerror</fullName>
+        <categories>Error Message</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Adv_CamapignItem_Validationerror</shortDescription>
+        <value>Die Bearbeitung von Kampangnepositionen mit bestehender Invoice ist nicht erlaubt</value>
+    </labels>
+    <labels>
+        <fullName>Adv_MediaCampaign_AdPriceInactive</fullName>
+        <categories>MediaCampaign_Clone</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Adv_MediaCampaign_AdPriceInactive</shortDescription>
+        <value>Reason: AdPrice is inactive.</value>
+    </labels>
+    <labels>
+        <fullName>Adv_MediaCampaign_AdPriceOutdated</fullName>
+        <categories>MediaCampaign_Clone</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Adv_MediaCampaign_AdPriceOutdated</shortDescription>
+        <value>Reason: AdPrice is no longer valid.</value>
+    </labels>
+    <labels>
+        <fullName>Adv_MediaCampaign_BillMeValidationError</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Adv_MediaCampaign_BillMeValidationError</shortDescription>
+        <value>Der Haken &quot;Abrechnen&quot; kann von Ihnen im aktuellen Zustand der Mediakampagne nicht bearbeitet werden.</value>
+    </labels>
+    <labels>
+        <fullName>Adv_MediaCampaign_CouldNotCopy</fullName>
+        <categories>MediaCampaign_Clone</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Adv_MediaCampaign_CouldNotCopy</shortDescription>
+        <value>Could not duplicate position:</value>
+    </labels>
+    <labels>
+        <fullName>Adv_MediaCampaign_FieldValidationError</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Adv_MediaCampaign_FieldValidationError</shortDescription>
+        <value>Wenn freigegebene Rechnungen vorliegen, darf Kampagne inkl. Positionen nicht geändert werden.</value>
+    </labels>
+    <labels>
+        <fullName>Adv_OptimizingChange_Storno_ErrorMessage</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Adv_OptimizingChange_Storno_ErrorMessage</shortDescription>
+        <value>Keine Berechtigung zum Ausführen eines Stornos mit Leistungsfluss.</value>
+    </labels>
+    <labels>
+        <fullName>Agentur</fullName>
+        <categories>PAMcockpit</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>Agentur</shortDescription>
+        <value>Agentur</value>
+    </labels>
+    <labels>
+        <fullName>Agentur_GM</fullName>
+        <categories>PAMcockpit</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>Agentur_GM</shortDescription>
+        <value>Agentur</value>
+    </labels>
+    <labels>
+        <fullName>Back</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Go Back</shortDescription>
+        <value>Back</value>
+    </labels>
+    <labels>
+        <fullName>BtnBack</fullName>
+        <categories>MediaCampaign_Split</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>BtnBack</shortDescription>
+        <value>Zurück zur Mediakampagne</value>
+    </labels>
+    <labels>
+        <fullName>BtnSplit</fullName>
+        <categories>MediaCampaign_Split</categories>
+        <language>de</language>
+        <protected>true</protected>
+        <shortDescription>BtnSplit</shortDescription>
+        <value>Split</value>
+    </labels>
+    <labels>
+        <fullName>BuchungskontrolleSalesforcePasswort</fullName>
+        <categories>Buchungskontrolle</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>Buchungskontrolle Salesforce Passwort</shortDescription>
+        <value>Ec8Hr3Ym3Sg8Cf3Ji2Iy3Om3Nj4Yg7</value>
+    </labels>
+    <labels>
+        <fullName>BuchungskontrolleSalesforceToken</fullName>
+        <categories>Buchungskontrolle</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>Buchungskontrolle Salesforce Token</shortDescription>
+        <value>9OkS2xAToE9891mkyK22k7IM</value>
+    </labels>
+    <labels>
+        <fullName>BuchungskontrolleSalesforceUrl</fullName>
+        <categories>Buchungskontrolle</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>Buchungskontrolle SF URL</shortDescription>
+        <value>https://emea.salesforce.com/services/Soap/u/28.0/00D9E0000000U1O</value>
+    </labels>
+    <labels>
+        <fullName>BuchungskontrolleSalesforceUsername</fullName>
+        <categories>Buchungskontrolle</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>Buchungskontrolle Salesforce Username</shortDescription>
+        <value>interface.somdig.adsvr@prosiebensat1.de</value>
+    </labels>
+    <labels>
+        <fullName>BuchungskontrolleUrl</fullName>
+        <categories>Buchungskontrolle</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>Buchungskontrolle URL</shortDescription>
+        <value>https://exchange.advendio.com:8080/SomDigADcalibur/ADcalibur</value>
+    </labels>
+    <labels>
+        <fullName>Campaign_Report</fullName>
+        <categories>PAMcockpit</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>Campaign Report</shortDescription>
+        <value>Positionsicht</value>
+    </labels>
+    <labels>
+        <fullName>Campaign_status</fullName>
+        <categories>PAMcockpit</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>Campaign status</shortDescription>
+        <value>Status PAM</value>
+    </labels>
+    <labels>
+        <fullName>Campaign_view</fullName>
+        <categories>PAMcockpit</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>Campaign view</shortDescription>
+        <value>Kampagnensicht</value>
+    </labels>
+    <labels>
+        <fullName>Cancel</fullName>
+        <categories>PAMcockpit</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>Cancel</shortDescription>
+        <value>Abrechen</value>
+    </labels>
+    <labels>
+        <fullName>CountryGermany</fullName>
+        <categories>Admin</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>CountryGermany</shortDescription>
+        <value>D</value>
+    </labels>
+    <labels>
+        <fullName>DFP_Kampagnen_Nr_KAM</fullName>
+        <categories>PAMcockpit</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>DFP Kampagnen Nr_KAM</shortDescription>
+        <value>DFP Kampagnen Nr.</value>
+    </labels>
+    <labels>
+        <fullName>DFP_Pos_Nr</fullName>
+        <categories>PAMcockpit</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>DFP Pos. Nr.</shortDescription>
+        <value>DFP Pos. Nr.</value>
+    </labels>
+    <labels>
+        <fullName>DFP_Pos_Nr_PR</fullName>
+        <categories>PAMcockpit</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>DFP Pos. Nr._PR</shortDescription>
+        <value>DFP Pos. Nr.</value>
+    </labels>
+    <labels>
+        <fullName>DFP_Prognose_GM</fullName>
+        <categories>PAMcockpit</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>DFP Prognose %_GM</shortDescription>
+        <value>DFP Prognose %</value>
+    </labels>
+    <labels>
+        <fullName>DFP_Prognose_PR</fullName>
+        <categories>PAMcockpit</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>DFP Prognose %_PR</shortDescription>
+        <value>DFP Prognose %</value>
+    </labels>
+    <labels>
+        <fullName>DFP_Prognose_Vortag_GM</fullName>
+        <categories>PAMcockpit</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>DFP Prognose % Vortag_GM</shortDescription>
+        <value>DFP Prognose % Vortag</value>
+    </labels>
+    <labels>
+        <fullName>Ende</fullName>
+        <categories>PAMcockpit</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>Ende</shortDescription>
+        <value>Ende</value>
+    </labels>
+    <labels>
+        <fullName>Ende_GM</fullName>
+        <categories>PAMcockpit</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>Ende_GM</shortDescription>
+        <value>Ende</value>
+    </labels>
+    <labels>
+        <fullName>Ende_PR</fullName>
+        <categories>PAMcockpit</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>Ende_PR</shortDescription>
+        <value>Ende</value>
+    </labels>
+    <labels>
+        <fullName>ErrorProratedPackageTooMuchDelivery</fullName>
+        <categories>Adv_CampaignItem_DynamicQuantity</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>Error Prorated Package Too Much Delivery</shortDescription>
+        <value>The prorated package cannot be recalculated, because more impressions were delivered than sold in the package.</value>
+    </labels>
+    <labels>
+        <fullName>Export</fullName>
+        <categories>PAMcockpit</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>Export</shortDescription>
+        <value>Export</value>
+    </labels>
+    <labels>
+        <fullName>Flag</fullName>
+        <categories>PAMcockpit</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>Flag</shortDescription>
+        <value>Flag</value>
+    </labels>
+    <labels>
+        <fullName>Flag_GM</fullName>
+        <categories>PAMcockpit</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>Flag_GM</shortDescription>
+        <value>Flag</value>
+    </labels>
+    <labels>
+        <fullName>Flag_Pos</fullName>
+        <categories>PAMcockpit</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>Flag Pos.</shortDescription>
+        <value>Flag Pos.</value>
+    </labels>
+    <labels>
+        <fullName>Good_Morning_Report</fullName>
+        <categories>PAMcockpit</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>Good Morning Report</shortDescription>
+        <value>Guten Morgen Report</value>
+    </labels>
+    <labels>
+        <fullName>Hochrechnung</fullName>
+        <categories>SAP SST</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>Hochrechnung</shortDescription>
+        <value>Hochrechnung</value>
+    </labels>
+    <labels>
+        <fullName>IST_aktuell_GM</fullName>
+        <categories>PAMcockpit</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>IST aktuell_GM</shortDescription>
+        <value>IST aktuell</value>
+    </labels>
+    <labels>
+        <fullName>IST_aktuell_PR</fullName>
+        <categories>PAMcockpit</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>IST aktuell_PR</shortDescription>
+        <value>IST aktuell</value>
+    </labels>
+    <labels>
+        <fullName>Inhaber</fullName>
+        <categories>PAMcockpit</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>Inhaber</shortDescription>
+        <value>Inhaber</value>
+    </labels>
+    <labels>
+        <fullName>Inhaber_GM</fullName>
+        <categories>PAMcockpit</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>Inhaber_GM</shortDescription>
+        <value>Inhaber</value>
+    </labels>
+    <labels>
+        <fullName>Kampagne</fullName>
+        <categories>PAMcockpit</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>Kampagne</shortDescription>
+        <value>Kampagne</value>
+    </labels>
+    <labels>
+        <fullName>Kampagne_GM</fullName>
+        <categories>PAMcockpit</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>Kampagne_GM</shortDescription>
+        <value>Kampagne</value>
+    </labels>
+    <labels>
+        <fullName>KampagnenLinkTargetController_Default_Landingpage</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>KampagnenLinkTargetController_Default_Landingpage</shortDescription>
+        <value>http://www.sevenonemedia.de</value>
+    </labels>
+    <labels>
+        <fullName>Kampagnen_Nr_GM</fullName>
+        <categories>PAMcockpit</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>Kampagnen Nr_GM</shortDescription>
+        <value>Kampagnen Nr.</value>
+    </labels>
+    <labels>
+        <fullName>Kampagnennummer</fullName>
+        <categories>PAMcockpit</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>Kampagnennummer</shortDescription>
+        <value>Kampagnen Nr.</value>
+    </labels>
+    <labels>
+        <fullName>Kommentar</fullName>
+        <categories>PAMcockpit</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>Kommentar</shortDescription>
+        <value>Kommentar</value>
+    </labels>
+    <labels>
+        <fullName>Kommentar_PR</fullName>
+        <categories>PAMcockpit</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>Kommentar_PR</shortDescription>
+        <value>Kommentar</value>
+    </labels>
+    <labels>
+        <fullName>Letzter_Positions_Ende</fullName>
+        <categories>PAMcockpit</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>Letzter Positions-Ende</shortDescription>
+        <value>Letztes Pos. Ende</value>
+    </labels>
+    <labels>
+        <fullName>MA_A_Headline</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MA_A_Headline</shortDescription>
+        <value>Test Headline</value>
+    </labels>
+    <labels>
+        <fullName>MB3_PR</fullName>
+        <categories>PAMcockpit</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>MB3_PR</shortDescription>
+        <value>MB3</value>
+    </labels>
+    <labels>
+        <fullName>MN2_GM</fullName>
+        <categories>PAMcockpit</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>MN2_GM</shortDescription>
+        <value>MN2</value>
+    </labels>
+    <labels>
+        <fullName>MN2_PR</fullName>
+        <categories>PAMcockpit</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>MN2_PR</shortDescription>
+        <value>MN2</value>
+    </labels>
+    <labels>
+        <fullName>MN2_risk_GM</fullName>
+        <categories>PAMcockpit</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>MN2 @risk_GM</shortDescription>
+        <value>MN2 @risk</value>
+    </labels>
+    <labels>
+        <fullName>MT_Add</fullName>
+        <categories>Media Transparency</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_Add</shortDescription>
+        <value>Create</value>
+    </labels>
+    <labels>
+        <fullName>MT_BC_ImportDataControl_ERROR_ValidationExceptionBody</fullName>
+        <categories>Media Transparency, MT Broadcast Import Data Control</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>MT_BC_ImportDataControl_ERROR_ValidationExceptionBody</shortDescription>
+        <value>Die Überprüfung der Ausstrahlungsimportdaten schlug fehl mit einer Ausnahme: 
+
+{0} 
+{1}</value>
+    </labels>
+    <labels>
+        <fullName>MT_BC_ImportDataControl_ERROR_ValidationFailedBody</fullName>
+        <categories>Media Transparency, MT Broadcast Import Data Control</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>MT_BC_ImportDataControl_ERROR_ValidationFailedBody</shortDescription>
+        <value>Die Überprüfung der Ausstrahlungsimportdaten schlug fehl. Bitte prüfen Sie die folgenden Ergebnisse:
+
+PRÜFUNG			ERWARTET / ERHALTEN
+-----------------------------------------------------------------------
+Anzahl Datensätze	{0} / {1}
+Summe MB1		{2} / {3}
+Summe MB3		{4} / {5}
+Summe MN3		{6} / {7}
+-----------------------------------------------------------------------</value>
+    </labels>
+    <labels>
+        <fullName>MT_BC_ImportDataControl_ERROR_ValidationFailedSubject</fullName>
+        <categories>Media Transparency, MT Broadcast Import Data Control</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>MT_BC_ImportDataControl_ERROR_ValidationFailedSubject</shortDescription>
+        <value>Überprüfung der Ausstrahlungsimportdaten - FEHLER</value>
+    </labels>
+    <labels>
+        <fullName>MT_BC_ImportDataTransformator_EMAIL_ResultBody</fullName>
+        <categories>Media Transparency, MT Broadcast Import Data</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_BC_ImportDataTransformator_EMAIL_ResultBody</shortDescription>
+        <value>Die Transformation der Ausstrahlungsimportdaten wurde mit folgendem Ergebnis beendet:
+
+Anzahl der verarbeiteten Datensätze: {0}
+Neu angelegte Ausstrahlungsdatensätze: {1}
+Aktualisierte Ausstrahlungsdatensätze: {2}
+Nicht geänderte Ausstrahlungsdatensätze: {3}
+Aufgetretene Fehler: {4}
+
+{5}
+
+{6}</value>
+    </labels>
+    <labels>
+        <fullName>MT_BC_ImportDataTransformator_EMAIL_ResultReportLink</fullName>
+        <categories>Media Transparency, MT Broadcast Import Data</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_BC_ImportDataTransformator_EMAIL_ResultReportLink</shortDescription>
+        <value>Fehlerbericht ansehen: {0}</value>
+    </labels>
+    <labels>
+        <fullName>MT_BC_ImportDataTransformator_EMAIL_ResultReportLinkNA</fullName>
+        <categories>Media Transparency, MT Broadcast Import Data</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_BC_ImportDataTransformator_EMAIL_ResultReportLinkNA</shortDescription>
+        <value>Der Bericht &quot;{0}&quot; ist in dieser Instanz nicht verfügbar.</value>
+    </labels>
+    <labels>
+        <fullName>MT_BC_ImportDataTransformator_EMAIL_ResultSubject</fullName>
+        <categories>Media Transparency, MT Broadcast Import Data</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_BC_ImportDataTransformator_EMAIL_ResultSubject</shortDescription>
+        <value>Transformation der Ausstrahlungsimportdaten - Ergebnis</value>
+    </labels>
+    <labels>
+        <fullName>MT_BC_ImportDataTransformator_ERROR_MonthOutsideContractRuntime</fullName>
+        <categories>Media Transparency, MT Broadcast Import Data Transformator</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_BC_ImportDataTransformator_ERROR_MonthOutsideContractRuntime</shortDescription>
+        <value>Broadcast month is outside of the contract runtime (no monthly plan record exists).</value>
+    </labels>
+    <labels>
+        <fullName>MT_BC_ImportDataTransformator_ERROR_NewerRecordFound</fullName>
+        <categories>Media Transparency, MT Broadcast Import Data Transformator</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_BC_ImportDataTransformator_ERROR_NewerRecordFound</shortDescription>
+        <value>A newer data record for this month, sender and timeslot combination was found. Ignoring the old data.</value>
+    </labels>
+    <labels>
+        <fullName>MT_BC_ImportDataTransformator_ERROR_NoProSaOrderFound</fullName>
+        <categories>Media Transparency, MT Broadcast Import Data Transformator</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_BC_ImportDataTransformator_ERROR_NoProSaOrderFound</shortDescription>
+        <value>No ProSa Order with this ID found.</value>
+    </labels>
+    <labels>
+        <fullName>MT_BC_ImportDataTransformator_ERROR_ProSaOrderCampaignMismatch</fullName>
+        <categories>Media Transparency, MT Broadcast Import Data Transformator</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_BC_ImportDataTransformator_ERROR_ProSaOrderCampaignMismatch</shortDescription>
+        <value>The ProSa order references a campaign with a different KRS ID than the import record has.</value>
+    </labels>
+    <labels>
+        <fullName>MT_BC_ImportDataTransformator_ErrorReportName</fullName>
+        <categories>Media Transparency, MT Broadcast Import Data</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_BC_ImportDataTransformator_ErrorReportName</shortDescription>
+        <value>MT Broadcast Import Errors</value>
+    </labels>
+    <labels>
+        <fullName>MT_CampaignProbability</fullName>
+        <categories>Media Transparency</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_CampaignProbability</shortDescription>
+        <value>Camp. Probability</value>
+    </labels>
+    <labels>
+        <fullName>MT_CreateMediaCampaign_BmvTvCustomer</fullName>
+        <categories>Media Transparency, MT Create Media Campaign</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_CreateMediaCampaign_BmvTvCustomer</shortDescription>
+        <value>Customer Ratio</value>
+    </labels>
+    <labels>
+        <fullName>MT_CreateMediaCampaign_BuildingBlocks</fullName>
+        <categories>Media Transparency, MT Create Media Campaign</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_CreateMediaCampaign_BuildingBlocks</shortDescription>
+        <value>Media Building Blocks</value>
+    </labels>
+    <labels>
+        <fullName>MT_CreateMediaCampaign_BuildingBlocks_Digital</fullName>
+        <categories>Media Transparency, MT Create Media Campaign</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_CreateMediaCampaign_BuildingBlocks_Digital</shortDescription>
+        <value>Digital</value>
+    </labels>
+    <labels>
+        <fullName>MT_CreateMediaCampaign_BuildingBlocks_DooH</fullName>
+        <categories>Media Transparency, MT Create Media Campaign</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_CreateMediaCampaign_BuildingBlocks_DooH</shortDescription>
+        <value>DooH</value>
+    </labels>
+    <labels>
+        <fullName>MT_CreateMediaCampaign_BuildingBlocks_TV</fullName>
+        <categories>Media Transparency, MT Create Media Campaign</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_CreateMediaCampaign_BuildingBlocks_TV</shortDescription>
+        <value>TV</value>
+    </labels>
+    <labels>
+        <fullName>MT_CreateMediaCampaign_CampaignType_NoMatches</fullName>
+        <categories>Media Transparency, MT Create Media Campaign</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_CreateMediaCampaign_CampaignType_NoMatches</shortDescription>
+        <value>No matching campaign types found.</value>
+    </labels>
+    <labels>
+        <fullName>MT_CreateMediaCampaign_Cancel</fullName>
+        <categories>Media Transparency, MT Create Media Campaign</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_CreateMediaCampaign_Cancel</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>MT_CreateMediaCampaign_ContractualRuntime</fullName>
+        <categories>Media Transparency, MT Create Media Campaign</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_CreateMediaCampaign_ContractualRuntime</shortDescription>
+        <value>Contract Runtime</value>
+    </labels>
+    <labels>
+        <fullName>MT_CreateMediaCampaign_ContractualRuntime_None</fullName>
+        <categories>Media Transparency, MT Create Media Campaign</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_CreateMediaCampaign_ContractualRuntime_None</shortDescription>
+        <value>None</value>
+    </labels>
+    <labels>
+        <fullName>MT_CreateMediaCampaign_Create</fullName>
+        <categories>Media Transparency, MT Create Media Campaign</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_CreateMediaCampaign_Create</shortDescription>
+        <value>Create</value>
+    </labels>
+    <labels>
+        <fullName>MT_CreateMediaCampaign_ErrorTitle</fullName>
+        <categories>Media Transparency, MT Create Media Campaign</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_CreateMediaCampaign_ErrorTitle</shortDescription>
+        <value>An error occurred</value>
+    </labels>
+    <labels>
+        <fullName>MT_CreateMediaCampaign_InformationFromOpportunityApproval</fullName>
+        <categories>Media Transparency, MT Create Media Campaign</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_CreateMediaCampaign_InformationFromOpportunityApproval</shortDescription>
+        <value>Information from Opportunity Approval</value>
+    </labels>
+    <labels>
+        <fullName>MT_CreateMediaCampaign_Ok</fullName>
+        <categories>Media Transparency, MT Create Media Campaign</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_CreateMediaCampaign_Ok</shortDescription>
+        <value>OK</value>
+    </labels>
+    <labels>
+        <fullName>MT_CreateMediaCampaign_Revenues</fullName>
+        <categories>Media Transparency, MT Create Media Campaign</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_CreateMediaCampaign_Revenues</shortDescription>
+        <value>Revenues</value>
+    </labels>
+    <labels>
+        <fullName>MT_CreateMediaCampaign_Seconds</fullName>
+        <categories>Media Transparency, MT Create Media Campaign</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_CreateMediaCampaign_Seconds</shortDescription>
+        <value>Seconds</value>
+    </labels>
+    <labels>
+        <fullName>MT_CreateMediaCampaign_SpotLength</fullName>
+        <categories>Media Transparency, MT Create Media Campaign</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_CreateMediaCampaign_SpotLength</shortDescription>
+        <value>Spot Length</value>
+    </labels>
+    <labels>
+        <fullName>MT_CreateMediaCampaign_SpotLengthCustomer</fullName>
+        <categories>Media Transparency, MT Create Media Campaign</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_CreateMediaCampaign_SpotLengthCustomer</shortDescription>
+        <value>Seconds Customer Ratio</value>
+    </labels>
+    <labels>
+        <fullName>MT_CreateMediaCampaign_Thereof</fullName>
+        <categories>Media Transparency, MT Create Media Campaign</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_CreateMediaCampaign_Thereof</shortDescription>
+        <value>thereof</value>
+    </labels>
+    <labels>
+        <fullName>MT_CreateMediaCampaign_Title</fullName>
+        <categories>Media Transparency, MT Create Media Campaign</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_CreateMediaCampaign_Title</shortDescription>
+        <value>Create Media Campaign</value>
+    </labels>
+    <labels>
+        <fullName>MT_CreateMediaCampaign_VariableRevenue1_Title</fullName>
+        <categories>Media Transparency, MT Create Media Campaign</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_CreateMediaCampaign_VariableRevenue1_Title</shortDescription>
+        <value>Variable Revenue 1</value>
+    </labels>
+    <labels>
+        <fullName>MT_CreateMediaCampaign_VariableRevenue2_Title</fullName>
+        <categories>Media Transparency, MT Create Media Campaign</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_CreateMediaCampaign_VariableRevenue2_Title</shortDescription>
+        <value>Variable Revenue 2</value>
+    </labels>
+    <labels>
+        <fullName>MT_CreateMediaCampaign_VariableRevenue3_Title</fullName>
+        <categories>Media Transparency, MT Create Media Campaign</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_CreateMediaCampaign_VariableRevenue3_Title</shortDescription>
+        <value>Variable Revenue 3</value>
+    </labels>
+    <labels>
+        <fullName>MT_CreateMediaCampaign_VariableRevenue4_Title</fullName>
+        <categories>Media Transparency, MT Create Media Campaign</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_CreateMediaCampaign_VariableRevenue4_Title</shortDescription>
+        <value>Variable Revenue 4</value>
+    </labels>
+    <labels>
+        <fullName>MT_CreateMediaCampaign_VariableRevenue5_Title</fullName>
+        <categories>Media Transparency, MT Create Media Campaign</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_CreateMediaCampaign_VariableRevenue5_Title</shortDescription>
+        <value>Variable Revenue 5</value>
+    </labels>
+    <labels>
+        <fullName>MT_CreateMediaCampaign_VariableRevenue_RevenuePerUnit</fullName>
+        <categories>Media Transparency, MT Create Media Campaign</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_CreateMediaCampaign_VariableRevenue_RevenuePerUnit</shortDescription>
+        <value>Revenue Per Unit</value>
+    </labels>
+    <labels>
+        <fullName>MT_CreateMediaCampaign_VariableRevenue_SoldAmount</fullName>
+        <categories>Media Transparency, MT Create Media Campaign</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_CreateMediaCampaign_VariableRevenue_SoldAmount</shortDescription>
+        <value>Sold Amount</value>
+    </labels>
+    <labels>
+        <fullName>MT_CreateMediaCampaign_VariableRevenue_SoldProduct</fullName>
+        <categories>Media Transparency, MT Create Media Campaign</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_CreateMediaCampaign_VariableRevenue_SoldProduct</shortDescription>
+        <value>Sold Product</value>
+    </labels>
+    <labels>
+        <fullName>MT_CreateMediaCampaign_VariableRevenue_SoldUnit</fullName>
+        <categories>Media Transparency, MT Create Media Campaign</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_CreateMediaCampaign_VariableRevenue_SoldUnit</shortDescription>
+        <value>Sold Unit</value>
+    </labels>
+    <labels>
+        <fullName>MT_CreateMediaCampaign_VariableRevenue_TotalRevenue</fullName>
+        <categories>Media Transparency, MT Create Media Campaign</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_CreateMediaCampaign_VariableRevenue_TotalRevenue</shortDescription>
+        <value>Total Revenue</value>
+    </labels>
+    <labels>
+        <fullName>MT_Distribution</fullName>
+        <categories>Media Transparency</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_Distribution</shortDescription>
+        <value>Distribution</value>
+    </labels>
+    <labels>
+        <fullName>MT_Flight</fullName>
+        <categories>Media Transparency</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_Flight</shortDescription>
+        <value>Flight</value>
+    </labels>
+    <labels>
+        <fullName>MT_GlobalOppApp_AccountName</fullName>
+        <categories>Media Transparency, MT Global Opp App Component</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_GlobalOppApp_AccountName</shortDescription>
+        <value>Account Name</value>
+    </labels>
+    <labels>
+        <fullName>MT_GlobalOppApp_AssetName</fullName>
+        <categories>Media Transparency, MT Global Opp App Component</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_GlobalOppApp_AssetName</shortDescription>
+        <value>Internal Partner</value>
+    </labels>
+    <labels>
+        <fullName>MT_GlobalOppApp_CampaignStatus</fullName>
+        <categories>Media Transparency, MT Global Opp App Component</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_GlobalOppApp_CampaignStatus</shortDescription>
+        <value>Campaign Status</value>
+    </labels>
+    <labels>
+        <fullName>MT_GlobalOppApp_CampaignType</fullName>
+        <categories>Media Transparency, MT Global Opp App Component</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_GlobalOppApp_CampaignType</shortDescription>
+        <value>Campaign Type</value>
+    </labels>
+    <labels>
+        <fullName>MT_GlobalOppApp_RuntimeTVEnd</fullName>
+        <categories>Media Transparency, MT Global Opp App Component</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_GlobalOppApp_RuntimeTVEnd</shortDescription>
+        <value>Runtime TV End</value>
+    </labels>
+    <labels>
+        <fullName>MT_GlobalOppApp_RuntimeTVStart</fullName>
+        <categories>Media Transparency, MT Global Opp App Component</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_GlobalOppApp_RuntimeTVStart</shortDescription>
+        <value>Runtime TV Start</value>
+    </labels>
+    <labels>
+        <fullName>MT_GlobalOppApp_Title</fullName>
+        <categories>Media Transparency, MT Global Opp App Component</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_GlobalOppApp_Title</shortDescription>
+        <value>Opportunity Approval Cockpit</value>
+    </labels>
+    <labels>
+        <fullName>MT_KPI_Global_AccountName</fullName>
+        <categories>Media Transparency, MT KPI Global Component</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_KPI_Global_AccountName</shortDescription>
+        <value>Account Name</value>
+    </labels>
+    <labels>
+        <fullName>MT_KPI_Global_AssetName</fullName>
+        <categories>Media Transparency, MT KPI Global Component</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_KPI_Global_AssetName</shortDescription>
+        <value>Internal Partner</value>
+    </labels>
+    <labels>
+        <fullName>MT_KPI_Global_BmvTVActuals</fullName>
+        <categories>Media Transparency, MT KPI Global Component</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_KPI_Global_BmvTVActuals</shortDescription>
+        <value>BMV TV Actual</value>
+    </labels>
+    <labels>
+        <fullName>MT_KPI_Global_BmvTVContractual</fullName>
+        <categories>Media Transparency, MT KPI Global Component</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_KPI_Global_BmvTVContractual</shortDescription>
+        <value>BMV TV Contractual</value>
+    </labels>
+    <labels>
+        <fullName>MT_KPI_Global_CampaignStatus</fullName>
+        <categories>Media Transparency, MT KPI Global Component</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_KPI_Global_CampaignStatus</shortDescription>
+        <value>Campaign Status</value>
+    </labels>
+    <labels>
+        <fullName>MT_KPI_Global_CampaignType</fullName>
+        <categories>Media Transparency, MT KPI Global Component</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_KPI_Global_CampaignType</shortDescription>
+        <value>Campaign Type</value>
+    </labels>
+    <labels>
+        <fullName>MT_KPI_Global_ContractualPerformance</fullName>
+        <categories>Media Transparency, MT Global Opp App Component</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_KPI_Global_ContractualPerformance</shortDescription>
+        <value>Contractual Performance</value>
+    </labels>
+    <labels>
+        <fullName>MT_KPI_Global_RuntimeTVEnd</fullName>
+        <categories>Media Transparency, MT KPI Global Component</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_KPI_Global_RuntimeTVEnd</shortDescription>
+        <value>Runtime TV End</value>
+    </labels>
+    <labels>
+        <fullName>MT_KPI_Global_RuntimeTVStart</fullName>
+        <categories>Media Transparency, MT KPI Global Component</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_KPI_Global_RuntimeTVStart</shortDescription>
+        <value>Runtime TV Start</value>
+    </labels>
+    <labels>
+        <fullName>MT_KPI_Global_Title</fullName>
+        <categories>Media Transparency, MT KPI Global Component</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_KPI_Global_Title</shortDescription>
+        <value>Media Campaign Cockpit</value>
+    </labels>
+    <labels>
+        <fullName>MT_KPI_MediaCampaign_BmvTVAsset</fullName>
+        <categories>Media Transparency, MT KPI Media Campaign Component</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_KPI_MediaCampaign_BmvTVAsset</shortDescription>
+        <value>BMV TV Unit</value>
+    </labels>
+    <labels>
+        <fullName>MT_KPI_MediaCampaign_BmvTVCustomer</fullName>
+        <categories>Media Transparency, MT KPI Media Campaign Component</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_KPI_MediaCampaign_BmvTVCustomer</shortDescription>
+        <value>BMV TV Customer</value>
+    </labels>
+    <labels>
+        <fullName>MT_KPI_MediaCampaign_SpotLengthCustomer</fullName>
+        <categories>Media Transparency, MT KPI Media Campaign Component</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_KPI_MediaCampaign_SpotLengthCustomer</shortDescription>
+        <value>Customer Fraction</value>
+    </labels>
+    <labels>
+        <fullName>MT_KPI_MediaCampaign_SpotLengthTotal</fullName>
+        <categories>Media Transparency, MT KPI Media Campaign Component</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_KPI_MediaCampaign_SpotLengthTotal</shortDescription>
+        <value>Spot Length Total</value>
+    </labels>
+    <labels>
+        <fullName>MT_KPI_MediaCampaign_SpotRatioAsset</fullName>
+        <categories>Media Transparency, MT KPI Media Campaign Component</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_KPI_MediaCampaign_SpotRatioAsset</shortDescription>
+        <value>Spot Ratio Unit</value>
+    </labels>
+    <labels>
+        <fullName>MT_KPI_MediaCampaign_SpotRatioCustomer</fullName>
+        <categories>Media Transparency, MT KPI Media Campaign Component</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_KPI_MediaCampaign_SpotRatioCustomer</shortDescription>
+        <value>Spot Ratio Customer</value>
+    </labels>
+    <labels>
+        <fullName>MT_KPI_MediaCampaign_Title</fullName>
+        <categories>Media Transparency, MT KPI Media Campaign Component</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_KPI_MediaCampaign_Title</shortDescription>
+        <value>Media Campaign Cockpit</value>
+    </labels>
+    <labels>
+        <fullName>MT_KPI_OppApp_BmvTVCustomer</fullName>
+        <categories>Media Transparency, MT KPI OppApp Component</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_KPI_OppApp_BmvTVCustomer</shortDescription>
+        <value>BMV TV Customer</value>
+    </labels>
+    <labels>
+        <fullName>MT_KPI_OppApp_SpotLengthCustomer</fullName>
+        <categories>Media Transparency, MT KPI OppApp Component</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_KPI_OppApp_SpotLengthCustomer</shortDescription>
+        <value>Customer Fraction</value>
+    </labels>
+    <labels>
+        <fullName>MT_KPI_OppApp_SpotLengthTotal</fullName>
+        <categories>Media Transparency, MT KPI OppApp Component</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_KPI_OppApp_SpotLengthTotal</shortDescription>
+        <value>Spot Length Total</value>
+    </labels>
+    <labels>
+        <fullName>MT_KPI_OppApp_SpotRatioAsset</fullName>
+        <categories>Media Transparency, MT KPI OppApp Component</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_KPI_OppApp_SpotRatioAsset</shortDescription>
+        <value>Spot Ratio Unit</value>
+    </labels>
+    <labels>
+        <fullName>MT_KPI_OppApp_SpotRatioCustomer</fullName>
+        <categories>Media Transparency, MT KPI OppApp Component</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_KPI_OppApp_SpotRatioCustomer</shortDescription>
+        <value>Spot Ratio Customer</value>
+    </labels>
+    <labels>
+        <fullName>MT_KPI_OppApp_Title</fullName>
+        <categories>Media Transparency, MT KPI OppApp Component</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_KPI_OppApp_Title</shortDescription>
+        <value>Opportunity Approval Cockpit</value>
+    </labels>
+    <labels>
+        <fullName>MT_Max</fullName>
+        <categories>Media Transparency</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_Max</shortDescription>
+        <value>Max.</value>
+    </labels>
+    <labels>
+        <fullName>MT_MediaCampaign_RecordTypeName_Internal</fullName>
+        <categories>MT_MediaCampaign, RecordType</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_MediaCampaign_RecordTypeName_Internal</shortDescription>
+        <value>MT_InternalMediaCampaign</value>
+    </labels>
+    <labels>
+        <fullName>MT_OppApp_ApprovalHistory_Fields</fullName>
+        <categories>Media Transparency, MT Opp App Approval History</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_OppApp_ApprovalHistory_Fields</shortDescription>
+        <value>Fields</value>
+    </labels>
+    <labels>
+        <fullName>MT_OppApp_ApprovalHistory_LastApprovedValue</fullName>
+        <categories>Media Transparency, MT Opp App Approval History</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_OppApp_ApprovalHistory_LastApprovedValue</shortDescription>
+        <value>Last Approved Value</value>
+    </labels>
+    <labels>
+        <fullName>MT_OppApp_ApprovalHistory_NoActiveApprovalProcess</fullName>
+        <categories>Media Transparency, MT Opp App Approval History</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_OppApp_ApprovalHistory_NoActiveApprovalProcess</shortDescription>
+        <value>No active approval process in progress</value>
+    </labels>
+    <labels>
+        <fullName>MT_OppApp_ApprovalHistory_NoApprovalYet</fullName>
+        <categories>Media Transparency, MT Opp App Approval History</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_OppApp_ApprovalHistory_NoApprovalYet</shortDescription>
+        <value>No approval yet.</value>
+    </labels>
+    <labels>
+        <fullName>MT_OppApp_ApprovalHistory_NoChanges</fullName>
+        <categories>Media Transparency, MT Opp App Approval History</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_OppApp_ApprovalHistory_NoChanges</shortDescription>
+        <value>No Changes</value>
+    </labels>
+    <labels>
+        <fullName>MT_OppApp_ApprovalHistory_NoValues</fullName>
+        <categories>Media Transparency, MT Opp App Approval History</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_OppApp_ApprovalHistory_NoValues</shortDescription>
+        <value>No Values</value>
+    </labels>
+    <labels>
+        <fullName>MT_OppApp_ApprovalHistory_SubmittedValue</fullName>
+        <categories>Media Transparency, MT Opp App Approval History</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_OppApp_ApprovalHistory_SubmittedValue</shortDescription>
+        <value>Submitted Value</value>
+    </labels>
+    <labels>
+        <fullName>MT_OppApp_ApprovalHistory_Title</fullName>
+        <categories>Media Transparency, MT Opp App Approval History</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_OppApp_ApprovalHistory_Title</shortDescription>
+        <value>Opportunity Approval - Approval History</value>
+    </labels>
+    <labels>
+        <fullName>MT_Sponsoring</fullName>
+        <categories>Media Transparency</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_Sponsoring</shortDescription>
+        <value>Sponsoring</value>
+    </labels>
+    <labels>
+        <fullName>MT_Spots</fullName>
+        <categories>Media Transparency</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_Spots</shortDescription>
+        <value>Spots</value>
+    </labels>
+    <labels>
+        <fullName>MT_Total</fullName>
+        <categories>Media Transparency</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_Total</shortDescription>
+        <value>Total</value>
+    </labels>
+    <labels>
+        <fullName>MT_Volume</fullName>
+        <categories>Media Transparency</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_Volume</shortDescription>
+        <value>BMV</value>
+    </labels>
+    <labels>
+        <fullName>MT_Weighted</fullName>
+        <categories>Media Transparency</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_Weighted</shortDescription>
+        <value>weighted</value>
+    </labels>
+    <labels>
+        <fullName>MT_lbl_VariableRevenue1_RevenuePerUnit</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_lbl_VariableRevenue1_RevenuePerUnit</shortDescription>
+        <value>Variable Revenue - Rev. per Unit</value>
+    </labels>
+    <labels>
+        <fullName>MT_lbl_VariableRevenue1_SoldAmount</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_lbl_VariableRevenue1_SoldAmount</shortDescription>
+        <value>Variable Revenue - Sales figures</value>
+    </labels>
+    <labels>
+        <fullName>MT_lbl_VariableRevenue1_TotalRevenue</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_lbl_VariableRevenue1_TotalRevenue</shortDescription>
+        <value>Variable Revenue - Total Revenue</value>
+    </labels>
+    <labels>
+        <fullName>Menge_PR</fullName>
+        <categories>PAMcockpit</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>Menge_PR</shortDescription>
+        <value>Menge</value>
+    </labels>
+    <labels>
+        <fullName>Monatsabschluss</fullName>
+        <categories>SAP SST</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>Monatsabschluss</shortDescription>
+        <value>Monatsabschluss</value>
+    </labels>
+    <labels>
+        <fullName>MsgFunctionSplit</fullName>
+        <categories>MediaCampaign_Split</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>MsgFunctionSplit</shortDescription>
+        <value>Bitte das Paket-Werbemittel auswählen um die Paket-Komponenten zu splitten.</value>
+    </labels>
+    <labels>
+        <fullName>Msg_Error_PublicGroupNotExist</fullName>
+        <categories>cls_P7S1Sphere_PublicGroupCheck,  Label, ilum:e</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>Error Message if Public Group does not exist.</shortDescription>
+        <value>Die gewünschte Public Group existiert noch nicht!</value>
+    </labels>
+    <labels>
+        <fullName>N_chster_Positions_Ende</fullName>
+        <categories>PAMcockpit</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>Nächster Positions-Ende</shortDescription>
+        <value>Nächstes Pos. Ende</value>
+    </labels>
+    <labels>
+        <fullName>N_chster_Positions_Start</fullName>
+        <categories>PAMcockpit</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>Nächster Positions-Start</shortDescription>
+        <value>Nächster Pos. Start</value>
+    </labels>
+    <labels>
+        <fullName>NextNext</fullName>
+        <categories>PAMcockpit</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>Next</shortDescription>
+        <value>Nächste</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_AccDash_AccAccess_AccFieldId</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_AccDash_AccAccess_AccFieldId</shortDescription>
+        <value>00N57000006LnEC</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_AccDash_Amount</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_AccDash_Amount</shortDescription>
+        <value>P7S1_Mn3__c</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_AccDash_DefaultLogo</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_AccDash_DefaultLogo</shortDescription>
+        <value>Sales Excellence</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_AccDash_LogoFolder</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_AccDash_LogoFolder</shortDescription>
+        <value>Entity Logos</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_AccDash_MediaBoard</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_AccDash_MediaBoard</shortDescription>
+        <value>Media Board</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_AccDash_lbl_AccTeamAufnahme</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_AccDash_lbl_AccTeamAufnahme</shortDescription>
+        <value>Aufnahme in Account Team</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_AccDash_lbl_AccTeamUnitLogos</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_AccDash_lbl_AccTeamUnitLogos</shortDescription>
+        <value>Account Access:</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_AccDash_lbl_AccUebernahme</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_AccDash_lbl_AccUebernahme</shortDescription>
+        <value>Account Übernahme</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_AccDash_lbl_Approval</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_AccDash_lbl_Approval</shortDescription>
+        <value>Account Freigabe</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_AccDash_lbl_Closed</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_AccDash_lbl_Closed</shortDescription>
+        <value>Closed</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_AccDash_lbl_Eckdaten</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_AccDash_lbl_Eckdaten</shortDescription>
+        <value>Eckdaten</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_AccDash_lbl_Error</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_AccDash_lbl_Error</shortDescription>
+        <value>Error while loading data. Please contact your administrator.</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_AccDash_lbl_Go2Acc</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_AccDash_lbl_Go2Acc</shortDescription>
+        <value>Go to Account</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_AccDash_lbl_LY</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_AccDash_lbl_LY</shortDescription>
+        <value>LY</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_AccDash_lbl_LYTM</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_AccDash_lbl_LYTM</shortDescription>
+        <value>LYTM</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_AccDash_lbl_LogoIntegration</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_AccDash_lbl_LogoIntegration</shortDescription>
+        <value>Logo Integration</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_AccDash_lbl_Medienmix</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_AccDash_lbl_Medienmix</shortDescription>
+        <value>Medienmix (Quotexdaten, Zeitraum #period#)</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_AccDash_lbl_NoData</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_AccDash_lbl_NoData</shortDescription>
+        <value>No data available.</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_AccDash_lbl_NotReached</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_AccDash_lbl_NotReached</shortDescription>
+        <value>Not Reached</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_AccDash_lbl_Open</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_AccDash_lbl_Open</shortDescription>
+        <value>Open</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_AccDash_lbl_Opportunities</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_AccDash_lbl_Opportunities</shortDescription>
+        <value>Opportunity Pipeline 2017 (MN3)</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_AccDash_lbl_Reached</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_AccDash_lbl_Reached</shortDescription>
+        <value>Reached</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_AccDash_lbl_Sum</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_AccDash_lbl_Sum</shortDescription>
+        <value>Sum</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_AccDash_lbl_Target</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_AccDash_lbl_Target</shortDescription>
+        <value>Target</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_AccDash_lbl_Unit</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_AccDash_lbl_Unit</shortDescription>
+        <value>Unit</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_AccDash_lbl_YTM</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_AccDash_lbl_YTM</shortDescription>
+        <value>YTM</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_AccDash_lbl_Yield</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_AccDash_lbl_Yield</shortDescription>
+        <value>Yield</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_AccDashboard_Opp_Billion</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_AccDashboard_Opp_Billion</shortDescription>
+        <value>mrd</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_AccDashboard_Opp_Million</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_AccDashboard_Opp_Million</shortDescription>
+        <value>mio</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_AccDashboard_Opp_Thousan</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_AccDashboard_Opp_Thousand</shortDescription>
+        <value>k</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_AccSalesTeamAInfo</fullName>
+        <categories>Account Sales Team Editor</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_AccSalesTeamAInfo</shortDescription>
+        <value>Kundenagenturbeziehung Info</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_AccSalesTeamCreate</fullName>
+        <categories>Account Sales Team Editor</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_AccSalesTeamCreate</shortDescription>
+        <value>Kundenagenturbeziehung erstellen</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_AccSalesTeamEInfo</fullName>
+        <categories>Account Sales Team Editor</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_AccSalesTeamEInfo</shortDescription>
+        <value>Verkäuferzuordnung Info</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_AccSalesTeamEditEAV</fullName>
+        <categories>Account Sales Team Editor</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_AccSalesTeamEditEAV</shortDescription>
+        <value>Einkaufsagenturverkäufer</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_AccSalesTeamEdit_Cancel</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_AccSalesTeamEdit_Cancel</shortDescription>
+        <value>Abbrechen</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_AccSalesTeamEdit_EditKAM</fullName>
+        <categories>Account Sales Team Editor</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_AccSalesTeamEdit_EditKAM</shortDescription>
+        <value>KAM bearbeiten</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_AccSalesTeamEdit_Save</fullName>
+        <categories>Account Sales Team Editor</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_AccSalesTeamEdit_Save</shortDescription>
+        <value>Speichern</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_AccSalesTeamEdit_TVK</fullName>
+        <categories>Account Sales Team Editor</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_AccSalesTeamEdit_TVK</shortDescription>
+        <value>TV Kundenverkäufer</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_AccSalesTeamKeyAcc</fullName>
+        <categories>Account Sales Team Editor</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_AccSalesTeamKeyAcc</shortDescription>
+        <value>Key Account Manager (Owner)</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_AccSalesTeamKeyRelation</fullName>
+        <categories>Account Sales Team Editor</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_AccSalesTeamKeyRelation</shortDescription>
+        <value>Achtung! Es sind bereits relevante Kundenagenturbeziehungen vorhanden. Bitte prüfen!</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_AccSalesTeamKeySaveKeep</fullName>
+        <categories>Account Sales Team Editor</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_AccSalesTeamKeySaveKeep</shortDescription>
+        <value>Speichern und Beibehalten</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_AccSalesTeamKeySaveOver</fullName>
+        <categories>Account Sales Team Editor</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_AccSalesTeamKeySaveOver</shortDescription>
+        <value>Speichern und überschreiben</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_AccSalesTeamSell</fullName>
+        <categories>Account Sales Team Editor</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_AccSalesTeamSell</shortDescription>
+        <value>Verkäufer</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_Account_InvalidBillingCountry</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Invalid Billing Country</shortDescription>
+        <value>No Country found for BillingCountry.</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_BASE_URL</fullName>
+        <categories>P7S1 Portal API</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_BASE_URL</shortDescription>
+        <value>https://p7s1.my.salesforce.com</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_CampaignMemberForwarder_LandingPage_SieHabenBereitsAbgesagt</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_CampaignMemberForwarder_LandingPage_SieHabenBereitsAbgesagt</shortDescription>
+        <value>https://www.sevenonemedia.de/fjs2016-3</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_CampaignMemberForwarder_LandingPage_SieHabenBereitsZugesagt</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_CampaignMemberForwarder_LandingPage_SieHabenBereitsZugesagt</shortDescription>
+        <value>https://www.sevenonemedia.de/fjs2016-2</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_CampaignMember_ReadOnlyBlock_Error</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_CampaignMember_ReadOnlyBlock_Error</shortDescription>
+        <value>Sie sind nicht Berechtigt in dieser Kampagne Mitglieder zu ändern.</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_Emp_Serviceweb_ColleagueNotFound</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_Emp_Serviceweb_ColleagueNotFound</shortDescription>
+        <value>Der angegebene Kollege wurde nicht gefunden:</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_Emp_Serviceweb_CompNotFound</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_Emp_Serviceweb_CompNotFound</shortDescription>
+        <value>Die angegebene Firma wurde nicht gefunden:</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_Emp_Serviceweb_ContactEmailDuplicate</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_Emp_Serviceweb_ContactEmailDuplicate</shortDescription>
+        <value>Es gibt mehr als einen Kontakt mit dieser E-Mail Adresse:</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_Emp_Serviceweb_ManagerNotFound</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_Emp_Serviceweb_ManagerNotFound</shortDescription>
+        <value>Der angegebene Manager wurde nicht gefunden.</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_Emp_Serviceweb_UsernameDuplicate</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_Emp_Serviceweb_UsernameDuplicate</shortDescription>
+        <value>Es gibt mehr als einen Benutzer mit diesem Benutzernamen:</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_PORTAL_ADFACTORY_EMAIL</fullName>
+        <categories>P7S1 Portal API</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Adfactory E-Mail Adresse</shortDescription>
+        <value>service@sevenone-adfactory.de</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_PORTAL_LIFERAY_EMAIL</fullName>
+        <categories>P7S1 Portal API</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_PORTAL_LIFERAY_EMAIL</shortDescription>
+        <value>mysevenone@sevenonemedia.de</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_RollupOptimize</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_RollupOptimize</shortDescription>
+        <value>false</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_SITE_NEWSLETTER_UNSUBSCRIBE_FAILED</fullName>
+        <categories>P7S1 Portal API</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_SITE_NEWSLETTER_UNSUBSCRIBE_FAILED</shortDescription>
+        <value>Sorry, we were not able to unsubscribe the newsletter with id:</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_SalesTeam_Error_Access</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_SalesTeam_Error_Access</shortDescription>
+        <value>Sie sind nicht berechtigt um auf diese Funktionalität zuzugreifen!</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_SalesTeam_Error_KVK</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_SalesTeam_Error_KVK</shortDescription>
+        <value>Speichern nicht möglich. Kein TV Kundenverkäufer auf Kunden Account hinterlegt, bitte diesen im Kunden Account anlegen.</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_SalesTeam_Error_Missing</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_SalesTeam_Error_Missing</shortDescription>
+        <value>Bitte einen Verkäufer auswählen</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_SalesTeam_Error_Save</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_SalesTeam_Error_Save</shortDescription>
+        <value>Fehler beim Speichern der Daten:</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_SalesTeam_Role_Digital</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_SalesTeam_Role_Digital</shortDescription>
+        <value>00E57000001jJWP</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_SalesTeam_Role_Tv</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_SalesTeam_Role_Tv</shortDescription>
+        <value>00E57000001jJWZ</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_VIRTUALTHEMOUNTAIN_ADRESSEREABW_1</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_VIRTUALTHEMOUNTAIN_ADRESSEREABW_1</shortDescription>
+        <value>Bitte geben Sie Ihre gewünschte Rechnungsadresse in folgendem Format an:</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_VIRTUALTHEMOUNTAIN_ADRESSEREABW_2</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_VIRTUALTHEMOUNTAIN_ADRESSEREABW_2</shortDescription>
+        <value>Max Mustermann&lt;br /&gt;
+Musterfirma&lt;br /&gt;
+Musterstra&amp;szlig;e 123&lt;br /&gt;
+12345 Musterort&lt;br /&gt;</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_VIRTUALTHEMOUNTAIN_ADRESSEREABW_Rechnungsadresse</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_VIRTUALTHEMOUNTAIN_ADRESSEREABW_Rechnungsadresse</shortDescription>
+        <value>Rechnungsadresse</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_VIRTUALTHEMOUNTAIN_ADRESSERE_1</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_VIRTUALTHEMOUNTAIN_ADRESSERE_1</shortDescription>
+        <value>Bitte überprüfen Sie Ihre Adressangaben:</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_VIRTUALTHEMOUNTAIN_ADRESSERE_2</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_VIRTUALTHEMOUNTAIN_ADRESSERE_2</shortDescription>
+        <value>&lt;b&gt;&amp;nbsp;&amp;nbsp;Ich habe zur Kenntnis genommen, dass es sich hierbei um eine kostenpflichtige Veranstaltung handelt.&lt;/b&gt;</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_VIRTUALTHEMOUNTAIN_ADRESSERE_3</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_VIRTUALTHEMOUNTAIN_ADRESSERE_3</shortDescription>
+        <value>Ist diese Rechnungsadresse korrekt?</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_VIRTUALTHEMOUNTAIN_ADRESSERE_4</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_VIRTUALTHEMOUNTAIN_ADRESSERE_4</shortDescription>
+        <value>Ich wünsche eine andere Rechnungsadresse</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_VIRTUALTHEMOUNTAIN_ADRESSE_1</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_VIRTUALTHEMOUNTAIN_ADRESSE_1</shortDescription>
+        <value>Bitte überprüfen Sie Ihre Adressangaben:</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_VIRTUALTHEMOUNTAIN_ADRESSE_2</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_VIRTUALTHEMOUNTAIN_ADRESSE_2</shortDescription>
+        <value>Ich akzeptiere die Bedingungen zum</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_VIRTUALTHEMOUNTAIN_ADRESSE_3</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_VIRTUALTHEMOUNTAIN_ADRESSE_3</shortDescription>
+        <value>Datenschutz</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_VIRTUALTHEMOUNTAIN_ADRESSE_Anrede</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_VIRTUALTHEMOUNTAIN_ADRESSE_Anrede</shortDescription>
+        <value>Anrede</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_VIRTUALTHEMOUNTAIN_ADRESSE_EMail</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_VIRTUALTHEMOUNTAIN_ADRESSE_EMail</shortDescription>
+        <value>E-Mail</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_VIRTUALTHEMOUNTAIN_ADRESSE_Firma</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_VIRTUALTHEMOUNTAIN_ADRESSE_Firma</shortDescription>
+        <value>Firma</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_VIRTUALTHEMOUNTAIN_ADRESSE_Hausnummer</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_VIRTUALTHEMOUNTAIN_ADRESSE_Hausnummer</shortDescription>
+        <value>Hausnummer</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_VIRTUALTHEMOUNTAIN_ADRESSE_MobilNummer</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_VIRTUALTHEMOUNTAIN_ADRESSE_MobilNummer</shortDescription>
+        <value>Mobil-Nummer</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_VIRTUALTHEMOUNTAIN_ADRESSE_Name</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_VIRTUALTHEMOUNTAIN_ADRESSE_Name</shortDescription>
+        <value>Name</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_VIRTUALTHEMOUNTAIN_ADRESSE_Ort</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_VIRTUALTHEMOUNTAIN_ADRESSE_Ort</shortDescription>
+        <value>Ort</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_VIRTUALTHEMOUNTAIN_ADRESSE_PLZ</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_VIRTUALTHEMOUNTAIN_ADRESSE_PLZ</shortDescription>
+        <value>PLZ</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_VIRTUALTHEMOUNTAIN_ADRESSE_Strasse</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_VIRTUALTHEMOUNTAIN_ADRESSE_Strasse</shortDescription>
+        <value>Strasse</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_VIRTUALTHEMOUNTAIN_ADRESSE_Vorname</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_VIRTUALTHEMOUNTAIN_ADRESSE_Vorname</shortDescription>
+        <value>Vorname</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_VIRTUALTHEMOUNTAIN_Absage</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_VIRTUALTHEMOUNTAIN_Absage</shortDescription>
+        <value>We&apos;re sorry to hear you can&apos;t take part. Maybe it will work out next time and we can enjoy your company next year.
+&lt;br/&gt;&lt;br/&gt;
+Kind regards,</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_VIRTUALTHEMOUNTAIN_Abschicken</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_VIRTUALTHEMOUNTAIN_Abschicken</shortDescription>
+        <value>Abschicken</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_VIRTUALTHEMOUNTAIN_DANKE_1</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_VIRTUALTHEMOUNTAIN_DANKE_1</shortDescription>
+        <value>Vielen Dank f&amp;uuml;r Ihre Anmeldung zum Winter Retreat &amp;bdquo;DIGITAL SUMMIT&amp;ldquo;! &lt;br/&gt;
+&lt;br/&gt;
+Bitte beachten Sie, dass dies noch keine Best&amp;auml;tigung Ihrer Teilnahme ist. Aufgrund der streng limitierten Teilnehmerzahl kann es zu &amp;Uuml;berschneidungen kommen. Die offizielle Best&amp;auml;tigung Ihrer Teilnahme erhalten Sie nach der R&amp;uuml;ckmeldefrist im Februar.
+&lt;br/&gt;&lt;br/&gt;
+Mit sportlichen Gr&amp;uuml;&amp;szlig;en</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_VIRTUALTHEMOUNTAIN_DANKE_2</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_VIRTUALTHEMOUNTAIN_DANKE_2</shortDescription>
+        <value>Thomas Port</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_VIRTUALTHEMOUNTAIN_DANKE_3</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_VIRTUALTHEMOUNTAIN_DANKE_3</shortDescription>
+        <value>Gesch&amp;auml;ftsf&amp;uuml;hrer</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_VIRTUALTHEMOUNTAIN_DETAIL_1</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_VIRTUALTHEMOUNTAIN_DETAIL_1</shortDescription>
+        <value>&lt;br/&gt;
+Bitte erg&amp;auml;nzen Sie uns Ihre Angaben, damit wir Ihre An- und Abreise so komfortabel wie m&amp;ouml;glich gestalten k&amp;ouml;nnen.&lt;br /&gt;
+&lt;br /&gt;
+Falls Sie aufgrund Ihrer bestehenden Complience-Richtlinien Unterst&amp;uuml;tzung ben&amp;ouml;tigen, helfen wir Ihnen gerne weiter.&lt;br /&gt;
+&lt;br /&gt;
+Yvonne Gupfinger (Tel.: 089 / 9507-4602)&lt;br /&gt;
+Lysann Geburek (Tel.: 089 / 9507-2452)&lt;br /&gt;
+&lt;br /&gt;</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_VIRTUALTHEMOUNTAIN_DETAIL_2</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_VIRTUALTHEMOUNTAIN_DETAIL_2</shortDescription>
+        <value>Wir empfehlen Ihnen, wenn möglich, eigene Skischuhe / Snowboardschuhe mitzubringen.</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_VIRTUALTHEMOUNTAIN_DETAIL_Auch_in_diesem</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_VIRTUALTHEMOUNTAIN_DETAIL_Auch in diesem</shortDescription>
+        <value>Auch in diesem Jahr runden wir unseren Winter Retreat mit einigen sportlichen Highlights ab.&lt;br /&gt;
+Damit wir uns optimal auf Ihre Interessen vorbereiten k&amp;ouml;nnen, bitten wir Sie hier um einige&lt;br/&gt;Angaben.</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_VIRTUALTHEMOUNTAIN_DETAIL_Bitte_teilen_Sie_uns</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_VIRTUALTHEMOUNTAIN_DETAIL_Bitte teilen Sie uns</shortDescription>
+        <value>Bitte teilen Sie uns mit, welche Ski- oder Snowboardausr&amp;uuml;stung Sie pers&amp;ouml;nlich mitbringen.</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_VIRTUALTHEMOUNTAIN_DETAIL_BonuskartenNr</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_VIRTUALTHEMOUNTAIN_DETAIL_BonuskartenNr</shortDescription>
+        <value>Bonuskarten-Nr.</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_VIRTUALTHEMOUNTAIN_DETAIL_Eishockey_spielen</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_VIRTUALTHEMOUNTAIN_DETAIL_Eishockey spielen</shortDescription>
+        <value>Ich m&amp;ouml;chte Eishockey spielen</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_VIRTUALTHEMOUNTAIN_DETAIL_Ern_hrungsgewohnheit</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_VIRTUALTHEMOUNTAIN_DETAIL_Ernährungsgewohnheit</shortDescription>
+        <value>Gerne nehmen wir Rücksicht auf Ihre individuelle Ernährungsgewohnheit:</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_VIRTUALTHEMOUNTAIN_DETAIL_Essen</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_VIRTUALTHEMOUNTAIN_DETAIL_Essen</shortDescription>
+        <value>Trifft nicht zu.</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_VIRTUALTHEMOUNTAIN_DETAIL_Fluggesellschaft</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_VIRTUALTHEMOUNTAIN_DETAIL_Fluggesellschaft</shortDescription>
+        <value>Fluggesellschaft</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_VIRTUALTHEMOUNTAIN_DETAIL_Gew</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_VIRTUALTHEMOUNTAIN_DETAIL_Gew</shortDescription>
+        <value>Gew&amp;uuml;nschter Abflugort</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_VIRTUALTHEMOUNTAIN_DETAIL_Gewicht</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_VIRTUALTHEMOUNTAIN_DETAIL_Gewicht</shortDescription>
+        <value>Gewicht</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_VIRTUALTHEMOUNTAIN_DETAIL_Headline1</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_VIRTUALTHEMOUNTAIN_DETAIL_Headline1</shortDescription>
+        <value>Anreise via Flugzeug innerhalb Deutschland</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_VIRTUALTHEMOUNTAIN_DETAIL_Headline2</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_VIRTUALTHEMOUNTAIN_DETAIL_Headline2</shortDescription>
+        <value>Anreise via Shuttle-Bus ab Unterf&amp;ouml;hring</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_VIRTUALTHEMOUNTAIN_DETAIL_Headline3</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_VIRTUALTHEMOUNTAIN_DETAIL_Headline3</shortDescription>
+        <value>Eigenanreise</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_VIRTUALTHEMOUNTAIN_DETAIL_Ich_bringe_mit</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_VIRTUALTHEMOUNTAIN_DETAIL_Ich bringe mit</shortDescription>
+        <value>Ich bringe mit</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_VIRTUALTHEMOUNTAIN_DETAIL_Ich_reise_selbs</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_VIRTUALTHEMOUNTAIN_DETAIL_Ich reise selbs</shortDescription>
+        <value>Ich reise selbst bis zum&amp;nbsp;Veranstaltungsort an</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_VIRTUALTHEMOUNTAIN_DETAIL_Korpergrope</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_VIRTUALTHEMOUNTAIN_DETAIL_Korpergrope</shortDescription>
+        <value>Körpergröße</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_VIRTUALTHEMOUNTAIN_DETAIL_Parkplatz</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_VIRTUALTHEMOUNTAIN_DETAIL_Parkplatz</shortDescription>
+        <value>Ich benötige im Reisezeitraum einen Parkplatz in Unterföhring.</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_VIRTUALTHEMOUNTAIN_DETAIL_Schuhgr_e</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_VIRTUALTHEMOUNTAIN_DETAIL_Schuhgröße</shortDescription>
+        <value>Schuhgröße</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_VIRTUALTHEMOUNTAIN_DETAIL_SelbstorganisationAnreiseAbreise</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_VIRTUALTHEMOUNTAIN_DETAIL_SelbstorganisationAnreiseAbreise</shortDescription>
+        <value>Ich organisiere meine An- und Abreise komplett selber.</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_VIRTUALTHEMOUNTAIN_DETAIL_ShuttleBus</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_VIRTUALTHEMOUNTAIN_DETAIL_ShuttleBus</shortDescription>
+        <value>Ich nehme den Shuttle-Bus ab Unterföhring.</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_VIRTUALTHEMOUNTAIN_DETAIL_ShuttleBusf_rFlugg_ste</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_VIRTUALTHEMOUNTAIN_DETAIL_ShuttleBusfürFluggäste</shortDescription>
+        <value>Selbstverständlich stellen wir einen Shuttle-Bus für alle Fluggäste ab Flughafen München bereit.</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_VIRTUALTHEMOUNTAIN_DETAIL_SkiSnowboard</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_VIRTUALTHEMOUNTAIN_DETAIL_SkiSnowboard</shortDescription>
+        <value>Ski</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_VIRTUALTHEMOUNTAIN_DETAIL_Skifahrer</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_VIRTUALTHEMOUNTAIN_DETAIL_</shortDescription>
+        <value>Skifahrer</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_VIRTUALTHEMOUNTAIN_DETAIL_Skist</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_VIRTUALTHEMOUNTAIN_DETAIL_Skist</shortDescription>
+        <value>Skist&amp;ouml;cke</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_VIRTUALTHEMOUNTAIN_DETAIL_Snowboard</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_VIRTUALTHEMOUNTAIN_DETAIL_Snowboard</shortDescription>
+        <value>Snowboard</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_VIRTUALTHEMOUNTAIN_DETAIL_Snowboarder</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_VIRTUALTHEMOUNTAIN_DETAIL_Snowboarder</shortDescription>
+        <value>Snowboarder</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_VIRTUALTHEMOUNTAIN_DETAIL_Vegan</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_VIRTUALTHEMOUNTAIN_DETAIL_Vegan</shortDescription>
+        <value>Ich esse vegan.</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_VIRTUALTHEMOUNTAIN_DETAIL_Vegetarisch</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_VIRTUALTHEMOUNTAIN_DETAIL_Vegetarisch</shortDescription>
+        <value>Ich esse vegetarisch.</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_VIRTUALTHEMOUNTAIN_DETAIL_im_Eisstock</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_VIRTUALTHEMOUNTAIN_DETAIL_im Eisstock</shortDescription>
+        <value>Ich probiere mich im Eisstock schie&amp;szlig;en</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_VIRTUALTHEMOUNTAIN_DETAI_Skischuhe_Snowboardschuhe</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_VIRTUALTHEMOUNTAIN_DETAI_Skischuhe Snowboardschuhe</shortDescription>
+        <value>Skischuhe</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_VIRTUALTHEMOUNTAIN_DETAI_Snowboardschuhe</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_VIRTUALTHEMOUNTAIN_DETAI_Snowboardschuhe</shortDescription>
+        <value>Snowboardschuhe</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_VIRTUALTHEMOUNTAIN_ERROR_CODE</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_VIRTUALTHEMOUNTAIN_ERROR_CODE</shortDescription>
+        <value>Code and Email are not applicable</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_VIRTUALTHEMOUNTAIN_ERROR_REQUIRED</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_VIRTUALTHEMOUNTAIN_ERROR_REQUIRED</shortDescription>
+        <value>Bitte füllen Sie alle Pflichtfelder aus.</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_VIRTUALTHEMOUNTAIN_Gerne_stellen_wir_Ihnen</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_VIRTUALTHEMOUNTAIN_Gerne stellen wir Ihnen</shortDescription>
+        <value>Gerne stellen wir Ihnen eine Ski- oder Snowboardausrüstung zur Verfügung.
+&lt;br/&gt;
+Dafür bitten wir Sie um einige persönliche Angaben:</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_VIRTUALTHEMOUNTAIN_LINK_HINWEISE</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_VIRTUALTHEMOUNTAIN_LINK_HINWEISE</shortDescription>
+        <value>https://www.sevenonemedia.de/web/sevenone/datenschutzbestimmungen</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_VIRTUALTHEMOUNTAIN_LOGIN_1</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_VIRTUALTHEMOUNTAIN_LOGIN_1</shortDescription>
+        <value>Dies ist eine persönliche Einladung für</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_VIRTUALTHEMOUNTAIN_LOGIN_2</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_VIRTUALTHEMOUNTAIN_LOGIN_2</shortDescription>
+        <value>Bitte loggen Sie sich für Ihre Zu-/Absage mit Ihrem persönlichen Kennwort ein.</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_VIRTUALTHEMOUNTAIN_LOGIN_3</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_VIRTUALTHEMOUNTAIN_LOGIN_3</shortDescription>
+        <value>Sie sind nicht</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_VIRTUALTHEMOUNTAIN_LOGIN_EMAIL</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_VIRTUALTHEMOUNTAIN_LOGIN_EMAIL</shortDescription>
+        <value>E-Mail</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_VIRTUALTHEMOUNTAIN_LOGIN_Registrierungscode</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_VIRTUALTHEMOUNTAIN_LOGIN_Registrierungscode</shortDescription>
+        <value>Registrierungscode</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_VIRTUALTHEMOUNTAIN_MobileNumber_Teilnehmerkreis</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_VIRTUALTHEMOUNTAIN_MobileNumber_Teilnehmerkreis</shortDescription>
+        <value>Meine Mobil-Nummer darf an den internen Teilnehmerkreis kommuniziert werden?</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_VIRTUALTHEMOUNTAIN_NOINTEREST</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_VIRTUALTHEMOUNTAIN_NOINTEREST</shortDescription>
+        <value>Kein Interesse / No interest</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_VIRTUALTHEMOUNTAIN_Nein</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_VIRTUALTHEMOUNTAIN_Nein</shortDescription>
+        <value>Nein / No</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_VIRTUALTHEMOUNTAIN_Prev</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_VIRTUALTHEMOUNTAIN_Prev</shortDescription>
+        <value>zurück</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_VIRTUALTHEMOUNTAIN_STARTTEXT</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_VIRTUALTHEMOUNTAIN_STARTTEXT</shortDescription>
+        <value>Wir freuen uns über Ihre Zusage zum WINTER RETREAT 2017!
+&lt;br/&gt;&lt;br/&gt;
+Für Ihre Anmeldung benötigen wir noch ein paar Informationen.
+&lt;br/&gt;
+Bitte nehmen Sie sich kurz Zeit um Ihre Anmeldung abzuschließen.
+&lt;br/&gt;
+&lt;br/&gt;
+Die mit einem Sternchen &lt;strong style=&quot;color:red;&quot;&gt;(*)&lt;/strong&gt; gekennzeichneten Felder sind Pflichtfelder.</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_VIRTUALTHEMOUNTAIN_Salutation</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_VIRTUALTHEMOUNTAIN_Salutation</shortDescription>
+        <value>Anrede</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_lbl_ExitParticipation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_lbl_ExitParticipation</shortDescription>
+        <value>EP Percentage</value>
+    </labels>
+    <labels>
+        <fullName>P7S1_lbl_FillUp</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>P7S1_lbl_FillUp</shortDescription>
+        <value>Fill-Up</value>
+    </labels>
+    <labels>
+        <fullName>PDF_Page_Break</fullName>
+        <categories>PAMcockpit</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>PDF Page Break</shortDescription>
+        <value>50</value>
+    </labels>
+    <labels>
+        <fullName>PDF_Page_Break_Position</fullName>
+        <categories>PAMcockpit</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>PDF Page Break Position</shortDescription>
+        <value>20</value>
+    </labels>
+    <labels>
+        <fullName>Please_wait</fullName>
+        <categories>PAMcockpit</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>Please wait...</shortDescription>
+        <value>Bitte warten...</value>
+    </labels>
+    <labels>
+        <fullName>Pos_Nr_GM</fullName>
+        <categories>PAMcockpit</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>Pos. Nr_GM</shortDescription>
+        <value>Pos. Nr.</value>
+    </labels>
+    <labels>
+        <fullName>Pos_Nr_PR</fullName>
+        <categories>PAMcockpit</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>Pos. Nr._PR</shortDescription>
+        <value>Pos. Nr.</value>
+    </labels>
+    <labels>
+        <fullName>Position_View</fullName>
+        <categories>PAMcockpit</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>Positionsicht</shortDescription>
+        <value>Positionsicht</value>
+    </labels>
+    <labels>
+        <fullName>Positionsstatus_PR</fullName>
+        <categories>PAMcockpit</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>Positionsstatus_PR</shortDescription>
+        <value>Positionsstatus</value>
+    </labels>
+    <labels>
+        <fullName>PreviouPreviouss</fullName>
+        <categories>PAMcockpit</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>Previous</shortDescription>
+        <value>Bisherige</value>
+    </labels>
+    <labels>
+        <fullName>ProfileIdAdmin</fullName>
+        <categories>Admin</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>ProfileIdAdmin</shortDescription>
+        <value>00e20000000lfOj</value>
+    </labels>
+    <labels>
+        <fullName>RecordsPerPage</fullName>
+        <categories>PAMcockpit</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>Records per Page</shortDescription>
+        <value>Anzahl der Datensätze pro Seite:</value>
+    </labels>
+    <labels>
+        <fullName>SAP_Upload_URL</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>SAP Upload URL</shortDescription>
+        <value>https://curslack.advendio.com/som/DIG/SAP_Faktura/upload4</value>
+    </labels>
+    <labels>
+        <fullName>SOLL_aktuell_GM</fullName>
+        <categories>PAMcockpit</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>SOLL aktuell_GM</shortDescription>
+        <value>SOLL aktuell</value>
+    </labels>
+    <labels>
+        <fullName>SOLL_aktuell_PR</fullName>
+        <categories>PAMcockpit</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>SOLL aktuell_PR</shortDescription>
+        <value>SOLL aktuell</value>
+    </labels>
+    <labels>
+        <fullName>Save</fullName>
+        <categories>PAMcockpit</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>Save</shortDescription>
+        <value>Speichern</value>
+    </labels>
+    <labels>
+        <fullName>SaveToolTip</fullName>
+        <categories>PAMcockpit</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>SaveToolTip</shortDescription>
+        <value>Eintragung speichern</value>
+    </labels>
+    <labels>
+        <fullName>Screenshot_PR</fullName>
+        <categories>PAMcockpit</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>Screenshot_PR</shortDescription>
+        <value>Screenshot</value>
+    </labels>
+    <labels>
+        <fullName>Screenshot_versendet</fullName>
+        <categories>PAMcockpit</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>Screenshot versendet</shortDescription>
+        <value>Screenshot versendet</value>
+    </labels>
+    <labels>
+        <fullName>Search</fullName>
+        <categories>PAMcockpit</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>Search</shortDescription>
+        <value>Suche</value>
+    </labels>
+    <labels>
+        <fullName>Select_Filters_for_Campaign_Report</fullName>
+        <categories>PAMcockpit</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>Select Filters for Campaign Report</shortDescription>
+        <value>Filter auswählen für Kampagnensicht</value>
+    </labels>
+    <labels>
+        <fullName>Select_Filters_for_GoodMorning_Report</fullName>
+        <categories>PAMcockpit</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>Select_Filters_for_GoodMorning_Report</shortDescription>
+        <value>Filter auswählen für Guten Morgen Report</value>
+    </labels>
+    <labels>
+        <fullName>Select_Filters_for_Position_Report</fullName>
+        <categories>PAMcockpit</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>Select_Filters_for_Position_Report</shortDescription>
+        <value>Filter auswählen für Positionssicht</value>
+    </labels>
+    <labels>
+        <fullName>Select_Users</fullName>
+        <categories>PAMcockpit</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>Select Users :</shortDescription>
+        <value>Benutzer auswählen</value>
+    </labels>
+    <labels>
+        <fullName>SomDig_Buchungssatz_Faktura_Recipients</fullName>
+        <categories>Billing, Batch</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>SomDig_Buchungssatz_Faktura_Recipients</shortDescription>
+        <value>thomas.waber@prosiebensat1.com,Corinna.Sismanis@prosiebensat1.com,Sabine.Kast@Prosieben.de,Manuela.Heimes@prosieben.de,Julia.Peryshkina@prosiebensat1.com,Regina.Schebesch@prosiebensat1.com,Natascha.Fischer@prosiebensat1.com,dilek.duyar@sevenonemedia.de,Dominik.Pohl@sevenonemedia.de,Christian.Joentgen@sevenonemedia.de,Petra.Bieringer@P7S1Applications.de,salesforce-logs@p7s1.onmicrosoft.com</value>
+    </labels>
+    <labels>
+        <fullName>SomDig_CampaignItem_SubmitErrorProbability</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>SomDig_CampaignItem_SubmitErrorProbability</shortDescription>
+        <value>Die Mediakampagne kann mit ihrer momentanen Phase noch nicht durchgebucht werden.</value>
+    </labels>
+    <labels>
+        <fullName>SomDig_InvoiceMonth_CloseMonth_NoNextMonth</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>SomDig_InvoiceMonth_CloseMonth_NoNextMonth</shortDescription>
+        <value>Es ist nocht kein Folgemonat festgelegt.</value>
+    </labels>
+    <labels>
+        <fullName>SomDig_InvoiceMonth_CloseMonth_NotBillingUser</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SomDig_InvoiceMonth_CloseMonth_NotBillingUser</shortDescription>
+        <value>Nur User mit dem Profil Billing können einen Monat schließen.</value>
+    </labels>
+    <labels>
+        <fullName>SomDig_InvoiceMonth_CloseMonth_NotCurrentInvoiceMonth</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>SomDig_InvoiceMonth_CloseMonth_NotCurrentInvoiceMonth</shortDescription>
+        <value>Nur der aktuelle Monat kann geschlossen werden.</value>
+    </labels>
+    <labels>
+        <fullName>SomDig_KeineVerfuegbarkeit</fullName>
+        <categories>SomDig_Bookingblocker</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>SomDig_KeineVerfuegbarkeit</shortDescription>
+        <value>Es existiert keine ausreichende Verfügbarkeit, um die Phase auf 100% zu stellen.</value>
+    </labels>
+    <labels>
+        <fullName>SomDig_MediaCampaign_FieldFixierungError</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>SomDig_MediaCampaign_FieldFixierungError</shortDescription>
+        <value>Wenn die Mediakampagne bereits auf Auftrag gesetzt wurde, dürfen diverse Informationen nicht mehr verändert bzw. angepasst werden.</value>
+    </labels>
+    <labels>
+        <fullName>SomDig_ProfileIdPAM</fullName>
+        <categories>Admin</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>ProfileIdPAM</shortDescription>
+        <value>00eD0000001Qf2o</value>
+    </labels>
+    <labels>
+        <fullName>SomDig_ProfileIdSales</fullName>
+        <categories>Admin</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>ProfileIdSales</shortDescription>
+        <value>00e20000001QBtU</value>
+    </labels>
+    <labels>
+        <fullName>SomDig_SapDatei_ErrorMessage_ErrorJobStillRunning</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>SomDig_SapDatei_ErrorMessage_ErrorJobStillRunning</shortDescription>
+        <value>Die Buchungssätze werden momentan noch erstellt. Bitte warten.</value>
+    </labels>
+    <labels>
+        <fullName>SomDig_VerfuegbarkeitAbfrageVeraltet</fullName>
+        <categories>SomDig_Bookingblocker</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>SomDig_VerfuegbarkeitAbfrageVeraltet</shortDescription>
+        <value>Die letzte Verfügbarkeitsabfrage ist länger als 15 Minuten her, bitte starte eine neue Verfügbarkeitsabfrage, um die Phase auf 100% zu stellen.</value>
+    </labels>
+    <labels>
+        <fullName>SomTv_Back</fullName>
+        <categories>SomTv</categories>
+        <language>de</language>
+        <protected>true</protected>
+        <shortDescription>Go Back</shortDescription>
+        <value>zurück</value>
+    </labels>
+    <labels>
+        <fullName>SomTv_ErrMsgNumberOfTimesToClone</fullName>
+        <categories>SomTv</categories>
+        <language>de</language>
+        <protected>true</protected>
+        <shortDescription>Error Msg Number of Times to Clone</shortDescription>
+        <value>Es sind nur Zahlen größer 0 erlaubt.</value>
+    </labels>
+    <labels>
+        <fullName>SomTv_NumberOfTimesToClone</fullName>
+        <categories>SomTv</categories>
+        <language>de</language>
+        <protected>true</protected>
+        <shortDescription>Number of Times to clone</shortDescription>
+        <value>Anzahl der Duplikate</value>
+    </labels>
+    <labels>
+        <fullName>SomTv_PortfoliocheckFolderId</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>SomTv_PortfoliocheckFolderId</shortDescription>
+        <value>00lD0000002XYvG</value>
+    </labels>
+    <labels>
+        <fullName>SomTv_StartClone</fullName>
+        <categories>SomTv</categories>
+        <language>de</language>
+        <protected>true</protected>
+        <shortDescription>Clone OpportunityLineItem</shortDescription>
+        <value>Starte Duplizieren</value>
+    </labels>
+    <labels>
+        <fullName>Start</fullName>
+        <categories>PAMcockpit</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>Start</shortDescription>
+        <value>Start</value>
+    </labels>
+    <labels>
+        <fullName>Start_GM</fullName>
+        <categories>PAMcockpit</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>Start_GM</shortDescription>
+        <value>Start</value>
+    </labels>
+    <labels>
+        <fullName>Start_PR</fullName>
+        <categories>PAMcockpit</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>Start_PR</shortDescription>
+        <value>Start</value>
+    </labels>
+    <labels>
+        <fullName>Status</fullName>
+        <categories>PAMcockpit</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>Status</shortDescription>
+        <value>Status</value>
+    </labels>
+    <labels>
+        <fullName>Status_Pos</fullName>
+        <categories>PAMcockpit</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>Status Pos.</shortDescription>
+        <value>Status Pos.</value>
+    </labels>
+    <labels>
+        <fullName>Status_Pos_GM</fullName>
+        <categories>PAMcockpit</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>Status Pos_GM</shortDescription>
+        <value>Status Pos.</value>
+    </labels>
+    <labels>
+        <fullName>Ven_lbl_7VenturesPipeline</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ven_lbl_7VenturesPipeline</shortDescription>
+        <value>SevenVentures Pipeline</value>
+    </labels>
+    <labels>
+        <fullName>Ven_lbl_Account</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ven_lbl_Account</shortDescription>
+        <value>Account</value>
+    </labels>
+    <labels>
+        <fullName>Ven_lbl_Analyst</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ven_lbl_Analyst</shortDescription>
+        <value>Analyst</value>
+    </labels>
+    <labels>
+        <fullName>Ven_lbl_AnnualShiftingRightsCustomer</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ven_lbl_AnnualShiftingRightsCustomer</shortDescription>
+        <value>Yearly Customer Push Right</value>
+    </labels>
+    <labels>
+        <fullName>Ven_lbl_AnnualShiftingRightsP7S1</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ven_lbl_AnnualShiftingRightsP7S1</shortDescription>
+        <value>Yearly P7S1 Push Right</value>
+    </labels>
+    <labels>
+        <fullName>Ven_lbl_AprilShort</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ven_lbl_AprilShort</shortDescription>
+        <value>Apr</value>
+    </labels>
+    <labels>
+        <fullName>Ven_lbl_AugustShort</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ven_lbl_AugustShort</shortDescription>
+        <value>Aug</value>
+    </labels>
+    <labels>
+        <fullName>Ven_lbl_AutoFill</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ven_lbl_AutoFill</shortDescription>
+        <value>will be completed automatically</value>
+    </labels>
+    <labels>
+        <fullName>Ven_lbl_BusinessModel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ven_lbl_BusinessModel</shortDescription>
+        <value>Business Model</value>
+    </labels>
+    <labels>
+        <fullName>Ven_lbl_BusinessType</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ven_lbl_BusinessType</shortDescription>
+        <value>Business Type</value>
+    </labels>
+    <labels>
+        <fullName>Ven_lbl_Cancel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ven_lbl_Cancel</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>Ven_lbl_Cash</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ven_lbl_Cash</shortDescription>
+        <value>Cash</value>
+    </labels>
+    <labels>
+        <fullName>Ven_lbl_ClientLikelihood</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ven_lbl_ClientLikelihood</shortDescription>
+        <value>Client Likelihood</value>
+    </labels>
+    <labels>
+        <fullName>Ven_lbl_CommentLostCancelled</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ven_lbl_CommentLostCancelled</shortDescription>
+        <value>Comment Lost/Cancelled</value>
+    </labels>
+    <labels>
+        <fullName>Ven_lbl_CompleteFields</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ven_lbl_CompleteFields</shortDescription>
+        <value>Complete marked fields</value>
+    </labels>
+    <labels>
+        <fullName>Ven_lbl_ContactAdmin</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ven_lbl_ContactAdmin</shortDescription>
+        <value>Something went wrong. Please contact your administrator</value>
+    </labels>
+    <labels>
+        <fullName>Ven_lbl_Country</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ven_lbl_Country</shortDescription>
+        <value>Country</value>
+    </labels>
+    <labels>
+        <fullName>Ven_lbl_Currency</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ven_lbl_Currency</shortDescription>
+        <value>Currency</value>
+    </labels>
+    <labels>
+        <fullName>Ven_lbl_CustomerAssesment</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ven_lbl_CustomerAssesment</shortDescription>
+        <value>Customer Assessment</value>
+    </labels>
+    <labels>
+        <fullName>Ven_lbl_DealIndustry</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ven_lbl_DealIndustry</shortDescription>
+        <value>Bucket</value>
+    </labels>
+    <labels>
+        <fullName>Ven_lbl_DealStart</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>Ven_lbl_DealStart</shortDescription>
+        <value>Deal Start</value>
+    </labels>
+    <labels>
+        <fullName>Ven_lbl_DealType</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ven_lbl_DealType</shortDescription>
+        <value>Deal Type</value>
+    </labels>
+    <labels>
+        <fullName>Ven_lbl_DecemberShort</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ven_lbl_DecemberShort</shortDescription>
+        <value>Dec</value>
+    </labels>
+    <labels>
+        <fullName>Ven_lbl_Delete</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ven_lbl_Delete</shortDescription>
+        <value>Delete</value>
+    </labels>
+    <labels>
+        <fullName>Ven_lbl_DeleteOpp</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ven_lbl_DeleteOpp</shortDescription>
+        <value>Do you really want to delete this Opportunity?</value>
+    </labels>
+    <labels>
+        <fullName>Ven_lbl_DescriptionWKZPotential</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ven_lbl_DescriptionWKZPotential</shortDescription>
+        <value>Description</value>
+    </labels>
+    <labels>
+        <fullName>Ven_lbl_Effective</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ven_lbl_Effective</shortDescription>
+        <value>Effective</value>
+    </labels>
+    <labels>
+        <fullName>Ven_lbl_EnvisagedTypeOfTransaction</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ven_lbl_EnvisagedTypeOfTransaction</shortDescription>
+        <value>Envisaged Type Of Transaction</value>
+    </labels>
+    <labels>
+        <fullName>Ven_lbl_Equity_Share</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ven_lbl_Equity_Share</shortDescription>
+        <value>P7S1 Shares</value>
+    </labels>
+    <labels>
+        <fullName>Ven_lbl_Export</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ven_lbl_Export</shortDescription>
+        <value>Export</value>
+    </labels>
+    <labels>
+        <fullName>Ven_lbl_FebruaryShort</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ven_lbl_FebruaryShort</shortDescription>
+        <value>Feb</value>
+    </labels>
+    <labels>
+        <fullName>Ven_lbl_FeedbackAdMarketDevInitiative</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ven_lbl_FeedbackAdMarketDevInitiative</shortDescription>
+        <value>Ad Market Development Initiative Assessment</value>
+    </labels>
+    <labels>
+        <fullName>Ven_lbl_Gmv</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ven_lbl_Gmv</shortDescription>
+        <value>GMV</value>
+    </labels>
+    <labels>
+        <fullName>Ven_lbl_Home</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ven_lbl_Home</shortDescription>
+        <value>Home</value>
+    </labels>
+    <labels>
+        <fullName>Ven_lbl_Im</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ven_lbl_Im</shortDescription>
+        <value>Deal Manager</value>
+    </labels>
+    <labels>
+        <fullName>Ven_lbl_IndustryChampion</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ven_lbl_IndustryChampion</shortDescription>
+        <value>Industry Champion</value>
+    </labels>
+    <labels>
+        <fullName>Ven_lbl_InterestOfData</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ven_lbl_InterestOfData</shortDescription>
+        <value>Data Assessment</value>
+    </labels>
+    <labels>
+        <fullName>Ven_lbl_International</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ven_lbl_International</shortDescription>
+        <value>International</value>
+    </labels>
+    <labels>
+        <fullName>Ven_lbl_Invest</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ven_lbl_Invest</shortDescription>
+        <value>Invest</value>
+    </labels>
+    <labels>
+        <fullName>Ven_lbl_JanuaryShort</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ven_lbl_JanuaryShort</shortDescription>
+        <value>Jan</value>
+    </labels>
+    <labels>
+        <fullName>Ven_lbl_JulyShort</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ven_lbl_JulyShort</shortDescription>
+        <value>Jul</value>
+    </labels>
+    <labels>
+        <fullName>Ven_lbl_JuneShort</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ven_lbl_JuneShort</shortDescription>
+        <value>Jun</value>
+    </labels>
+    <labels>
+        <fullName>Ven_lbl_LastModified</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ven_lbl_LastModified</shortDescription>
+        <value>Last Modified</value>
+    </labels>
+    <labels>
+        <fullName>Ven_lbl_ListOfWebsitesApps</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ven_lbl_ListOfWebsitesApps</shortDescription>
+        <value>List of Websites / Apps</value>
+    </labels>
+    <labels>
+        <fullName>Ven_lbl_MN3Customer</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ven_lbl_MN3Customer</shortDescription>
+        <value>MN3 Customer</value>
+    </labels>
+    <labels>
+        <fullName>Ven_lbl_MarchShort</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ven_lbl_MarchShort</shortDescription>
+        <value>Mar</value>
+    </labels>
+    <labels>
+        <fullName>Ven_lbl_MayShort</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ven_lbl_MayShort</shortDescription>
+        <value>May</value>
+    </labels>
+    <labels>
+        <fullName>Ven_lbl_MediaPlanner</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>Ven_lbl_MediaPlanner</shortDescription>
+        <value>Internal Media Agency</value>
+    </labels>
+    <labels>
+        <fullName>Ven_lbl_MonthlyRegistration</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ven_lbl_MonthlyRegistration</shortDescription>
+        <value>Monthly Registrations</value>
+    </labels>
+    <labels>
+        <fullName>Ven_lbl_MonthlyShiftingRightsCustomer</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ven_lbl_MonthlyShiftingRightsCustomer</shortDescription>
+        <value>Monthy Customer Push Right</value>
+    </labels>
+    <labels>
+        <fullName>Ven_lbl_MonthlyShiftingRightsP7S1</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ven_lbl_MonthlyShiftingRightsP7S1</shortDescription>
+        <value>Monthly P7S1 Push Right</value>
+    </labels>
+    <labels>
+        <fullName>Ven_lbl_NetPotential</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ven_lbl_NetPotential</shortDescription>
+        <value>Net Potential</value>
+    </labels>
+    <labels>
+        <fullName>Ven_lbl_NetPotentialShort</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ven_lbl_NetPotentialShort</shortDescription>
+        <value>Net Pot.</value>
+    </labels>
+    <labels>
+        <fullName>Ven_lbl_New</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ven_lbl_New</shortDescription>
+        <value>New</value>
+    </labels>
+    <labels>
+        <fullName>Ven_lbl_NovemberShort</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ven_lbl_NovemberShort</shortDescription>
+        <value>Nov</value>
+    </labels>
+    <labels>
+        <fullName>Ven_lbl_OctoberShort</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ven_lbl_OctoberShort</shortDescription>
+        <value>Oct</value>
+    </labels>
+    <labels>
+        <fullName>Ven_lbl_Opp</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ven_lbl_Opp</shortDescription>
+        <value>Opportunity</value>
+    </labels>
+    <labels>
+        <fullName>Ven_lbl_PartnerDatadeals</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ven_lbl_PartnerDatadeals</shortDescription>
+        <value>Partner Data Deal(s)</value>
+    </labels>
+    <labels>
+        <fullName>Ven_lbl_PipeChecked</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>Ven_lbl_PipeChecked</shortDescription>
+        <value>Pipeline checked</value>
+    </labels>
+    <labels>
+        <fullName>Ven_lbl_Pipeline</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ven_lbl_Pipeline</shortDescription>
+        <value>Pipeline</value>
+    </labels>
+    <labels>
+        <fullName>Ven_lbl_Prap</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ven_lbl_Prap</shortDescription>
+        <value>pRAP</value>
+    </labels>
+    <labels>
+        <fullName>Ven_lbl_PresDatadealsWithThird</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ven_lbl_PresDatadealsWithThird</shortDescription>
+        <value>Existing Third Party Data Deals</value>
+    </labels>
+    <labels>
+        <fullName>Ven_lbl_ProductionDescription</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ven_lbl_ProductionDescription</shortDescription>
+        <value>Product Description</value>
+    </labels>
+    <labels>
+        <fullName>Ven_lbl_ReasonLostCancelled</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ven_lbl_ReasonLostCancelled</shortDescription>
+        <value>Reason Lost/Cancelled</value>
+    </labels>
+    <labels>
+        <fullName>Ven_lbl_Refresh</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ven_lbl_Refresh</shortDescription>
+        <value>Refresh</value>
+    </labels>
+    <labels>
+        <fullName>Ven_lbl_RiskProfile</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ven_lbl_RiskProfile</shortDescription>
+        <value>Risk Profile</value>
+    </labels>
+    <labels>
+        <fullName>Ven_lbl_SLM</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ven_lbl_SLM</shortDescription>
+        <value>SLM</value>
+    </labels>
+    <labels>
+        <fullName>Ven_lbl_SLMDeviation</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ven_lbl_SLMDeviation</shortDescription>
+        <value>SLM Deviation</value>
+    </labels>
+    <labels>
+        <fullName>Ven_lbl_Save</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ven_lbl_Save</shortDescription>
+        <value>Save</value>
+    </labels>
+    <labels>
+        <fullName>Ven_lbl_Saved</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ven_lbl_Saved</shortDescription>
+        <value>Saved</value>
+    </labels>
+    <labels>
+        <fullName>Ven_lbl_Scout</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ven_lbl_Scout</shortDescription>
+        <value>Scout</value>
+    </labels>
+    <labels>
+        <fullName>Ven_lbl_SegmentDefinition</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ven_lbl_SegmentDefinition</shortDescription>
+        <value>Segment Definition</value>
+    </labels>
+    <labels>
+        <fullName>Ven_lbl_SeptemberShort</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ven_lbl_SeptemberShort</shortDescription>
+        <value>Sep</value>
+    </labels>
+    <labels>
+        <fullName>Ven_lbl_Status</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ven_lbl_Status</shortDescription>
+        <value>Status</value>
+    </labels>
+    <labels>
+        <fullName>Ven_lbl_SubCat</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ven_lbl_SubCat</shortDescription>
+        <value>Sub Industry</value>
+    </labels>
+    <labels>
+        <fullName>Ven_lbl_SummarySocialDataOnRegistration</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ven_lbl_SummarySocialDataOnRegistration</shortDescription>
+        <value>Compiled Sociodemographic Data at Registration</value>
+    </labels>
+    <labels>
+        <fullName>Ven_lbl_TargetPl</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ven_lbl_TargetPl</shortDescription>
+        <value>Target P/L</value>
+    </labels>
+    <labels>
+        <fullName>Ven_lbl_TestDeal</fullName>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>Ven_lbl_TestDeal</shortDescription>
+        <value>Optional</value>
+    </labels>
+    <labels>
+        <fullName>Ven_lbl_Total</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ven_lbl_Total</shortDescription>
+        <value>Total</value>
+    </labels>
+    <labels>
+        <fullName>Ven_lbl_VariableComponent</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ven_lbl_VariableComponent</shortDescription>
+        <value>Deal structure</value>
+    </labels>
+    <labels>
+        <fullName>Ven_lbl_Vertical</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ven_lbl_Vertical</shortDescription>
+        <value>Industry</value>
+    </labels>
+    <labels>
+        <fullName>Ven_lbl_WKZPotential</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ven_lbl_WKZPotential</shortDescription>
+        <value>Potential Approved</value>
+    </labels>
+    <labels>
+        <fullName>Ven_lbl_Yield</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Ven_lbl_Yield</shortDescription>
+        <value>Yield</value>
+    </labels>
+    <labels>
+        <fullName>Warning</fullName>
+        <categories>PAMcockpit</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>Warning</shortDescription>
+        <value>Möchten Sie diese Kampagne wirklich auf “abgeschlossen” setzen?</value>
+    </labels>
+    <labels>
+        <fullName>Werbemittel</fullName>
+        <categories>PAMcockpit</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>Werbemittel</shortDescription>
+        <value>Werbemittel</value>
+    </labels>
+    <labels>
+        <fullName>Werbemittel_GM</fullName>
+        <categories>PAMcockpit</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>Werbemittel_GM</shortDescription>
+        <value>Werbemittel</value>
+    </labels>
+    <labels>
+        <fullName>Werbemittel_PR</fullName>
+        <categories>PAMcockpit</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>Werbemittel_PR</shortDescription>
+        <value>Werbemittel</value>
+    </labels>
+    <labels>
+        <fullName>Werbetreibender</fullName>
+        <categories>PAMcockpit</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>Werbetreibender</shortDescription>
+        <value>Werbetreibender</value>
+    </labels>
+    <labels>
+        <fullName>Werbetreibender_PR</fullName>
+        <categories>PAMcockpit</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>Werbetreibender</shortDescription>
+        <value>Werbetreibender</value>
+    </labels>
+    <labels>
+        <fullName>abgeschlossen</fullName>
+        <categories>PAMcockpit</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>abgeschlossen</shortDescription>
+        <value>Abschließen?</value>
+    </labels>
+    <labels>
+        <fullName>eTKP_GM</fullName>
+        <categories>PAMcockpit</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>eTKP_GM</shortDescription>
+        <value>eTKP</value>
+    </labels>
+    <labels>
+        <fullName>eTKP_PR</fullName>
+        <categories>PAMcockpit</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>eTKP_PR</shortDescription>
+        <value>eTKP</value>
+    </labels>
+    <labels>
+        <fullName>risk</fullName>
+        <categories>PAMcockpit</categories>
+        <language>de</language>
+        <protected>false</protected>
+        <shortDescription>@risk</shortDescription>
+        <value>@risk</value>
+    </labels>
+    <labels>
+        <fullName>z_DumpBtn</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>z_DumpBtn</shortDescription>
+        <value>Snapshot</value>
+    </labels>
+    <labels>
+        <fullName>z_FAILURE</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>z_FAILURE</shortDescription>
+        <value>You have to fix error/s before reviewing  object metadata.</value>
+    </labels>
+    <labels>
+        <fullName>z_Message1</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>z_Message1</shortDescription>
+        <value>Please check enough disk to store metadata before snapshot. In case your org is Developer Edition, please reduce target objects at Setting tab. You need 4.5MB to store all object metadata info of default org</value>
+    </labels>
+    <labels>
+        <fullName>z_Message2</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>z_Message2</shortDescription>
+        <value>This application overwrites object metadata records after execute the snapshot. If you need to save previous metadata info, please export data to csv or xsl via report or to another custom object via Analytic Sanpshot</value>
+    </labels>
+    <labels>
+        <fullName>z_Message3</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>z_Message3</shortDescription>
+        <value>Please wait for around 10 mins without closing this page until you will see SObjects Metadata have been created message after the completion and do not press SnapShot button twice.</value>
+    </labels>
+    <labels>
+        <fullName>z_MetadataDump</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>z_MetadataDump</shortDescription>
+        <value>Snapshot Console</value>
+    </labels>
+    <labels>
+        <fullName>z_Progress</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>z_Progress</shortDescription>
+        <value>Progress</value>
+    </labels>
+    <labels>
+        <fullName>z_SUCCESS</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>z_SUCCESS</shortDescription>
+        <value>Success!!
+Please click SObject tab to check created sobject metadata records.</value>
+    </labels>
+    <labels>
+        <fullName>z_Warning</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>z_Warning</shortDescription>
+        <value>You need to prepare setting. Please click Settings tab.</value>
+    </labels>
+    <labels>
+            <fullName>MT_MP_ImportDataTransformator_EMAIL_ResultBody</fullName>
+            <categories>Media Transparency, MT Campaign Monthly Plan Import Data</categories>
+            <language>en_US</language>
+            <protected>false</protected>
+            <shortDescription>MT_MP_ImportDataTransformator_EMAIL_ResultBody</shortDescription>
+            <value>Die Transformation der Monats Pläne importieren Daten wurde mit folgendem Ergebnis beendet: 
+
+    Anzahl der verarbeiteten Datensätze: {0} 
+    Aktualisierte MonatsPlänedatensätze: {1} 
+    MonatsPläne nicht gefunden für: {2}
+    {3}</value>
+    </labels>
+    <labels>
+        <fullName>MT_MP_ImportDataTransformator_EMAIL_ResultSubject</fullName>
+        <categories>Media Transparency, MT Campaign Monthly Plan Import Data</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_MP_ImportDataTransformator_EMAIL_ResultSubject</shortDescription>
+        <value>Transformation der Monats Pläne - Ergebnis</value>
+    </labels>
+    <labels>
+        <fullName>MT_MP_ImportDataTransformator_MonthlyPlan_NotFound_Error</fullName>
+        <categories>Media Transparency, MT Campaign Monthly Plan Import Data</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>MT_MP_ImportDataTransformator_MonthlyPlan_NotFound_Error</shortDescription>
+        <value>Der Monatsplan für den Importschlüssel (KRSID_Jahr_Monat) wurde nicht gefunden:</value>
+    </labels>
+</CustomLabels>

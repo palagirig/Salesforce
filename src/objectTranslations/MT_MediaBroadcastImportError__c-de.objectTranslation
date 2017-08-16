@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Media Broadcast Import Error</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Media Broadcast Import Errors</value>
+    </caseValues>
+    <fields>
+        <label><!-- Campaign ID --></label>
+        <name>MT_CampaignID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Error --></label>
+        <name>MT_Error__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Export --></label>
+        <name>MT_LastExport__c</name>
+    </fields>
+    <fields>
+        <label><!-- MB1 --></label>
+        <name>MT_MB1__c</name>
+    </fields>
+    <fields>
+        <label><!-- MB3 --></label>
+        <name>MT_MB3__c</name>
+    </fields>
+    <fields>
+        <label><!-- MN3 --></label>
+        <name>MT_MN3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Media Campaign --></label>
+        <name>MT_MediaCampaign_ref__c</name>
+        <relationshipLabel><!-- Media Broadcast Import Errors --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Month --></label>
+        <name>MT_Month__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order Type --></label>
+        <name>MT_OrderType__c</name>
+        <picklistValues>
+            <masterLabel>Overbooking</masterLabel>
+            <translation><!-- Overbooking --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sponsoring</masterLabel>
+            <translation><!-- Sponsoring --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spot</masterLabel>
+            <translation><!-- Spot --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- ProSa Order ID --></label>
+        <name>MT_ProSaOrderID__c</name>
+    </fields>
+    <fields>
+        <label><!-- ProSa Order --></label>
+        <name>MT_ProSaOrder_ref__c</name>
+        <relationshipLabel><!-- Media Broadcast Import Errors --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- TV Sender Name --></label>
+        <name>MT_SenderName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sender Number --></label>
+        <name>MT_SenderNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Timeslot --></label>
+        <name>MT_Timeslot__c</name>
+        <picklistValues>
+            <masterLabel>1.[06-09]</masterLabel>
+            <translation><!-- 1.[06-09] --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2.[09-13]</masterLabel>
+            <translation><!-- 2.[09-13] --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.[13-17]</masterLabel>
+            <translation><!-- 3.[13-17] --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.[17-20]</masterLabel>
+            <translation><!-- 4.[17-20] --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5.[20-23]</masterLabel>
+            <translation><!-- 5.[20-23] --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6.[23-01]</masterLabel>
+            <translation><!-- 6.[23-01] --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7.[01-06]</masterLabel>
+            <translation><!-- 7.[01-06] --></translation>
+        </picklistValues>
+    </fields>
+    <gender>Neuter</gender>
+    <layouts>
+        <layout>Media Broadcast Import Error Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Data --></label>
+            <section>Data</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

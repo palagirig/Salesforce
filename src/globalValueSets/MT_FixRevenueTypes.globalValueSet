@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>None</fullName>
+        <default>true</default>
+        <label>None</label>
+    </customValue>
+    <customValue>
+        <fullName>Yield</fullName>
+        <default>false</default>
+        <label>Yield</label>
+    </customValue>
+    <customValue>
+        <fullName>Payment</fullName>
+        <default>false</default>
+        <label>Payment</label>
+    </customValue>
+    <description>Defines the possible types of fix revenue in a media campaign</description>
+    <masterLabel>Fix Revenue Types</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

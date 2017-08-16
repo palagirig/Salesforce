@@ -1,0 +1,2061 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Track motive distribution within a campaign.</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>false</enableBulkApi>
+    <enableChangeDataCapture>false</enableChangeDataCapture>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>false</enableSharing>
+    <enableStreamingApi>false</enableStreamingApi>
+    <fieldSets>
+        <fullName>MT_ContextFields</fullName>
+        <description>Context field for querying Media Flight fields</description>
+        <displayedFields>
+            <field>Name</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Id</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>RecordTypeId</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_BMVAmount__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_Position__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_StartDate__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_EndDate__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_TvShareKabelEinsMax__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_TvShareKabelEinsMin__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_TvShareKabelEinsClassicsMax__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_TvShareKabelEinsClassicsMin__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_TvShareProSiebenFunMax__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_TvShareProSiebenFunMin__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_TvShareProSiebenMax__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_TvShareProSiebenMaxxMax__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_TvShareProSiebenMaxxMin__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_TvShareProSiebenMin__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_TvShareSat1EmotionsMax__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_TvShareSat1EmotionsMin__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_TvShareSat1GoldMax__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_TvShareSat1GoldMin__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_TvShareSat1Max__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_TvShareSat1Min__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_TvShareSixxMax__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_TvShareSixxMin__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_TimeShare01000600Max__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_TimeShare01000600Min__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_TimeShare06000900Max__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_TimeShare06000900Min__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_TimeShare09001300Max__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_TimeShare09001300Min__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_TimeShare13001700Max__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_TimeShare13001700Min__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_TimeShare17002000Max__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_TimeShare17002000Min__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_TimeShare20002300Max__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_TimeShare20002300Min__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_TimeShare23000100Max__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_TimeShare23000100Min__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>ContextFields</label>
+    </fieldSets>
+    <fieldSets>
+        <fullName>MT_SubContextFields</fullName>
+        <description>Fields for a sub query for MT_MediaFlight__c object</description>
+        <displayedFields>
+            <field>Id</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_MediaBuildingBlockMonthlyPlan_ref__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_Position__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Name</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>RecordTypeId</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>RecordType.DeveloperName</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>RecordType.Name</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_BMVAmount__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_StartDate__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_EndDate__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_TvShareSat1Min__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_TvShareSat1Max__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_TvShareProSiebenMin__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_TvShareProSiebenMax__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_TvShareKabelEinsMin__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_TvShareKabelEinsMax__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_TvShareSixxMin__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_TvShareSixxMax__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_TvShareSat1GoldMin__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_TvShareSat1GoldMax__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_TvShareProSiebenMaxxMin__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_TvShareProSiebenMaxxMax__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_TvShareKabelEinsDokuMin__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_TvShareKabelEinsDokuMax__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_TvShareKabelEinsClassicsMin__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_TvShareKabelEinsClassicsMax__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_TvShareProSiebenFunMin__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_TvShareProSiebenFunMax__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_TvShareSat1EmotionsMin__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_TvShareSat1EmotionsMax__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_TimeShare06000900Min__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_TimeShare06000900Max__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_TimeShare09001300Min__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_TimeShare09001300Max__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_TimeShare13001700Min__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_TimeShare13001700Max__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_TimeShare17002000Min__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_TimeShare17002000Max__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_TimeShare20002300Min__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_TimeShare20002300Max__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_TimeShare23000100Min__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_TimeShare23000100Max__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_TimeShare01000600Min__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_TimeShare01000600Max__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_DesiredEnvironment__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_TargetGroup__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_ExclusionCriteria__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_SpotAllocationHint__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_OverbookingVolume__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>MT_OverbookingComment__c</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>SubContextFields</label>
+    </fieldSets>
+    <fields>
+        <fullName>MT_BMVAmount__c</fullName>
+        <description>Das Volumen dieses Flights, wird im Businessplan gepflegt.</description>
+        <externalId>false</externalId>
+        <label>BMV Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>MT_DesiredEnvironment__c</fullName>
+        <description>Das Wunschumfeld, in dem die Motive dieses Flights ausgestrahlt werden sollen.</description>
+        <externalId>false</externalId>
+        <label>Wunschumfeld</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>MT_EndDate__c</fullName>
+        <description>Enddatum dieses Flights, muss innerhalb des Monats(plans) liegen, dem der Flight zugeordnet ist, bzw. innerhalb der TV- und Vertragslaufzeit der Kampagne.</description>
+        <externalId>false</externalId>
+        <label>To</label>
+        <required>true</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>MT_ExclusionCriteria__c</fullName>
+        <description>Freitext für Ausschlusskriterien, die bei der Platzierung der Motive dieses Flights berücksichtigt werden sollen.</description>
+        <externalId>false</externalId>
+        <label>Ausschlusskriterium</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MT_MediaBuildingBlockMonthlyPlan_ref__c</fullName>
+        <description>Der Monat(splan), zu dem der Flight gehört.</description>
+        <externalId>false</externalId>
+        <label>Media Campaign Monthly Plan</label>
+        <referenceTo>MT_MediaCampaignMonthlyPlan__c</referenceTo>
+        <relationshipLabel>Media Flights</relationshipLabel>
+        <relationshipName>MediaFlights</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>MT_OverbookingComment__c</fullName>
+        <description>Kommentar zur Verwendung des Overbooking- Volumens.</description>
+        <externalId>false</externalId>
+        <label>Overbooking Kommentar</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>MT_OverbookingVolume__c</fullName>
+        <defaultValue>0</defaultValue>
+        <description>Das Overbooking- Volumen, dass für diesen (Spot-) Flight eingesetzt werden darf.</description>
+        <externalId>false</externalId>
+        <label>Overbooking</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>MT_Position__c</fullName>
+        <defaultValue>1</defaultValue>
+        <description>The position of the flight in the list of all flights for a specific month.</description>
+        <externalId>false</externalId>
+        <label>Position</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MT_SpotAllocationHint__c</fullName>
+        <description>Hinweise zur Spot- Aufteilung, die bei der Buchung berücksichtigt werden müssen.</description>
+        <externalId>false</externalId>
+        <label>Hinweis Spotaufteilung</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MT_StartDate__c</fullName>
+        <description>Startdatum dieses Flights, muss innerhalb des Monats(plans) liegen, dem der Flight zugeordnet ist, bzw. innerhalb der TV- und Vertragslaufzeit der Kampagne.</description>
+        <externalId>false</externalId>
+        <label>From</label>
+        <required>true</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>MT_TargetGroup__c</fullName>
+        <description>Die Zielgruppe der Motives dieses Flights.</description>
+        <externalId>false</externalId>
+        <label>Zielgruppe</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>E 14+</fullName>
+                    <default>false</default>
+                    <label>E 14+</label>
+                </value>
+                <value>
+                    <fullName>E 14-29</fullName>
+                    <default>false</default>
+                    <label>E 14-29</label>
+                </value>
+                <value>
+                    <fullName>E 14-39</fullName>
+                    <default>false</default>
+                    <label>E 14-39</label>
+                </value>
+                <value>
+                    <fullName>E 14-39 online- oder gamesaffin</fullName>
+                    <default>false</default>
+                    <label>E 14-39 online- oder gamesaffin</label>
+                </value>
+                <value>
+                    <fullName>E 14-49</fullName>
+                    <default>false</default>
+                    <label>E 14-49</label>
+                </value>
+                <value>
+                    <fullName>E 20-39</fullName>
+                    <default>false</default>
+                    <label>E 20-39</label>
+                </value>
+                <value>
+                    <fullName>E 20-49</fullName>
+                    <default>false</default>
+                    <label>E 20-49</label>
+                </value>
+                <value>
+                    <fullName>E 20-49 mit Kind unter 13 Jahren im HH</fullName>
+                    <default>false</default>
+                    <label>E 20-49 mit Kind unter 13 Jahren im HH</label>
+                </value>
+                <value>
+                    <fullName>E 25-39</fullName>
+                    <default>false</default>
+                    <label>E 25-39</label>
+                </value>
+                <value>
+                    <fullName>E 25-49 HHNE 2.000+</fullName>
+                    <default>false</default>
+                    <label>E 25-49 HHNE 2.000+</label>
+                </value>
+                <value>
+                    <fullName>E 30-49</fullName>
+                    <default>false</default>
+                    <label>E 30-49</label>
+                </value>
+                <value>
+                    <fullName>E 30-59</fullName>
+                    <default>false</default>
+                    <label>E 30-59</label>
+                </value>
+                <value>
+                    <fullName>E 30-59 HHNE 1.500+</fullName>
+                    <default>false</default>
+                    <label>E 30-59 HHNE 1.500+</label>
+                </value>
+                <value>
+                    <fullName>F 14-29</fullName>
+                    <default>false</default>
+                    <label>F 14-29</label>
+                </value>
+                <value>
+                    <fullName>F 14-39</fullName>
+                    <default>false</default>
+                    <label>F 14-39</label>
+                </value>
+                <value>
+                    <fullName>F 14-39 online- oder gamesaffin</fullName>
+                    <default>false</default>
+                    <label>F 14-39 online- oder gamesaffin</label>
+                </value>
+                <value>
+                    <fullName>F 14-49</fullName>
+                    <default>false</default>
+                    <label>F 14-49</label>
+                </value>
+                <value>
+                    <fullName>F 20-39</fullName>
+                    <default>false</default>
+                    <label>F 20-39</label>
+                </value>
+                <value>
+                    <fullName>F 20-49</fullName>
+                    <default>false</default>
+                    <label>F 20-49</label>
+                </value>
+                <value>
+                    <fullName>F 25-39</fullName>
+                    <default>false</default>
+                    <label>F 25-39</label>
+                </value>
+                <value>
+                    <fullName>F 25-49 HHNE 2.000+</fullName>
+                    <default>false</default>
+                    <label>F 25-49 HHNE 2.000+</label>
+                </value>
+                <value>
+                    <fullName>F 30-49</fullName>
+                    <default>false</default>
+                    <label>F 30-49</label>
+                </value>
+                <value>
+                    <fullName>F 30-59</fullName>
+                    <default>false</default>
+                    <label>F 30-59</label>
+                </value>
+                <value>
+                    <fullName>HHF 14-39</fullName>
+                    <default>false</default>
+                    <label>HHF 14-39</label>
+                </value>
+                <value>
+                    <fullName>HHF 20-49</fullName>
+                    <default>false</default>
+                    <label>HHF 20-49</label>
+                </value>
+                <value>
+                    <fullName>HHF 20-49 m. Kind unter 14</fullName>
+                    <default>false</default>
+                    <label>HHF 20-49 m. Kind unter 14</label>
+                </value>
+                <value>
+                    <fullName>HHF 20-59</fullName>
+                    <default>false</default>
+                    <label>HHF 20-59</label>
+                </value>
+                <value>
+                    <fullName>HHF 30-59</fullName>
+                    <default>false</default>
+                    <label>HHF 30-59</label>
+                </value>
+                <value>
+                    <fullName>M 14-29</fullName>
+                    <default>false</default>
+                    <label>M 14-29</label>
+                </value>
+                <value>
+                    <fullName>M 14-39</fullName>
+                    <default>false</default>
+                    <label>M 14-39</label>
+                </value>
+                <value>
+                    <fullName>M 14-39 online- oder gamesaffin</fullName>
+                    <default>false</default>
+                    <label>M 14-39 online- oder gamesaffin</label>
+                </value>
+                <value>
+                    <fullName>M 14-49</fullName>
+                    <default>false</default>
+                    <label>M 14-49</label>
+                </value>
+                <value>
+                    <fullName>M 20-39</fullName>
+                    <default>false</default>
+                    <label>M 20-39</label>
+                </value>
+                <value>
+                    <fullName>M 20-49</fullName>
+                    <default>false</default>
+                    <label>M 20-49</label>
+                </value>
+                <value>
+                    <fullName>M 25-39</fullName>
+                    <default>false</default>
+                    <label>M 25-39</label>
+                </value>
+                <value>
+                    <fullName>M 25-49 HHNE 2.000+</fullName>
+                    <default>false</default>
+                    <label>M 25-49 HHNE 2.000+</label>
+                </value>
+                <value>
+                    <fullName>M 25-59 HHNE 2.000+</fullName>
+                    <default>false</default>
+                    <label>M 25-59 HHNE 2.000+</label>
+                </value>
+                <value>
+                    <fullName>M 30-49</fullName>
+                    <default>false</default>
+                    <label>M 30-49</label>
+                </value>
+                <value>
+                    <fullName>M 30-59</fullName>
+                    <default>false</default>
+                    <label>M 30-59</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>MT_TimeShare01000600Max__c</fullName>
+        <description>Der maximale Anteil des Volumens, der in dieser Zeitschiene ausgestrahlt werden soll.</description>
+        <externalId>false</externalId>
+        <label>Share Time 01:00 - 06:00 Max</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>MT_TimeShare01000600Min__c</fullName>
+        <description>Der minimale Anteil des Volumens, der in dieser Zeitschiene ausgestrahlt werden soll.</description>
+        <externalId>false</externalId>
+        <label>Share Time 01:00 - 06:00 Min</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>MT_TimeShare06000900Max__c</fullName>
+        <description>Der maximale Anteil des Volumens, der in dieser Zeitschiene ausgestrahlt werden soll.</description>
+        <externalId>false</externalId>
+        <label>Share Time 06:00 - 09:00 Max</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>MT_TimeShare06000900Min__c</fullName>
+        <description>Der minimale Anteil des Volumens, der in dieser Zeitschiene ausgestrahlt werden soll.</description>
+        <externalId>false</externalId>
+        <label>Share Time 06:00 - 09:00 Min</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>MT_TimeShare09001300Max__c</fullName>
+        <description>Der maximale Anteil des Volumens, der in dieser Zeitschiene ausgestrahlt werden soll.</description>
+        <externalId>false</externalId>
+        <label>Share Time 09:00 - 13:00 Max</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>MT_TimeShare09001300Min__c</fullName>
+        <description>Der minimale Anteil des Volumens, der in dieser Zeitschiene ausgestrahlt werden soll.</description>
+        <externalId>false</externalId>
+        <label>Share Time 09:00 - 13:00 Min</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>MT_TimeShare13001700Max__c</fullName>
+        <description>Der maximale Anteil des Volumens, der in dieser Zeitschiene ausgestrahlt werden soll.</description>
+        <externalId>false</externalId>
+        <label>Share Time 13:00 - 17:00 Max</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>MT_TimeShare13001700Min__c</fullName>
+        <description>Der minimale Anteil des Volumens, der in dieser Zeitschiene ausgestrahlt werden soll.</description>
+        <externalId>false</externalId>
+        <label>Share Time 13:00 - 17:00 Min</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>MT_TimeShare17002000Max__c</fullName>
+        <description>Der maximale Anteil des Volumens, der in dieser Zeitschiene ausgestrahlt werden soll.</description>
+        <externalId>false</externalId>
+        <label>Share Time 17:00 - 20:00 Max</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>MT_TimeShare17002000Min__c</fullName>
+        <description>Der minimale Anteil des Volumens, der in dieser Zeitschiene ausgestrahlt werden soll.</description>
+        <externalId>false</externalId>
+        <label>Share Time 17:00 - 20:00 Min</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>MT_TimeShare20002300Max__c</fullName>
+        <defaultValue>0</defaultValue>
+        <description>Der maximale Anteil des Volumens, der in dieser Zeitschiene ausgestrahlt werden soll.</description>
+        <externalId>false</externalId>
+        <label>Share Time 20:00 - 23:00 Max</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>MT_TimeShare20002300Min__c</fullName>
+        <description>Der minimale Anteil des Volumens, der in dieser Zeitschiene ausgestrahlt werden soll.</description>
+        <externalId>false</externalId>
+        <label>Share Time 20:00 - 23:00 Min</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>MT_TimeShare23000100Max__c</fullName>
+        <description>Der maximale Anteil des Volumens, der in dieser Zeitschiene ausgestrahlt werden soll.</description>
+        <externalId>false</externalId>
+        <label>Share Time 23:00 - 01:00 Max</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>MT_TimeShare23000100Min__c</fullName>
+        <description>Der minimale Anteil des Volumens, der in dieser Zeitschiene ausgestrahlt werden soll.</description>
+        <externalId>false</externalId>
+        <label>Share Time 23:00 - 01:00 Min</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>MT_TvShareKabelEinsClassicsMax__c</fullName>
+        <description>Der maximale Anteil des Volumens, der auf diesem Sender ausgestrahlt werden soll.</description>
+        <externalId>false</externalId>
+        <label>Share Channel kabel eins CLASSICS Max</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>MT_TvShareKabelEinsClassicsMin__c</fullName>
+        <description>Der minimale Anteil des Volumens, der auf diesem Sender ausgestrahlt werden soll.</description>
+        <externalId>false</externalId>
+        <label>Share Channel kabel eins CLASSICS Min</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>MT_TvShareKabelEinsDokuMax__c</fullName>
+        <description>Der maximale Anteil des Volumens, der auf diesem Sender ausgestrahlt werden soll.</description>
+        <externalId>false</externalId>
+        <label>Share Channel kabel eins Doku Max</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>MT_TvShareKabelEinsDokuMin__c</fullName>
+        <description>Der minimale Anteil des Volumens, der auf diesem Sender ausgestrahlt werden soll.</description>
+        <externalId>false</externalId>
+        <label>Share Channel kabel eins Doku Min</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>MT_TvShareKabelEinsMax__c</fullName>
+        <description>Der maximale Anteil des Volumens, der auf diesem Sender ausgestrahlt werden soll.</description>
+        <externalId>false</externalId>
+        <label>Share Channel kabel eins Max</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>MT_TvShareKabelEinsMin__c</fullName>
+        <description>Der minimale Anteil des Volumens, der auf diesem Sender ausgestrahlt werden soll.</description>
+        <externalId>false</externalId>
+        <label>Share Channel kabel eins Min</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>MT_TvShareProSiebenFunMax__c</fullName>
+        <description>Der maximale Anteil des Volumens, der auf diesem Sender ausgestrahlt werden soll.</description>
+        <externalId>false</externalId>
+        <label>Share Channel ProSieben FUN Max</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>MT_TvShareProSiebenFunMin__c</fullName>
+        <description>Der minimale Anteil des Volumens, der auf diesem Sender ausgestrahlt werden soll.</description>
+        <externalId>false</externalId>
+        <label>Share Channel ProSieben FUN Min</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>MT_TvShareProSiebenMax__c</fullName>
+        <description>Der maximale Anteil des Volumens, der auf diesem Sender ausgestrahlt werden soll.</description>
+        <externalId>false</externalId>
+        <label>Share Channel ProSieben Max</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>MT_TvShareProSiebenMaxxMax__c</fullName>
+        <description>Der maximale Anteil des Volumens, der auf diesem Sender ausgestrahlt werden soll.</description>
+        <externalId>false</externalId>
+        <label>Share Channel ProSieben MAXX Max</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>MT_TvShareProSiebenMaxxMin__c</fullName>
+        <description>Der minimale Anteil des Volumens, der auf diesem Sender ausgestrahlt werden soll.</description>
+        <externalId>false</externalId>
+        <label>Share Channel ProSieben MAXX Min</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>MT_TvShareProSiebenMin__c</fullName>
+        <description>Der minimale Anteil des Volumens, der auf diesem Sender ausgestrahlt werden soll.</description>
+        <externalId>false</externalId>
+        <label>Share Channel ProSieben Min</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>MT_TvShareSat1EmotionsMax__c</fullName>
+        <description>Der maximale Anteil des Volumens, der auf diesem Sender ausgestrahlt werden soll.</description>
+        <externalId>false</externalId>
+        <label>Share Channel SAT.1 emotions Max</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>MT_TvShareSat1EmotionsMin__c</fullName>
+        <description>Der minimale Anteil des Volumens, der auf diesem Sender ausgestrahlt werden soll.</description>
+        <externalId>false</externalId>
+        <label>Share Channel SAT.1 emotions Min</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>MT_TvShareSat1GoldMax__c</fullName>
+        <description>Der maximale Anteil des Volumens, der auf diesem Sender ausgestrahlt werden soll.</description>
+        <externalId>false</externalId>
+        <label>Share Channel SAT.1 Gold Max</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>MT_TvShareSat1GoldMin__c</fullName>
+        <description>Der minimale Anteil des Volumens, der auf diesem Sender ausgestrahlt werden soll.</description>
+        <externalId>false</externalId>
+        <label>Share Channel SAT.1 Gold Min</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>MT_TvShareSat1Max__c</fullName>
+        <description>Der maximale Anteil des Volumens, der auf diesem Sender ausgestrahlt werden soll.</description>
+        <externalId>false</externalId>
+        <label>Share Channel SAT.1 Max</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>MT_TvShareSat1Min__c</fullName>
+        <description>Der minimale Anteil des Volumens, der auf diesem Sender ausgestrahlt werden soll.</description>
+        <externalId>false</externalId>
+        <label>Share Channel SAT.1 Min</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>MT_TvShareSixxMax__c</fullName>
+        <description>Der maximale Anteil des Volumens, der auf diesem Sender ausgestrahlt werden soll.</description>
+        <externalId>false</externalId>
+        <label>Share Channel sixx Max</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>MT_TvShareSixxMin__c</fullName>
+        <description>Der minimale Anteil des Volumens, der auf diesem Sender ausgestrahlt werden soll.</description>
+        <externalId>false</externalId>
+        <label>Share Channel sixx Min</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <label>Media Flight</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+        <language>en_US</language>
+    </listViews>
+    <nameField>
+        <label>Media Flight Name</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Media Flights</pluralLabel>
+    <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>Overbooking</fullName>
+        <active>true</active>
+        <description>An overbooking flight</description>
+        <label>Overbooking</label>
+        <picklistValues>
+            <picklist>MT_TargetGroup__c</picklist>
+            <values>
+                <fullName>E 14%2B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E 14-29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E 14-39</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E 14-39 online- oder gamesaffin</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E 14-49</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E 20-39</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E 20-49</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E 20-49 mit Kind unter 13 Jahren im HH</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E 25-39</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E 25-49 HHNE 2%2E000%2B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E 30-49</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E 30-59</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E 30-59 HHNE 1%2E500%2B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>F 14-29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>F 14-39</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>F 14-39 online- oder gamesaffin</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>F 14-49</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>F 20-39</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>F 20-49</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>F 25-39</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>F 25-49 HHNE 2%2E000%2B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>F 30-49</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>F 30-59</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HHF 14-39</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HHF 20-49</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HHF 20-49 m%2E Kind unter 14</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HHF 20-59</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HHF 30-59</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>M 14-29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>M 14-39</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>M 14-39 online- oder gamesaffin</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>M 14-49</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>M 20-39</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>M 20-49</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>M 25-39</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>M 25-49 HHNE 2%2E000%2B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>M 25-59 HHNE 2%2E000%2B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>M 30-49</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>M 30-59</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Sponsoring</fullName>
+        <active>true</active>
+        <description>A sponsoring flight</description>
+        <label>Sponsoring</label>
+        <picklistValues>
+            <picklist>MT_TargetGroup__c</picklist>
+            <values>
+                <fullName>E 14%2B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E 14-29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E 14-39</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E 14-39 online- oder gamesaffin</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E 14-49</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E 20-39</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E 20-49</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E 20-49 mit Kind unter 13 Jahren im HH</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E 25-39</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E 25-49 HHNE 2%2E000%2B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E 30-49</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E 30-59</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E 30-59 HHNE 1%2E500%2B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>F 14-29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>F 14-39</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>F 14-39 online- oder gamesaffin</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>F 14-49</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>F 20-39</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>F 20-49</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>F 25-39</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>F 25-49 HHNE 2%2E000%2B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>F 30-49</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>F 30-59</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HHF 14-39</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HHF 20-49</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HHF 20-49 m%2E Kind unter 14</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HHF 20-59</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HHF 30-59</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>M 14-29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>M 14-39</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>M 14-39 online- oder gamesaffin</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>M 14-49</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>M 20-39</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>M 20-49</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>M 25-39</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>M 25-49 HHNE 2%2E000%2B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>M 25-59 HHNE 2%2E000%2B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>M 30-49</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>M 30-59</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Spot</fullName>
+        <active>true</active>
+        <description>A spot flight</description>
+        <label>Spot</label>
+        <picklistValues>
+            <picklist>MT_TargetGroup__c</picklist>
+            <values>
+                <fullName>E 14%2B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E 14-29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E 14-39</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E 14-39 online- oder gamesaffin</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E 14-49</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E 20-39</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E 20-49</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E 20-49 mit Kind unter 13 Jahren im HH</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E 25-39</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E 25-49 HHNE 2%2E000%2B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E 30-49</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E 30-59</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>E 30-59 HHNE 1%2E500%2B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>F 14-29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>F 14-39</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>F 14-39 online- oder gamesaffin</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>F 14-49</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>F 20-39</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>F 20-49</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>F 25-39</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>F 25-49 HHNE 2%2E000%2B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>F 30-49</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>F 30-59</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HHF 14-39</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HHF 20-49</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HHF 20-49 m%2E Kind unter 14</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HHF 20-59</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HHF 30-59</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>M 14-29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>M 14-39</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>M 14-39 online- oder gamesaffin</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>M 14-49</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>M 20-39</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>M 20-49</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>M 25-39</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>M 25-49 HHNE 2%2E000%2B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>M 25-59 HHNE 2%2E000%2B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>M 30-49</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>M 30-59</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>MT_BMV_Amount_MUST_BE_POSITIVE</fullName>
+        <active>true</active>
+        <errorConditionFormula>MT_BMVAmount__c &lt; 0</errorConditionFormula>
+        <errorDisplayField>MT_BMVAmount__c</errorDisplayField>
+        <errorMessage>BMV Amount cannot be less than 0</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_Flight_Channel_Share_Max_Validation10</fullName>
+        <active>true</active>
+        <errorConditionFormula>MT_TvShareSixxMax__c &gt; 1 || MT_TvShareSixxMax__c &lt; 0</errorConditionFormula>
+        <errorDisplayField>MT_TvShareSixxMax__c</errorDisplayField>
+        <errorMessage>Value must be between 0% and 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_Flight_Channel_Share_Max_Validation_1</fullName>
+        <active>true</active>
+        <errorConditionFormula>MT_TvShareKabelEinsClassicsMax__c &gt; 1 || MT_TvShareKabelEinsClassicsMax__c &lt; 0</errorConditionFormula>
+        <errorDisplayField>MT_TvShareKabelEinsClassicsMax__c</errorDisplayField>
+        <errorMessage>Value must be between 0% and 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_Flight_Channel_Share_Max_Validation_2</fullName>
+        <active>true</active>
+        <errorConditionFormula>MT_TvShareKabelEinsDokuMax__c &gt; 1 || MT_TvShareKabelEinsDokuMax__c &lt; 0</errorConditionFormula>
+        <errorDisplayField>MT_TvShareKabelEinsDokuMax__c</errorDisplayField>
+        <errorMessage>Value must be between 0% and 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_Flight_Channel_Share_Max_Validation_3</fullName>
+        <active>true</active>
+        <errorConditionFormula>MT_TvShareKabelEinsMax__c &gt; 1 || MT_TvShareKabelEinsMax__c &lt; 0</errorConditionFormula>
+        <errorDisplayField>MT_TvShareKabelEinsMax__c</errorDisplayField>
+        <errorMessage>Value must be between 0% and 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_Flight_Channel_Share_Max_Validation_4</fullName>
+        <active>true</active>
+        <errorConditionFormula>MT_TvShareProSiebenFunMax__c &gt; 1 || MT_TvShareProSiebenFunMax__c &lt; 0</errorConditionFormula>
+        <errorDisplayField>MT_TvShareProSiebenFunMax__c</errorDisplayField>
+        <errorMessage>Value must be between 0% and 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_Flight_Channel_Share_Max_Validation_5</fullName>
+        <active>true</active>
+        <errorConditionFormula>MT_TvShareProSiebenMax__c &gt; 1 || MT_TvShareProSiebenMax__c &lt; 0</errorConditionFormula>
+        <errorDisplayField>MT_TvShareProSiebenMax__c</errorDisplayField>
+        <errorMessage>Value must be between 0% and 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_Flight_Channel_Share_Max_Validation_6</fullName>
+        <active>true</active>
+        <errorConditionFormula>MT_TvShareProSiebenMaxxMax__c &gt; 1 || MT_TvShareProSiebenMaxxMax__c &lt; 0</errorConditionFormula>
+        <errorDisplayField>MT_TvShareProSiebenMaxxMax__c</errorDisplayField>
+        <errorMessage>Value must be between 0% and 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_Flight_Channel_Share_Max_Validation_7</fullName>
+        <active>true</active>
+        <errorConditionFormula>MT_TvShareSat1EmotionsMax__c &gt; 1 || MT_TvShareSat1EmotionsMax__c &lt; 0</errorConditionFormula>
+        <errorDisplayField>MT_TvShareSat1EmotionsMax__c</errorDisplayField>
+        <errorMessage>Value must be between 0% and 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_Flight_Channel_Share_Max_Validation_8</fullName>
+        <active>true</active>
+        <errorConditionFormula>MT_TvShareSat1GoldMax__c &gt; 1 || MT_TvShareSat1GoldMax__c &lt; 0</errorConditionFormula>
+        <errorDisplayField>MT_TvShareSat1GoldMax__c</errorDisplayField>
+        <errorMessage>Value must be between 0% and 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_Flight_Channel_Share_Max_Validation_9</fullName>
+        <active>true</active>
+        <errorConditionFormula>MT_TvShareSat1Max__c &gt; 1 || MT_TvShareSat1Max__c &lt; 0</errorConditionFormula>
+        <errorDisplayField>MT_TvShareSat1Max__c</errorDisplayField>
+        <errorMessage>Value must be between 0% and 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_Flight_Channel_Share_Min_Validation10</fullName>
+        <active>true</active>
+        <errorConditionFormula>MT_TvShareSixxMin__c &lt; 0 || MT_TvShareSixxMin__c &gt; 1</errorConditionFormula>
+        <errorDisplayField>MT_TvShareSixxMin__c</errorDisplayField>
+        <errorMessage>Value must be between 0% and 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_Flight_Channel_Share_Min_Validation_1</fullName>
+        <active>true</active>
+        <errorConditionFormula>MT_TvShareKabelEinsClassicsMin__c &lt; 0 || MT_TvShareKabelEinsClassicsMin__c &gt; 1</errorConditionFormula>
+        <errorDisplayField>MT_TvShareKabelEinsClassicsMin__c</errorDisplayField>
+        <errorMessage>Value must be between 0% and 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_Flight_Channel_Share_Min_Validation_2</fullName>
+        <active>true</active>
+        <errorConditionFormula>MT_TvShareKabelEinsDokuMin__c &lt; 0 || MT_TvShareKabelEinsDokuMin__c &gt; 1</errorConditionFormula>
+        <errorDisplayField>MT_TvShareKabelEinsDokuMin__c</errorDisplayField>
+        <errorMessage>Value must be between 0% and 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_Flight_Channel_Share_Min_Validation_3</fullName>
+        <active>true</active>
+        <errorConditionFormula>MT_TvShareKabelEinsMin__c &lt; 0 || MT_TvShareKabelEinsMin__c &gt; 1</errorConditionFormula>
+        <errorDisplayField>MT_TvShareKabelEinsMin__c</errorDisplayField>
+        <errorMessage>Value must be between 0% and 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_Flight_Channel_Share_Min_Validation_4</fullName>
+        <active>true</active>
+        <errorConditionFormula>MT_TvShareProSiebenFunMin__c &lt; 0 || MT_TvShareProSiebenFunMin__c &gt; 1</errorConditionFormula>
+        <errorDisplayField>MT_TvShareProSiebenFunMin__c</errorDisplayField>
+        <errorMessage>Value must be between 0% and 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_Flight_Channel_Share_Min_Validation_5</fullName>
+        <active>true</active>
+        <errorConditionFormula>MT_TvShareProSiebenMin__c &lt; 0 || MT_TvShareProSiebenMin__c &gt; 1</errorConditionFormula>
+        <errorDisplayField>MT_TvShareProSiebenMin__c</errorDisplayField>
+        <errorMessage>Value must be between 0% and 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_Flight_Channel_Share_Min_Validation_6</fullName>
+        <active>true</active>
+        <errorConditionFormula>MT_TvShareProSiebenMaxxMin__c &lt; 0 || MT_TvShareProSiebenMaxxMin__c &gt; 1</errorConditionFormula>
+        <errorDisplayField>MT_TvShareProSiebenMaxxMin__c</errorDisplayField>
+        <errorMessage>Value must be between 0% and 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_Flight_Channel_Share_Min_Validation_7</fullName>
+        <active>true</active>
+        <errorConditionFormula>MT_TvShareSat1EmotionsMin__c &lt; 0 || MT_TvShareSat1EmotionsMin__c &gt; 1</errorConditionFormula>
+        <errorDisplayField>MT_TvShareSat1EmotionsMin__c</errorDisplayField>
+        <errorMessage>Value must be between 0% and 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_Flight_Channel_Share_Min_Validation_8</fullName>
+        <active>true</active>
+        <errorConditionFormula>MT_TvShareSat1GoldMin__c &lt; 0 || MT_TvShareSat1GoldMin__c &gt; 1</errorConditionFormula>
+        <errorDisplayField>MT_TvShareSat1GoldMin__c</errorDisplayField>
+        <errorMessage>Value must be between 0% and 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_Flight_Channel_Share_Min_Validation_9</fullName>
+        <active>true</active>
+        <errorConditionFormula>MT_TvShareSat1Min__c &lt; 0 || MT_TvShareSat1Min__c &gt; 1</errorConditionFormula>
+        <errorDisplayField>MT_TvShareSat1Min__c</errorDisplayField>
+        <errorMessage>Value must be between 0% and 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_Flight_Time_Share_Max_Validation_1</fullName>
+        <active>true</active>
+        <errorConditionFormula>MT_TimeShare01000600Max__c &gt; 1 || MT_TimeShare01000600Max__c &lt; 0</errorConditionFormula>
+        <errorDisplayField>MT_TimeShare01000600Max__c</errorDisplayField>
+        <errorMessage>Value must be between 0% and 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_Flight_Time_Share_Max_Validation_2</fullName>
+        <active>true</active>
+        <errorConditionFormula>MT_TimeShare06000900Max__c &gt; 1 || MT_TimeShare06000900Max__c &lt; 0</errorConditionFormula>
+        <errorDisplayField>MT_TimeShare06000900Max__c</errorDisplayField>
+        <errorMessage>Value must be between 0% and 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_Flight_Time_Share_Max_Validation_3</fullName>
+        <active>true</active>
+        <errorConditionFormula>MT_TimeShare09001300Max__c &gt; 1 || MT_TimeShare09001300Max__c &lt; 0</errorConditionFormula>
+        <errorDisplayField>MT_TimeShare09001300Max__c</errorDisplayField>
+        <errorMessage>Value must be between 0% and 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_Flight_Time_Share_Max_Validation_4</fullName>
+        <active>true</active>
+        <errorConditionFormula>MT_TimeShare13001700Max__c &gt; 1 || MT_TimeShare13001700Max__c &lt; 0</errorConditionFormula>
+        <errorDisplayField>MT_TimeShare13001700Max__c</errorDisplayField>
+        <errorMessage>Value must be between 0% and 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_Flight_Time_Share_Max_Validation_5</fullName>
+        <active>true</active>
+        <errorConditionFormula>MT_TimeShare17002000Max__c &gt; 1 || MT_TimeShare17002000Max__c &lt; 0</errorConditionFormula>
+        <errorDisplayField>MT_TimeShare17002000Max__c</errorDisplayField>
+        <errorMessage>Value must be between 0% and 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_Flight_Time_Share_Max_Validation_6</fullName>
+        <active>true</active>
+        <errorConditionFormula>MT_TimeShare20002300Max__c &gt; 1 || MT_TimeShare20002300Max__c &lt; 0</errorConditionFormula>
+        <errorDisplayField>MT_TimeShare20002300Max__c</errorDisplayField>
+        <errorMessage>Value must be between 0% and 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_Flight_Time_Share_Max_Validation_7</fullName>
+        <active>true</active>
+        <errorConditionFormula>MT_TimeShare23000100Max__c &gt; 1 || MT_TimeShare23000100Max__c &lt; 0</errorConditionFormula>
+        <errorDisplayField>MT_TimeShare23000100Max__c</errorDisplayField>
+        <errorMessage>Value must be between 0% and 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_Flight_Time_Share_Min_Validation_1</fullName>
+        <active>true</active>
+        <errorConditionFormula>MT_TimeShare01000600Min__c &lt; 0 || MT_TimeShare01000600Min__c &gt; 1</errorConditionFormula>
+        <errorDisplayField>MT_TimeShare01000600Min__c</errorDisplayField>
+        <errorMessage>Value must be between 0% and 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_Flight_Time_Share_Min_Validation_2</fullName>
+        <active>true</active>
+        <errorConditionFormula>MT_TimeShare06000900Min__c &lt; 0 || MT_TimeShare06000900Min__c &gt; 1</errorConditionFormula>
+        <errorDisplayField>MT_TimeShare06000900Min__c</errorDisplayField>
+        <errorMessage>Value must be between 0% and 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_Flight_Time_Share_Min_Validation_3</fullName>
+        <active>true</active>
+        <errorConditionFormula>MT_TimeShare09001300Min__c &lt; 0 || MT_TimeShare09001300Min__c &gt; 1</errorConditionFormula>
+        <errorDisplayField>MT_TimeShare09001300Min__c</errorDisplayField>
+        <errorMessage>Value must be between 0% and 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_Flight_Time_Share_Min_Validation_4</fullName>
+        <active>true</active>
+        <errorConditionFormula>MT_TimeShare13001700Min__c &lt; 0 || MT_TimeShare13001700Min__c &gt; 1</errorConditionFormula>
+        <errorDisplayField>MT_TimeShare13001700Min__c</errorDisplayField>
+        <errorMessage>Value must be between 0% and 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_Flight_Time_Share_Min_Validation_5</fullName>
+        <active>true</active>
+        <errorConditionFormula>MT_TimeShare17002000Min__c &lt; 0 || MT_TimeShare17002000Min__c &gt; 1</errorConditionFormula>
+        <errorDisplayField>MT_TimeShare17002000Min__c</errorDisplayField>
+        <errorMessage>Value must be between 0% and 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_Flight_Time_Share_Min_Validation_6</fullName>
+        <active>true</active>
+        <errorConditionFormula>MT_TimeShare20002300Min__c &lt; 0 || MT_TimeShare20002300Min__c &gt; 1</errorConditionFormula>
+        <errorDisplayField>MT_TimeShare20002300Min__c</errorDisplayField>
+        <errorMessage>Value must be between 0% and 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_Flight_Time_Share_Min_Validation_7</fullName>
+        <active>true</active>
+        <errorConditionFormula>MT_TimeShare23000100Min__c &lt; 0 || MT_TimeShare23000100Min__c &gt; 1</errorConditionFormula>
+        <errorDisplayField>MT_TimeShare23000100Min__c</errorDisplayField>
+        <errorMessage>Value must be between 0% and 100%</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_Overbooking_Volume_MUST_BE_POSITIVE</fullName>
+        <active>true</active>
+        <errorConditionFormula>MT_OverbookingVolume__c &lt; 0</errorConditionFormula>
+        <errorDisplayField>MT_OverbookingVolume__c</errorDisplayField>
+        <errorMessage>Overbooking volume cannot be less than 0</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

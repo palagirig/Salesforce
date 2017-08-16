@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Media Motive --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Media Motive --></value>
+    </caseValues>
+    <fields>
+        <label>Advertised Product</label>
+        <name>MT_AdvertisedMediaProduct_ref__c</name>
+        <relationshipLabel>Motives</relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Agency Product Number --></label>
+        <name>MT_AgencyProductNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- GEMA --></label>
+        <name>MT_GEMA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Complete --></label>
+        <name>MT_IsComplete__c</name>
+    </fields>
+    <fields>
+        <label><!-- Spot Length --></label>
+        <name>MT_SpotLength__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>MT_Type__c</name>
+        <picklistValues>
+            <masterLabel>Main</masterLabel>
+            <translation><!-- Main --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reminder</masterLabel>
+            <translation><!-- Reminder --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Upload ID --></label>
+        <name>MT_UploadID__c</name>
+    </fields>
+    <layouts>
+        <layout>Media Motive Feed Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Media Motive Name --></nameFieldLabel>
+    <startsWith><!-- Consonant --></startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Die Ausstrahlungsdaten für Werbemotive, die vom DWH importiert wurden.</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableChangeDataCapture>false</enableChangeDataCapture>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>false</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>MT_BMV__c</fullName>
+        <description>Das ausgestrahlte BMV (je nach Kampagnentyp ist dies MB1 oder MB3).</description>
+        <externalId>false</externalId>
+        <label>BMV</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>MT_BroadcastType__c</fullName>
+        <description>Populated via workflow, copies the ProSa order type, but allows filtering on roll ups.</description>
+        <externalId>false</externalId>
+        <label>Broadcast Type</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MT_LastImportDate__c</fullName>
+        <description>Das Datum der letzten Aktualisierung des Wertes, unabhängig von systeminternen Bearbeitungen.</description>
+        <externalId>false</externalId>
+        <label>Last Import Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>MT_MN3__c</fullName>
+        <description>Das ausgestrahlte Volumen als MN3</description>
+        <externalId>false</externalId>
+        <label>MN3</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>3</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>MT_MonthlyPlan_ref__c</fullName>
+        <description>Der Monat(splan), in dem das Volumen ausgestrahlt wurde.</description>
+        <externalId>false</externalId>
+        <label>Monthly Plan</label>
+        <referenceTo>MT_MediaCampaignMonthlyPlan__c</referenceTo>
+        <relationshipLabel>Media Broadcast Data</relationshipLabel>
+        <relationshipName>Media_Broadcasts</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>true</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>MT_ProSaOrder_Type__c</fullName>
+        <description>Fetches the record type of a ProSa Order</description>
+        <externalId>false</externalId>
+        <formula>MT_ProSaOrder_ref__r.RecordType.Name</formula>
+        <label>ProSa Order Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MT_ProSaOrder_ref__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <description>Der ProSa- Auftrag, über den die Ausstrahlung gebucht wurde.</description>
+        <externalId>false</externalId>
+        <label>ProSa Order</label>
+        <referenceTo>MT_ProSaOrder__c</referenceTo>
+        <relationshipLabel>Media Broadcast Data</relationshipLabel>
+        <relationshipName>Media_Broadcasts</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>MT_Timeslot__c</fullName>
+        <description>Die Zeitschiene, in dem das Volumen ausgestrahlt wurde.</description>
+        <externalId>false</externalId>
+        <label>Timeslot</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MT_TvSenderName__c</fullName>
+        <description>Der Name des Senders, auf dem das Volumen ausgestrahlt wurde.</description>
+        <externalId>false</externalId>
+        <label>TV Sender Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MT_TvSenderNumber__c</fullName>
+        <description>Die Nummer des Senders, auf dem das Volumen ausgestrahlt wurde.</description>
+        <externalId>false</externalId>
+        <label>TV Sender Number</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <label>Media Broadcast Data</label>
+    <nameField>
+        <displayFormat>MBD-{00000000}</displayFormat>
+        <label>Media Broadcast Data Number</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Media Broadcast Data</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

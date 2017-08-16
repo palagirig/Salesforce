@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Media Campaign Type Parameter Version</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Media Campaign Type Parameter Version</value>
+    </caseValues>
+    <fields>
+        <label>Air Time Rate</label>
+        <name>MT_AirTimeRate__c</name>
+    </fields>
+    <fields>
+        <label>Barter-Yield-Gewichtung</label>
+        <name>MT_BarterYieldQuantifier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deckungsbeitrag II --></label>
+        <name>MT_CoverageMarginII__c</name>
+    </fields>
+    <fields>
+        <label>Equity-Yield-Gewichtung</label>
+        <name>MT_EquityYieldQuantifier__c</name>
+    </fields>
+    <fields>
+        <label>Exit Participation-Yield-Gewichtung</label>
+        <name>MT_ExitParticipationYieldQuantifier__c</name>
+    </fields>
+    <fields>
+        <label>Fill-Up-Yield-Gewichtung</label>
+        <name>MT_FillUpYieldQuantifier__c</name>
+    </fields>
+    <fields>
+        <label>Fix-Yield-Gewichtung</label>
+        <name>MT_FixYieldQuantifier__c</name>
+    </fields>
+    <fields>
+        <label>Kampagnentyp</label>
+        <name>MT_MediaCampaignType_ref__c</name>
+        <relationshipLabel>Parameterversionen</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Gültig ab</label>
+        <name>MT_ValidFrom__c</name>
+    </fields>
+    <fields>
+        <label>Variabler-Yield-Gewichtung</label>
+        <name>MT_VariableYieldQuantifier__c</name>
+    </fields>
+    <fields>
+        <label><!-- WKZ-Faktor --></label>
+        <name>MT_WKZFactor__c</name>
+    </fields>
+    <gender>Neuter</gender>
+    <layouts>
+        <layout>Media Campaign Type Parameter Version Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- Die Air time rate kann nur zwischen 0 und 100 liegen. --></errorMessage>
+        <name>MT_AirTimeRateMinMax</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Bitte stellen Sie sicher, dass der Wert nicht negativ ist. --></errorMessage>
+        <name>MT_BarterYieldQuantifierNotNegative</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Bitte stellen Sie sicher, dass der Wert nicht negativ ist. --></errorMessage>
+        <name>MT_EquityYieldQuantifierNotNegative</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Bitte stellen Sie sicher, dass der Wert nicht negativ ist. --></errorMessage>
+        <name>MT_ExitParticipationYieldQuanNotNegative</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Bitte stellen Sie sicher, dass der Wert nicht negativ ist. --></errorMessage>
+        <name>MT_FillIupYieldQuanNotNegative</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Bitte stellen Sie sicher, dass der Wert nicht negativ ist. --></errorMessage>
+        <name>MT_FixYieldQuantifierNotNegative</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Bitte stellen Sie sicher, dass der Wert nicht negativ ist. --></errorMessage>
+        <name>MT_VariableYieldQuantifierNotNegative</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Bitte stellen Sie sicher, dass der Wert nicht negativ ist. --></errorMessage>
+        <name>MT_WKZFactorNotNegative</name>
+    </validationRules>
+</CustomObjectTranslation>

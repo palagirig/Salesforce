@@ -1,0 +1,242 @@
+<apex:page standardController="P7S1_OpportunityApproval__c" extensions="MT_ApprovalHistoryController" showHeader="true" sidebar="true">
+	<html xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" lang="en">
+        <head>
+            <meta charset="utf-8" />
+            <meta http-equiv="x-ua-compatible" content="ie=edge" />
+            <title>{!$Label.MT_OppApp_ApprovalHistory_Title}</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
+            <apex:stylesheet value="{!URLFOR($Resource.p7s1_slds_w17, 'assets/styles/salesforce-lightning-design-system-vf.min.css')}" />
+        </head>
+        <body>
+            <div class="p7s1">
+            	<apex:outputPanel rendered="{!!isApprovedEmpty && !isSubmittedEmpty}">
+	            	<table class="slds-table slds-table--bordered slds-table--cell-buffer slds-no-row-hover">
+	            		<thead>
+	            			<tr class="slds-text-title--caps">
+		            			<th scope="col">
+									<div class="slds-truncate">{!$Label.MT_OppApp_ApprovalHistory_Fields}</div>
+						    	</th>
+						    	<th scope="col">
+									<div class="slds-truncate">{!$Label.MT_OppApp_ApprovalHistory_LastApprovedValue}</div>
+						    	</th>
+						    	<th scope="col">
+									<div class="slds-truncate">{!$Label.MT_OppApp_ApprovalHistory_SubmittedValue}</div>
+						    	</th>
+						    </tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td colspan="3" style="background-color: rgb(234, 234, 234);">
+									<div class="slds-truncate" >{!$ObjectType['Opportunity'].label}</div>
+								</td>
+							</tr>
+							<apex:variable value="{!0}" var="changes"/>
+							<apex:repeat value="{!oppFields}" var="field">
+				            	<apex:outputPanel rendered="{!submitted[field] != approved[field]}">
+				            		<tr>
+				            			<td data-label="">
+									        <div style="margin-left:20px;" class="slds-truncate" >{!$ObjectType['MT_MediaUpdateHistory__c'].fields[field].label}</div>
+									    </td>
+									    <td data-label="">
+									        <div class="slds-truncate" ><apex:outputField value="{!approved[field]}"/></div>
+									    </td>
+									    <td data-label="">
+									        <div class="slds-truncate" ><apex:outputField value="{!submitted[field]}"/></div>
+									    </td>
+				            		</tr>
+				            		<apex:variable value="{!changes+1}" var="changes"/>
+				            	</apex:outputPanel>
+				            </apex:repeat>
+				            <apex:outputPanel rendered="{!changes == 0}">
+				            	<tr>
+					            	<td colspan="3" style="text-align: center;">
+										{!$Label.MT_OppApp_ApprovalHistory_NoChanges}
+									</td>
+								</tr>
+				            </apex:outputPanel>
+
+				            <apex:variable value="{!0}" var="changes"/>
+				            <tr>
+								<td colspan="3" style="background-color: rgb(234, 234, 234);">
+									<div class="slds-truncate" >{!$ObjectType['P7S1_OpportunityApproval__c'].label}</div>
+								</td>
+							</tr>
+							<apex:repeat value="{!oppAppFields}" var="field">
+				            	<apex:outputPanel rendered="{!submitted[field] != approved[field]}">
+				            		<tr>
+				            			<td data-label="">
+									        <div style="margin-left:20px;" class="slds-truncate" >{!$ObjectType['MT_MediaUpdateHistory__c'].fields[field].label}</div>
+									    </td>
+									    <td data-label="">
+									        <div class="slds-truncate" ><apex:outputField value="{!approved[field]}"/></div>
+									    </td>
+									    <td data-label="">
+									        <div class="slds-truncate" ><apex:outputField value="{!submitted[field]}"/></div>
+									    </td>
+				            		</tr>
+				            		<apex:variable value="{!changes+1}" var="changes"/>
+				            	</apex:outputPanel>
+				            </apex:repeat>
+				            <apex:outputPanel rendered="{!changes == 0}">
+				            	<tr>
+					            	<td colspan="3" style="text-align: center;">
+										{!$Label.MT_OppApp_ApprovalHistory_NoChanges}
+									</td>
+								</tr>
+				            </apex:outputPanel>
+
+				            <apex:variable value="{!0}" var="changes"/>
+				            <tr>
+								<td colspan="3" style="background-color: rgb(234, 234, 234);">
+									<div class="slds-truncate" >{!$ObjectType['MT_MediaCampaign__c'].label}</div>
+								</td>
+							</tr>
+							<apex:repeat value="{!campFields}" var="field">
+				            	<apex:outputPanel rendered="{!submitted[field] != approved[field]}">
+				            		<tr>
+				            			<td data-label="">
+									        <div style="margin-left:20px;" class="slds-truncate" >{!$ObjectType['MT_MediaUpdateHistory__c'].fields[field].label}</div>
+									    </td>
+									    <td data-label="">
+									        <div class="slds-truncate" ><apex:outputField value="{!approved[field]}"/></div>
+									    </td>
+									    <td data-label="">
+									        <div class="slds-truncate" ><apex:outputField value="{!submitted[field]}"/></div>
+									    </td>
+				            		</tr>
+				            		<apex:variable value="{!changes+1}" var="changes"/>
+				            	</apex:outputPanel>
+				            </apex:repeat>
+				            <apex:outputPanel rendered="{!changes == 0}">
+				            	<tr>
+					            	<td colspan="3" style="text-align: center;">
+										{!$Label.MT_OppApp_ApprovalHistory_NoChanges}
+									</td>
+								</tr>
+				            </apex:outputPanel>
+						</tbody>
+	            	</table>
+            	</apex:outputPanel>
+            	<apex:outputPanel rendered="{!isApprovedEmpty && !isSubmittedEmpty}">
+	            	<table class="slds-table slds-table--bordered slds-table--cell-buffer slds-no-row-hover">
+	            		<thead>
+	            			<tr class="slds-text-title--caps">
+		            			<th scope="col">
+									<div class="slds-truncate">{!$Label.MT_OppApp_ApprovalHistory_Fields}</div>
+						    	</th>
+						    	<th scope="col">
+									<div class="slds-truncate">{!$Label.MT_OppApp_ApprovalHistory_LastApprovedValue}</div>
+						    	</th>
+						    	<th scope="col">
+									<div class="slds-truncate">{!$Label.MT_OppApp_ApprovalHistory_SubmittedValue}</div>
+						    	</th>
+						    </tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td colspan="3" style="background-color: rgb(234, 234, 234);">
+									<div class="slds-truncate" >{!$ObjectType['Opportunity'].label}</div>
+								</td>
+							</tr>
+							<apex:variable value="{!0}" var="changes"/>
+							<apex:repeat value="{!oppFields}" var="field">
+				            	<apex:outputPanel rendered="{!submitted[field] != approved[field]}">
+				            		<tr>
+				            			<td data-label="">
+									        <div style="margin-left:20px;" class="slds-truncate" >{!$ObjectType['MT_MediaUpdateHistory__c'].fields[field].label}</div>
+									    </td>
+									    <td data-label="">
+									        <div class="slds-truncate">{!$Label.MT_OppApp_ApprovalHistory_NoApprovalYet}</div>
+									    </td>
+									    <td data-label="">
+									        <div class="slds-truncate"><apex:outputField value="{!submitted[field]}"/></div>
+									    </td>
+				            		</tr>
+				            		<apex:variable value="{!changes+1}" var="changes"/>
+				            	</apex:outputPanel>
+				            </apex:repeat>
+				            <apex:outputPanel rendered="{!changes == 0}">
+				            	<tr>
+					            	<td colspan="3" style="text-align: center;">
+										{!$Label.MT_OppApp_ApprovalHistory_NoValues}
+									</td>
+								</tr>
+				            </apex:outputPanel>
+
+				            <apex:variable value="{!0}" var="changes"/>
+				            <tr>
+								<td colspan="3" style="background-color: rgb(234, 234, 234);">
+									<div class="slds-truncate" >{!$ObjectType['P7S1_OpportunityApproval__c'].label}</div>
+								</td>
+							</tr>
+							<apex:repeat value="{!oppAppFields}" var="field">
+				            	<apex:outputPanel rendered="{!submitted[field] != approved[field]}">
+				            		<tr>
+				            			<td data-label="">
+									        <div style="margin-left:20px;" class="slds-truncate">{!$ObjectType['MT_MediaUpdateHistory__c'].fields[field].label}</div>
+									    </td>
+									    <td data-label="">
+									        <div class="slds-truncate">{!$Label.MT_OppApp_ApprovalHistory_NoApprovalYet}</div>
+									    </td>
+									    <td data-label="">
+									        <div class="slds-truncate"><apex:outputField value="{!submitted[field]}"/></div>
+									    </td>
+				            		</tr>
+				            		<apex:variable value="{!changes+1}" var="changes"/>
+				            	</apex:outputPanel>
+				            </apex:repeat>
+				            <apex:outputPanel rendered="{!changes == 0}">
+				            	<tr>
+					            	<td colspan="3" style="text-align: center;">
+										{!$Label.MT_OppApp_ApprovalHistory_NoValues}
+									</td>
+								</tr>
+				            </apex:outputPanel>
+
+				            <apex:variable value="{!0}" var="changes"/>
+				            <tr>
+								<td colspan="3" style="background-color: rgb(234, 234, 234);">
+									<div class="slds-truncate" >{!$ObjectType['MT_MediaCampaign__c'].label}</div>
+								</td>
+							</tr>
+							<apex:repeat value="{!campFields}" var="field">
+				            	<apex:outputPanel rendered="{!submitted[field] != approved[field]}">
+				            		<tr>
+				            			<td data-label="">
+									        <div style="margin-left:20px;" class="slds-truncate" >{!$ObjectType['MT_MediaUpdateHistory__c'].fields[field].label}</div>
+									    </td>
+									    <td data-label="">
+									        <div class="slds-truncate" >No Approval Yet</div>
+									    </td>
+									    <td data-label="">
+									        <div class="slds-truncate" ><apex:outputField value="{!submitted[field]}"/></div>
+									    </td>
+				            		</tr>
+				            		<apex:variable value="{!changes+1}" var="changes"/>
+				            	</apex:outputPanel>
+				            </apex:repeat>
+				            <apex:outputPanel rendered="{!changes == 0}">
+				            	<tr>
+					            	<td colspan="3" style="text-align: center;">
+										{!$Label.MT_OppApp_ApprovalHistory_NoValues}
+									</td>
+								</tr>
+				            </apex:outputPanel>
+						</tbody>
+	            	</table>
+            	</apex:outputPanel>
+            	<apex:outputPanel rendered="{!isSubmittedEmpty}">
+	            	<table class="slds-table slds-table--bordered slds-table--cell-buffer slds-no-row-hover">
+	            		<thead>
+	            			<tr class="slds-text-title--caps">
+		            			<th scope="col">
+									{!$Label.MT_OppApp_ApprovalHistory_NoActiveApprovalProcess}
+						    	</th>
+						    </tr>
+						</thead>
+	            	</table>
+            	</apex:outputPanel>
+            </div>
+        </body>
+    </html>
+</apex:page>

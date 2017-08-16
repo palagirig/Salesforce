@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Media Motive</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Media Motives</value>
+    </caseValues>
+    <fields>
+        <label>Beworbenes Produkt</label>
+        <name>MT_AdvertisedMediaProduct_ref__c</name>
+        <relationshipLabel>Motive</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Produktnummer der Agentur</label>
+        <name>MT_AgencyProductNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- GEMA --></label>
+        <name>MT_GEMA__c</name>
+    </fields>
+    <fields>
+        <label>Ist Vollständig</label>
+        <name>MT_IsComplete__c</name>
+    </fields>
+    <fields>
+        <label>Spotlänge</label>
+        <name>MT_SpotLength__c</name>
+    </fields>
+    <fields>
+        <label>Typ</label>
+        <name>MT_Type__c</name>
+        <picklistValues>
+            <masterLabel>Main</masterLabel>
+            <translation><!-- Main --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reminder</masterLabel>
+            <translation><!-- Reminder --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Upload ID --></label>
+        <name>MT_UploadID__c</name>
+    </fields>
+    <gender>Neuter</gender>
+    <layouts>
+        <layout>Media Motive Feed Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

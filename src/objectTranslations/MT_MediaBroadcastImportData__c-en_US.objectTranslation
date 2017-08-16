@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Media Broadcast Import Data --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Media Broadcast Import Data --></value>
+    </caseValues>
+    <fields>
+        <label>KRS ID</label>
+        <name>MT_CampaignID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Export --></label>
+        <name>MT_LastExport__c</name>
+    </fields>
+    <fields>
+        <label><!-- MB1 --></label>
+        <name>MT_MB1__c</name>
+    </fields>
+    <fields>
+        <label><!-- MB3 --></label>
+        <name>MT_MB3__c</name>
+    </fields>
+    <fields>
+        <label><!-- MN3 --></label>
+        <name>MT_MN3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Month --></label>
+        <name>MT_Month__c</name>
+    </fields>
+    <fields>
+        <label><!-- Order Type --></label>
+        <name>MT_OrderType__c</name>
+        <picklistValues>
+            <masterLabel>Overbooking</masterLabel>
+            <translation><!-- Overbooking --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sponsoring</masterLabel>
+            <translation><!-- Sponsoring --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spot</masterLabel>
+            <translation><!-- Spot --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- ProSa Order ID --></label>
+        <name>MT_ProSaOrderID__c</name>
+    </fields>
+    <fields>
+        <label><!-- TV Sender Name --></label>
+        <name>MT_SenderName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sender Number --></label>
+        <name>MT_SenderNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>MT_Status__c</name>
+        <picklistValues>
+            <masterLabel>Error</masterLabel>
+            <translation><!-- Error --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Timeslot --></label>
+        <name>MT_Timeslot__c</name>
+        <picklistValues>
+            <masterLabel>1.[06-09]</masterLabel>
+            <translation><!-- 1.[06-09] --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2.[09-13]</masterLabel>
+            <translation><!-- 2.[09-13] --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.[13-17]</masterLabel>
+            <translation><!-- 3.[13-17] --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.[17-20]</masterLabel>
+            <translation><!-- 4.[17-20] --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5.[20-23]</masterLabel>
+            <translation><!-- 5.[20-23] --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6.[23-01]</masterLabel>
+            <translation><!-- 6.[23-01] --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7.[01-06]</masterLabel>
+            <translation><!-- 7.[01-06] --></translation>
+        </picklistValues>
+    </fields>
+    <nameFieldLabel><!-- Media Broadcast Import Data Name --></nameFieldLabel>
+    <startsWith><!-- Consonant --></startsWith>
+    <validationRules>
+        <errorMessage>Please enter a value &gt;= 0 in MB1 or MB3.</errorMessage>
+        <name>MT_BC_ImportData_EmptyBrutVolume</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Please enter a campaign id.</errorMessage>
+        <name>MT_BC_ImportData_EmptyCampaignId</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Please enter a channel name.</errorMessage>
+        <name>MT_BC_ImportData_EmptyChannelName</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Please enter a channel number.</errorMessage>
+        <name>MT_BC_ImportData_EmptyChannelNumber</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Please enter a month.</errorMessage>
+        <name>MT_BC_ImportData_EmptyMonth</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Please enter a value &gt;= 0.</errorMessage>
+        <name>MT_BC_ImportData_EmptyNetVolume</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Please enter a ProSa order number.</errorMessage>
+        <name>MT_BC_ImportData_EmptyProSaOrderId</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Please enter a value &gt;= 0.</errorMessage>
+        <name>MT_BC_ImportData_InvalidMB1Volume</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Please enter a value &gt;= 0.</errorMessage>
+        <name>MT_BC_ImportData_InvalidMB3Volume</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>The year exceed the allowed range 2015 - 2099.</errorMessage>
+        <name>MT_BC_ImportData_InvalidMonth</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Unknown timeslot.</errorMessage>
+        <name>MT_BC_ImportData_InvalidTimeslot</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- MT_StartTransformation --></label>
+        <name>MT_StartTransformation</name>
+    </webLinks>
+</CustomObjectTranslation>

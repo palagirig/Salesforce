@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>ProSa Order</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>ProSa Orders</value>
+    </caseValues>
+    <fields>
+        <label><!-- Media Campaign --></label>
+        <name>MT_MediaCampaign_ref__c</name>
+        <relationshipLabel><!-- ProSa Orders --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Order Number --></label>
+        <name>MT_OrderNumber__c</name>
+    </fields>
+    <gender>Neuter</gender>
+    <layouts>
+        <layout>ProSa Order Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Overbooking Order --></label>
+        <name>OverbookingOrder</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Sponsoring Order --></label>
+        <name>SponsoringOrder</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Spot Order --></label>
+        <name>SpotOrder</name>
+    </recordTypes>
+</CustomObjectTranslation>

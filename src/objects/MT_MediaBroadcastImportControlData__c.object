@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Media Broadcast Import Control Data object will have a single record summarizing the total number of records and their value totals for each of the data load by external integrating system</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableChangeDataCapture>false</enableChangeDataCapture>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>false</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Import_Date_Unique__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <description>To maintain a single record per day</description>
+        <externalId>false</externalId>
+        <label>Import Date Unique</label>
+        <length>10</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>MT_ImportDate__c</fullName>
+        <externalId>false</externalId>
+        <label>Import Date</label>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>MT_RecordCount__c</fullName>
+        <externalId>false</externalId>
+        <label>Record Count</label>
+        <precision>18</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>MT_SumMB1__c</fullName>
+        <externalId>false</externalId>
+        <label>Sum MB1</label>
+        <precision>18</precision>
+        <required>true</required>
+        <scale>4</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>MT_SumMB3__c</fullName>
+        <externalId>false</externalId>
+        <label>Sum MB3</label>
+        <precision>18</precision>
+        <required>true</required>
+        <scale>4</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>MT_SumMN3__c</fullName>
+        <externalId>false</externalId>
+        <label>Sum MN3</label>
+        <precision>18</precision>
+        <required>true</required>
+        <scale>4</scale>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <label>Media Broadcast Import Control Data</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>MT_ImportDate__c</columns>
+        <columns>MT_RecordCount__c</columns>
+        <columns>MT_SumMB1__c</columns>
+        <columns>MT_SumMB3__c</columns>
+        <columns>MT_SumMN3__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <columns>LAST_UPDATE</columns>
+        <filterScope>Everything</filterScope>
+        <label>Maxim</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>maxim3</fullName>
+        <columns>NAME</columns>
+        <columns>OBJECT_ID</columns>
+        <columns>MT_ImportDate__c</columns>
+        <columns>Import_Date_Unique__c</columns>
+        <columns>MT_RecordCount__c</columns>
+        <columns>MT_SumMB1__c</columns>
+        <columns>MT_SumMB3__c</columns>
+        <columns>MT_SumMN3__c</columns>
+        <columns>OWNER.FIRST_NAME</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>UPDATEDBY_USER.ALIAS</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <columns>LAST_UPDATE</columns>
+        <filterScope>Everything</filterScope>
+        <label>maxim3</label>
+        <language>de</language>
+    </listViews>
+    <nameField>
+        <displayFormat>DIM-{0000000000}</displayFormat>
+        <label>Data Import Thread ID</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Media Broadcast Import Control Data</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>MT_ImportDate__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>MT_RecordCount__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>MT_SumMB1__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>MT_SumMB3__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>MT_SumMN3__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CREATEDBY_USER</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CREATED_DATE</customTabListAdditionalFields>
+        <customTabListAdditionalFields>LAST_UPDATE</customTabListAdditionalFields>
+        <searchResultsAdditionalFields>MT_ImportDate__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>MT_RecordCount__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>MT_SumMB1__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>MT_SumMB3__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>MT_SumMN3__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CREATEDBY_USER</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CREATED_DATE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>LAST_UPDATE</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
+    <validationRules>
+        <fullName>MT_BroadcastImportControlData_validation</fullName>
+        <active>true</active>
+        <description>Broadcast Import Control Data validation rules</description>
+        <errorConditionFormula>NOT(MT_ImportDate__c =  TODAY())</errorConditionFormula>
+        <errorDisplayField>MT_ImportDate__c</errorDisplayField>
+        <errorMessage>Importdate is not the current day.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>MT_RecordCount_Validation</fullName>
+        <active>true</active>
+        <description>Record count should not be empty or less than 0</description>
+        <errorConditionFormula>MT_RecordCount__c &lt; 0</errorConditionFormula>
+        <errorDisplayField>MT_RecordCount__c</errorDisplayField>
+        <errorMessage>Record Count is empty or &lt; 0</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Sum_MB1_Validation</fullName>
+        <active>true</active>
+        <description>Sum of MB1 should not be empty or less than 0</description>
+        <errorConditionFormula>MT_SumMB1__c &lt; 0</errorConditionFormula>
+        <errorDisplayField>MT_SumMB1__c</errorDisplayField>
+        <errorMessage>Sum of MB1 is empty or &lt; 0</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Sum_MB3_Validation</fullName>
+        <active>true</active>
+        <description>Sum of MB3 should not be empty or less than 0</description>
+        <errorConditionFormula>MT_SumMB3__c &lt; 0</errorConditionFormula>
+        <errorDisplayField>MT_SumMB3__c</errorDisplayField>
+        <errorMessage>Sum of MB3 is empty or &lt; 0</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Sum_MN3_Validation</fullName>
+        <active>true</active>
+        <description>Sum of MN3 should not be empty or less than 0</description>
+        <errorConditionFormula>MT_SumMN3__c &lt; 0</errorConditionFormula>
+        <errorDisplayField>MT_SumMN3__c</errorDisplayField>
+        <errorMessage>Sum of MN3 is empty or &lt; 0</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

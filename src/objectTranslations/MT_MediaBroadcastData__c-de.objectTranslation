@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Media Broadcast Data</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Media Broadcast Data</value>
+    </caseValues>
+    <fields>
+        <label><!-- BMV --></label>
+        <name>MT_BMV__c</name>
+    </fields>
+    <fields>
+        <label>Ausstrahlungstyp</label>
+        <name>MT_BroadcastType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Import Date --></label>
+        <name>MT_LastImportDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- MN3 --></label>
+        <name>MT_MN3__c</name>
+    </fields>
+    <fields>
+        <label>Monatsplan</label>
+        <name>MT_MonthlyPlan_ref__c</name>
+        <relationshipLabel>Ausstrahlungsdaten</relationshipLabel>
+    </fields>
+    <fields>
+        <label>ProSa-Auftragstyp</label>
+        <name>MT_ProSaOrder_Type__c</name>
+    </fields>
+    <fields>
+        <label>ProSa-Auftrag</label>
+        <name>MT_ProSaOrder_ref__c</name>
+        <relationshipLabel>Ausstrahlungsdaten</relationshipLabel>
+    </fields>
+    <fields>
+        <label>Zeitschiene</label>
+        <name>MT_Timeslot__c</name>
+    </fields>
+    <fields>
+        <label>TV-Sender (Name)</label>
+        <name>MT_TvSenderName__c</name>
+    </fields>
+    <fields>
+        <label>TV-Sender (Nummer)</label>
+        <name>MT_TvSenderNumber__c</name>
+    </fields>
+    <gender>Neuter</gender>
+    <layouts>
+        <layout>Daily Media Broadcast Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

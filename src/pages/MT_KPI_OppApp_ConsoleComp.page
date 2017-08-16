@@ -1,0 +1,61 @@
+<apex:page standardController="P7S1_OpportunityApproval__c" showHeader="false" standardStylesheets="false" sidebar="false" applyHtmlTag="false" applyBodyTag="false" docType="html-5.0">
+    <style>
+        body{
+            background-color: white;
+            margin: 0px;
+        }   
+    </style>
+    
+    <html xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" lang="en">
+        <head>
+            <meta charset="utf-8" />
+            <meta http-equiv="x-ua-compatible" content="ie=edge" />
+            <title>{!$Label.MT_KPI_OppApp_Title}</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
+            <apex:stylesheet value="{!URLFOR($Resource.p7s1_slds_w17, 'assets/styles/salesforce-lightning-design-system-vf.min.css')}" />
+        </head>
+        <body style="">
+            <div class="p7s1">
+                <div >
+                    <!-- Grid for Campaign Information -->
+                    <div class="slds-grid slds-p-around--xx-small">
+                        <div class="slds-col slds-size--1-of-6">
+                            <div class="  slds-text-align--center">
+                                <p class="slds-text-title slds-truncate">{!$Label.MT_KPI_OppApp_BmvTVCustomer}</p>
+                                <p class="slds-text-body--regular slds-truncate"><apex:outputField value="{!P7S1_OpportunityApproval__c.P7S1_BmvTvCustomerIntegration__c}"/></p>                       
+                            </div>
+                        </div>
+                        
+                        <div class="slds-col slds-size--1-of-6">
+                            <div class="  slds-text-align--center">
+                                <p class="slds-text-title slds-truncate">{!$Label.MT_KPI_OppApp_SpotRatioAsset}</p>
+                                <p class="slds-text-body--regular slds-truncate"><apex:outputText value="{!TEXT(100 - P7S1_OpportunityApproval__c.P7S1_SpotKundenintegrationsanteil__c)}%"/></p>
+                            </div>
+                        </div>
+                        
+                        <div class="slds-col slds-size--1-of-6">
+                            <div class="  slds-text-align--center">
+                                <p class="slds-text-title slds-truncate">{!$Label.MT_KPI_OppApp_SpotRatioCustomer}</p>
+                                <p class="slds-text-body--regular slds-truncate"><apex:outputField value="{!P7S1_OpportunityApproval__c.P7S1_SpotKundenintegrationsanteil__c}"/></p>                            
+                            </div>
+                        </div>
+                        
+                        <div class="slds-col slds-size--1-of-6">
+                            <div class="  slds-text-align--center">
+                                <p class="slds-text-title slds-truncate">{!$Label.MT_KPI_OppApp_SpotLengthTotal}</p>
+                                <p class="slds-text-body--regular slds-truncate"><apex:outputField value="{!P7S1_OpportunityApproval__c.P7S1_TvSpotLength__c}"/></p>                        
+                            </div>
+                        </div>
+                        
+                        <div class="slds-col slds-size--1-of-6">
+                            <div class="  slds-text-align--center">
+                                <p class="slds-text-title slds-truncate">{!$Label.MT_KPI_OppApp_SpotLengthCustomer}</p>
+                                <p class="slds-text-body--regular slds-truncate"><apex:outputField value="{!P7S1_OpportunityApproval__c.P7S1_TvSpotLengthCustomer__c}"/></p>                   
+                            </div>
+                        </div>
+                    </div>
+				</div>
+            </div>
+        </body>
+    </html>
+</apex:page>

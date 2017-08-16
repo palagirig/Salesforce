@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Media Transparency Campaign Import Data</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Media Transparency Campaign Import Data</value>
+    </caseValues>
+    <fields>
+        <label><!-- Campaign ID --></label>
+        <name>MT_CampaignId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Campaign Name --></label>
+        <name>MT_CampaignName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Salesforce ID --></label>
+        <name>MT_OpportunitySalesforceId__c</name>
+    </fields>
+    <gender>Neuter</gender>
+    <layouts>
+        <layout>Media Transparency Campaign Import Data Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Data --></label>
+            <section>Data</section>
+        </sections>
+        <sections>
+            <label><!-- References --></label>
+            <section>References</section>
+        </sections>
+    </layouts>
+    <webLinks>
+        <label><!-- MT_StartTransformation --></label>
+        <name>MT_StartTransformation</name>
+    </webLinks>
+</CustomObjectTranslation>

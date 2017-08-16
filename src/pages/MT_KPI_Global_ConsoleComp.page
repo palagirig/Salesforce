@@ -1,0 +1,110 @@
+<apex:page standardController="MT_MediaCampaign__c" extensions="MT_KPI_Controller" showHeader="false" standardStylesheets="false" sidebar="false" applyHtmlTag="false" applyBodyTag="false" docType="html-5.0">
+    <style>
+
+        #progressbar {
+        background-color: #f4f6f9;
+
+        padding: 1.5px;
+        }
+        #progressbar > div {
+        background-color: #57A87D;
+        width: {!context.var['progressBarPercentage']}%; /* Adjust with JavaScript */
+        height: 16px;
+
+        }
+        body{
+            background-color: white;
+            margin: 0px;
+        }
+    </style>
+
+    <html xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" lang="en">
+        <head>
+            <meta charset="utf-8" />
+            <meta http-equiv="x-ua-compatible" content="ie=edge" />
+            <title>{!$Label.MT_KPI_Global_Title}</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
+            <apex:stylesheet value="{!URLFOR($Resource.p7s1_slds_w17, 'assets/styles/salesforce-lightning-design-system-vf.min.css')}" />
+        </head>
+        <body style="">
+            <div class="p7s1">
+                <div >
+                    <!-- Grid for Campaign Information -->
+                    <div class="slds-grid slds-has-divider--bottom slds-p-around--xx-small">
+
+                        <div class="slds-col slds-size--1-of-6">
+                            <div class="  slds-text-align--center">
+                                <p class="slds-text-title slds-truncate ">{!$Label.MT_KPI_Global_AccountName}</p>
+                                <p class="slds-text-body--regular slds-truncate"><apex:outputField value="{!MT_MediaCampaign__c.MT_Opportunity_ref__r.Account.Name}"/></p>
+                            </div>
+                        </div>
+
+                        <div class="slds-col slds-size--1-of-6">
+                            <div class="  slds-text-align--center">
+                                <p class="slds-text-title slds-truncate ">{!$Label.MT_KPI_Global_AssetName}</p>
+                                <p class="slds-text-body--regular slds-truncate">
+                                <apex:outputField value="{!MT_MediaCampaign__c.MT_OpportunityApproval_ref__r.MT_Asset_ref__r.Name}" rendered="{!MT_MediaCampaign__c.MT_OpportunityApproval_ref__r.MT_Asset_ref__c != null}"/>
+                                <apex:outputField value="{!MT_MediaCampaign__c.MT_OpportunityApproval_ref__r.P7S1_internerPartner__c}" rendered="{!MT_MediaCampaign__c.MT_OpportunityApproval_ref__r.MT_Asset_ref__c == null}"/></p>
+                            </div>
+                        </div>
+
+                        <div class="slds-col slds-size--1-of-6">
+                            <div class="  slds-text-align--center">
+                                <p class="slds-text-title slds-truncate ">{!$Label.MT_KPI_Global_RuntimeTVStart}</p>
+                                <p class="slds-text-body--regular slds-truncate"><apex:outputField value="{!MT_MediaCampaign__c.MT_RunTimeTVStart__c}"/></p>
+                            </div>
+                        </div>
+
+                        <div class="slds-col slds-size--1-of-6">
+                            <div class="  slds-text-align--center">
+                                <p class="slds-text-title slds-truncate ">{!$Label.MT_KPI_Global_RuntimeTVEnd}</p>
+                                <p class="slds-text-body--regular slds-truncate"><apex:outputField value="{!MT_MediaCampaign__c.MT_RunTimeTVEnd__c}"/></p>
+                            </div>
+                        </div>
+
+                        <div class="slds-col slds-size--1-of-6">
+                            <div class="  slds-text-align--center">
+                                <p class="slds-text-title slds-truncate ">{!$Label.MT_KPI_Global_CampaignType}</p>
+                                <p class="slds-text-body--regular slds-truncate"><apex:outputField value="{!MT_MediaCampaign__c.MT_Type__c}"/></p>
+                            </div>
+                        </div>
+
+                        <div class="slds-col slds-size--1-of-6">
+                            <div class="  slds-text-align--center">
+                                <p class="slds-text-title slds-truncate ">{!$Label.MT_KPI_Global_CampaignStatus}</p>
+                                <p class="slds-text-body--regular slds-truncate"><apex:outputField value="{!MT_MediaCampaign__c.MT_Status__c}"/></p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Grid for Baustein Data -->
+                    <div class="slds-grid slds-p-around--xx-small">
+                        <div class="slds-col slds-size--1-of-6">
+                            <div class="  slds-text-align--center">
+                                <p class="slds-text-title slds-truncate ">{!$Label.MT_KPI_Global_BmvTVActuals}</p>
+                                <p class="slds-text-body--regular slds-truncate"><apex:outputField value="{!MT_MediaCampaign__c.MT_ActualMonthlyBMV_sum__c}"/></p>
+                            </div>
+                        </div>
+
+                        <div class="slds-col slds-size--4-of-6">
+                            <div class="  slds-text-align--center">
+                                <p class="slds-text-title slds-truncate ">{!$Label.MT_KPI_Global_ContractualPerformance}</p>
+                                <div id="progressbar">
+                                    <div></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="slds-col slds-size--1-of-6">
+                            <div class="  slds-text-align--center">
+                                <p class="slds-text-title slds-truncate ">{!$Label.MT_KPI_Global_BmvTVContractual}</p>
+                                <p class="slds-text-body--regular slds-truncate"><apex:outputField value="{!MT_MediaCampaign__c.MT_BmvTv__c}"/></p>
+                            </div>
+                        </div>
+                    </div>
+            	</div>
+            </div>
+        </body>
+    </html>
+</apex:page>

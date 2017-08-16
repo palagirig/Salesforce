@@ -1,0 +1,1466 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Opportunity Approval</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Opportunity Approvals</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Opportunity Freigaben --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Internal Partner (Asset)</label>
+        <name>MT_Asset_ref__c</name>
+        <relationshipLabel><!-- Opportunity Freigaben --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Contract Enddate --></label>
+        <name>MT_ContractEnddate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contract Startdate --></label>
+        <name>MT_ContractStartdate__c</name>
+    </fields>
+    <fields>
+        <label>Fixed Monthly Revenue</label>
+        <name>MT_FixRevenue_MonthlyPayment__c</name>
+    </fields>
+    <fields>
+        <label>Fixed Revenue Type</label>
+        <name>MT_FixRevenue_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- monatliches Schieberecht --></label>
+        <name>MT_MonthlyShiftingRight_Asset__c</name>
+    </fields>
+    <fields>
+        <label>Runtime Digital End</label>
+        <name>MT_RunTimeDigitalEnd__c</name>
+    </fields>
+    <fields>
+        <label>Runtime Digital Start</label>
+        <name>MT_RunTimeDigitalStart__c</name>
+    </fields>
+    <fields>
+        <label>Runtime DooH End</label>
+        <name>MT_RunTimeDooHEnd__c</name>
+    </fields>
+    <fields>
+        <label>Runtime DooH Start</label>
+        <name>MT_RunTimeDooHStart__c</name>
+    </fields>
+    <fields>
+        <label>Runtime TV End</label>
+        <name>MT_RunTimeTVEnd__c</name>
+    </fields>
+    <fields>
+        <label>Runtime TV Start</label>
+        <name>MT_RunTimeTVStart__c</name>
+    </fields>
+    <fields>
+        <label><!-- SLM laut Vertrag --></label>
+        <name>MT_SLMAccordingToContract__c</name>
+        <picklistValues>
+            <masterLabel>Bronze</masterLabel>
+            <translation><!-- Bronze --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gold</masterLabel>
+            <translation><!-- Gold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Platin</masterLabel>
+            <translation><!-- Platin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Silber</masterLabel>
+            <translation><!-- Silber --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- SLM nach Yield --></label>
+        <name>MT_SLMAfterYield__c</name>
+        <picklistValues>
+            <masterLabel>Bronze</masterLabel>
+            <translation><!-- Bronze --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gold</masterLabel>
+            <translation><!-- Gold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Platin</masterLabel>
+            <translation><!-- Platin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Silber</masterLabel>
+            <translation><!-- Silber --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- SLM Abweichung --></label>
+        <name>MT_SLMDifference__c</name>
+    </fields>
+    <fields>
+        <label><!-- MT_Sys_ApprovalSubmittedFromCampaign --></label>
+        <name>MT_Sys_ApprovalSubmittedFromCampaign__c</name>
+    </fields>
+    <fields>
+        <label>Var. Revenue 1 - Revenue per Unit</label>
+        <name>MT_VariableRevenue1_RevenuePerUnit__c</name>
+    </fields>
+    <fields>
+        <label>Var. Revenue 1 - Sold Amount</label>
+        <name>MT_VariableRevenue1_SoldAmount__c</name>
+    </fields>
+    <fields>
+        <label>Var. Revenue 1 - Sold Product</label>
+        <name>MT_VariableRevenue1_SoldProduct__c</name>
+    </fields>
+    <fields>
+        <label>Var. Revenue 1 - Sold Unit</label>
+        <name>MT_VariableRevenue1_SoldUnit__c</name>
+    </fields>
+    <fields>
+        <label>Var. Revenue 1 - Total Revenue</label>
+        <name>MT_VariableRevenue1_TotalRevenue__c</name>
+    </fields>
+    <fields>
+        <label>Var. Revenue 2 - Revenue per Unit</label>
+        <name>MT_VariableRevenue2_RevenuePerUnit__c</name>
+    </fields>
+    <fields>
+        <label>Var. Revenue 2 - Sold Amount</label>
+        <name>MT_VariableRevenue2_SoldAmount__c</name>
+    </fields>
+    <fields>
+        <label>Var. Revenue 2 - Sold Product</label>
+        <name>MT_VariableRevenue2_SoldProduct__c</name>
+    </fields>
+    <fields>
+        <label>Var. Revenue 2 - Sold Unit</label>
+        <name>MT_VariableRevenue2_SoldUnit__c</name>
+    </fields>
+    <fields>
+        <label>Var. Revenue 2 - Total Revenue</label>
+        <name>MT_VariableRevenue2_TotalRevenue__c</name>
+    </fields>
+    <fields>
+        <label>Var. Revenue 3 - Revenue per Unit</label>
+        <name>MT_VariableRevenue3_RevenuePerUnit__c</name>
+    </fields>
+    <fields>
+        <label>Var. Revenue 3 - Sold Amount</label>
+        <name>MT_VariableRevenue3_SoldAmount__c</name>
+    </fields>
+    <fields>
+        <label>Var. Revenue 3 - Sold Product</label>
+        <name>MT_VariableRevenue3_SoldProduct__c</name>
+    </fields>
+    <fields>
+        <label>Var. Revenue 3 - Sold Unit</label>
+        <name>MT_VariableRevenue3_SoldUnit__c</name>
+    </fields>
+    <fields>
+        <label>Var. Revenue 3 - Total Revenue</label>
+        <name>MT_VariableRevenue3_TotalRevenue__c</name>
+    </fields>
+    <fields>
+        <label>Var. Revenue 4 - Revenue per Unit</label>
+        <name>MT_VariableRevenue4_RevenuePerUnit__c</name>
+    </fields>
+    <fields>
+        <label>Var. Revenue 4 - Sold Amount</label>
+        <name>MT_VariableRevenue4_SoldAmount__c</name>
+    </fields>
+    <fields>
+        <label>Var. Revenue 4 - Sold Product</label>
+        <name>MT_VariableRevenue4_SoldProduct__c</name>
+    </fields>
+    <fields>
+        <label>Var. Revenue 4 - Sold Unit</label>
+        <name>MT_VariableRevenue4_SoldUnit__c</name>
+    </fields>
+    <fields>
+        <label>Var. Revenue 4 - Total Revenue</label>
+        <name>MT_VariableRevenue4_TotalRevenue__c</name>
+    </fields>
+    <fields>
+        <label>Var. Revenue 5 - Revenue per Unit</label>
+        <name>MT_VariableRevenue5_RevenuePerUnit__c</name>
+    </fields>
+    <fields>
+        <label>Var. Revenue 5 - Sold Amount</label>
+        <name>MT_VariableRevenue5_SoldAmount__c</name>
+    </fields>
+    <fields>
+        <label>Var. Revenue 5 - Sold Product</label>
+        <name>MT_VariableRevenue5_SoldProduct__c</name>
+    </fields>
+    <fields>
+        <label>Var. Revenue 5 - Sold Unit</label>
+        <name>MT_VariableRevenue5_SoldUnit__c</name>
+    </fields>
+    <fields>
+        <label>Var. Revenue 5 - Total Revenue</label>
+        <name>MT_VariableRevenue5_TotalRevenue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Variable Revenue Total --></label>
+        <name>MT_VariableRevenue_Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- Variable Yield Type --></label>
+        <name>MT_Variable_Yield_Type__c</name>
+        <picklistValues>
+            <masterLabel>Revenue Share</masterLabel>
+            <translation><!-- Revenue Share --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- jährliches Schieberecht --></label>
+        <name>MT_YearlyShiftingRight_Asset__c</name>
+    </fields>
+    <fields>
+        <help><!-- Copy of Account owner Unit for use with Sharing --></help>
+        <label>Account Owner Unit (From User)</label>
+        <name>P7S1_AccountOwnerUnitCopy__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Owner Unit --></label>
+        <name>P7S1_AccountOwnerUnit__c</name>
+    </fields>
+    <fields>
+        <label>Account Owner</label>
+        <name>P7S1_AccountOwner__c</name>
+        <relationshipLabel><!-- Opportunity Approvals (Account Owner) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Account Name --></label>
+        <name>P7S1_Accountname__c</name>
+    </fields>
+    <fields>
+        <help><!-- Anzahl der Ad Impressions --></help>
+        <label><!-- Ad Impressions --></label>
+        <name>P7S1_AdImpressions__c</name>
+    </fields>
+    <fields>
+        <label>Notes from Approver</label>
+        <name>P7S1_AnnotationApprover__c</name>
+    </fields>
+    <fields>
+        <label>Approval Status</label>
+        <name>P7S1_ApprovalState__c</name>
+        <picklistValues>
+            <masterLabel>Abgelehnt</masterLabel>
+            <translation><!-- Abgelehnt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Eingereicht</masterLabel>
+            <translation><!-- Eingereicht --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Genehmigt</masterLabel>
+            <translation><!-- Genehmigt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Diskussion</masterLabel>
+            <translation><!-- In Diskussion --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label>71M DSB Approved</label>
+        <name>P7S1_Approved71MDSB__c</name>
+    </fields>
+    <fields>
+        <label>Account Owner Approved</label>
+        <name>P7S1_ApprovedAccOwner__c</name>
+    </fields>
+    <fields>
+        <label>Barter Approved</label>
+        <name>P7S1_ApprovedBarter__c</name>
+    </fields>
+    <fields>
+        <label>Media Board Approved</label>
+        <name>P7S1_ApprovedMediaboard__c</name>
+    </fields>
+    <fields>
+        <label>BMV (DooH - Weighted)</label>
+        <name>P7S1_BMVDooHGewichtet__c</name>
+    </fields>
+    <fields>
+        <help><!-- Brutto Volumen Digital out of Home --></help>
+        <label>BMV (DooH)</label>
+        <name>P7S1_BMVDooH__c</name>
+    </fields>
+    <fields>
+        <help><!-- Unterjährige Erhöhung des freigegebenen TV BMVs. On-top Budget muss durch den Ressortvorstand, das Media Board und das Executive Board freigegeben werden. --></help>
+        <label>BMV on top to budget</label>
+        <name>P7S1_BMVOnTopZuBudget__c</name>
+    </fields>
+    <fields>
+        <label><!-- Barter (Copy) --></label>
+        <name>P7S1_BarterCopy__c</name>
+    </fields>
+    <fields>
+        <help><!-- Rahmenfreigabe: bitte aus dem zur Verfügung stehenden Excel Sheet die entsprechende qualitative Rahmenfreigabe kopieren.
+
+Keine Rahmenfreigabe: die entsprechende schriftliche Freigabe des CCO Boards ist anzuhängen. --></help>
+        <label>CCO Frame Approval Description</label>
+        <name>P7S1_BeschreibungCCORahmenfreigabe__c</name>
+    </fields>
+    <fields>
+        <label>DooH Description</label>
+        <name>P7S1_BeschreibungDooH__c</name>
+    </fields>
+    <fields>
+        <label>Equity Description</label>
+        <name>P7S1_BeschreibungEquity__c</name>
+    </fields>
+    <fields>
+        <label>Fill Up Description</label>
+        <name>P7S1_BeschreibungFillUp__c</name>
+    </fields>
+    <fields>
+        <help><!-- Rahmenfreigabe: bitte aus dem zur Verfügung stehenden Excel Sheet die entsprechende quantitative Rahmenfreigabe kopieren. --></help>
+        <label>Frame Approval Media Board Description</label>
+        <name>P7S1_BeschreibungRahmenfreigabeMB__c</name>
+    </fields>
+    <fields>
+        <label>Fix Revenue Weighted (MN3)</label>
+        <name>P7S1_BetragMn3FixGewichtet__c</name>
+    </fields>
+    <fields>
+        <label>Fix Revenue (MN3)</label>
+        <name>P7S1_BetragMn3Fix__c</name>
+    </fields>
+    <fields>
+        <label>BMV (Digital - Weighted)</label>
+        <name>P7S1_BmvDigitalGewichtet__c</name>
+    </fields>
+    <fields>
+        <help><!-- Brutto Media Volumen Digital Werbung --></help>
+        <label>BMV (Digital)</label>
+        <name>P7S1_BmvDigital__c</name>
+    </fields>
+    <fields>
+        <label>BMV (Total - Weighted)</label>
+        <name>P7S1_BmvTotalFixGewichtet__c</name>
+    </fields>
+    <fields>
+        <help><!-- Gesamt Brutto Media Volumen
+(BMV gesamt TV + BMV Digital +  Brutto Barter Volumen + BMV D&amp;A Digital + BMV DooH) --></help>
+        <label>BMV (Total)</label>
+        <name>P7S1_BmvTotalFix__c</name>
+    </fields>
+    <fields>
+        <label>BMV (TV - Customer - Weighted)</label>
+        <name>P7S1_BmvTvCustomerIntegrationGewichtet__c</name>
+    </fields>
+    <fields>
+        <help><!-- Brutto Media Volumen des Kunden TV Werbeanteils --></help>
+        <label>BMV (TV - Customer)</label>
+        <name>P7S1_BmvTvCustomerIntegration__c</name>
+    </fields>
+    <fields>
+        <label>BMV (TV - Weighted)</label>
+        <name>P7S1_BmvTvGewichtet__c</name>
+    </fields>
+    <fields>
+        <help><!-- Brutto Media Volumen TV Gesamt --></help>
+        <label>BMV (TV)</label>
+        <name>P7S1_BmvTv__c</name>
+    </fields>
+    <fields>
+        <label>BMV (D&amp;A Digital - Weighted)</label>
+        <name>P7S1_Bmv_DandADigitalGewichtet__c</name>
+    </fields>
+    <fields>
+        <help><!-- Brutto Media Volumen D&amp;A Digitale Werbefläche (D&amp;A Assets) --></help>
+        <label>BMV (D&amp;A Digital)</label>
+        <name>P7S1_Bmv_DandADigital__c</name>
+    </fields>
+    <fields>
+        <help><!-- Fallen die qualitativen Kriterien unter die bestehenden CCO Board Rahmenfreigaben? --></help>
+        <label>CCO Approval</label>
+        <name>P7S1_CCOFreigabe__c</name>
+        <picklistValues>
+            <masterLabel>Rahmenfreigabe</masterLabel>
+            <translation><!-- Rahmenfreigabe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>keine Rahmenfreigabe</masterLabel>
+            <translation><!-- keine Rahmenfreigabe --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- MN3 TV Kundenintegration / BMV TV Kundenintegration --></help>
+        <label>Yield TV (Customer)</label>
+        <name>P7S1_CashYieldTvCustomerIntegration__c</name>
+    </fields>
+    <fields>
+        <label>Cash Payment</label>
+        <name>P7S1_CashZahlung__c</name>
+    </fields>
+    <fields>
+        <help><!-- Beschreibung Inhalte Medien-Baustein Barter --></help>
+        <label>Barter Description</label>
+        <name>P7S1_DescriptionBarter__c</name>
+    </fields>
+    <fields>
+        <help><!-- Beschreibung Inhalte D&amp;A Digitale Umsatzanteile --></help>
+        <label>D&amp;A Digital Revenue Parts Description</label>
+        <name>P7S1_DescriptionDandA__c</name>
+    </fields>
+    <fields>
+        <help><!-- Beschreibung Inhalte Medien-Baustein Digital --></help>
+        <label>Digital Description</label>
+        <name>P7S1_DescriptionDigital__c</name>
+    </fields>
+    <fields>
+        <help><!-- Beschreibung Inhalte sonstige Umsatzanteile --></help>
+        <label>Other Revenue Parts Description</label>
+        <name>P7S1_DescriptionOtherRevenue__c</name>
+    </fields>
+    <fields>
+        <help><!-- Beschreibung Inhalte Medien-Baustein TV --></help>
+        <label>TV Description</label>
+        <name>P7S1_DescriptionTv__c</name>
+    </fields>
+    <fields>
+        <help><!-- Beschreibung Inhalte des variablen Umsatzanteils und Hintergründe zu deren Kalkulationsbasis --></help>
+        <label>Variable Revenue Description</label>
+        <name>P7S1_DescriptionVariableRevenue__c</name>
+    </fields>
+    <fields>
+        <label>Notes from Requester</label>
+        <name>P7S1_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Digital (Copy) --></label>
+        <name>P7S1_DigitalCopy__c</name>
+    </fields>
+    <fields>
+        <label><!-- DooH (7Screen) (Copy) --></label>
+        <name>P7S1_DooH7ScreenCopy__c</name>
+    </fields>
+    <fields>
+        <label>Equity Book Value</label>
+        <name>P7S1_EigenerBuchwertinEUR__c</name>
+    </fields>
+    <fields>
+        <label>Own Share</label>
+        <name>P7S1_EigenerShare__c</name>
+    </fields>
+    <fields>
+        <label><!-- Equity Yield --></label>
+        <name>P7S1_EquityYield__c</name>
+    </fields>
+    <fields>
+        <label>Exit Participation Description</label>
+        <name>P7S1_ExitParticipationBeschreibung__c</name>
+    </fields>
+    <fields>
+        <label>Exit Participation Revenue</label>
+        <name>P7S1_ExitParticipationBetrag__c</name>
+    </fields>
+    <fields>
+        <label><!-- Exit Participation --></label>
+        <name>P7S1_ExitParticipation__c</name>
+    </fields>
+    <fields>
+        <label>Fixed Placement (Weighted)</label>
+        <name>P7S1_FestplatzierungGewichtet__c</name>
+    </fields>
+    <fields>
+        <label>Fixed Placement</label>
+        <name>P7S1_Festplatzierung__c</name>
+    </fields>
+    <fields>
+        <label>Fill Up Revenue</label>
+        <name>P7S1_FillUpBetrag__c</name>
+    </fields>
+    <fields>
+        <label>Fill Up</label>
+        <name>P7S1_FillUp__c</name>
+    </fields>
+    <fields>
+        <label>Brut Barter Volume (Weighted)</label>
+        <name>P7S1_GrossBarterVolumeGewichtet__c</name>
+    </fields>
+    <fields>
+        <help><!-- Brutto Barter Volumen auf deren Basis Gegenleistungen definiert werden --></help>
+        <label>Brut Barter Volume</label>
+        <name>P7S1_GrossBarterVolume__c</name>
+    </fields>
+    <fields>
+        <label><!-- DooH (7Screen) --></label>
+        <name>P7S1_HasDooH7Screen__c</name>
+    </fields>
+    <fields>
+        <label><!-- Barter --></label>
+        <name>P7S1_HasMediaBarter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Digital (71M) --></label>
+        <name>P7S1_HasMediaDigital__c</name>
+    </fields>
+    <fields>
+        <label>License</label>
+        <name>P7S1_HasMediaLizenz__c</name>
+    </fields>
+    <fields>
+        <label>Part Barter</label>
+        <name>P7S1_HasMediaPartBarter__c</name>
+    </fields>
+    <fields>
+        <label><!-- TV --></label>
+        <name>P7S1_HasMediaTV__c</name>
+    </fields>
+    <fields>
+        <label>MN3 DooH (Weighted)</label>
+        <name>P7S1_MN3DooHGewichtet__c</name>
+    </fields>
+    <fields>
+        <label><!-- MN3 DooH --></label>
+        <name>P7S1_MN3DooH__c</name>
+    </fields>
+    <fields>
+        <label>MN3 Digital (Weighted)</label>
+        <name>P7S1_Mn3DigitalGewichtet__c</name>
+    </fields>
+    <fields>
+        <help><!-- Media Netto 3 Digital, Anteil der Display Werbung  (Betrag in EUR) vom MN3 Digital (gesamt) --></help>
+        <label>Thereof MN3 Display In Page</label>
+        <name>P7S1_Mn3DigitalInPage__c</name>
+    </fields>
+    <fields>
+        <help><!-- Media Netto 3 Digital Video Werbung, Anteil der Video Werbung (Betrag in EUR) vom MN3 Digital (gesamt) --></help>
+        <label>Thereof MN3 Video In Stream</label>
+        <name>P7S1_Mn3DigitalInStream__c</name>
+    </fields>
+    <fields>
+        <help><!-- Media Netto 3 Digital Werbung --></help>
+        <label><!-- MN3 Digital --></label>
+        <name>P7S1_Mn3Digital__c</name>
+    </fields>
+    <fields>
+        <label>Thereof MN3 In Page (Weighted)</label>
+        <name>P7S1_Mn3InPageGewichtet__c</name>
+    </fields>
+    <fields>
+        <help><!-- Media Netto 3 Digital, Anteil der Display Werbung  (Betrag in EUR) vom MN3 Digital (gesamt) --></help>
+        <label>Thereof MN3 In Page</label>
+        <name>P7S1_Mn3InPage__c</name>
+    </fields>
+    <fields>
+        <label>Thereof MN3 In Stram (Weighted)</label>
+        <name>P7S1_Mn3InStreamGewichtet__c</name>
+    </fields>
+    <fields>
+        <help><!-- Media Netto 3 Digital Video Werbung, Anteil der Video Werbung (Betrag in EUR) vom MN3 Digital (gesamt) --></help>
+        <label>Thereof MN3 In Stream</label>
+        <name>P7S1_Mn3InStream__c</name>
+    </fields>
+    <fields>
+        <label>MN3 (TV KI + Digital) (Weighted)</label>
+        <name>P7S1_Mn3TVKIplusDigitalGewichtet__c</name>
+    </fields>
+    <fields>
+        <label><!-- MN3 (TV KI + Digital) --></label>
+        <name>P7S1_Mn3TVKIplusDigital__c</name>
+    </fields>
+    <fields>
+        <label>MN3 TV (Customer - Weighted)</label>
+        <name>P7S1_Mn3TvCustomerIntegrationGewichtet__c</name>
+    </fields>
+    <fields>
+        <help><!-- Media Netto 3 des Kunden TV Werbeanteils --></help>
+        <label>MN3 TV (Customer)</label>
+        <name>P7S1_Mn3TvCustomerIntegration__c</name>
+    </fields>
+    <fields>
+        <label>MN3 D&amp;A Digital (Weighted)</label>
+        <name>P7S1_Mn3_DandADigitalGewichtet__c</name>
+    </fields>
+    <fields>
+        <help><!-- Media Netto 3 D&amp;A Digitale Werbefläche (D&amp;A Assets) --></help>
+        <label><!-- MN3 D&amp;A Digital --></label>
+        <name>P7S1_Mn3_DandADigital__c</name>
+    </fields>
+    <fields>
+        <label>Net Barter Volume (Weighted)</label>
+        <name>P7S1_NetBarterVolumeGewichtet__c</name>
+    </fields>
+    <fields>
+        <help><!-- Brutto Barter Volumen abzüglich Gegengeschäftsrabatt --></help>
+        <label>Net Barter Volume</label>
+        <name>P7S1_NetBarterVolume__c</name>
+    </fields>
+    <fields>
+        <label>Close Date</label>
+        <name>P7S1_OppCloseDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity-Beschreibung (kurz) --></label>
+        <name>P7S1_OppDescription255__c</name>
+    </fields>
+    <fields>
+        <label>Campaign</label>
+        <name>P7S1_OppKampagne__c</name>
+    </fields>
+    <fields>
+        <label>Runtime Campaign End</label>
+        <name>P7S1_OppKampagnenende__c</name>
+    </fields>
+    <fields>
+        <label>Runtime Campaign Start</label>
+        <name>P7S1_OppKampagnenstart__c</name>
+    </fields>
+    <fields>
+        <label>Customer Product</label>
+        <name>P7S1_OppKundenprodukt__c</name>
+    </fields>
+    <fields>
+        <label>Mandatory Fields Check Opp Succeeded</label>
+        <name>P7S1_OppPflichtfeldpruefungBestanden__c</name>
+    </fields>
+    <fields>
+        <label>Primary Campaign Source</label>
+        <name>P7S1_OppPrimaryCampaignSource__c</name>
+    </fields>
+    <fields>
+        <label>Probability</label>
+        <name>P7S1_OppProbability__c</name>
+    </fields>
+    <fields>
+        <label>Opportunity Record Type</label>
+        <name>P7S1_OppRecordType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Phase --></label>
+        <name>P7S1_OppStage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>P7S1_Opportunity__c</name>
+        <relationshipLabel><!-- Opportunity Freigaben --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Other Revenue (Weighted)</label>
+        <name>P7S1_OtherRevenueGewichtet__c</name>
+    </fields>
+    <fields>
+        <help><!-- Sonstige Umsatzart --></help>
+        <label>Other Revenue Type</label>
+        <name>P7S1_OtherRevenueType__c</name>
+    </fields>
+    <fields>
+        <help><!-- Nettowert sonstige Umsatzart --></help>
+        <label>Other Revenue</label>
+        <name>P7S1_OtherRevenue__c</name>
+    </fields>
+    <fields>
+        <help><!-- Copy of Opportunity Access owner Unit for use with Sharing --></help>
+        <label>Owner Unit (Requester) (From User)</label>
+        <name>P7S1_OwnerUnitCopy__c</name>
+    </fields>
+    <fields>
+        <help><!-- Zeigt die Unit des Antragsstellers an --></help>
+        <label>Owner Unit (Requester)</label>
+        <name>P7S1_OwnerUnit__c</name>
+    </fields>
+    <fields>
+        <help><!-- Fallen die quantitativen Kriterien unter die bestehenden Media Board Rahmenfreigaben? --></help>
+        <label>Frame Approval Media Board</label>
+        <name>P7S1_RahmenfreigabeMediaboard__c</name>
+    </fields>
+    <fields>
+        <label>Spot Ratio (Customer)</label>
+        <name>P7S1_SpotKundenintegrationsanteil__c</name>
+    </fields>
+    <fields>
+        <label><!-- TV (Copy) --></label>
+        <name>P7S1_TVCopy__c</name>
+    </fields>
+    <fields>
+        <label>Total Fixed &amp; Var. Rev. (Net) (Weighted)</label>
+        <name>P7S1_TotalNetRevenueFixVarGewichtet__c</name>
+    </fields>
+    <fields>
+        <help><!-- Gesamt Umsatz netto (Cash-In)
+(MN3 TV Kundenintegration + MN3 Digital + MN3 D&amp;A Digital + Variabler Umsatz (Rev Share) + Variabler Umsatz (Upside) + Sonstiger Umsatz + MN3 DooH) --></help>
+        <label>Total Fixed &amp; Variable Revenue (Net)</label>
+        <name>P7S1_TotalNetRevenueFixVar__c</name>
+    </fields>
+    <fields>
+        <help><!-- Länge des Kundenanteils des TV Spots in Sekunden --></help>
+        <label>Spot Length (Customer)</label>
+        <name>P7S1_TvSpotLengthCustomer__c</name>
+    </fields>
+    <fields>
+        <help><!-- Länge des Gesamt TV Spots in Sekunden --></help>
+        <label>Spot Length (Total)</label>
+        <name>P7S1_TvSpotLength__c</name>
+    </fields>
+    <fields>
+        <label>Total Fixed &amp; Var. Rev. (TV) (Weighted)</label>
+        <name>P7S1_UmsatzFixPlusVarTVGewichtet__c</name>
+    </fields>
+    <fields>
+        <help><!-- MN3 TV Kundenintegration + Variabler Umsatz (Rev Share) + Variabler Umsatz (upside) --></help>
+        <label>Total Fixed &amp; Variable Revenue (TV)</label>
+        <name>P7S1_UmsatzFixPlusVariabelTV__c</name>
+    </fields>
+    <fields>
+        <label>Revenue Billable</label>
+        <name>P7S1_UmsatzVerrechenbar__c</name>
+    </fields>
+    <fields>
+        <label>Variable Revenue (Rev. Share) (Weighted)</label>
+        <name>P7S1_VariableRevenueGewichtet__c</name>
+    </fields>
+    <fields>
+        <help><!-- erwartete variable Umsatzbeteiligung als definierter Vergütungsbestandteil (z.B. Betrag x pro sold Unit des beworbenen Partnerprodukts) --></help>
+        <label>Variable Revenue (Rev. Share)</label>
+        <name>P7S1_VariableRevenue__c</name>
+    </fields>
+    <fields>
+        <label>Variable Revenue (Upside) (Weighted)</label>
+        <name>P7S1_VariablerUmsatzUpsideGewichtet__c</name>
+    </fields>
+    <fields>
+        <help><!-- erwarteter interner Umsatzuplift aus Kooperation --></help>
+        <label>Variable Revenue (Upside)</label>
+        <name>P7S1_VariablerUmsatzUpside__c</name>
+    </fields>
+    <fields>
+        <label>Digital Yield (Customer)</label>
+        <name>P7S1_YieldDigitalCustomerIntegration__c</name>
+    </fields>
+    <fields>
+        <help><!-- Umsatz gesamt fix + variabel TV / BMV gesamt TV --></help>
+        <label>Yield Total Fixed &amp; Variable (TV)</label>
+        <name>P7S1_YieldGesamtFixPlusVariabelTV__c</name>
+    </fields>
+    <fields>
+        <help><!-- MN3 TV Kundenintegration / BMV gesamt TV --></help>
+        <label>Yield Total Fixed (TV)</label>
+        <name>P7S1_YieldGesamtFixTV__c</name>
+    </fields>
+    <fields>
+        <help><!-- Variabler Umsatz (Rev Share) + Variabler Umsatz (upside) / BMV gesamt TV --></help>
+        <label>Yield Total Variable (TV)</label>
+        <name>P7S1_YieldGesamtVariabelTV__c</name>
+    </fields>
+    <fields>
+        <label><!-- Yield fix --></label>
+        <name>P7S1_YieldTotalFix__c</name>
+    </fields>
+    <fields>
+        <help><!-- Gesamt Yield des Media Deal
+(Umsatz gesamt netto (fix + variabel) / BMV gesamt) --></help>
+        <label>Yield Total</label>
+        <name>P7S1_YieldTotal__c</name>
+    </fields>
+    <fields>
+        <label>TV Yield (Customer)</label>
+        <name>P7S1_YieldTvCustomerIntegration__c</name>
+    </fields>
+    <fields>
+        <help><!-- Checkbox kann durch Genehmiger gesetzt werden, wenn der Genehmigungsprozess nicht direkt fortgesetzt wird. --></help>
+        <label>In Discussion</label>
+        <name>P7S1_inDiskussion__c</name>
+    </fields>
+    <fields>
+        <label>Internal Partner</label>
+        <name>P7S1_internerPartner__c</name>
+        <picklistValues>
+            <masterLabel>12Auto Group</masterLabel>
+            <translation><!-- 12Auto Group --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7NXT</masterLabel>
+            <translation><!-- 7NXT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7Sports</masterLabel>
+            <translation><!-- 7Sports --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Advopedia</masterLabel>
+            <translation><!-- Advopedia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Amorelie</masterLabel>
+            <translation><!-- Amorelie --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Comvel</masterLabel>
+            <translation><!-- Comvel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Discavo</masterLabel>
+            <translation><!-- Discavo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flaconi</masterLabel>
+            <translation><!-- Flaconi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gymondo</masterLabel>
+            <translation><!-- Gymondo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Magic Internet Holding</masterLabel>
+            <translation><!-- Magic Internet Holding --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marktguru</masterLabel>
+            <translation><!-- Marktguru --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P7S1 Digital</masterLabel>
+            <translation><!-- P7S1 Digital --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P7S1 Licensing</masterLabel>
+            <translation><!-- P7S1 Licensing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P7S1 PayTV</masterLabel>
+            <translation><!-- P7S1 PayTV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SilverTours</masterLabel>
+            <translation><!-- SilverTours --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Starwatch</masterLabel>
+            <translation><!-- Starwatch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Studio 71</masterLabel>
+            <translation><!-- Studio 71 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stylight GmbH</masterLabel>
+            <translation><!-- Stylight GmbH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TVRL</masterLabel>
+            <translation><!-- TVRL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Valmano</masterLabel>
+            <translation><!-- Valmano --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Verivox</masterLabel>
+            <translation><!-- Verivox --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>etraveli</masterLabel>
+            <translation><!-- etraveli --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>fem (sixx)</masterLabel>
+            <translation><!-- fem (sixx) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>maxdome</masterLabel>
+            <translation><!-- maxdome --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>moebel.de</masterLabel>
+            <translation><!-- moebel.de --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>mydays</masterLabel>
+            <translation><!-- mydays --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>preis24.de</masterLabel>
+            <translation><!-- preis24.de --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>sonstiger</masterLabel>
+            <translation><!-- sonstiger --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>tropo</masterLabel>
+            <translation><!-- tropo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>wetter.com</masterLabel>
+            <translation><!-- wetter.com --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Falls interner Partner &quot;sonstiger&quot; bitte hier genauer beschreiben --></help>
+        <label>Other Internal Partner</label>
+        <name>P7S1_sonstigerInternerPartner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Digital Sales --></label>
+        <name>SOM_DigitalSales__c</name>
+        <relationshipLabel><!-- Opportunity Freigaben (Digital Sales) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- DooH Sales --></label>
+        <name>SOM_DooHSales__c</name>
+        <relationshipLabel><!-- Opportunity Approvals (DooH Sales) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Purchase Agency Sales Rep</label>
+        <name>SOM_Einkaufsagenturverkaeufer__c</name>
+        <relationshipLabel><!-- Opportunity Freigaben (Einkaufsagenturverkäufer) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Planning Agency Sales Rep</label>
+        <name>SOM_Planungsagenturverkaeufer__c</name>
+        <relationshipLabel><!-- Opportunity_Freigaben3 --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>TV Customer Sales Rep</label>
+        <name>SOM_TVKundenverkaeufer__c</name>
+        <relationshipLabel><!-- Opportunity Freigaben (TV Kundenverkäufer) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Yearly Customer Push Right --></label>
+        <name>Ven_AnnualShiftingRightsCustomer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Yearly P7S1 Push Right --></label>
+        <name>Ven_AnnualShiftingRightsP7S1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>Ven_DescriptionWKZPotential__c</name>
+    </fields>
+    <fields>
+        <label><!-- Envisaged Type Of Transaction --></label>
+        <name>Ven_EnvisagedTypeOfTransaction__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ad Market Development Initiative Assessm --></label>
+        <name>Ven_FeedbackAdMarketDevInitiative__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation><!-- High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation><!-- Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Middle</masterLabel>
+            <translation><!-- Middle --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Data Assessment --></label>
+        <name>Ven_InterestOfData__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>via Data Next</masterLabel>
+            <translation><!-- via Data Next --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>via basic Data-Coop</masterLabel>
+            <translation><!-- via basic Data-Coop --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- List of Websites / Apps --></label>
+        <name>Ven_ListOfWebsitesApps__c</name>
+    </fields>
+    <fields>
+        <label><!-- Monthly Registrations --></label>
+        <name>Ven_MonthlyRegistration__c</name>
+    </fields>
+    <fields>
+        <label><!-- Monthly Customer Push Right --></label>
+        <name>Ven_MonthlyShiftingRightsCustomer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Monthly P7S1 Push Right --></label>
+        <name>Ven_MonthlyShiftingRightsP7S1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Partner Data Deal(s) --></label>
+        <name>Ven_PartnerDatadeals__c</name>
+    </fields>
+    <fields>
+        <label><!-- Existing Third  Party Data Deals --></label>
+        <name>Ven_PresDatadealsWithThird__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Product Description --></label>
+        <name>Ven_ProductionDescription__c</name>
+    </fields>
+    <fields>
+        <label><!-- SLM Deviation --></label>
+        <name>Ven_SLMDeviation__c</name>
+    </fields>
+    <fields>
+        <label><!-- SLM --></label>
+        <name>Ven_SLM__c</name>
+        <picklistValues>
+            <masterLabel>Bronze</masterLabel>
+            <translation><!-- Bronze --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gold</masterLabel>
+            <translation><!-- Gold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Platinum</masterLabel>
+            <translation><!-- Platinum --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Silver</masterLabel>
+            <translation><!-- Silver --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Segment Definition --></label>
+        <name>Ven_SegmentDefinition__c</name>
+    </fields>
+    <fields>
+        <label><!-- Compiled Sociodemographic Data at Regist --></label>
+        <name>Ven_SummarySocialDataOnRegistration__c</name>
+    </fields>
+    <fields>
+        <label><!-- Potential Approved --></label>
+        <name>Ven_WKZPotentialApproved__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>MT Internal Opportunity Freigabe Feed Layout</layout>
+        <sections>
+            <label><!-- Approval History Report --></label>
+            <section>Approval History Report</section>
+        </sections>
+        <sections>
+            <label><!-- Approval Status --></label>
+            <section>Approval Status</section>
+        </sections>
+        <sections>
+            <label><!-- Barter und Teil-Barter --></label>
+            <section>Barter und Teil-Barter</section>
+        </sections>
+        <sections>
+            <label><!-- Beschreibung --></label>
+            <section>Beschreibung</section>
+        </sections>
+        <sections>
+            <label><!-- Beschreibung D&amp;A Digitale Anteile --></label>
+            <section>Beschreibung D&amp;A Digitale Anteile</section>
+        </sections>
+        <sections>
+            <label><!-- Beschreibung Digital --></label>
+            <section>Beschreibung Digital</section>
+        </sections>
+        <sections>
+            <label><!-- Beschreibung DooH --></label>
+            <section>Beschreibung DooH</section>
+        </sections>
+        <sections>
+            <label><!-- Beschreibung TV --></label>
+            <section>Beschreibung TV</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- D&amp;A Digitale Umsatzanteile --></label>
+            <section>D&amp;A Digitale Umsatzanteile</section>
+        </sections>
+        <sections>
+            <label><!-- DEMO: This is the layout for internal campaigns --></label>
+            <section>DEMO: This is the layout for internal campaigns</section>
+        </sections>
+        <sections>
+            <label><!-- Genehmigungsprozess --></label>
+            <section>Genehmigungsprozess</section>
+        </sections>
+        <sections>
+            <label><!-- Gesamtkennzahlen --></label>
+            <section>Gesamtkennzahlen</section>
+        </sections>
+        <sections>
+            <label><!-- Kampagnen-Informationen --></label>
+            <section>Kampagnen-Informationen</section>
+        </sections>
+        <sections>
+            <label><!-- Media-Bausteine --></label>
+            <section>Media-Bausteine</section>
+        </sections>
+        <sections>
+            <label><!-- Pflichtangaben Media-Baustein 71M Digital --></label>
+            <section>Pflichtangaben Media-Baustein 71M Digital</section>
+        </sections>
+        <sections>
+            <label><!-- Pflichtangaben Media-Baustein DooH --></label>
+            <section>Pflichtangaben Media-Baustein DooH</section>
+        </sections>
+        <sections>
+            <label><!-- Pflichtangaben Media-Baustein TV --></label>
+            <section>Pflichtangaben Media-Baustein TV</section>
+        </sections>
+        <sections>
+            <label><!-- Rahmenfreigabe Media Board --></label>
+            <section>Rahmenfreigabe Media Board</section>
+        </sections>
+        <sections>
+            <label><!-- Schieberechte P7S1 --></label>
+            <section>Schieberechte P7S1</section>
+        </sections>
+        <sections>
+            <label><!-- Service Level Matrix --></label>
+            <section>Service Level Matrix</section>
+        </sections>
+        <sections>
+            <label><!-- Var_1 --></label>
+            <section>Var_1</section>
+        </sections>
+        <sections>
+            <label><!-- Var_4 --></label>
+            <section>Var_4</section>
+        </sections>
+        <sections>
+            <label><!-- Var_5 --></label>
+            <section>Var_5</section>
+        </sections>
+        <sections>
+            <label><!-- Variable Umsatzanteile --></label>
+            <section>Variable Umsatzanteile</section>
+        </sections>
+        <sections>
+            <label><!-- var_2 --></label>
+            <section>var_2</section>
+        </sections>
+        <sections>
+            <label><!-- var_3 --></label>
+            <section>var_3</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>MT Opportunity Freigabe Feed Layout</layout>
+        <sections>
+            <label><!-- Approval History Report --></label>
+            <section>Approval History Report</section>
+        </sections>
+        <sections>
+            <label><!-- Approval Status --></label>
+            <section>Approval Status</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- D&amp;A Digitale Umsatzanteile --></label>
+            <section>D&amp;A Digitale Umsatzanteile</section>
+        </sections>
+        <sections>
+            <label><!-- Equity --></label>
+            <section>Equity</section>
+        </sections>
+        <sections>
+            <label><!-- Exit Participation --></label>
+            <section>Exit Participation</section>
+        </sections>
+        <sections>
+            <label><!-- Fill-Up --></label>
+            <section>Fill-Up</section>
+        </sections>
+        <sections>
+            <label><!-- Genehmigungsprozess --></label>
+            <section>Genehmigungsprozess</section>
+        </sections>
+        <sections>
+            <label><!-- Gesamtkennzahlen --></label>
+            <section>Gesamtkennzahlen</section>
+        </sections>
+        <sections>
+            <label><!-- Kampagnen-Informationen --></label>
+            <section>Kampagnen-Informationen</section>
+        </sections>
+        <sections>
+            <label><!-- Media-Bausteine --></label>
+            <section>Media-Bausteine</section>
+        </sections>
+        <sections>
+            <label><!-- Pflichtangaben Media-Baustein 71M Digital --></label>
+            <section>Pflichtangaben Media-Baustein 71M Digital</section>
+        </sections>
+        <sections>
+            <label><!-- Pflichtangaben Media-Baustein Barter und Teil-Barter --></label>
+            <section>Pflichtangaben Media-Baustein Barter und Teil-Barter</section>
+        </sections>
+        <sections>
+            <label><!-- Pflichtangaben Media-Baustein DooH --></label>
+            <section>Pflichtangaben Media-Baustein DooH</section>
+        </sections>
+        <sections>
+            <label><!-- Pflichtangaben Media-Baustein TV --></label>
+            <section>Pflichtangaben Media-Baustein TV</section>
+        </sections>
+        <sections>
+            <label><!-- Quantitative Freigabe --></label>
+            <section>Quantitative Freigabe</section>
+        </sections>
+        <sections>
+            <label><!-- Schieberechte P7S1 --></label>
+            <section>Schieberechte P7S1</section>
+        </sections>
+        <sections>
+            <label><!-- Service Level Matrix --></label>
+            <section>Service Level Matrix</section>
+        </sections>
+        <sections>
+            <label><!-- Upside --></label>
+            <section>Upside</section>
+        </sections>
+        <sections>
+            <label><!-- Var_1 --></label>
+            <section>Var_1</section>
+        </sections>
+        <sections>
+            <label><!-- Var_2 --></label>
+            <section>Var_2</section>
+        </sections>
+        <sections>
+            <label><!-- Var_3 --></label>
+            <section>Var_3</section>
+        </sections>
+        <sections>
+            <label><!-- Var_4 --></label>
+            <section>Var_4</section>
+        </sections>
+        <sections>
+            <label><!-- Var_5 --></label>
+            <section>Var_5</section>
+        </sections>
+        <sections>
+            <label><!-- Variable Umsatzanteile --></label>
+            <section>Variable Umsatzanteile</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Opportunity Freigabe-Name --></nameFieldLabel>
+    <recordTypes>
+        <label><!-- External Campaign Opportunity Approval --></label>
+        <name>MT_ExternalCampaignOpportunityApproval</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Internal Campaign Opportunity Approval --></label>
+        <name>MT_InternalCampaignOpportunityApproval</name>
+    </recordTypes>
+    <sharingReasons>
+        <label><!-- Freigabe für aktuellen Genehmiger --></label>
+        <name>P7S1_FreigabeAktuellerGenehmiger</name>
+    </sharingReasons>
+    <startsWith>Vowel</startsWith>
+    <validationRules>
+        <errorMessage><!-- Achtung Kampagnenlaufzeit muss innerhalb Vertragslaufzeit sein. --></errorMessage>
+        <name>MT_CampaignInContract</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Interner Partner und interner Partner (Asset) muss gleich sein --></errorMessage>
+        <name>MT_InternalPartnerMatchAsset</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Eine Summe darf nur angegeben werden, wenn fixe Zahlung ausgewählt ist. --></errorMessage>
+        <name>MT_PreventFixedMonthlyPaymentIfDisabled</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Wenn fixe Zahlung ausgewählt ist muss eine Summe angegeben werden. --></errorMessage>
+        <name>MT_RequiredValueForFixedMonthlyPayment</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Dieses Feld ist ein Pflichtfeld, bitte tragen Sie etwas ein. --></errorMessage>
+        <name>MT_SLMDifferenceFieldRequired</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Die Felder &quot;jährliches Schieberecht&quot; und &quot;monatliches Schieberecht&quot; müssen einen Wert zwischen 0 und 100 aufweisen. --></errorMessage>
+        <name>MT_Shifting_Valid</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Bitte für den Variablen Umsatz immer alle drei Werte für Anzahl, Umsatzart und den Umsatzanteil ausfüllen --></errorMessage>
+        <name>MT_VariableRevenue1_Complete</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Bitte geben Sie einen Umsatz pro Einheit über 0 € ein. --></errorMessage>
+        <name>MT_VariableRevenue1_RevPerUnit_MinValue</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Bitte geben Sie eine Anzahl &gt; 0 ein. --></errorMessage>
+        <name>MT_VariableRevenue1_SoldAmount_MinValue</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Bitte für den Variablen Umsatz immer alle drei Werte für Anzahl, Umsatzart und den Umsatzanteil ausfüllen --></errorMessage>
+        <name>MT_VariableRevenue2_Complete</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Bitte geben Sie einen Umsatz pro Einheit über 0 € ein. --></errorMessage>
+        <name>MT_VariableRevenue2_RevPerUnit_MinValue</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Bitte geben Sie eine Anzahl &gt; 0 ein. --></errorMessage>
+        <name>MT_VariableRevenue2_SoldAmount_MinValue</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Bitte für den Variablen Umsatz immer alle drei Werte für Anzahl, Umsatzart und den Umsatzanteil ausfüllen --></errorMessage>
+        <name>MT_VariableRevenue3_Complete</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Bitte geben Sie einen Umsatz pro Einheit über 0 € ein. --></errorMessage>
+        <name>MT_VariableRevenue3_RevPerUnit_MinValue</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Bitte geben Sie eine Anzahl &gt; 0 ein. --></errorMessage>
+        <name>MT_VariableRevenue3_SoldAmount_MinValue</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Bitte für den Variablen Umsatz immer alle drei Werte für Anzahl, Umsatzart und den Umsatzanteil ausfüllen --></errorMessage>
+        <name>MT_VariableRevenue4_Complete</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Bitte geben Sie einen Umsatz pro Einheit über 0 € ein. --></errorMessage>
+        <name>MT_VariableRevenue4_RevPerUnit_MinValue</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Bitte geben Sie eine Anzahl &gt; 0 ein. --></errorMessage>
+        <name>MT_VariableRevenue4_SoldAmount_MinValue</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Bitte für den Variablen Umsatz immer alle drei Werte für Anzahl, Umsatzart und den Umsatzanteil ausfüllen --></errorMessage>
+        <name>MT_VariableRevenue5_Complete</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Bitte geben Sie einen Umsatz pro Einheit über 0 € ein. --></errorMessage>
+        <name>MT_VariableRevenue5_RevPerUnit_MinValue</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Bitte geben Sie eine Anzahl &gt; 0 ein. --></errorMessage>
+        <name>MT_VariableRevenue5_SoldAmount_MinValue</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Rahmenfreigabe: bitte aus dem zur Verfügung stehenden Excel Sheet die entsprechende qualitative Rahmenfreigabe in die Beschreibung kopieren --></errorMessage>
+        <name>P7S1_BeschreibungPflichtRahmenfreigabe</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Rahmenfreigabe: bitte aus dem zur Verfügung stehenden Excel Sheet die entsprechende qualitative Rahmenfreigabe in die Beschreibung kopieren --></errorMessage>
+        <name>P7S1_BeschreibungPflichtRahmenfreigabeMB</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Es darf kein Barter-Volumen eingetragen werden, wenn kein Barter aktiviert ist. --></errorMessage>
+        <name>P7S1_OppFreigKeinNetBarterVolOhneBarter</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Es darf kein Barter-Volumen eingetragen werden, wenn kein Barter aktiviert ist. --></errorMessage>
+        <name>P7S1_OppFreigabeKeinBarterVolOhneBarter</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Laufzeit Ende (Digital) ist Pflichtangabe bei Medien-Baustein Digital --></errorMessage>
+        <name>P7S1_OppFreigabePflichtLaufzeitDigEnd</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Laufzeit Start (Digital) ist Pflichtangabe bei Medien-Baustein Digital --></errorMessage>
+        <name>P7S1_OppFreigabePflichtLaufzeitDigStart</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Laufzeit End (DooH) ist Pflichtangabe bei Medien-Baustein DooH --></errorMessage>
+        <name>P7S1_OppFreigabePflichtLaufzeitDooHEnd</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Laufzeit Start (DooH) ist Pflichtangabe bei Medien-Baustein DooH --></errorMessage>
+        <name>P7S1_OppFreigabePflichtLaufzeitDooHStart</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Laufzeit Ende (TV) ist Pflichtangabe bei Medien-Baustein TV --></errorMessage>
+        <name>P7S1_OppFreigabePflichtLaufzeitTVEnd</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Laufzeit Start (TV) ist Pflichtangabe bei Medien-Baustein TV --></errorMessage>
+        <name>P7S1_OppFreigabePflichtLaufzeitTVStart</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Barter-Volumen ist Pflichtangabe bei Medien-Baustein Barter --></errorMessage>
+        <name>P7S1_OppFreigabePflichtfeldBarterVolume</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- BMV TV ist Pflichtangabe bei Medien-Baustein TV --></errorMessage>
+        <name>P7S1_OppFreigabePflichtfeldBmvTv</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- BMV TV Kundenintegration ist Pflichtangabe bei Medien-Baustein TV --></errorMessage>
+        <name>P7S1_OppFreigabePflichtfeldBmvTvCustInt</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- MN3 DooH ist Pflichtangabe bei Medien-Baustein DooH (7Screen) --></errorMessage>
+        <name>P7S1_OppFreigabePflichtfeldDooH7Screen</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- MN3 Digital ist Pflichtangabe bei Medien-Baustein Digital --></errorMessage>
+        <name>P7S1_OppFreigabePflichtfeldMn3Digital</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- MN3 TV Kundenintegration ist Pflichtangabe bei Medien-Baustein TV --></errorMessage>
+        <name>P7S1_OppFreigabePflichtfeldMn3TvCustInt</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Barter-Volumen ist Pflichtangabe bei Medien-Baustein Barter --></errorMessage>
+        <name>P7S1_OppFreigabePflichtfeldNetBarterVol</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Kundenanteil Spotlänge (in Sekunden) ist Pflichtangabe bei Medien-Baustein TV --></errorMessage>
+        <name>P7S1_OppFreigabePflichtfeldTvSpotLenCust</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Gesamtspotlänge (in Sekunden) ist Pflichtangabe bei Medien-Baustein TV --></errorMessage>
+        <name>P7S1_OppFreigabePflichtfeldTvSpotLength</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Bitte sonstigen internen Partner genauer beschreiben --></errorMessage>
+        <name>P7S1_internerPartnerSonstigerWert</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- MT_ViewMediaCampaign --></label>
+        <name>MT_ViewMediaCampaign</name>
+    </webLinks>
+    <webLinks>
+        <label>New Opportunity Approval</label>
+        <name>P7S1_NewOppFreigabe</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Star_NeueOpportunityFreigabe --></label>
+        <name>Star_NeueOpportunityFreigabe</name>
+    </webLinks>
+</CustomObjectTranslation>

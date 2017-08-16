@@ -1,0 +1,3314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- MB --></label>
+        <name>DA_Sales_MB__c</name>
+    </fields>
+    <fields>
+        <label><!-- Partner Yield (extern) --></label>
+        <name>DA_Sales_PartnerYieldExtern__c</name>
+    </fields>
+    <fields>
+        <label><!-- Overall Yield (intern) --></label>
+        <name>DA_Sales_PartnerYieldIntern__c</name>
+    </fields>
+    <fields>
+        <label><!-- DB Competitor --></label>
+        <name>DB_Competitor__c</name>
+        <picklistValues>
+            <masterLabel>Competitor A</masterLabel>
+            <translation><!-- Competitor A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Competitor B</masterLabel>
+            <translation><!-- Competitor B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Competitor C</masterLabel>
+            <translation><!-- Competitor C --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Complexity --></label>
+        <name>GAM_Complexity__c</name>
+        <picklistValues>
+            <masterLabel>Casual</masterLabel>
+            <translation><!-- Casual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hardcore</masterLabel>
+            <translation><!-- Hardcore --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Midcore</masterLabel>
+            <translation><!-- Midcore --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Criteria: Dev --></label>
+        <name>GAM_CriteriaDev__c</name>
+        <picklistValues>
+            <masterLabel>0%</masterLabel>
+            <translation><!-- 0% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>100%</masterLabel>
+            <translation><!-- 100% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>25%</masterLabel>
+            <translation><!-- 25% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>50%</masterLabel>
+            <translation><!-- 50% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>75%</masterLabel>
+            <translation><!-- 75% --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Criteria: Genre --></label>
+        <name>GAM_CriteriaGenre__c</name>
+        <picklistValues>
+            <masterLabel>0%</masterLabel>
+            <translation><!-- 0% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>100%</masterLabel>
+            <translation><!-- 100% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>25%</masterLabel>
+            <translation><!-- 25% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>50%</masterLabel>
+            <translation><!-- 50% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>75%</masterLabel>
+            <translation><!-- 75% --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Criteria: Mktg --></label>
+        <name>GAM_CriteriaMktg__c</name>
+        <picklistValues>
+            <masterLabel>0%</masterLabel>
+            <translation><!-- 0% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>100%</masterLabel>
+            <translation><!-- 100% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>25%</masterLabel>
+            <translation><!-- 25% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>50%</masterLabel>
+            <translation><!-- 50% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>75%</masterLabel>
+            <translation><!-- 75% --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Criteria: Strategic --></label>
+        <name>GAM_CriteriaStrategic__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Criteria: Success --></label>
+        <name>GAM_CriteriaSuccess__c</name>
+        <picklistValues>
+            <masterLabel>0%</masterLabel>
+            <translation><!-- 0% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>100%</masterLabel>
+            <translation><!-- 100% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>25%</masterLabel>
+            <translation><!-- 25% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>50%</masterLabel>
+            <translation><!-- 50% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>75%</masterLabel>
+            <translation><!-- 75% --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Deal Type --></label>
+        <name>GAM_DealType__c</name>
+        <picklistValues>
+            <masterLabel>Port &amp; Pub</masterLabel>
+            <translation><!-- Port &amp; Pub --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pure Pub</masterLabel>
+            <translation><!-- Pure Pub --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- ETA --></label>
+        <name>GAM_ETA__c</name>
+    </fields>
+    <fields>
+        <label><!-- Genre --></label>
+        <name>GAM_Genre__c</name>
+    </fields>
+    <fields>
+        <label><!-- Platform --></label>
+        <name>GAM_Platform__c</name>
+        <picklistValues>
+            <masterLabel>MB</masterLabel>
+            <translation><!-- MB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PC</masterLabel>
+            <translation><!-- PC --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Technology --></label>
+        <name>GAM_Technology__c</name>
+    </fields>
+    <fields>
+        <label><!-- USP --></label>
+        <name>GAM_USP__c</name>
+    </fields>
+    <fields>
+        <help><!-- Aktueller Entwicklungsstatus des Produkts --></help>
+        <label><!-- Entwicklungsstadium --></label>
+        <name>Gam_Entwicklungsstadium__c</name>
+        <picklistValues>
+            <masterLabel>100% - Launched in other Territories</masterLabel>
+            <translation><!-- 100% - Launched in other Territories --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20% - Concept Available</masterLabel>
+            <translation><!-- 20% - Concept Available --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>40% - Alpha Build</masterLabel>
+            <translation><!-- 40% - Alpha Build --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>60% - Beta Build</masterLabel>
+            <translation><!-- 60% - Beta Build --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>80% - Release Candidate</masterLabel>
+            <translation><!-- 80% - Release Candidate --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- GMV-Pipeline --></label>
+        <name>Gam_GMVPipeline__c</name>
+    </fields>
+    <fields>
+        <help><!-- GrossMediaVolume wie viele Brutto TV Medialeistung wird für diese Spiel aufgewendet? --></help>
+        <label><!-- GMV (in m) --></label>
+        <name>Gam_GMV__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gam_MigrationTemp --></label>
+        <name>Gam_MigrationTemp__c</name>
+    </fields>
+    <fields>
+        <help><!-- Wie hoch ist die Garantiesumme für diesen Distributionspartner. --></help>
+        <label><!-- Minimum Garantie --></label>
+        <name>Gam_MinimumGarantie__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pipeline Amount --></label>
+        <name>Gam_PipelineAmount__c</name>
+    </fields>
+    <fields>
+        <help><!-- Wichtigkeit der Opportunity --></help>
+        <label><!-- Priorität --></label>
+        <name>Gam_Prioritaet__c</name>
+        <picklistValues>
+            <masterLabel>Hoch</masterLabel>
+            <translation><!-- Hoch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mittel</masterLabel>
+            <translation><!-- Mittel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Niedrig</masterLabel>
+            <translation><!-- Niedrig --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Link zur Einstufung nach Umsatz / Beliebtheit von App Annie, Gametrics und anderen Quellen --></help>
+        <label><!-- Ranking Link --></label>
+        <name>Gam_RankingLink__c</name>
+    </fields>
+    <fields>
+        <help><!-- Revenue first year - was wird an Umsatz im ersten Jahr erwartet für dieses Spiel? --></help>
+        <label><!-- Revenue first year --></label>
+        <name>Gam_Revenue_first_year__c</name>
+    </fields>
+    <fields>
+        <help><!-- Wie hoch wird der Umsatz während des Lebenszyklus dieses Spiels sein? --></help>
+        <label><!-- Revenue lifetime --></label>
+        <name>Gam_Revenue_lifetime__c</name>
+    </fields>
+    <fields>
+        <help><!-- Wie hoch soll der höchste Umsatz pro Jahr für dieses Spiel sein? --></help>
+        <label><!-- Revenue peak year --></label>
+        <name>Gam_Revenue_peak_year__c</name>
+    </fields>
+    <fields>
+        <help><!-- Kennzeichnet eine Chance um welchen Typ einer vertrieblichen Chance es sich handelt. --></help>
+        <label><!-- Type (Gam) --></label>
+        <name>Gam_Type__c</name>
+        <picklistValues>
+            <masterLabel>Content Partner Deal</masterLabel>
+            <translation><!-- Content Partner Deal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Distribution Partner Deal</masterLabel>
+            <translation><!-- Distribution Partner Deal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Licence Partner Deal</masterLabel>
+            <translation><!-- Licence Partner Deal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mobile Partner Deal</masterLabel>
+            <translation><!-- Mobile Partner Deal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment Partner Deal</masterLabel>
+            <translation><!-- Payment Partner Deal --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Erwartetes Umsatzpotential des Produkts: High = 1.6M./Jahr, Mid = 730K/Jahr, Low = 310K/Jahr --></help>
+        <label><!-- Umsatzpotenzial --></label>
+        <name>Gam_Umsatzpotenzial__c</name>
+        <picklistValues>
+            <masterLabel>High Performer</masterLabel>
+            <translation><!-- High Performer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low Performer</masterLabel>
+            <translation><!-- Low Performer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mid Performer</masterLabel>
+            <translation><!-- Mid Performer --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Es handelt sich um eine Hilfsfeld für den Opportunity Approval-Prozess von Seven Ventures. Wenn die Markeirung gesetzt ist, wird der Datensatz nicht mehr in einen Approval-Prozess von Seven Ventures eintreten. --></help>
+        <label><!-- Hilfsfeld Opp. Approval SV final Rejecti --></label>
+        <name>Hilfsfeld_Opp_Approval_SV_final_Rejecti__c</name>
+    </fields>
+    <fields>
+        <help><!-- Handelt es sich bei Diesem Angebot um ein Ideenpapier des SAC? --></help>
+        <label><!-- Ist Ideenpapier --></label>
+        <name>Ist_Ideenpapier__c</name>
+    </fields>
+    <fields>
+        <help><!-- Name der Kampagne - wie auch in ProDia der Kampagnen-Name heute --></help>
+        <label><!-- Kampagne --></label>
+        <name>Kampagne__c</name>
+    </fields>
+    <fields>
+        <help><!-- Wann endet diese Kampagne? --></help>
+        <label><!-- Kampagnenende --></label>
+        <name>Kampagnenende__c</name>
+    </fields>
+    <fields>
+        <help><!-- Wann beginnt diese Kampagne? --></help>
+        <label><!-- Kampagnenstart --></label>
+        <name>Kampagnenstart__c</name>
+    </fields>
+    <fields>
+        <help><!-- Befüllt durch die Schnittstelle zu ProDia - betrifft alle Geschäftsarten --></help>
+        <label><!-- MB1 Auftrag Gesamt --></label>
+        <name>MB1__c</name>
+    </fields>
+    <fields>
+        <help><!-- Befüllt durch die Schnittstelle zu ProDia --></help>
+        <label><!-- MB3 Auftrag Gesamt --></label>
+        <name>MB3__c</name>
+    </fields>
+    <fields>
+        <help><!-- Befüllt durch die Schnittstelle zu ProDia - betrifft alle Geschäftsarten --></help>
+        <label><!-- MN1 Auftrag Gesamt --></label>
+        <name>MN1__c</name>
+    </fields>
+    <fields>
+        <help><!-- Wie hoch ist der gewichtete MN3 somit MN3 mal Wahrscheinlichkeit des Angebots --></help>
+        <label><!-- MN2 Gewichtet --></label>
+        <name>MN2_Gewichtet__c</name>
+    </fields>
+    <fields>
+        <help><!-- Wird heute über die Schnittstelle von ProDia übergeben und umfasst alle Geschäftsarten. --></help>
+        <label><!-- MN2 Auftrag Gesamt --></label>
+        <name>MN2__c</name>
+    </fields>
+    <fields>
+        <help><!-- Wie hoch ist der gewichtete MN3 somit MN3 mal Wahrscheinlichkeit des Angebots --></help>
+        <label><!-- MN3 Gewichtet --></label>
+        <name>MN3_Gewichtet__c</name>
+    </fields>
+    <fields>
+        <label><!-- MN3 Auftrag Gesamt --></label>
+        <name>MN3__c</name>
+    </fields>
+    <fields>
+        <label>Ist interne Kampagne</label>
+        <name>MT_InternalCampaign__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approval needed --></label>
+        <name>Maxdome_ApprovalNeeded__c</name>
+        <picklistValues>
+            <masterLabel>no</masterLabel>
+            <translation><!-- no --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>yes</masterLabel>
+            <translation><!-- yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Offer --></label>
+        <name>Maxdome_Offer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Bereich --></label>
+        <name>Maxdome_SalesBereich__c</name>
+        <picklistValues>
+            <masterLabel>Brand</masterLabel>
+            <translation><!-- Brand --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cable</masterLabel>
+            <translation><!-- Cable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Device</masterLabel>
+            <translation><!-- Device --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Industry Sales</masterLabel>
+            <translation><!-- Industry Sales --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Studio</masterLabel>
+            <translation><!-- Studio --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Status Studio Approval --></label>
+        <name>Maxdome_StatusStudioApproval__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Denied</masterLabel>
+            <translation><!-- Denied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>in Progress</masterLabel>
+            <translation><!-- in Progress --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Erwartete Subscriber --></help>
+        <label><!-- Subs EST --></label>
+        <name>Maxdome_SubsEST__c</name>
+    </fields>
+    <fields>
+        <help><!-- Tatsächliche Subscriber --></help>
+        <label><!-- Subs ACT --></label>
+        <name>Maxdome_Subs_ACT__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pflichtfeldprüfung bestanden --></label>
+        <name>P7S1_ApprovalReady__c</name>
+    </fields>
+    <fields>
+        <help><!-- Zeigt den Status des zugehörigen Genehmigungsprozesses auf der Freigabe an --></help>
+        <label><!-- Genehmigungsstatus --></label>
+        <name>P7S1_ApprovalState__c</name>
+    </fields>
+    <fields>
+        <label><!-- BMV gesamt (Eingabe) --></label>
+        <name>P7S1_BmvInput__c</name>
+    </fields>
+    <fields>
+        <label><!-- BMV gesamt (kalk.) --></label>
+        <name>P7S1_Bmv__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vertragsende --></label>
+        <name>P7S1_ContractEnd__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vertragsbeginn --></label>
+        <name>P7S1_ContractStart__c</name>
+    </fields>
+    <fields>
+        <help><!-- Hilfsfeld für Workflow --></help>
+        <label><!-- E-Mail-Aktueller-Benutzer --></label>
+        <name>P7S1_CurrentOwnerEmail__c</name>
+    </fields>
+    <fields>
+        <label><!-- Kundenprodukt --></label>
+        <name>P7S1_CustomerProduct__c</name>
+    </fields>
+    <fields>
+        <label><!-- d&amp;a Sales Cluster --></label>
+        <name>P7S1_DandACluster__c</name>
+    </fields>
+    <fields>
+        <label><!-- d&amp;a Sales Asset --></label>
+        <name>P7S1_DandASalesAsset__c</name>
+        <picklistValues>
+            <masterLabel>12Auto Group GmbH</masterLabel>
+            <translation><!-- 12Auto Group GmbH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7NXT GmbH</masterLabel>
+            <translation><!-- 7NXT GmbH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>COMVEL GmbH (weg.de)</masterLabel>
+            <translation><!-- COMVEL GmbH (weg.de) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Discavo GmbH</masterLabel>
+            <translation><!-- Discavo GmbH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flaconi GmbH</masterLabel>
+            <translation><!-- Flaconi GmbH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Silver Tours GmbH (billiger-mietwagen.de)</masterLabel>
+            <translation><!-- Silver Tours GmbH (billiger-mietwagen.de) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sonoma Internet GmbH (amorelie.de)</masterLabel>
+            <translation><!-- Sonoma Internet GmbH (amorelie.de) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stylight GmbH</masterLabel>
+            <translation><!-- Stylight GmbH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tropo GmbH</masterLabel>
+            <translation><!-- Tropo GmbH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Valmano GmbH</masterLabel>
+            <translation><!-- Valmano GmbH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Verivox GmbH</masterLabel>
+            <translation><!-- Verivox GmbH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>etraveli AB (ueberflieger.de)</masterLabel>
+            <translation><!-- etraveli AB (ueberflieger.de) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>moebel.de Einrichten und Wohnen AG</masterLabel>
+            <translation><!-- moebel.de Einrichten und Wohnen AG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>mydays GmbH</masterLabel>
+            <translation><!-- mydays GmbH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>preis24.de GmbH</masterLabel>
+            <translation><!-- preis24.de GmbH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>wetter.com GmbH</masterLabel>
+            <translation><!-- wetter.com GmbH --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Status der Datenprüfung. Zeigt an, ob Datensätze zur Datenprüfung anstehend sind oder Prüfung erfolgt ist. --></help>
+        <label><!-- Datenprüfung --></label>
+        <name>P7S1_DataCheck__c</name>
+        <picklistValues>
+            <masterLabel>ausstehend</masterLabel>
+            <translation><!-- ausstehend --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>geprüft</masterLabel>
+            <translation><!-- geprüft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>irrelevant</masterLabel>
+            <translation><!-- irrelevant --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- zur Validierungsprüfung eines befüllten Description-Feldes erforderlich. Wird über Workflow befüllt und kann dann in Formeln ausgewertet werden --></help>
+        <label><!-- Description (255) --></label>
+        <name>P7S1_Description255__c</name>
+    </fields>
+    <fields>
+        <help><!-- zeigt an, ob Opportunity für Schnittstellen gefiltert wird:
+- Datensatztyp = Commitment, Paket, Zubuchung, Buchungen ohne Vertrag
+- Rolle Kunde bzw. Agentur zugewiesen
+- Kunden-Agenturbeziehung definiert --></help>
+        <label><!-- für Schnittstelle --></label>
+        <name>P7S1_ForInterface__c</name>
+    </fields>
+    <fields>
+        <label><!-- Barter --></label>
+        <name>P7S1_HasMediaBarter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Digital (71M) --></label>
+        <name>P7S1_HasMediaDigital__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lizenz --></label>
+        <name>P7S1_HasMediaLizenz__c</name>
+    </fields>
+    <fields>
+        <label><!-- Teil-Barter --></label>
+        <name>P7S1_HasMediaPartBarter__c</name>
+    </fields>
+    <fields>
+        <label><!-- TV --></label>
+        <name>P7S1_HasMediaTV__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ticketing --></label>
+        <name>P7S1_HasMediaTicketing__c</name>
+    </fields>
+    <fields>
+        <help><!-- Hilfefeld für die Migration der Games-Daten --></help>
+        <label><!-- P7S1_IdOld --></label>
+        <name>P7S1_IdOld__c</name>
+    </fields>
+    <fields>
+        <help>Wenn die Opportunity Verloren ist und ein &quot;Anderer&quot; Grund gewählt wird, bitte genauer beschreiben.</help>
+        <label><!-- Grund detailliert --></label>
+        <name>P7S1_LostReasonDetails__c</name>
+    </fields>
+    <fields>
+        <help>Wenn die Opportunity Verloren ist, bitte einen Grund aus der Auswahlliste auswählen</help>
+        <label><!-- Grund verloren --></label>
+        <name>P7S1_LostReason__c</name>
+        <picklistValues>
+            <masterLabel>Ban on advertising</masterLabel>
+            <translation>Werbeverbot</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Budget shift</masterLabel>
+            <translation><!-- Budget shift --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business Model does not fit</masterLabel>
+            <translation><!-- Business Model does not fit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancellation</masterLabel>
+            <translation>Stornierung</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Committment under negotiation</masterLabel>
+            <translation><!-- Committment under negotiation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Competitor chosen</masterLabel>
+            <translation>Entscheidung für Wettbewerber</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contract</masterLabel>
+            <translation>Vertrag</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>D&amp;A offer accepted</masterLabel>
+            <translation>Annahme D&amp;A Angebot</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deal terms</masterLabel>
+            <translation><!-- Deal terms --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Decision against idea/deal</masterLabel>
+            <translation>Entscheidung gegen die Idee/Deal</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Decision negative</masterLabel>
+            <translation>Entscheidung negativ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Different medium chosen</masterLabel>
+            <translation>Entscheidung für anderes Medium</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Distressed Company</masterLabel>
+            <translation>Kunde in wirtschaftlicher Schieflage</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Duplicate</masterLabel>
+            <translation>Duplikat</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Evaluation negative</masterLabel>
+            <translation>Bewertung negativ</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exceeded Budget / Budget Shift</masterLabel>
+            <translation>Budgetrestriktionen</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exclusiveness</masterLabel>
+            <translation><!-- Exclusiveness --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Initial conversation</masterLabel>
+            <translation>Erste Verhandlung</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intern</masterLabel>
+            <translation><!-- Intern --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internal Reasons</masterLabel>
+            <translation><!-- Internal Reasons --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No advertiser feedback</masterLabel>
+            <translation>Keine Rückmeldung</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No availability</masterLabel>
+            <translation>Fehlende Verfügbarkeit</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation>Andere</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Out of business, bankruptcy</masterLabel>
+            <translation><!-- Out of business, bankruptcy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Performance</masterLabel>
+            <translation><!-- Performance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Performance issues</masterLabel>
+            <translation><!-- Performance issues --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Planned End of Campaign</masterLabel>
+            <translation><!-- Planned End of Campaign --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Preis</masterLabel>
+            <translation><!-- Preis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pricing and Performance</masterLabel>
+            <translation><!-- Pricing and Performance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Program change</masterLabel>
+            <translation>Programmänderung</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected by AdF</masterLabel>
+            <translation>Absage AdF</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected by channel</masterLabel>
+            <translation>Absage Sender</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Story fit</masterLabel>
+            <translation><!-- Story fit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Term sheet</masterLabel>
+            <translation>Vorvertrag</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Timing of campaign</masterLabel>
+            <translation>Anderer Kampagnenzeitraum</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weak target group</masterLabel>
+            <translation>Zielgruppenschwäche</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- MN3 gesamt multipliziert mit Wahrscheinlichkeit --></help>
+        <label><!-- MN3 gewichtet --></label>
+        <name>P7S1_Mn3Gewichtet__c</name>
+    </fields>
+    <fields>
+        <label><!-- MN3 gesamt --></label>
+        <name>P7S1_Mn3__c</name>
+    </fields>
+    <fields>
+        <help><!-- neuer Inhaber der Opportunity, wird beim Speichern als Inhaber übernommen und geleert. --></help>
+        <label><!-- Neuer Inhaber --></label>
+        <name>P7S1_NewOwner__c</name>
+        <relationshipLabel><!-- Opportunities (Neuer Inhaber) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- E-Mail des alten Inhabers. Hilfsfeld für Versand der Inhaber-Änderungs-Mail --></help>
+        <label><!-- Alter Inhaber (E-Mail) --></label>
+        <name>P7S1_OldOwnerEmail__c</name>
+    </fields>
+    <fields>
+        <help><!-- Date is used for Dashboard grouping by year --></help>
+        <label><!-- Opportunity Dashboard Date --></label>
+        <name>P7S1_OpportunityDashboardDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Owner Unit --></label>
+        <name>P7S1_OpportunityOwnerUnit__c</name>
+    </fields>
+    <fields>
+        <help><!-- Inhaber von Opportunity und Account sind identisch --></help>
+        <label><!-- Inhaber Oppt und Account identisch --></label>
+        <name>P7S1_OwnerOpptiAccountEqual__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unit Opportunity-Inhaber --></label>
+        <name>P7S1_OwnerUnit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Plausibilitätsfehler --></label>
+        <name>P7S1_Plausibilitaetsfehler__c</name>
+    </fields>
+    <fields>
+        <help><!-- Kennzeichnet private Opportunity, auf die nur der Inhaber und dessen Rollenhierarchie zugreifen kann. --></help>
+        <label><!-- Privat --></label>
+        <name>P7S1_Private__c</name>
+    </fields>
+    <fields>
+        <help><!-- Zuordnung zur jeweiligen Sphere Hilfefeld für die Freigabeeinstellung --></help>
+        <label><!-- P7S1_SphereCopy --></label>
+        <name>P7S1_SphereCopy__c</name>
+    </fields>
+    <fields>
+        <label><!-- P7S1_Sphere --></label>
+        <name>P7S1_Sphere__c</name>
+    </fields>
+    <fields>
+        <label><!-- Startdate of selected Opp Year --></label>
+        <name>P7S1_StartdateofselectedOppYear__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unique Counter --></label>
+        <name>P7S1_UniqueCounter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Yield gesamt --></label>
+        <name>P7S1_Yield__c</name>
+    </fields>
+    <fields>
+        <help><!-- erwartete Verkaufseinheiten --></help>
+        <label><!-- Anzahl Verkaufseinheiten (geschätzt) --></label>
+        <name>PSD_AnzahlVerkaufseinheitenGeschaetzt__c</name>
+    </fields>
+    <fields>
+        <help><!-- erwartete Kundenbasis --></help>
+        <label><!-- Customer Base (geschätzt) --></label>
+        <name>PSD_CustomerBaseGeschaetzt__c</name>
+    </fields>
+    <fields>
+        <help><!-- Monatlicher durchschnittlicher Kundenumsatz (häufig vom Kunden zu zahlender Monatsbeitrag netto) --></help>
+        <label><!-- durchschnittl. Pro-Kopf Umsatz --></label>
+        <name>PSD_DurchschnittlProKopfUmsatz__c</name>
+    </fields>
+    <fields>
+        <help><!-- einmalige Abschlussprovision pro verkaufte Einheit --></help>
+        <label><!-- Pro Kopf Prämie --></label>
+        <name>PSD_ProKopfPraemie__c</name>
+    </fields>
+    <fields>
+        <help><!-- Prozentsatz der Umsatzbeteiligung am monatlichen Kundenumsatz --></help>
+        <label><!-- Revenue Share Customerbase (gesamt) --></label>
+        <name>PSD_RevenueShareCustomerbaseGesamt__c</name>
+    </fields>
+    <fields>
+        <help><!-- Customer Base x Kundenumsatzbeteiligung in % x durchschnittl. Pro Kopf Umsatz --></help>
+        <label><!-- variabler Umsatz (Rev Share) --></label>
+        <name>PSD_VariablerUmsatzRevShare__c</name>
+    </fields>
+    <fields>
+        <help><!-- variabler Umsatz (pro Kopf Prämie) + variabler Umsatz (Rev Share) --></help>
+        <label><!-- variable Umsatzanteile (gesamt) --></label>
+        <name>PSD_variableUmsatzanteileGesamt__c</name>
+    </fields>
+    <fields>
+        <help><!-- Anzahl verkaufte Einheiten x einmalige Abschlussprovision --></help>
+        <label><!-- variabler Umsatz (pro Kopf Prämie) --></label>
+        <name>PSD_variablerUmsatzProKopfPraemie__c</name>
+    </fields>
+    <fields>
+        <help><!-- Gewähren wir für diesen Auftrag Skonto? --></help>
+        <label><!-- Skonto --></label>
+        <name>SKonto__c</name>
+    </fields>
+    <fields>
+        <help><!-- Description of ad formats that belong to this opportunity --></help>
+        <label><!-- Ad Format --></label>
+        <name>Sgn_AdFormat__c</name>
+    </fields>
+    <fields>
+        <help><!-- Description of assets that belong to this opportunity --></help>
+        <label><!-- Assets --></label>
+        <name>Sgn_Assets__c</name>
+    </fields>
+    <fields>
+        <help><!-- Brutto Media Volume planned --></help>
+        <label><!-- BMV (planned) --></label>
+        <name>Sgn_BMVplanned__c</name>
+    </fields>
+    <fields>
+        <help><!-- Brutto Media Volume verified --></help>
+        <label><!-- BMV (verified) --></label>
+        <name>Sgn_BMVverified__c</name>
+    </fields>
+    <fields>
+        <help><!-- Budget that is allocated for this opportunity --></help>
+        <label><!-- Budget --></label>
+        <name>Sgn_Budget__c</name>
+    </fields>
+    <fields>
+        <help><!-- Please activate this field if a CNAME or Canonical Name record that links an alias name to partner&apos;s true or canonical domain name has been implemented (y/n) --></help>
+        <label><!-- CNAMING --></label>
+        <name>Sgn_CNAMING__c</name>
+    </fields>
+    <fields>
+        <help><!-- Cost Per Action --></help>
+        <label><!-- CPA --></label>
+        <name>Sgn_CPA__c</name>
+    </fields>
+    <fields>
+        <help><!-- Cost Per Installation --></help>
+        <label><!-- CPI --></label>
+        <name>Sgn_CPI__c</name>
+    </fields>
+    <fields>
+        <help><!-- Cost Per Mille (thousand advertising impressions) --></help>
+        <label><!-- CPM --></label>
+        <name>Sgn_CPM__c</name>
+    </fields>
+    <fields>
+        <help><!-- Partner&apos;s accounting approach --></help>
+        <label><!-- CPX --></label>
+        <name>Sgn_CPX__c</name>
+        <picklistValues>
+            <masterLabel>CPA</masterLabel>
+            <translation><!-- CPA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CPI</masterLabel>
+            <translation><!-- CPI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CPL</masterLabel>
+            <translation><!-- CPL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CPM</masterLabel>
+            <translation><!-- CPM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CPP</masterLabel>
+            <translation><!-- CPP --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Please activate this field if the partner has set up a co-branded site for us --></help>
+        <label><!-- Co-Branding --></label>
+        <name>Sgn_CoBranding__c</name>
+    </fields>
+    <fields>
+        <help><!-- Country name --></help>
+        <label><!-- Country / Market --></label>
+        <name>Sgn_CountryMarket__c</name>
+        <relationshipLabel><!-- Opportunities --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Enumeration of the partner&apos;s games --></help>
+        <label><!-- Games --></label>
+        <name>Sgn_Games__c</name>
+    </fields>
+    <fields>
+        <help><!-- Please check this field if an IVW Pixel has been implemented for the campaign --></help>
+        <label><!-- IVW Pixel --></label>
+        <name>Sgn_IVWPixel__c</name>
+    </fields>
+    <fields>
+        <help><!-- Please activate this field if O&amp;O Portals are included --></help>
+        <label><!-- Incl. O&amp;O Portals --></label>
+        <name>Sgn_InclOOPortals__c</name>
+    </fields>
+    <fields>
+        <help><!-- Forward Link to the registration page of the game --></help>
+        <label><!-- Link URL --></label>
+        <name>Sgn_LinkURL__c</name>
+    </fields>
+    <fields>
+        <help><!-- Plesase enter the minimum guarantee - usually as a  % value --></help>
+        <label><!-- MG --></label>
+        <name>Sgn_MG__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Type --></label>
+        <name>Sgn_OpportunityType__c</name>
+        <picklistValues>
+            <masterLabel>3rd Party - Traffic</masterLabel>
+            <translation><!-- 3rd Party - Traffic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Display-CPM</masterLabel>
+            <translation><!-- Display-CPM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Portal</masterLabel>
+            <translation><!-- Portal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TV</masterLabel>
+            <translation><!-- TV --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Enumeration of the platforms for the campaign --></help>
+        <label><!-- Platforms --></label>
+        <name>Sgn_Platforms__c</name>
+    </fields>
+    <fields>
+        <help><!-- Please enter the conditions for the RevShare deal --></help>
+        <label><!-- RevShare --></label>
+        <name>Sgn_RevShare__c</name>
+    </fields>
+    <fields>
+        <help><!-- Please activate this field if the RevShare shall be recouped (y/n) --></help>
+        <label><!-- RevShare recoupable --></label>
+        <name>Sgn_RevSharerecoupable__c</name>
+    </fields>
+    <fields>
+        <label><!-- Special Agreements --></label>
+        <name>Sgn_SpecialAgreements__c</name>
+    </fields>
+    <fields>
+        <label><!-- System --></label>
+        <name>Sgn_System__c</name>
+        <picklistValues>
+            <masterLabel>Android</masterLabel>
+            <translation><!-- Android --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Desktop</masterLabel>
+            <translation><!-- Desktop --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IOS</masterLabel>
+            <translation><!-- IOS --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Campaign&apos;s TV Channel --></help>
+        <label><!-- TV-Channel --></label>
+        <name>Sgn_TVChannel__c</name>
+    </fields>
+    <fields>
+        <help><!-- Campaign end date --></help>
+        <label><!-- Zeitraum Enddatum --></label>
+        <name>Sgn_ZeitraumEnddatum__c</name>
+    </fields>
+    <fields>
+        <help><!-- Campaign start date --></help>
+        <label><!-- Zeitraum Startdatum --></label>
+        <name>Sgn_ZeitraumStartdatum__c</name>
+    </fields>
+    <fields>
+        <help><!-- Anteil des MN2 Gesamtwertes der auf TV Digtal entfällt --></help>
+        <label><!-- Anteil TV Digital --></label>
+        <name>SomDig_AnteilTVDigital__c</name>
+    </fields>
+    <fields>
+        <help><!-- Gewichteter Anteil des MN2 Gesamtwertes der auf TV Digtal entfällt --></help>
+        <label><!-- Anteil TV Digital (gewichtet) --></label>
+        <name>SomDig_AnteilTVDigitalgewichtet__c</name>
+    </fields>
+    <fields>
+        <help><!-- Feld wird mit MN2-Wert automatisch befüllt, wenn die Opportunity gewonnen ist. --></help>
+        <label><!-- MN2 Gewonnen --></label>
+        <name>SomDig_Mn2Gewonnen__c</name>
+    </fields>
+    <fields>
+        <help><!-- Zeigt den Namen der B2B Aktion an, die der Primären Kampagnenquelle übergeordnet ist. --></help>
+        <label><!-- Übergeordnete B2B Aktion --></label>
+        <name>SomDig_Uebergeordnete_B2B_Aktion__c</name>
+    </fields>
+    <fields>
+        <help><!-- Welche Werbeträger sind/werden in der Opportunitiy berücksichtigt? --></help>
+        <label><!-- Werbeträger --></label>
+        <name>SomDig_Werbetraeger__c</name>
+        <picklistValues>
+            <masterLabel>autoplenum.de</masterLabel>
+            <translation><!-- autoplenum.de --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>bigpoint.com</masterLabel>
+            <translation><!-- bigpoint.com --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>bundesliga.de</masterLabel>
+            <translation><!-- bundesliga.de --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>finanzfernsehen.de</masterLabel>
+            <translation><!-- finanzfernsehen.de --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>gamepro.de</masterLabel>
+            <translation><!-- gamepro.de --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>gamestar.de</masterLabel>
+            <translation><!-- gamestar.de --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>gesund.tv</masterLabel>
+            <translation><!-- gesund.tv --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>gesundheit.de</masterLabel>
+            <translation><!-- gesundheit.de --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>kabeleins.de</masterLabel>
+            <translation><!-- kabeleins.de --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>lokalisten.de</masterLabel>
+            <translation><!-- lokalisten.de --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>motor-talk.de</masterLabel>
+            <translation><!-- motor-talk.de --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>motorvision.de</masterLabel>
+            <translation><!-- motorvision.de --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>myvideo.de</masterLabel>
+            <translation><!-- myvideo.de --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>n24.de</masterLabel>
+            <translation><!-- n24.de --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>promipool.de</masterLabel>
+            <translation><!-- promipool.de --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>prosieben.de</masterLabel>
+            <translation><!-- prosieben.de --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ran.de</masterLabel>
+            <translation><!-- ran.de --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>sat1.de</masterLabel>
+            <translation><!-- sat1.de --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>sevenload.com</masterLabel>
+            <translation><!-- sevenload.com --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>sixx.de</masterLabel>
+            <translation><!-- sixx.de --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>sport1.de</masterLabel>
+            <translation><!-- sport1.de --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>twitch.tv</masterLabel>
+            <translation><!-- twitch.tv --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>werweisswas.de</masterLabel>
+            <translation><!-- werweisswas.de --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>wetter.com</masterLabel>
+            <translation><!-- wetter.com --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Innerhalb Commitment / Zubuchung --></label>
+        <name>SomTV_Innerhalb_Commitment__c</name>
+    </fields>
+    <fields>
+        <help><!-- Projekt der AdFactory,  welches Produkte verschiedener Opportunities innerhalb und außerhalb Commitments gruppiert --></help>
+        <label><!-- AdFProjekt --></label>
+        <name>SomTv_AdFProjekt__c</name>
+        <relationshipLabel><!-- Opportunities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- AdFactory Anteil (%) --></label>
+        <name>SomTv_AdFactoryAnteilInProzent__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enthält die Adresse für Produktionskosten, falls diese von Agentur/Account abweichen --></help>
+        <label><!-- Rechnungsadresse Produktionskosten --></label>
+        <name>SomTv_Adf_Rechnung_Produktionskosten__c</name>
+        <relationshipLabel><!-- Opportunities (Rechnung - Produktionskosten) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Adfactory Anteil (absolut) --></label>
+        <name>SomTv_AdfactoryAnteilAbsolut__c</name>
+    </fields>
+    <fields>
+        <help><!-- Accountnummer der Agentur --></help>
+        <label><!-- Agentur Accountnummer --></label>
+        <name>SomTv_AgenturAccountnummer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Agentur --></label>
+        <name>SomTv_Agentur__c</name>
+        <relationshipLabel><!-- Opportunities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Agenturverbund --></label>
+        <name>SomTv_Agenturverbund__c</name>
+    </fields>
+    <fields>
+        <label><!-- Besonderheiten zum Kunden --></label>
+        <name>SomTv_BesonderheitenZumKunden__c</name>
+    </fields>
+    <fields>
+        <help><!-- Bitte wählen Sie eine gültige Kunde-Agentur Beziehung aus. --></help>
+        <label><!-- Beziehung --></label>
+        <name>SomTv_Beziehung__c</name>
+        <relationshipLabel><!-- Opportunities --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Gebt hier den Gesamt-Buchungszeitraum ein, auf den in den Bausteinen gebucht werden soll. --></help>
+        <label><!-- Buchungszeitraum bis: --></label>
+        <name>SomTv_BuchungszeitraumBis__c</name>
+    </fields>
+    <fields>
+        <help><!-- Gebt hier den Gesamt-Buchungzeitraum ein, auf den in den Bausteinen gebucht werden soll. --></help>
+        <label><!-- Buchungszeitraum von: --></label>
+        <name>SomTv_BuchungszeitraumVon__c</name>
+    </fields>
+    <fields>
+        <label><!-- Erläuterung Geschäftsvorfall --></label>
+        <name>SomTv_ErlaeuterungGeschaeftsvorfall_del__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enthält die ProSedi-ID zur Rechnungsadresse --></help>
+        <label><!-- ProSedi ID buchender Kunde --></label>
+        <name>SomTv_Externe_ID__c</name>
+        <relationshipLabel><!-- Opportunities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Jahr --></label>
+        <name>SomTv_Jahr__c</name>
+        <picklistValues>
+            <masterLabel>2012</masterLabel>
+            <translation><!-- 2012 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2013</masterLabel>
+            <translation><!-- 2013 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2014</masterLabel>
+            <translation><!-- 2014 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2015</masterLabel>
+            <translation><!-- 2015 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2016</masterLabel>
+            <translation><!-- 2016 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2017</masterLabel>
+            <translation><!-- 2017 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2018</masterLabel>
+            <translation><!-- 2018 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2019</masterLabel>
+            <translation><!-- 2019 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2020</masterLabel>
+            <translation><!-- 2020 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Bei konvergente Projekten muss in jeder OLI das Feld konvergenz &quot;aktiviert&quot; werden. --></help>
+        <label><!-- konvergent --></label>
+        <name>SomTv_Konvergent__c</name>
+        <picklistValues>
+            <masterLabel>ja</masterLabel>
+            <translation><!-- ja --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>nein</masterLabel>
+            <translation><!-- nein --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Laufende Nummer zur Festlegung der Eindeutigkeit der Vereinbarung --></help>
+        <label><!-- Laufende Nummer --></label>
+        <name>SomTv_Laufende_Nummer_ProCommit__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6</masterLabel>
+            <translation><!-- 6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7</masterLabel>
+            <translation><!-- 7 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8</masterLabel>
+            <translation><!-- 8 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9</masterLabel>
+            <translation><!-- 9 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- MB3AJ --></help>
+        <label><!-- SomTv_MB3AJ --></label>
+        <name>SomTv_MB3AJ__c</name>
+    </fields>
+    <fields>
+        <label><!-- MN1 --></label>
+        <name>SomTv_MN1__c</name>
+    </fields>
+    <fields>
+        <help><!-- MN3 Ist-Wert --></help>
+        <label><!-- MN3AJ --></label>
+        <name>SomTv_MN3AJ__c</name>
+    </fields>
+    <fields>
+        <label><!-- MN3VJ --></label>
+        <name>SomTv_MN3VJ__c</name>
+    </fields>
+    <fields>
+        <help><!-- MN3 als für gesamt P7S1 abgestimmter Standard Wert
+[ Nettoinvestment der Opportunity bzw. MN3= MN2-Skonto% ] --></help>
+        <label><!-- MN3 --></label>
+        <name>SomTv_MN3__c</name>
+    </fields>
+    <fields>
+        <help><!-- Summe MB1 (bezahlt) aus Opportunity-Produkt --></help>
+        <label><!-- MB1 (bezahlt) --></label>
+        <name>SomTv_Mb1BezahltSumOli__c</name>
+    </fields>
+    <fields>
+        <help><!-- Rollup-Hilfsfeld. Wird per Apex für Adf übertragen in SomTv_MN3__c --></help>
+        <label><!-- SomTv_Mn3SumOli --></label>
+        <name>SomTv_Mn3SumOli__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mutter Opportunity --></label>
+        <name>SomTv_MutterOpportunity__c</name>
+        <relationshipLabel><!-- Tochter Opportunities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Opp DS-Typ Name Hilfsfeld --></label>
+        <name>SomTv_OppDSTypNameHilfsfeld__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opps Nummer --></label>
+        <name>SomTv_OppsNummer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Paketbegründung --></label>
+        <name>SomTv_Paketbegruendung__c</name>
+    </fields>
+    <fields>
+        <help><!-- berechnet Sortierkriterium für Plattformen --></help>
+        <label><!-- Plattform (Sortierung) --></label>
+        <name>SomTv_PlattformSort__c</name>
+    </fields>
+    <fields>
+        <help><!-- Bitte wählen Sie die Plattform:
+Kernsender
+Sixx
+Sat Gold --></help>
+        <label><!-- Plattform --></label>
+        <name>SomTv_Plattform__c</name>
+        <picklistValues>
+            <masterLabel>Adressable TV</masterLabel>
+            <translation><!-- Adressable TV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>K1Doku</masterLabel>
+            <translation><!-- K1Doku --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kernsender</masterLabel>
+            <translation><!-- Kernsender --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Online</masterLabel>
+            <translation><!-- Online --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P7MAXX</masterLabel>
+            <translation><!-- P7MAXX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S1G</masterLabel>
+            <translation><!-- S1G --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sixx</masterLabel>
+            <translation><!-- Sixx --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- ProSedi ID abweichender Rechnungsempfänger --></help>
+        <label><!-- ProSedi ID Rechnungsadresse --></label>
+        <name>SomTv_ProSedi_ID_Rechnungsadresse__c</name>
+        <relationshipLabel><!-- Opportunities (ProSedi ID Rechnungsadresse) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Einkaufsagentur (Auftragsanlage / Adressat der Einschaltpläne) --></help>
+        <label><!-- ProSedi ID betreuende Agentur --></label>
+        <name>SomTv_ProSedi_ID_betreuende_Agentur__c</name>
+        <relationshipLabel><!-- Opportunities (ProSedi ID betreuende Agentur) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Speichert manuell gepflegte Wahrscheinlich zwischen, zur späteren Wiederherstellung, wenn durch Phasenwechsel Wahrscheinlichkeit 0 0% gesetzt würde.
+Nur für Admins/Workflow Zugriffsrecht. --></help>
+        <label><!-- Wahrscheinlichkeit temp --></label>
+        <name>SomTv_ProbabilityTemp__c</name>
+    </fields>
+    <fields>
+        <help><!-- berechnet Sortierkriterium für RecordTypes --></help>
+        <label><!-- RecordType (Sortierung) --></label>
+        <name>SomTv_RecTypeSort__c</name>
+    </fields>
+    <fields>
+        <help><!-- berechnet die Gesamtsortierung --></help>
+        <label><!-- Sortierung --></label>
+        <name>SomTv_Sort__c</name>
+    </fields>
+    <fields>
+        <help><!-- Infos zur Distribuierung bei Regionalkunden --></help>
+        <label><!-- Bundesland (DE) Info --></label>
+        <name>SomTv_StateInfos__c</name>
+    </fields>
+    <fields>
+        <help><!-- Bundesländer (DE) für die Distribuierung bei Regionalkunden --></help>
+        <label><!-- Bundesland (DE) --></label>
+        <name>SomTv_State__c</name>
+        <picklistValues>
+            <masterLabel>Baden-Württemberg</masterLabel>
+            <translation><!-- Baden-Württemberg --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bayern</masterLabel>
+            <translation><!-- Bayern --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Berlin</masterLabel>
+            <translation><!-- Berlin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brandenburg</masterLabel>
+            <translation><!-- Brandenburg --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bremen</masterLabel>
+            <translation><!-- Bremen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hamburg</masterLabel>
+            <translation><!-- Hamburg --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hessen</masterLabel>
+            <translation><!-- Hessen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mecklenburg-Vorpommern</masterLabel>
+            <translation><!-- Mecklenburg-Vorpommern --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Niedersachsen</masterLabel>
+            <translation><!-- Niedersachsen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nordrhein-Westfalen</masterLabel>
+            <translation><!-- Nordrhein-Westfalen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rheinland-Pfalz</masterLabel>
+            <translation><!-- Rheinland-Pfalz --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Saarland</masterLabel>
+            <translation><!-- Saarland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sachsen</masterLabel>
+            <translation><!-- Sachsen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sachsen-Anhalt</masterLabel>
+            <translation><!-- Sachsen-Anhalt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Schleswig-Holstein</masterLabel>
+            <translation><!-- Schleswig-Holstein --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Thüringen</masterLabel>
+            <translation><!-- Thüringen --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Top1 Wirtschaftsbereich --></label>
+        <name>SomTv_Top1Wirtschaftsbereich__c</name>
+        <relationshipLabel><!-- Opportunities --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Unique Feld für kombiniertem Schlüssel --></help>
+        <label><!-- SomTv_UniqueKey --></label>
+        <name>SomTv_UniqueKey__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vertriebsweg --></label>
+        <name>SomTv_Vertriebsweg__c</name>
+        <picklistValues>
+            <masterLabel>DRTV</masterLabel>
+            <translation><!-- DRTV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dezentral</masterLabel>
+            <translation><!-- Dezentral --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Klassisch</masterLabel>
+            <translation><!-- Klassisch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RWZ</masterLabel>
+            <translation><!-- RWZ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regional</masterLabel>
+            <translation><!-- Regional --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Social</masterLabel>
+            <translation><!-- Social --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- SomTv_YieldBilateralIst --></label>
+        <name>SomTv_YieldBilateralIst__c</name>
+    </fields>
+    <fields>
+        <label><!-- BMV Digital --></label>
+        <name>Som_BmvDigital__c</name>
+    </fields>
+    <fields>
+        <label><!-- BMV TV --></label>
+        <name>Som_BmvTV__c</name>
+    </fields>
+    <fields>
+        <help><!-- Opportunity enthält Medienbaustein Digital out of Home --></help>
+        <label><!-- DooH (7Screen) --></label>
+        <name>Som_DooH7Screen__c</name>
+    </fields>
+    <fields>
+        <help><!-- Baustein auf den eine Provision für Handelsvertreter fällig wird --></help>
+        <label><!-- Baustein (Provision) --></label>
+        <name>Sports_BausteinProvision__c</name>
+        <picklistValues>
+            <masterLabel>Barter</masterLabel>
+            <translation><!-- Barter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Digital</masterLabel>
+            <translation><!-- Digital --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DooH</masterLabel>
+            <translation><!-- DooH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On the ground</masterLabel>
+            <translation><!-- On the ground --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sonstiger</masterLabel>
+            <translation><!-- Sonstiger --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TV</masterLabel>
+            <translation><!-- TV --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- um was für einen Baustein handelt es sich genau (z.B. On the ground) --></help>
+        <label><!-- Beschreibung sonstiger Baustein --></label>
+        <name>Sports_BeschreibungSonstigerBaustein__c</name>
+    </fields>
+    <fields>
+        <label><!-- Beschreibung --></label>
+        <name>Sports_Beschreibung__c</name>
+    </fields>
+    <fields>
+        <label><!-- Name Handelsvertreter --></label>
+        <name>Sports_NameHandelsvertreter__c</name>
+        <relationshipLabel><!-- Opportunities (Name Handelsvertreter) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- On the Ground --></label>
+        <name>Sports_OnTheGround__c</name>
+    </fields>
+    <fields>
+        <help><!-- Höhe der Provision (absolut) --></help>
+        <label><!-- Provision --></label>
+        <name>Sports_Provision__c</name>
+    </fields>
+    <fields>
+        <help><!-- weitere nicht aufgeführte Media-Bausteine --></help>
+        <label><!-- Sonstige --></label>
+        <name>Sports_Sonstige__c</name>
+    </fields>
+    <fields>
+        <help><!-- Anzahl der Ad Impressions --></help>
+        <label><!-- Ad Impressions --></label>
+        <name>Star_AdImpressions__c</name>
+    </fields>
+    <fields>
+        <help><!-- Brutto Media Volumen Digital Werbung --></help>
+        <label><!-- BMV Digital --></label>
+        <name>Star_BMVDigital__c</name>
+    </fields>
+    <fields>
+        <help><!-- Brutto Volumen Digital out of Home --></help>
+        <label><!-- BMV DooH --></label>
+        <name>Star_BMVDooH__c</name>
+    </fields>
+    <fields>
+        <help><!-- Brutto Media Volumen TV Gesamt --></help>
+        <label><!-- BMV gesamt (TV) --></label>
+        <name>Star_BMVGesamtTV__c</name>
+    </fields>
+    <fields>
+        <help><!-- Unterjährige Erhöhung des freigegeben TV BMVs. On-Top Budget muss durch den Ressortvorstand, das Media Board und das Executive Board freigegeben werden. --></help>
+        <label><!-- BMV on-top zu Budget --></label>
+        <name>Star_BMVOnTopZuBudget__c</name>
+    </fields>
+    <fields>
+        <label><!-- BMV Sonstige Umsatzanteile --></label>
+        <name>Star_BMVSonstigeUmsatzanteile__c</name>
+    </fields>
+    <fields>
+        <help><!-- Brutto Media Volumen des Kunden TV Werbeanteils --></help>
+        <label><!-- BMV TV Kundenintegration --></label>
+        <name>Star_BMVTVKundenintegration__c</name>
+    </fields>
+    <fields>
+        <help><!-- Gesamt Brutto Media Volumen (BMV Gesamt TV + BMV Digital + Brutto Barter Volumen + BMV DooH + BMV Sonstige Umsatzanteile) --></help>
+        <label><!-- BMV gesamt --></label>
+        <name>Star_BMVgesamt__c</name>
+    </fields>
+    <fields>
+        <help><!-- Beschreibung Inhalte Medien-Baustein Barter --></help>
+        <label><!-- Beschreibung Barter-Bestandteil --></label>
+        <name>Star_BeschreibungBarterBestandteil__c</name>
+    </fields>
+    <fields>
+        <help><!-- Beschreibung Inhalte Medien-Baustein Digital --></help>
+        <label><!-- Beschreibung Digital --></label>
+        <name>Star_BeschreibungDigital__c</name>
+    </fields>
+    <fields>
+        <label><!-- Beschreibung DooH --></label>
+        <name>Star_BeschreibungDooH__c</name>
+    </fields>
+    <fields>
+        <label><!-- Beschreibung Sonstige Umsatzanteile --></label>
+        <name>Star_BeschreibungSonstigeUmsatzanteile__c</name>
+    </fields>
+    <fields>
+        <help><!-- Beschreibung Inhalte Medien-Baustein TV --></help>
+        <label><!-- Beschreibung TV --></label>
+        <name>Star_BeschreibungTV__c</name>
+    </fields>
+    <fields>
+        <help><!-- Beschreibung Inhalte des variablen Umsatzanteils und Hintergründe zu deren Kalkulationsbasis --></help>
+        <label><!-- Beschreibung Variable Umsatzanteile --></label>
+        <name>Star_BeschreibungVariableUmsatzanteile__c</name>
+    </fields>
+    <fields>
+        <help><!-- Brutto Barter Volumen auf deren Basis Gegenleistungen definiert werden --></help>
+        <label><!-- Brutto-Barter-Volumen --></label>
+        <name>Star_BruttoBarterVolumen__c</name>
+    </fields>
+    <fields>
+        <label><!-- CCO --></label>
+        <name>Star_CCO__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cash Cut Off (CCO) --></label>
+        <name>Star_CashCutOffCCO__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comedy --></label>
+        <name>Star_Comedy__c</name>
+    </fields>
+    <fields>
+        <help><!-- Media Netto 3 Digital, Anteil der Display Werbung (Betrag in EUR) vom MN3 Digital (gesamt) --></help>
+        <label><!-- Davon MN3 in Page --></label>
+        <name>Star_DavonMN3InPage__c</name>
+    </fields>
+    <fields>
+        <help><!-- Media Netto 3 Digital Video Werbung, Anteil der Video Werbung (Betrag in EUR) vom MN3 Digital (gesamt) --></help>
+        <label><!-- Davon MN3 in Stream --></label>
+        <name>Star_DavonMN3InStream__c</name>
+    </fields>
+    <fields>
+        <help><!-- Units oder € je nach CCO --></help>
+        <label><!-- CCO Einheit --></label>
+        <name>Star_Einheit__c</name>
+        <picklistValues>
+            <masterLabel>Euro</masterLabel>
+            <translation><!-- Euro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Units</masterLabel>
+            <translation><!-- Units --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Family Entertainment --></label>
+        <name>Star_FamilyEntertainment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Festivals --></label>
+        <name>Star_Festivals__c</name>
+    </fields>
+    <fields>
+        <help><!-- Länge des Gesamt TV Spots in Sekunden --></help>
+        <label><!-- Gesamtspotänge (in Sekunden) --></label>
+        <name>Star_GesamtspotaengeInSekunden__c</name>
+    </fields>
+    <fields>
+        <label><!-- Informationen Rechnungsstellung --></label>
+        <name>Star_InformationenRechnungsstellung__c</name>
+    </fields>
+    <fields>
+        <help><!-- Länge des Kundenanteiles des TV Spots in Sekunden --></help>
+        <label><!-- Kundenanteil Spotlänge (in Sekunden) --></label>
+        <name>Star_KundenanteilSpotlaengeInSekunden__c</name>
+    </fields>
+    <fields>
+        <label><!-- Kundenanteil Trailer (in Sekunden) --></label>
+        <name>Star_KundenanteilTrailerInSekunden__c</name>
+    </fields>
+    <fields>
+        <label><!-- Label --></label>
+        <name>Star_Label__c</name>
+    </fields>
+    <fields>
+        <help><!-- Media Netto 3 Digital Werbung --></help>
+        <label><!-- MN3 Digital --></label>
+        <name>Star_MN3Digital__c</name>
+    </fields>
+    <fields>
+        <label><!-- MN3 DooH --></label>
+        <name>Star_MN3DooH__c</name>
+    </fields>
+    <fields>
+        <label><!-- MN3 Sonstige Umsatzanteile --></label>
+        <name>Star_MN3SonstigeUmsatzanteile__c</name>
+    </fields>
+    <fields>
+        <help><!-- Media Netto 3 des Kunden TV Werbeanteils --></help>
+        <label><!-- MN3 TV Kundenintegration --></label>
+        <name>Star_MN3TVKundenintegration__c</name>
+    </fields>
+    <fields>
+        <label><!-- Monat Rechnungsstellung MN3 --></label>
+        <name>Star_MonatRechnungsstellungMN3__c</name>
+        <picklistValues>
+            <masterLabel>April</masterLabel>
+            <translation><!-- April --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>August</masterLabel>
+            <translation><!-- August --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dezember</masterLabel>
+            <translation><!-- Dezember --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Februar</masterLabel>
+            <translation><!-- Februar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Januar</masterLabel>
+            <translation><!-- Januar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Juli</masterLabel>
+            <translation><!-- Juli --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Juni</masterLabel>
+            <translation><!-- Juni --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mai</masterLabel>
+            <translation><!-- Mai --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>März</masterLabel>
+            <translation><!-- März --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>November</masterLabel>
+            <translation><!-- November --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oktober</masterLabel>
+            <translation><!-- Oktober --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>September</masterLabel>
+            <translation><!-- September --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Musicals --></label>
+        <name>Star_Musicals__c</name>
+    </fields>
+    <fields>
+        <help><!-- Brutto Barter Volumen abzüglich Gegengeschäftsrabatt --></help>
+        <label><!-- Netto-Barter-Volumen --></label>
+        <name>Star_NettoBarterVolumen__c</name>
+    </fields>
+    <fields>
+        <label><!-- Örtliche Veranstalter --></label>
+        <name>Star_OertlicheVeranstalter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Proposal Nummer --></label>
+        <name>Star_ProposalNummer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Release Date / VVK Start --></label>
+        <name>Star_ReleaseDateVVKStart__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rock, Pop &amp; Schlager Tourneen --></label>
+        <name>Star_RockPopSchlagerTourneen__c</name>
+    </fields>
+    <fields>
+        <label><!-- Royality Abrechnungszyklus --></label>
+        <name>Star_RoyalityAbrechnungszyklus__c</name>
+        <picklistValues>
+            <masterLabel>4 Wochen nach Event</masterLabel>
+            <translation><!-- 4 Wochen nach Event --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6-wöchig</masterLabel>
+            <translation><!-- 6-wöchig --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>halb-jährlich</masterLabel>
+            <translation><!-- halb-jährlich --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>jährlich</masterLabel>
+            <translation><!-- jährlich --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>viertel-jährlich</masterLabel>
+            <translation><!-- viertel-jährlich --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sonstige --></label>
+        <name>Star_Sonstige__c</name>
+    </fields>
+    <fields>
+        <label><!-- Summe BMV --></label>
+        <name>Star_SummeBMV__c</name>
+    </fields>
+    <fields>
+        <label><!-- Summe Revenue --></label>
+        <name>Star_SummeRevenue__c</name>
+    </fields>
+    <fields>
+        <help><!-- MN3 TV Kundenintegration + Variabler Umsatz (gesamt) --></help>
+        <label><!-- Umsatz gesamt (fix + variabel, TV) --></label>
+        <name>Star_UmsatzGesamtFixVariabelTV__c</name>
+    </fields>
+    <fields>
+        <help><!-- auch MN3 gesamt der Opportunity
+Gesamt Umsatz netto (Cash-In) (MN3 TV Kundenintegration + MN3 Digital + Variabler Umsatz (gesamt) + MN3 + Sonstige Umsatzanteile + MN3 DooH) --></help>
+        <label><!-- Umsatz gesamt (fix + variabel) --></label>
+        <name>Star_UmsatzGesamtNettoFixVariabel__c</name>
+    </fields>
+    <fields>
+        <help><!-- erwartete variable Umsatzbeteiligung als definierter Vergütungsbestandteil (z.B. Betrag x pro sold Unit des beworbenen Partnerprodukts) --></help>
+        <label><!-- Variabler Umsatz (Rev Share) --></label>
+        <name>Star_VariablerRevShare__c</name>
+    </fields>
+    <fields>
+        <help><!-- erwartete variable Umsatzbeteiligung als definierter Vergütungsbestandteil (z.B. Betrag x pro sold Unit des beworbenen Partnerprodukts) --></help>
+        <label><!-- variabler Umsatz (Rev Share) --></label>
+        <name>Star_VariablerUmsatzRevShare__c</name>
+    </fields>
+    <fields>
+        <label><!-- Verrechenbar mit Fixum --></label>
+        <name>Star_VerrechenbarMitFixum__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vertrags Nummer --></label>
+        <name>Star_VertragsNummer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vertragsgebiet --></label>
+        <name>Star_Vertragsgebiet__c</name>
+        <picklistValues>
+            <masterLabel>DACH</masterLabel>
+            <translation><!-- DACH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DE</masterLabel>
+            <translation><!-- DE --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Vorauskasse --></label>
+        <name>Star_Vorauskasse__c</name>
+    </fields>
+    <fields>
+        <label><!-- Yield gesamt fix (TV) --></label>
+        <name>Star_YieldGesamtFixTV__c</name>
+    </fields>
+    <fields>
+        <help><!-- Gesamt Yield des Media Deal (Umsatz gesamt netto (fix + variabel) / BMV gesamt) --></help>
+        <label><!-- Yield gesamt --></label>
+        <name>Star_YieldGesamt__c</name>
+    </fields>
+    <fields>
+        <help><!-- MN3 TV Kundenintegration / BMV TV Kundenintegration --></help>
+        <label><!-- Yield TV Kundenintegration --></label>
+        <name>Star_YieldTVKundenintegration__c</name>
+    </fields>
+    <fields>
+        <help><!-- Bitte den Analysten für diesem Lead auswählen! --></help>
+        <label><!-- Analyst --></label>
+        <name>Ven_Analyst__c</name>
+        <relationshipLabel><!-- Opportunities (Analyst) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Bitte hier die Einschätzung des Investment Managers hinterlegen --></help>
+        <label><!-- Assessment of Investment Manager --></label>
+        <name>Ven_Assessment_of_Investment_Manager__c</name>
+    </fields>
+    <fields>
+        <help><!-- Hier bitte das Asset Objekt eintragen --></help>
+        <label><!-- Asset --></label>
+        <name>Ven_Asset__c</name>
+        <relationshipLabel><!-- Opportunities --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Es wird ein volumenbasierter Mittelwert der „Effective Yields“ für das „Current Year“ berechnet gewichtet nach Net Potential. --></help>
+        <label><!-- Avg. Eff. Yield Pipeline weighted (CY) --></label>
+        <name>Ven_AvgEffYieldPipelineWeightedCY__c</name>
+    </fields>
+    <fields>
+        <help><!-- Es wird ein volumenbasierter Mittelwert der „Effective Yields“ für das „Next Year“ berechnet gewichtet nach Net Potential. --></help>
+        <label><!-- Avg. Eff. Yield Pipeline weighted (NY) --></label>
+        <name>Ven_AvgEffYieldPipelineWeightedNY__c</name>
+    </fields>
+    <fields>
+        <label><!-- Avg. Yield --></label>
+        <name>Ven_AvgYield__c</name>
+    </fields>
+    <fields>
+        <help><!-- Diese Informationen wurde aus dem Lead-Objekt mit der Konvertierung in die Opportunity übertragen. --></help>
+        <label><!-- Opportunity Description --></label>
+        <name>Ven_Beschreibung_aus_dem_Lead__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bridge --></label>
+        <name>Ven_Bridge__c</name>
+    </fields>
+    <fields>
+        <label><!-- Business Model --></label>
+        <name>Ven_BusinessModel__c</name>
+        <picklistValues>
+            <masterLabel>Booking</masterLabel>
+            <translation><!-- Booking --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Classified listing</masterLabel>
+            <translation><!-- Classified listing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Commission</masterLabel>
+            <translation><!-- Commission --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Content</masterLabel>
+            <translation><!-- Content --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E-Commerce</masterLabel>
+            <translation><!-- E-Commerce --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Freemium</masterLabel>
+            <translation><!-- Freemium --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lead generation</masterLabel>
+            <translation><!-- Lead generation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manufacturing</masterLabel>
+            <translation><!-- Manufacturing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketplace</masterLabel>
+            <translation><!-- Marketplace --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Subscription</masterLabel>
+            <translation><!-- Subscription --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Virtual items</masterLabel>
+            <translation><!-- Virtual items --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Business Type --></label>
+        <name>Ven_BusinessType__c</name>
+        <picklistValues>
+            <masterLabel>Digital</masterLabel>
+            <translation><!-- Digital --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Physical</masterLabel>
+            <translation><!-- Physical --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Für Equity zuständig --></help>
+        <label><!-- Call Option --></label>
+        <name>Ven_Call_Option__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cancellation --></label>
+        <name>Ven_Cancellation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cash Invest --></label>
+        <name>Ven_CashInvest__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cash Yield --></label>
+        <name>Ven_CashYield__c</name>
+    </fields>
+    <fields>
+        <label><!-- Closed Lost --></label>
+        <name>Ven_ClosedLost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Closed Won --></label>
+        <name>Ven_ClosedWon__c</name>
+    </fields>
+    <fields>
+        <help><!-- Informationen über Meilensteine im Opportunity Process --></help>
+        <label><!-- Closing Date --></label>
+        <name>Ven_Closing_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Informationen über Meilensteine im Opportunity Process --></help>
+        <label><!-- Closing --></label>
+        <name>Ven_Closing__c</name>
+    </fields>
+    <fields>
+        <help><!-- Eingabebereich für zusätzliche Informationen zu den Phasen &apos;Rejected&apos; und &apos;Finished&apos;. Für &apos;Rejected&apos; wird das Textfeld automatisch mit  dem Namen der letzten aktiven Phase gefüllt. --></help>
+        <label><!-- Comment --></label>
+        <name>Ven_Comment__c</name>
+    </fields>
+    <fields>
+        <help><!-- Informationen über Meilensteine im Opportunity Process --></help>
+        <label><!-- Consolidation Date --></label>
+        <name>Ven_Consolidation_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Informationen über Meilensteine im Opportunity Process --></help>
+        <label><!-- Consolidation --></label>
+        <name>Ven_Consolidation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contacted --></label>
+        <name>Ven_Contacted__c</name>
+    </fields>
+    <fields>
+        <label><!-- Country --></label>
+        <name>Ven_Country__c</name>
+        <relationshipLabel><!-- Opportunities (Country) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Customer Assessment --></label>
+        <name>Ven_CustomerAssesment__c</name>
+        <picklistValues>
+            <masterLabel>A</masterLabel>
+            <translation><!-- A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B</masterLabel>
+            <translation><!-- B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Wenn das Kontrollkästchen markiert ist muss dieses Gremium beim Genehmigungsprozess der Opportunity aktiv werden und die Opportunity genehmigen oder ablehnen. --></help>
+        <label><!-- D&amp;A Board --></label>
+        <name>Ven_D_A_Board__c</name>
+    </fields>
+    <fields>
+        <help><!-- Hier wird automatisch das Datum der Ablehnung o der Genehmigung des Gremium erfasst. --></help>
+        <label><!-- D&amp;A Board Approval --></label>
+        <name>Ven_Datum_D_A_Board__c</name>
+    </fields>
+    <fields>
+        <help><!-- Hier wird automatisch das Datum der Ablehnung o der Genehmigung des Gremium erfasst. --></help>
+        <label><!-- Executive Board Approval --></label>
+        <name>Ven_Datum_Executive_Board__c</name>
+    </fields>
+    <fields>
+        <help><!-- Hier wird automatisch das Datum der Ablehnung o der Genehmigung des Gremium erfasst. --></help>
+        <label><!-- Datum SIC II --></label>
+        <name>Ven_Datum_SIC_II__c</name>
+    </fields>
+    <fields>
+        <help><!-- Hier wird automatisch das Datum der Ablehnung o der Genehmigung des Gremium erfasst. --></help>
+        <label><!-- Datum SIC I --></label>
+        <name>Ven_Datum_SIC_I__c</name>
+    </fields>
+    <fields>
+        <help><!-- Hier wird automatisch das Datum der Ablehnung o der Genehmigung des Gremium erfasst. --></help>
+        <label><!-- Datum SOM Assessment --></label>
+        <name>Ven_Datum_SOM_Assessment__c</name>
+    </fields>
+    <fields>
+        <help><!-- Hier wird automatisch das Datum der Ablehnung o der Genehmigung des Gremium erfasst. --></help>
+        <label><!-- Supervisory Board Approval --></label>
+        <name>Ven_Datum_Supervisory_Board__c</name>
+    </fields>
+    <fields>
+        <help><!-- Hier wird automatisch das Datum der Ablehnung o der Genehmigung des Gremium erfasst. --></help>
+        <label><!-- Datum VIC II --></label>
+        <name>Ven_Datum_VIC_II__c</name>
+    </fields>
+    <fields>
+        <help><!-- Hier wird automatisch das Datum der Ablehnung o der Genehmigung des Gremium erfasst. --></help>
+        <label><!-- Datum VIC I --></label>
+        <name>Ven_Datum_VIC_I__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deal Approval --></label>
+        <name>Ven_DealApproval__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deal Category --></label>
+        <name>Ven_DealCategory__c</name>
+        <picklistValues>
+            <masterLabel>Digital Invest</masterLabel>
+            <translation><!-- Digital Invest --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Digital Sales</masterLabel>
+            <translation><!-- Digital Sales --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non-Digital Invest</masterLabel>
+            <translation><!-- Non-Digital Invest --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non-Digital Sales</masterLabel>
+            <translation><!-- Non-Digital Sales --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Deal Start (Month) --></label>
+        <name>Ven_DealStartMonth__c</name>
+    </fields>
+    <fields>
+        <label><!-- 7Ventures Deal Type --></label>
+        <name>Ven_DealType__c</name>
+        <picklistValues>
+            <masterLabel>Budget Deal</masterLabel>
+            <translation><!-- Budget Deal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lighthouse Deal</masterLabel>
+            <translation><!-- Lighthouse Deal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Venture Deal</masterLabel>
+            <translation><!-- Venture Deal --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Bitte hier eine detaillierte Beschreibung des Investments hinterlegen --></help>
+        <label><!-- Detailed Investment Rationale --></label>
+        <name>Ven_Detailed_Investment_Rationale__c</name>
+    </fields>
+    <fields>
+        <help><!-- Für Equity zuständig --></help>
+        <label><!-- Direct Equity --></label>
+        <name>Ven_Direct_Equity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Effective Yield --></label>
+        <name>Ven_EffectiveYield__c</name>
+    </fields>
+    <fields>
+        <label><!-- EP light --></label>
+        <name>Ven_EpLight__c</name>
+    </fields>
+    <fields>
+        <label><!-- EP --></label>
+        <name>Ven_Ep__c</name>
+    </fields>
+    <fields>
+        <help><!-- Definiert den tatsächlichen Anteil, nicht den angestrebten Anteil --></help>
+        <label><!-- Equity Share --></label>
+        <name>Ven_Equity_Share__c</name>
+    </fields>
+    <fields>
+        <label><!-- Equity --></label>
+        <name>Ven_Equity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Estimate Cash Yield (Current Year) --></label>
+        <name>Ven_EstimateCashYieldCurrentYear__c</name>
+    </fields>
+    <fields>
+        <label><!-- Estimate Cash Yield (New Year) --></label>
+        <name>Ven_EstimateCashYieldNewYear__c</name>
+    </fields>
+    <fields>
+        <label><!-- Estimate Effective Yield --></label>
+        <name>Ven_EstimateEffectiveYield__c</name>
+    </fields>
+    <fields>
+        <label><!-- Estimate pRap Yield (Current Year) --></label>
+        <name>Ven_EstimatePrapYieldCurrentYear__c</name>
+    </fields>
+    <fields>
+        <label><!-- Estimate pRap Yield (New Year) --></label>
+        <name>Ven_EstimatePrapYieldNewYear__c</name>
+    </fields>
+    <fields>
+        <help><!-- Wenn das Kontrollkästchen markiert ist muss dieses Gremium beim Genehmigungsprozess der Opportunity aktiv werden und die Opportunity genehmigen oder ablehnen. --></help>
+        <label><!-- Executive Board --></label>
+        <name>Ven_Executive_Board__c</name>
+    </fields>
+    <fields>
+        <help><!-- Für Revenues zuständig --></help>
+        <label><!-- Exit Kicker --></label>
+        <name>Ven_Exit_Kicker__c</name>
+    </fields>
+    <fields>
+        <help><!-- Für Equity zuständig --></help>
+        <label><!-- Exit Participation --></label>
+        <name>Ven_Exit_Participation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fill-up --></label>
+        <name>Ven_Fillup__c</name>
+    </fields>
+    <fields>
+        <label><!-- Full Net Potential Current Year --></label>
+        <name>Ven_FullNetPotentialCurrentYear__c</name>
+    </fields>
+    <fields>
+        <label><!-- Full Net Potential Next Year --></label>
+        <name>Ven_FullNetPotentialNextYear__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total GMV current Year (weighted) --></label>
+        <name>Ven_GMVWeighted__c</name>
+    </fields>
+    <fields>
+        <help><!-- Es handelt sich hier um eine Hilfsfeld was bei dem Opportunity-Approval-Prozess von Seven Ventures benötigt wird. --></help>
+        <label><!-- Hilfsfeld Opp. Approval SV --></label>
+        <name>Ven_Hilfsfeld_Opp_Approval_SV__c</name>
+    </fields>
+    <fields>
+        <help><!-- Zusammenfassung von Daten aus Theorem Analytics, die nach der Migration nicht mehr benötigt werden. --></help>
+        <label><!-- History --></label>
+        <name>Ven_Historische_Daten__c</name>
+    </fields>
+    <fields>
+        <label><!-- IM2 --></label>
+        <name>Ven_Im2__c</name>
+        <relationshipLabel><!-- Opportunities (IM2) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Wenn die Checkbox markiert ist, befindet sich der Opportunity-Datensatz im Genehmigungsprozess. --></help>
+        <label><!-- Im Genehmigungsprozess --></label>
+        <name>Ven_Im_Genehmigungsprozess__c</name>
+    </fields>
+    <fields>
+        <label><!-- Industry Champion --></label>
+        <name>Ven_IndustryChampion__c</name>
+        <relationshipLabel><!-- Opportunities (Industry Champion) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- International --></label>
+        <name>Ven_International__c</name>
+    </fields>
+    <fields>
+        <help><!-- Landesgesellschaft von SevenVentures --></help>
+        <label><!-- Landesgesellschaft --></label>
+        <name>Ven_Landesgesellschaft__c</name>
+        <picklistValues>
+            <masterLabel>SevenVentures Deutschland</masterLabel>
+            <translation><!-- SevenVentures Deutschland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SevenVentures Schweiz</masterLabel>
+            <translation><!-- SevenVentures Schweiz --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SevenVentures Österreich</masterLabel>
+            <translation><!-- SevenVentures Österreich --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Last Modified By --></label>
+        <name>Ven_LastModifiedBy__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Modified Date --></label>
+        <name>Ven_LastModifiedDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Likelihood --></label>
+        <name>Ven_Likelihood__c</name>
+    </fields>
+    <fields>
+        <label><!-- MG --></label>
+        <name>Ven_MG__c</name>
+    </fields>
+    <fields>
+        <help><!-- Bitte hier den Zielmarkt beschreiben --></help>
+        <label><!-- Market Description --></label>
+        <name>Ven_Market_Description__c</name>
+    </fields>
+    <fields>
+        <help><!-- Bitte hier die Einflussfaktoren eingeben --></help>
+        <label><!-- Market Drivers --></label>
+        <name>Ven_Market_Drivers__c</name>
+    </fields>
+    <fields>
+        <help><!-- Bitte hier das Marktwachstum eingeben --></help>
+        <label><!-- Market Growth --></label>
+        <name>Ven_Market_Growth__c</name>
+    </fields>
+    <fields>
+        <help><!-- Bitte die Grösse des Zielmarktes eintragen --></help>
+        <label><!-- Market Size --></label>
+        <name>Ven_Market_Size__c</name>
+    </fields>
+    <fields>
+        <help><!-- Maßnahmen für die Opportunity --></help>
+        <label><!-- Measure --></label>
+        <name>Ven_Measure__c</name>
+        <picklistValues>
+            <masterLabel>Ex Target Stalking</masterLabel>
+            <translation><!-- Ex Target Stalking --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Deals</masterLabel>
+            <translation><!-- New Deals --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Niche Smashing</masterLabel>
+            <translation><!-- Niche Smashing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pipeline</masterLabel>
+            <translation><!-- Pipeline --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Portfolio Glue</masterLabel>
+            <translation><!-- Portfolio Glue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prolongation</masterLabel>
+            <translation><!-- Prolongation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scout Boosting</masterLabel>
+            <translation><!-- Scout Boosting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SuperSize Me</masterLabel>
+            <translation><!-- SuperSize Me --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transfer Deals</masterLabel>
+            <translation><!-- Transfer Deals --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Internal Media Agency --></label>
+        <name>Ven_MediaPlanner__c</name>
+    </fields>
+    <fields>
+        <help><!-- Für Revenues zuständig --></help>
+        <label><!-- Minimum Guarantee --></label>
+        <name>Ven_Minimum_Guarantee__c</name>
+    </fields>
+    <fields>
+        <help><!-- Bei kritischen Deals bitte das Häkchen setzen --></help>
+        <label><!-- Mission Critical --></label>
+        <name>Ven_Mission_Critical__c</name>
+    </fields>
+    <fields>
+        <label><!-- Net Potential Current Year --></label>
+        <name>Ven_NetPotentialCurrentYear__c</name>
+    </fields>
+    <fields>
+        <label><!-- Net Potential Next Year --></label>
+        <name>Ven_NetPotentialNextYear__c</name>
+    </fields>
+    <fields>
+        <label><!-- Net Revenue (Full Pot) split --></label>
+        <name>Ven_NetRevenueFullPotSplit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Net Revenue (Full Pot) --></label>
+        <name>Ven_NetRevenueFullPot__c</name>
+    </fields>
+    <fields>
+        <label><!-- Net Revenue (weighted) split --></label>
+        <name>Ven_NetRevenueWeightedSplit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Net Revenue (weighted) --></label>
+        <name>Ven_NetRevenueWeighted__c</name>
+    </fields>
+    <fields>
+        <help><!-- Entity of Opportunity Owner in Hierarchy --></help>
+        <label><!-- Opportunity Owner Entity --></label>
+        <name>Ven_OpportunityOwnerEntity__c</name>
+    </fields>
+    <fields>
+        <help><!-- Das Feld wird aus dem Lead übertragen und gibt an mit welchem Datensatztyp die Opportunity  angelegt werden soll. --></help>
+        <label><!-- Type (Ven) --></label>
+        <name>Ven_Opportunity_Deal_Type__c</name>
+        <picklistValues>
+            <masterLabel>Licensing</masterLabel>
+            <translation><!-- Licensing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Opportunistic</masterLabel>
+            <translation><!-- Opportunistic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strategic</masterLabel>
+            <translation><!-- Strategic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WKZ</masterLabel>
+            <translation><!-- WKZ --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Für Revenues zuständig --></help>
+        <label><!-- Other --></label>
+        <name>Ven_Other__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parked Date --></label>
+        <name>Ven_ParkedDate__c</name>
+    </fields>
+    <fields>
+        <help><!-- Merkmal für Opportunities, die für einen gewissen Zeitraum nicht weiter verfolgt werden. --></help>
+        <label><!-- Parked --></label>
+        <name>Ven_Parked__c</name>
+    </fields>
+    <fields>
+        <help><!-- Path-to-Majority kann über die Kombination von Direct-Equity (Minority) und Call Option abgebildet werden --></help>
+        <label><!-- Participation Ratio --></label>
+        <name>Ven_Participation_Ratio__c</name>
+        <picklistValues>
+            <masterLabel>Majority</masterLabel>
+            <translation><!-- Majority --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Minority</masterLabel>
+            <translation><!-- Minority --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Kopiert die aktuelle Phase in dieses Feld. --></help>
+        <label><!-- Phase Hilfsfeld --></label>
+        <name>Ven_Phase_Hilfsfeld__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason for Cancellation --></label>
+        <name>Ven_ReasonForCancellation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Region --></label>
+        <name>Ven_Region__c</name>
+    </fields>
+    <fields>
+        <help><!-- Automatische Erzeugung einer E-Mail zur Wiedervorlage für das angegebene Datum. --></help>
+        <label><!-- Resubmission --></label>
+        <name>Ven_Resubmission__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rev Share --></label>
+        <name>Ven_RevShare__c</name>
+    </fields>
+    <fields>
+        <help><!-- Informationen zu speziellen Revenue- und Equity-Konstrukten, Fill-ups, etc... --></help>
+        <label><!-- Revenue Comment --></label>
+        <name>Ven_Revenue_Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Risk Profile --></label>
+        <name>Ven_RiskProfile__c</name>
+        <picklistValues>
+            <masterLabel>Mature</masterLabel>
+            <translation><!-- Mature --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Risky</masterLabel>
+            <translation><!-- Risky --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Wenn das Kontrollkästchen markiert ist muss dieses Gremium beim Genehmigungsprozess der Opportunity aktiv werden und die Opportunity genehmigen oder ablehnen. --></help>
+        <label><!-- SIC II --></label>
+        <name>Ven_SIC_II__c</name>
+    </fields>
+    <fields>
+        <help><!-- Wenn das Kontrollkästchen markiert ist muss dieses Gremium beim Genehmigungsprozess der Opportunity aktiv werden und die Opportunity genehmigen oder ablehnen. --></help>
+        <label><!-- SIC I --></label>
+        <name>Ven_SIC_I__c</name>
+    </fields>
+    <fields>
+        <help><!-- Hilfsfeld zur Berechnung des Equity/Cash Ratio --></help>
+        <label><!-- SOM Likelihood --></label>
+        <name>Ven_SOMLikelihood__c</name>
+    </fields>
+    <fields>
+        <help><!-- Wenn das Kontrollkästchen markiert ist muss dieses Gremium beim Genehmigungsprozess der Opportunity aktiv werden und die Opportunity genehmigen oder ablehnen. --></help>
+        <label><!-- SOM Assessment --></label>
+        <name>Ven_SOM_Assessment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Scout (Text) --></label>
+        <name>Ven_ScoutText__c</name>
+    </fields>
+    <fields>
+        <label><!-- Scout --></label>
+        <name>Ven_Scout__c</name>
+        <relationshipLabel><!-- Opportunities (Scout) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Hilfsfeld für Opportunity Pipeline --></help>
+        <label><!-- Show in Pipe --></label>
+        <name>Ven_ShowInPipe__c</name>
+    </fields>
+    <fields>
+        <help><!-- Informationen über Meilensteine im Opportunity Process --></help>
+        <label><!-- Signing Date --></label>
+        <name>Ven_Signing_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Informationen über Meilensteine im Opportunity Process --></help>
+        <label><!-- Signing --></label>
+        <name>Ven_Signing__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source Person --></label>
+        <name>Ven_Source_Person__c</name>
+        <relationshipLabel><!-- Opportunities --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Bitte geben Sie einen Sourcing Type an --></help>
+        <label><!-- Sourcing Type --></label>
+        <name>Ven_Sourcing_Type__c</name>
+        <picklistValues>
+            <masterLabel>3rd Party (Scout / Ambassador)</masterLabel>
+            <translation><!-- 3rd Party (Scout / Ambassador) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Active / Outbound</masterLabel>
+            <translation><!-- Active / Outbound --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partner- / Portfolio-Network</masterLabel>
+            <translation><!-- Partner- / Portfolio-Network --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reactive / Inbound</masterLabel>
+            <translation><!-- Reactive / Inbound --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Dient der Angabe von Gründen für die Phasen Rejected und Finished, bei Phase Finished bitte Texteingabebereich &apos;Comment&apos; für Spezifikation verwenden. --></help>
+        <label><!-- Reason --></label>
+        <name>Ven_Stage_Finished_Subcategory__c</name>
+        <picklistValues>
+            <masterLabel>Exit</masterLabel>
+            <translation><!-- Exit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expired</masterLabel>
+            <translation><!-- Expired --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Insolvency</masterLabel>
+            <translation><!-- Insolvency --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected by 7V</masterLabel>
+            <translation><!-- Rejected by 7V --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected by Account</masterLabel>
+            <translation><!-- Rejected by Account --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Terminated by 7V</masterLabel>
+            <translation><!-- Terminated by 7V --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Terminated by Account</masterLabel>
+            <translation><!-- Terminated by Account --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Terminated by mutual agreement</masterLabel>
+            <translation><!-- Terminated by mutual agreement --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Status vom Gremium zur Ablehnung bzw. zur Genehmigung der Opportunity. --></help>
+        <label><!-- Status D&amp;A Board --></label>
+        <name>Ven_Status_D_A_Board__c</name>
+    </fields>
+    <fields>
+        <help><!-- Status vom Gremium zur Ablehnung bzw. zur Genehmigung der Opportunity. --></help>
+        <label><!-- Status Executive Board --></label>
+        <name>Ven_Status_Executive_Board__c</name>
+    </fields>
+    <fields>
+        <help><!-- Status vom Gremium zur Ablehnung bzw. zur Genehmigung der Opportunity. --></help>
+        <label><!-- Status SIC II --></label>
+        <name>Ven_Status_SIC_II__c</name>
+    </fields>
+    <fields>
+        <help><!-- Status vom Gremium zur Ablehnung bzw. zur Genehmigung der Opportunity. --></help>
+        <label><!-- Status SIC I --></label>
+        <name>Ven_Status_SIC_I__c</name>
+    </fields>
+    <fields>
+        <help><!-- Status vom Gremium zur Ablehnung bzw. zur Genehmigung der Opportunity. --></help>
+        <label><!-- Status SOM Assessment --></label>
+        <name>Ven_Status_SOM_Assessment__c</name>
+    </fields>
+    <fields>
+        <help><!-- Status vom Gremium zur Ablehnung bzw. zur Genehmigung der Opportunity. --></help>
+        <label><!-- Status Supervisory Board --></label>
+        <name>Ven_Status_Supervisory_Board__c</name>
+    </fields>
+    <fields>
+        <help><!-- Status vom Gremium zur Ablehnung bzw. zur Genehmigung der Opportunity. --></help>
+        <label><!-- Status VIC II --></label>
+        <name>Ven_Status_VIC_II__c</name>
+    </fields>
+    <fields>
+        <help><!-- Status vom Gremium zur Ablehnung bzw. zur Genehmigung der Opportunity. --></help>
+        <label><!-- Status VIC I --></label>
+        <name>Ven_Status_VIC_I__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sub Category --></label>
+        <name>Ven_SubCategory__c</name>
+        <picklistValues>
+            <masterLabel>Accessories</masterLabel>
+            <translation><!-- Accessories --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Automotive Supplies</masterLabel>
+            <translation><!-- Automotive Supplies --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Baby Articles</masterLabel>
+            <translation><!-- Baby Articles --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Beauty</masterLabel>
+            <translation><!-- Beauty --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bicycles</masterLabel>
+            <translation><!-- Bicycles --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Classified Ads</masterLabel>
+            <translation><!-- Classified Ads --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consumer Electronics</masterLabel>
+            <translation><!-- Consumer Electronics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dating</masterLabel>
+            <translation><!-- Dating --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Digital Services</masterLabel>
+            <translation><!-- Digital Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fashion &amp; Sports</masterLabel>
+            <translation><!-- Fashion &amp; Sports --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fintech &amp; Insurance</masterLabel>
+            <translation><!-- Fintech &amp; Insurance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Food &amp; Beverages</masterLabel>
+            <translation><!-- Food &amp; Beverages --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Furniture &amp; Interieur</masterLabel>
+            <translation><!-- Furniture &amp; Interieur --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gaming &amp; Betting</masterLabel>
+            <translation><!-- Gaming &amp; Betting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gifts</masterLabel>
+            <translation><!-- Gifts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Glasse</masterLabel>
+            <translation><!-- Glasse --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Health &amp; Wellness</masterLabel>
+            <translation><!-- Health &amp; Wellness --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Home &amp; Living</masterLabel>
+            <translation><!-- Home &amp; Living --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kitchen</masterLabel>
+            <translation><!-- Kitchen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Learning &amp; Education</masterLabel>
+            <translation><!-- Learning &amp; Education --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketplace</masterLabel>
+            <translation><!-- Marketplace --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pets &amp; Pet Supplies</masterLabel>
+            <translation><!-- Pets &amp; Pet Supplies --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Photo Services</masterLabel>
+            <translation><!-- Photo Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sexual Wellness</masterLabel>
+            <translation><!-- Sexual Wellness --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sports &amp; Equipment</masterLabel>
+            <translation><!-- Sports &amp; Equipment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TMT</masterLabel>
+            <translation><!-- TMT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Travel</masterLabel>
+            <translation><!-- Travel --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Wenn das Kontrollkästchen markiert ist muss dieses Gremium beim Genehmigungsprozess der Opportunity aktiv werden und die Opportunity genehmigen oder ablehnen. --></help>
+        <label><!-- Supervisory Board --></label>
+        <name>Ven_Supervisory_Board__c</name>
+    </fields>
+    <fields>
+        <help><!-- Hilfsfeld für die TS05 der ProMetheus-Salesforce-Schnittstelle --></help>
+        <label><!-- TS05 Source Person --></label>
+        <name>Ven_TS05_Source_Person__c</name>
+    </fields>
+    <fields>
+        <label><!-- Target P&amp;L --></label>
+        <name>Ven_TargetPL__c</name>
+        <picklistValues>
+            <masterLabel>Austria</masterLabel>
+            <translation><!-- Austria --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Germany</masterLabel>
+            <translation><!-- Germany --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Switzerland</masterLabel>
+            <translation><!-- Switzerland --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Bitte die Seven Ventures Team-Zuodnung auswählen! --></help>
+        <label><!-- Team --></label>
+        <name>Ven_Team__c</name>
+        <picklistValues>
+            <masterLabel>Digital Commerce</masterLabel>
+            <translation><!-- Digital Commerce --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finance</masterLabel>
+            <translation><!-- Finance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Growth Investments</masterLabel>
+            <translation><!-- Growth Investments --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lifestyle Commerce</masterLabel>
+            <translation><!-- Lifestyle Commerce --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M&amp;A</masterLabel>
+            <translation><!-- M&amp;A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ops &amp; Strat</masterLabel>
+            <translation><!-- Ops &amp; Strat --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>San Francisco</masterLabel>
+            <translation><!-- San Francisco --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Test Deal --></label>
+        <name>Ven_TestDeal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Cash Current Year --></label>
+        <name>Ven_TotalCashCurrentYear__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Cash Next Year --></label>
+        <name>Ven_TotalCashNextYear__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Current Year --></label>
+        <name>Ven_TotalCurrentYear__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total GMV current Year (Full Pot) split --></label>
+        <name>Ven_TotalGMVCurrentYearFullPotSplit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total GMV current Year (weighted) split --></label>
+        <name>Ven_TotalGMVCurrentYearWeightedSplit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total GMV current Year (Full Pot) --></label>
+        <name>Ven_TotalGMVFormula__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total GMV current Year (Full Pot) --></label>
+        <name>Ven_TotalGmvCurrentYear__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total GMV Next Year --></label>
+        <name>Ven_TotalGmvNextYear__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total GMV --></label>
+        <name>Ven_TotalGmv__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Net Potential --></label>
+        <name>Ven_TotalNetPotential__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Next Year --></label>
+        <name>Ven_TotalNextYear__c</name>
+    </fields>
+    <fields>
+        <help><!-- Bitte hier die USPs des Angebots angeben --></help>
+        <label><!-- USP of Product / Service Offering --></label>
+        <name>Ven_USP_of_Product__c</name>
+    </fields>
+    <fields>
+        <help><!-- Wie hoch ist das geschätzte Umsatzvolumen? Dieses Feld wird für Spheren Ventures / US genutzt --></help>
+        <label><!-- Betrag --></label>
+        <name>Ven_UsAmount__c</name>
+    </fields>
+    <fields>
+        <help><!-- Klassifizierung 1 aus San Francisco --></help>
+        <label><!-- Type  1 (US) --></label>
+        <name>Ven_UsType1__c</name>
+        <picklistValues>
+            <masterLabel>Bestehendes Geschäft</masterLabel>
+            <translation><!-- Bestehendes Geschäft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M4E</masterLabel>
+            <translation><!-- M4E --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M4R</masterLabel>
+            <translation><!-- M4R --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M4R + M4E</masterLabel>
+            <translation><!-- M4R + M4E --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Minority</masterLabel>
+            <translation><!-- Minority --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Neues Geschäft</masterLabel>
+            <translation><!-- Neues Geschäft --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Klassifizierung 2 aus San Francisco --></help>
+        <label><!-- Type 2 (US) --></label>
+        <name>Ven_UsType2__c</name>
+        <picklistValues>
+            <masterLabel>Content Partner Deal</masterLabel>
+            <translation><!-- Content Partner Deal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Distribution Partner Deal</masterLabel>
+            <translation><!-- Distribution Partner Deal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Licence Partner Deal</masterLabel>
+            <translation><!-- Licence Partner Deal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mobile Partner Deal</masterLabel>
+            <translation><!-- Mobile Partner Deal --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Informationen über Meilensteine im Opportunity Process --></help>
+        <label><!-- VIC II/SIC II Approval --></label>
+        <name>Ven_VIC_II_SIC_II_Approval__c</name>
+    </fields>
+    <fields>
+        <help><!-- Informationen über Meilensteine im Opportunity Process --></help>
+        <label><!-- VIC II/SIC II --></label>
+        <name>Ven_VIC_II_SIC_II__c</name>
+    </fields>
+    <fields>
+        <help><!-- Wenn das Kontrollkästchen markiert ist muss dieses Gremium beim Genehmigungsprozess der Opportunity aktiv werden und die Opportunity genehmigen oder ablehnen. --></help>
+        <label><!-- VIC II --></label>
+        <name>Ven_VIC_II__c</name>
+    </fields>
+    <fields>
+        <help><!-- Informationen über Meilensteine im Opportunity Process --></help>
+        <label><!-- VIC I/SIC I Approval --></label>
+        <name>Ven_VIC_I_SIC_I_Approval__c</name>
+    </fields>
+    <fields>
+        <help><!-- Informationen über Meilensteine im Opportunity Process. --></help>
+        <label><!-- VIC I/SIC I --></label>
+        <name>Ven_VIC_I_SIC_I__c</name>
+    </fields>
+    <fields>
+        <help><!-- Wenn das Kontrollkästchen markiert ist muss dieses Gremium beim Genehmigungsprozess der Opportunity aktiv werden und die Opportunity genehmigen oder ablehnen. --></help>
+        <label><!-- VIC I --></label>
+        <name>Ven_VIC_I__c</name>
+    </fields>
+    <fields>
+        <help><!-- Hilfsfeld zur Berechnung des Equity/Cash Ratio --></help>
+        <label><!-- Values Cash Current Year --></label>
+        <name>Ven_ValuesCashCurrentYear__c</name>
+    </fields>
+    <fields>
+        <help><!-- Hilfsfeld zur Berechnung des Equity/Cash Ratio --></help>
+        <label><!-- Values Cash Next Year --></label>
+        <name>Ven_ValuesCashNextYear__c</name>
+    </fields>
+    <fields>
+        <help><!-- Hilfsfeld zur Berechnung des Equity/Cash Ratio --></help>
+        <label><!-- Values pRap Current Year --></label>
+        <name>Ven_ValuespRapCurrentYear__c</name>
+    </fields>
+    <fields>
+        <help><!-- Hilfsfeld zur Berechnung des Equity/Cash Ratio --></help>
+        <label><!-- Values pRap Next Year --></label>
+        <name>Ven_ValuespRapNextYear__c</name>
+    </fields>
+    <fields>
+        <help><!-- Für Revenues zuständig --></help>
+        <label><!-- Variable Proceeds --></label>
+        <name>Ven_Variable_Proceeds__c</name>
+    </fields>
+    <fields>
+        <label><!-- Industry --></label>
+        <name>Ven_Vertical__c</name>
+        <picklistValues>
+            <masterLabel>Beauty &amp; Accessories</masterLabel>
+            <translation><!-- Beauty &amp; Accessories --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fashion &amp; Sport</masterLabel>
+            <translation><!-- Fashion &amp; Sport --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FinTech</masterLabel>
+            <translation><!-- FinTech --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Health &amp; Wellbeing</masterLabel>
+            <translation><!-- Health &amp; Wellbeing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Home &amp; Living</masterLabel>
+            <translation><!-- Home &amp; Living --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leadgen / Price Comparison</masterLabel>
+            <translation><!-- Leadgen / Price Comparison --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Travel</masterLabel>
+            <translation><!-- Travel --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Industry --></label>
+        <name>Ven_Verticals__c</name>
+        <relationshipLabel><!-- Opportunities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- effective Yield --></label>
+        <name>Ven_effYieldFormula__c</name>
+    </fields>
+    <fields>
+        <label><!-- M2N --></label>
+        <name>Ven_m2n__c</name>
+    </fields>
+    <fields>
+        <label><!-- pRAP --></label>
+        <name>Ven_pRAP__c</name>
+    </fields>
+    <layouts>
+        <layout>Adminlayout</layout>
+        <sections>
+            <label><!-- Benutzerdefinierte Links --></label>
+            <section>Benutzerdefinierte Links</section>
+        </sections>
+        <sections>
+            <label><!-- KPI1: Auftragswerte (Kennzahlen direkt aus ProDia) --></label>
+            <section>KPI1: Auftragswerte (Kennzahlen direkt aus ProDia)</section>
+        </sections>
+        <sections>
+            <label><!-- KPI2: Datenkontrolle &amp; Auswertungen (Kennzahlen aus Rollup OPPPR-&gt;OPP) --></label>
+            <section>KPI2: Datenkontrolle &amp; Auswertungen (Kennzahlen aus Rollup OPPPR-&gt;OPP)</section>
+        </sections>
+        <sections>
+            <label><!-- KPI3: Fakturawerte Online (Kennzahlen aus Rollup REDAT-&gt;OPP) --></label>
+            <section>KPI3: Fakturawerte Online (Kennzahlen aus Rollup REDAT-&gt;OPP)</section>
+        </sections>
+        <sections>
+            <label><!-- Vergleich aus KPI1 und KPI2 --></label>
+            <section>Vergleich aus KPI1 und KPI2</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- d&amp;a Sales --></label>
+        <name>DA_Sales</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Gam_Standard --></label>
+        <name>Gam_Standard</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- MA_Default --></label>
+        <name>MA_Default</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Maxdome Opportunity --></label>
+        <name>Maxdome_Opportunity</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- PSD Branded Reselling --></label>
+        <name>PSD</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Sales Excellence Opportunity --></label>
+        <name>SalesExcellence_DEFAULT</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- AdFactory --></label>
+        <name>SomTv_AdFactory</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Buchungen ohne Verträge (TV) --></label>
+        <name>SomTv_BuchungenOhneVertraege</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Commitment (TV) --></label>
+        <name>SomTv_Commitment</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- P7S1 Intern --></label>
+        <name>SomTv_P7S1Intern</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Paket (TV) --></label>
+        <name>SomTv_Paket</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Sales Push --></label>
+        <name>SomTv_SalesPush</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Zubuchung (TV) --></label>
+        <name>SomTv_Zubuchung</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Sports_Default --></label>
+        <name>Sports_Default</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Standard --></label>
+        <name>Standard</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Star_Default --></label>
+        <name>Star_Default</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Ventures Default --></label>
+        <name>Ven_Default</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Wenn das Feld &quot;Revenue First Year&quot; befüllt ist, muss der gleiche Wert im Feld MB3 stehen. --></errorMessage>
+        <name>Gam_BetragRevenueFirstYear</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>With a probability of 30% you must provide all 5 criterias.</errorMessage>
+        <name>Gam_CriteriaGreater30</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Please provide a reason for the lost opportunity. If &quot;Other&quot; is selected, please fill the text field with details.</errorMessage>
+        <name>Gam_LicensingGrundVerloren</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Die Felder &quot;Entwicklungsstadium&quot; und &quot;Umsatzpotential&quot; müssen bei Licensing-Opportunities beide gepflegt sein. --></errorMessage>
+        <name>Gam_LicensingPflichtfelder</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Es darf nur Barter ODER Teil-Barter angeklickt sein --></errorMessage>
+        <name>MT_CheckOnlyOneBarter</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Es ist nicht erlaubt das Feld zu leeren --></errorMessage>
+        <name>Prevent_unchecking_of_Barter_Checkbox</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Es ist nicht erlaubt das Feld zu leeren --></errorMessage>
+        <name>Prevent_unchecking_of_part_barter_box</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Wenn Account noch überprüft wird dann können keine Änderungen an Opportunity vorgenommen werden. --></errorMessage>
+        <name>SomTv_AccZuUeberpruefen_OpportuniProtect</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Vor Änderung der Opportunityphase bitte ein Angebot mit MB1 als Realistic Case anlegen --></errorMessage>
+        <name>SomTv_Angebotvorhanden_Phase</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Bitte eine laufende Nummer auswählen. Mit 1 starten. --></errorMessage>
+        <name>SomTv_LaufendeNoProCommit</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Die Phase Rabatt freigegeben darf nur durch RM gesetzt werden. --></errorMessage>
+        <name>SomTv_Nur_RM_Rabatt_Freigeben</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Mutter Opportunity darf nicht vom DS-Typ Opp AdFactory sein! --></errorMessage>
+        <name>SomTv_OppAdFactoryMutterAdFactory</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Opp-Phase ist &quot;Geschlossene und gewonnene&quot;, Feld &quot;Mutter Opportunity&quot; muss gepflegt werden! --></errorMessage>
+        <name>SomTv_OppAdFactoryOhneMutter</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Opps vom Typ Sales Push dürfen nur die Phase &quot;Identifiziert&quot; oder &quot;Geschlossen und verloren&quot; aufweisen --></errorMessage>
+        <name>SomTv_OppRecordtypeSalesPushStageName</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Es ist nur die Eingabe folgender Wahrscheinlichkeit zulässig: 0%, 25%, 50%, 75% oder 100% --></errorMessage>
+        <name>SomTv_Wahrscheinlichkeit</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Bitte gib eine Beschreibung für den sonstigen Baustein an. --></errorMessage>
+        <name>Sports_HandelsvertreterSonstigerBaustein</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Bitte gib eine Beschreibung des sonstigen Media-Bausteins an --></errorMessage>
+        <name>Sports_MediabausteinSonstigerBaustein</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Wenn Opportunity variablen Umsatz enthält muss die Beschreibung gefüllt sein. --></errorMessage>
+        <name>Star_ValidationOnBeschreibungVarUmsatz</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Eine Opportunity darf nicht mit einem ungültigen Account verknüpft werden. --></errorMessage>
+        <name>Ungueltiger_Account</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Stage is Cancelled, please give a reason for cancellation in order to save the opportunity --></errorMessage>
+        <name>Ven_FillReasonForCancellation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Sie müssen Inhaber sein, um die Opportunity auf privat zu setzen --></errorMessage>
+        <name>Ven_SetPrivateOnlyOwner</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Investment_Summary --></label>
+        <name>Investment_Summary</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Show_Financial_Model --></label>
+        <name>Show_Financial_Model</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- VenFinancialModelUpload --></label>
+        <name>VenFinancialModelUpload</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- VenStrategicReport --></label>
+        <name>VenStrategicReport</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Ven_OppPipeline --></label>
+        <name>Ven_OppPipeline</name>
+    </webLinks>
+</CustomObjectTranslation>

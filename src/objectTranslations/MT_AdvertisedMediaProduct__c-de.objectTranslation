@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Advertised Media Product</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Advertised Media Products</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>MT_Account_ref__c</name>
+        <relationshipLabel><!-- Advertised Media Products --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Product Number --></label>
+        <name>MT_ProductNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Owner Unit --></label>
+        <name>MT_SYS_AccountOwnerUnit__c</name>
+    </fields>
+    <gender>Neuter</gender>
+    <layouts>
+        <layout>Advertised Media Product Feed Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

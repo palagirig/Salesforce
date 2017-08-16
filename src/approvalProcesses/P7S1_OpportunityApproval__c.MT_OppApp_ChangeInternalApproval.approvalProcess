@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApprovalProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <allowRecall>true</allowRecall>
+    <allowedSubmitters>
+        <type>owner</type>
+    </allowedSubmitters>
+    <approvalPageFields>
+        <field>Name</field>
+        <field>Owner</field>
+    </approvalPageFields>
+    <approvalStep>
+        <allowDelegate>true</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <type>adhoc</type>
+            </approver>
+        </assignedApprover>
+        <label>Assign Internal Campaign To Internal Agency (manually by code)</label>
+        <name>MT_OppApp_InternalApprovalAssignInternalAgency</name>
+    </approvalStep>
+    <description>Used to handle approvals of media campaign changes to already approved opportunities. Triggered manually by code, thus the entry criteria on a SYS field.</description>
+    <emailTemplate>unfiled$public/MT_MediaTransparencyCampaignApproval</emailTemplate>
+    <enableMobileDeviceAccess>false</enableMobileDeviceAccess>
+    <entryCriteria>
+        <booleanFilter>1 AND 2</booleanFilter>
+        <criteriaItems>
+            <field>P7S1_OpportunityApproval__c.MT_Sys_ApprovalSubmittedFromCampaign__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>P7S1_OpportunityApproval__c.RecordType</field>
+            <operation>equals</operation>
+            <value>Internal Campaign Opportunity Approval</value>
+        </criteriaItems>
+    </entryCriteria>
+    <finalApprovalActions>
+        <action>
+            <name>Deal_genehmigt</name>
+            <type>FieldUpdate</type>
+        </action>
+    </finalApprovalActions>
+    <finalApprovalRecordLock>false</finalApprovalRecordLock>
+    <finalRejectionActions>
+        <action>
+            <name>Deal_abgelehnt</name>
+            <type>FieldUpdate</type>
+        </action>
+    </finalRejectionActions>
+    <finalRejectionRecordLock>false</finalRejectionRecordLock>
+    <initialSubmissionActions>
+        <action>
+            <name>MT_SendMailToMediaBoard</name>
+            <type>Alert</type>
+        </action>
+        <action>
+            <name>MT_Set_Status_To_Submitted</name>
+            <type>FieldUpdate</type>
+        </action>
+    </initialSubmissionActions>
+    <label>MT Internal Campaign Change Approvals</label>
+    <recordEditability>AdminOnly</recordEditability>
+    <showApprovalHistory>true</showApprovalHistory>
+</ApprovalProcess>

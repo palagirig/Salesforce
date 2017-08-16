@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>TV Target</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>TV Targets</value>
+    </caseValues>
+    <fields>
+        <label><!-- Media Campaign BMV --></label>
+        <name>MT_MediaCampaign_BMV__c</name>
+    </fields>
+    <fields>
+        <label><!-- Media Campaign --></label>
+        <name>MT_MediaCampaign_ref__c</name>
+        <relationshipLabel><!-- TV Targets --></relationshipLabel>
+    </fields>
+    <fields>
+        <label>Channel Shares Contractually Commited</label>
+        <name>MT_SendershareContractCommitted__c</name>
+    </fields>
+    <fields>
+        <label>Max. Time Share 01:00 - 06:00</label>
+        <name>MT_TimeShare01000600Max__c</name>
+    </fields>
+    <fields>
+        <label>Min. Time Share 01:00 - 06:00</label>
+        <name>MT_TimeShare01000600Min__c</name>
+    </fields>
+    <fields>
+        <label>Max. Time Share 06:00 - 09:00</label>
+        <name>MT_TimeShare06000900Max__c</name>
+    </fields>
+    <fields>
+        <label>Min. Time Share 06:00 - 09:00</label>
+        <name>MT_TimeShare06000900Min__c</name>
+    </fields>
+    <fields>
+        <label>Max. Time Share 09:00 - 13:00</label>
+        <name>MT_TimeShare09001300Max__c</name>
+    </fields>
+    <fields>
+        <label>Min. Time Share 09:00 - 13:00</label>
+        <name>MT_TimeShare09001300Min__c</name>
+    </fields>
+    <fields>
+        <label>Max. Time Share 13:00 - 17:00</label>
+        <name>MT_TimeShare13001700Max__c</name>
+    </fields>
+    <fields>
+        <label>Min. Time Share 13:00 - 17:00</label>
+        <name>MT_TimeShare13001700Min__c</name>
+    </fields>
+    <fields>
+        <label>Max. Time Share 17:00 - 20:00</label>
+        <name>MT_TimeShare17002000Max__c</name>
+    </fields>
+    <fields>
+        <label>Min. Time Share 17:00 - 20:00</label>
+        <name>MT_TimeShare17002000Min__c</name>
+    </fields>
+    <fields>
+        <label>Max. Time Share 20:00 - 23:00</label>
+        <name>MT_TimeShare20002300Max__c</name>
+    </fields>
+    <fields>
+        <label>Min. Time Share 20:00 - 23:00</label>
+        <name>MT_TimeShare20002300Min__c</name>
+    </fields>
+    <fields>
+        <label>Max. Time Share 23:00 - 01:00</label>
+        <name>MT_TimeShare23000100Max__c</name>
+    </fields>
+    <fields>
+        <label>Min. Time Share 23:00 - 01:00</label>
+        <name>MT_TimeShare23000100Min__c</name>
+    </fields>
+    <fields>
+        <label>Time Shares Contractually Commited</label>
+        <name>MT_TimelinesharesContractCommitted__c</name>
+    </fields>
+    <fields>
+        <label>Max. Channel Share kabel eins CLASSICS</label>
+        <name>MT_TvShareKabelEinsClassicsMax__c</name>
+    </fields>
+    <fields>
+        <label>Min. Channel Share kabel eins CLASSICS</label>
+        <name>MT_TvShareKabelEinsClassicsMin__c</name>
+    </fields>
+    <fields>
+        <label>Max. Channel Share kabel eins Doku</label>
+        <name>MT_TvShareKabelEinsDokuMax__c</name>
+    </fields>
+    <fields>
+        <label>Min. Channel Share kabel eins Doku</label>
+        <name>MT_TvShareKabelEinsDokuMin__c</name>
+    </fields>
+    <fields>
+        <label>Max. Channel Share kabel eins</label>
+        <name>MT_TvShareKabelEinsMax__c</name>
+    </fields>
+    <fields>
+        <label>Min. Channel Share kabel eins</label>
+        <name>MT_TvShareKabelEinsMin__c</name>
+    </fields>
+    <fields>
+        <label>Max. Channel Share ProSieben FUN</label>
+        <name>MT_TvShareProSiebenFunMax__c</name>
+    </fields>
+    <fields>
+        <label>Min. Channel Share ProSieben FUN</label>
+        <name>MT_TvShareProSiebenFunMin__c</name>
+    </fields>
+    <fields>
+        <label>Max. Channel Share ProSieben</label>
+        <name>MT_TvShareProSiebenMax__c</name>
+    </fields>
+    <fields>
+        <label>Max. Channel Share ProSieben MAXX</label>
+        <name>MT_TvShareProSiebenMaxxMax__c</name>
+    </fields>
+    <fields>
+        <label>Min. Channel Share ProSieben MAXX</label>
+        <name>MT_TvShareProSiebenMaxxMin__c</name>
+    </fields>
+    <fields>
+        <label>Min. Channel Share ProSieben</label>
+        <name>MT_TvShareProSiebenMin__c</name>
+    </fields>
+    <fields>
+        <label>Max. Channel Share SAT.1 emotions</label>
+        <name>MT_TvShareSat1EmotionsMax__c</name>
+    </fields>
+    <fields>
+        <label>Min. Channel Share SAT.1 emotions</label>
+        <name>MT_TvShareSat1EmotionsMin__c</name>
+    </fields>
+    <fields>
+        <label>Max. Channel Share SAT.1 Gold</label>
+        <name>MT_TvShareSat1GoldMax__c</name>
+    </fields>
+    <fields>
+        <label>Min. Channel Share SAT.1 Gold</label>
+        <name>MT_TvShareSat1GoldMin__c</name>
+    </fields>
+    <fields>
+        <label>Max. Channel Share SAT.1</label>
+        <name>MT_TvShareSat1Max__c</name>
+    </fields>
+    <fields>
+        <label>Min. Channel Share SAT.1</label>
+        <name>MT_TvShareSat1Min__c</name>
+    </fields>
+    <fields>
+        <label>Max. Channel Share sixx</label>
+        <name>MT_TvShareSixxMax__c</name>
+    </fields>
+    <fields>
+        <label>Min. Channel Share sixx</label>
+        <name>MT_TvShareSixxMin__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>MT_Type__c</name>
+        <picklistValues>
+            <masterLabel>Digital</masterLabel>
+            <translation><!-- Digital --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DooH</masterLabel>
+            <translation><!-- DooH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TV</masterLabel>
+            <translation><!-- TV --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Tv Target Feed Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Media Campaign (Info) --></label>
+            <section>Media Campaign (Info)</section>
+        </sections>
+        <sections>
+            <label><!-- Zeit- und Senderschienen Shares --></label>
+            <section>Zeit- und Senderschienen Shares</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- TV Target Name --></nameFieldLabel>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Value must be between 0% and 100% --></errorMessage>
+        <name>MT_Block_Channel_Share_Max_Validation10</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Value must be between 0% and 100% --></errorMessage>
+        <name>MT_Block_Channel_Share_Max_Validation_1</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Value must be between 0% and 100% --></errorMessage>
+        <name>MT_Block_Channel_Share_Max_Validation_2</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Value must be between 0% and 100% --></errorMessage>
+        <name>MT_Block_Channel_Share_Max_Validation_3</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Value must be between 0% and 100% --></errorMessage>
+        <name>MT_Block_Channel_Share_Max_Validation_4</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Value must be between 0% and 100% --></errorMessage>
+        <name>MT_Block_Channel_Share_Max_Validation_5</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Value must be between 0% and 100% --></errorMessage>
+        <name>MT_Block_Channel_Share_Max_Validation_6</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Value must be between 0% and 100% --></errorMessage>
+        <name>MT_Block_Channel_Share_Max_Validation_7</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Value must be between 0% and 100% --></errorMessage>
+        <name>MT_Block_Channel_Share_Max_Validation_8</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Value must be between 0% and 100% --></errorMessage>
+        <name>MT_Block_Channel_Share_Max_Validation_9</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Value must be between 0% and 100% --></errorMessage>
+        <name>MT_Block_Channel_Share_Min_Validation10</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Value must be between 0% and 100% --></errorMessage>
+        <name>MT_Block_Channel_Share_Min_Validation_1</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Value must be between 0% and 100% --></errorMessage>
+        <name>MT_Block_Channel_Share_Min_Validation_2</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Value must be between 0% and 100% --></errorMessage>
+        <name>MT_Block_Channel_Share_Min_Validation_3</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Value must be between 0% and 100% --></errorMessage>
+        <name>MT_Block_Channel_Share_Min_Validation_4</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Value must be between 0% and 100% --></errorMessage>
+        <name>MT_Block_Channel_Share_Min_Validation_5</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Value must be between 0% and 100% --></errorMessage>
+        <name>MT_Block_Channel_Share_Min_Validation_6</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Value must be between 0% and 100% --></errorMessage>
+        <name>MT_Block_Channel_Share_Min_Validation_7</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Value must be between 0% and 100% --></errorMessage>
+        <name>MT_Block_Channel_Share_Min_Validation_8</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Value must be between 0% and 100% --></errorMessage>
+        <name>MT_Block_Channel_Share_Min_Validation_9</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Value must be between 0% and 100% --></errorMessage>
+        <name>MT_Block_Time_Share_Max_Validation_1</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Value must be between 0% and 100% --></errorMessage>
+        <name>MT_Block_Time_Share_Max_Validation_2</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Value must be between 0% and 100% --></errorMessage>
+        <name>MT_Block_Time_Share_Max_Validation_3</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Value must be between 0% and 100% --></errorMessage>
+        <name>MT_Block_Time_Share_Max_Validation_4</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Value must be between 0% and 100% --></errorMessage>
+        <name>MT_Block_Time_Share_Max_Validation_5</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Value must be between 0% and 100% --></errorMessage>
+        <name>MT_Block_Time_Share_Max_Validation_6</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Value must be between 0% and 100% --></errorMessage>
+        <name>MT_Block_Time_Share_Max_Validation_7</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Value must be between 0% and 100% --></errorMessage>
+        <name>MT_Block_Time_Share_Min_Validation_1</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Value must be between 0% and 100% --></errorMessage>
+        <name>MT_Block_Time_Share_Min_Validation_2</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Value must be between 0% and 100% --></errorMessage>
+        <name>MT_Block_Time_Share_Min_Validation_3</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Value must be between 0% and 100% --></errorMessage>
+        <name>MT_Block_Time_Share_Min_Validation_4</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Value must be between 0% and 100% --></errorMessage>
+        <name>MT_Block_Time_Share_Min_Validation_5</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Value must be between 0% and 100% --></errorMessage>
+        <name>MT_Block_Time_Share_Min_Validation_6</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Value must be between 0% and 100% --></errorMessage>
+        <name>MT_Block_Time_Share_Min_Validation_7</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>The maximum share must not be less than the minimum share.</errorMessage>
+        <name>MT_MBB_0106_MaxLtMin</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>The maximum share must not be less than the minimum share.</errorMessage>
+        <name>MT_MBB_0609_MaxLtMin</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>The maximum share must not be less than the minimum share.</errorMessage>
+        <name>MT_MBB_0913_MaxLtMin</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>The maximum share must not be less than the minimum share.</errorMessage>
+        <name>MT_MBB_1317_MaxLtMin</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>The maximum share must not be less than the minimum share.</errorMessage>
+        <name>MT_MBB_1720_MaxLtMin</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>The maximum share must not be less than the minimum share.</errorMessage>
+        <name>MT_MBB_2023_MaxLtMin</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>The maximum share must not be less than the minimum share.</errorMessage>
+        <name>MT_MBB_2301_MaxLtMin</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>The sum of the maximum channel shares must be at least 100%.</errorMessage>
+        <name>MT_MBB_ChannelShares_SumMax_LT_100</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>The sum of the minimum channel shares must not exceed 100%.</errorMessage>
+        <name>MT_MBB_ChannelShares_SumMin_GT_100</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>The maximum share must not be less than the minimum share.</errorMessage>
+        <name>MT_MBB_KabelEinsClassics_MaxLtMin</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>The maximum share must not be less than the minimum share.</errorMessage>
+        <name>MT_MBB_KabelEinsDoku_MaxLtMin</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>The maximum share must not be less than the minimum share.</errorMessage>
+        <name>MT_MBB_KabelEins_MaxLtMin</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>The maximum share must not be less than the minimum share.</errorMessage>
+        <name>MT_MBB_ProSiebenFun_MaxLtMin</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>The maximum share must not be less than the minimum share.</errorMessage>
+        <name>MT_MBB_ProSiebenMaxx_MaxLtMin</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>The maximum share must not be less than the minimum share.</errorMessage>
+        <name>MT_MBB_ProSieben_MaxLtMin</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>The maximum share must not be less than the minimum share.</errorMessage>
+        <name>MT_MBB_Sat1Emotions_MaxLtMin</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>The maximum share must not be less than the minimum share.</errorMessage>
+        <name>MT_MBB_Sat1Gold_MaxLtMin</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>The maximum share must not be less than the minimum share.</errorMessage>
+        <name>MT_MBB_Sat1_MaxLtMin</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>The maximum share must not be less than the minimum share.</errorMessage>
+        <name>MT_MBB_Sixx_MaxLtMin</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>The sum of the maximum timeslot shares must be at least 100%.</errorMessage>
+        <name>MT_MBB_TimeShares_SumMax_LT_100</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>The sum of the minimum timeslot shares must not exceed 100%.</errorMessage>
+        <name>MT_MBB_TimeShares_SumMin_GT_100</name>
+    </validationRules>
+</CustomObjectTranslation>
